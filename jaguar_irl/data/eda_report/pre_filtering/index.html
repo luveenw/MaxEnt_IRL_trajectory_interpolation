@@ -1,0 +1,1801 @@
+<!DOCTYPE html><html><head><title>Jaguar EDA Report</title>
+<style>body{font-family:sans-serif;max-width:1200px;margin:auto;padding:20px;background:#fafafa}
+img{max-width:100%;border:1px solid #ddd;margin:10px 0;border-radius:4px}
+h1{color:#2E7D32}h2{color:#1565C0;border-bottom:2px solid #ddd;padding-bottom:5px}
+table{border-collapse:collapse;width:100%;margin:10px 0}
+th,td{border:1px solid #ddd;padding:6px 10px;text-align:left;font-size:13px}
+th{background:#e8e8e8}</style></head><body>
+<h1>Jaguar Movement Data — Exploratory Data Analysis</h1>
+<h2>1. Data Quality Diagnostics</h2>
+<img src="1a_fix_count_histogram.png" alt="1a_fix_count_histogram"><br>
+<img src="1b_duration_histogram.png" alt="1b_duration_histogram"><br>
+<img src="1c_fix_interval_by_study.png" alt="1c_fix_interval_by_study"><br>
+<img src="1d_temporal_coverage_heatmap.png" alt="1d_temporal_coverage_heatmap"><br>
+<img src="1e_fix_count_by_biome.png" alt="1e_fix_count_by_biome"><br>
+<img src="1f2_duration_hist_per_biome.png" alt="1f2_duration_hist_per_biome"><br>
+<img src="1f_duration_by_biome_box.png" alt="1f_duration_by_biome_box"><br>
+<img src="1g_fix_interval_by_biome.png" alt="1g_fix_interval_by_biome"><br>
+<img src="1h_temporal_coverage_Amazon_Transition.png" alt="1h_temporal_coverage_Amazon_Transition"><br>
+<img src="1h_temporal_coverage_Argentina.png" alt="1h_temporal_coverage_Argentina"><br>
+<img src="1h_temporal_coverage_Atlantic Forest.png" alt="1h_temporal_coverage_Atlantic Forest"><br>
+<img src="1h_temporal_coverage_Brazil.png" alt="1h_temporal_coverage_Brazil"><br>
+<img src="1h_temporal_coverage_Caatinga.png" alt="1h_temporal_coverage_Caatinga"><br>
+<img src="1h_temporal_coverage_Chaco.png" alt="1h_temporal_coverage_Chaco"><br>
+<img src="1h_temporal_coverage_Costa_Rica.png" alt="1h_temporal_coverage_Costa_Rica"><br>
+<img src="1h_temporal_coverage_Mesoamerican Forest.png" alt="1h_temporal_coverage_Mesoamerican Forest"><br>
+<img src="1h_temporal_coverage_Mexico.png" alt="1h_temporal_coverage_Mexico"><br>
+<img src="1h_temporal_coverage_Pantanal.png" alt="1h_temporal_coverage_Pantanal"><br>
+<img src="1h_temporal_coverage_Paraguay.png" alt="1h_temporal_coverage_Paraguay"><br>
+<img src="1i_data_density_per_biome.png" alt="1i_data_density_per_biome"><br>
+<h2>2. Movement Metrics</h2>
+<img src="2a_step_length_distribution.png" alt="2a_step_length_distribution"><br>
+<img src="2b_turning_angle_rose.png" alt="2b_turning_angle_rose"><br>
+<img src="2c_step_vs_angle.png" alt="2c_step_vs_angle"><br>
+<img src="2d_speed_distribution.png" alt="2d_speed_distribution"><br>
+<img src="2e_step_length_per_biome.png" alt="2e_step_length_per_biome"><br>
+<img src="2f_turning_angle_by_biome.png" alt="2f_turning_angle_by_biome"><br>
+<img src="2g_step_vs_angle_per_biome.png" alt="2g_step_vs_angle_per_biome"><br>
+<img src="2h2_speed_hist_per_biome.png" alt="2h2_speed_hist_per_biome"><br>
+<img src="2h_speed_by_biome_box.png" alt="2h_speed_by_biome_box"><br>
+<h2>3. Temporal & Diel Patterns</h2>
+<img src="3a_diel_activity.png" alt="3a_diel_activity"><br>
+<img src="3b_seasonal_movement.png" alt="3b_seasonal_movement"><br>
+<img src="3c_fix_rate_by_hour.png" alt="3c_fix_rate_by_hour"><br>
+<img src="3d_diel_by_study.png" alt="3d_diel_by_study"><br>
+<img src="3e_diel_by_biome.png" alt="3e_diel_by_biome"><br>
+<img src="3f_seasonal_by_biome.png" alt="3f_seasonal_by_biome"><br>
+<img src="3g_fix_rate_by_biome.png" alt="3g_fix_rate_by_biome"><br>
+<img src="3h_diel_per_biome_log.png" alt="3h_diel_per_biome_log"><br>
+<h2>4. Spatial Autocorrelation</h2>
+<img src="4a_variograms.png" alt="4a_variograms"><br>
+<h2>5. Home Range Estimation (MCP)</h2>
+<img src="5a_home_range_by_study.png" alt="5a_home_range_by_study"><br>
+<img src="5b_mcp_map_Argentina.png" alt="5b_mcp_map_Argentina"><br>
+<img src="5b_mcp_map_Brazil.png" alt="5b_mcp_map_Brazil"><br>
+<img src="5b_mcp_map_Costa_Rica.png" alt="5b_mcp_map_Costa_Rica"><br>
+<img src="5b_mcp_map_Mexico.png" alt="5b_mcp_map_Mexico"><br>
+<img src="5b_mcp_map_Paraguay.png" alt="5b_mcp_map_Paraguay"><br>
+<h2>6. Spatial Overlap Network</h2>
+<img src="6a_overlap_network_Argentina.png" alt="6a_overlap_network_Argentina"><br>
+<img src="6a_overlap_network_Brazil.png" alt="6a_overlap_network_Brazil"><br>
+<img src="6a_overlap_network_Costa_Rica.png" alt="6a_overlap_network_Costa_Rica"><br>
+<img src="6a_overlap_network_Mexico.png" alt="6a_overlap_network_Mexico"><br>
+<img src="6a_overlap_network_Paraguay.png" alt="6a_overlap_network_Paraguay"><br>
+<img src="6b_network_metrics_comparison.png" alt="6b_network_metrics_comparison"><br>
+<img src="6c_degree_distribution.png" alt="6c_degree_distribution"><br>
+<img src="6d_jaccard_distribution.png" alt="6d_jaccard_distribution"><br>
+<h2>7. Net Squared Displacement</h2>
+
+<div style="background:#f5f5f5;padding:15px;border-radius:8px;margin:10px 0">
+<h3>What is Net Squared Displacement (NSD)?</h3>
+<p><b>Net Squared Displacement</b> measures the straight-line distance squared from
+an animal's starting location to each subsequent location over time. The shape of the
+NSD(t) curve reveals the animal's gross movement pattern:</p>
+<ul>
+<li><b style="color:#4CAF50">Sedentary</b>: NSD stays near zero throughout — the
+animal barely moves from its origin.</li>
+<li><b style="color:#2196F3">Resident</b>: NSD fluctuates but returns to low values
+repeatedly — the animal has a stable home range and revisits areas near its start.</li>
+<li><b style="color:#F44336">Disperser</b>: NSD increases monotonically or reaches
+a high plateau and stays there — the animal has permanently moved away from its origin.</li>
+</ul>
+<p><b>Classification logic used here (heuristic)</b>: For each individual, we compare
+the median NSD over the last 10 fixes to the maximum NSD observed. If the maximum NSD
+is very small (< 1 km²), the animal is <em>Sedentary</em>. If the final NSD is
+> 50% of the maximum, the animal is a <em>Disperser</em> (it ended far from its start).
+Otherwise, it is a <em>Resident</em> (it returned toward its origin).</p>
+<p><em>Reference: Bunnefeld et al. (2011); Börger & Fryxell (2012)</em></p>
+</div>
+
+<img src="7a_nsd_time_series.png" alt="7a_nsd_time_series"><br>
+<h2>8. Cross-Study & Cross-Biome Comparison</h2>
+<img src="8a_country_comparison.png" alt="8a_country_comparison"><br>
+<img src="8b_biome_comparison.png" alt="8b_biome_comparison"><br>
+<h2>Data Tables</h2>
+<h3>home_range_mcp.csv (first 50 rows)</h3>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>study</th>
+      <th>biome</th>
+      <th>country</th>
+      <th>n_fixes</th>
+      <th>mcp100_km2</th>
+      <th>mcp95_km2</th>
+      <th>lon_centroid</th>
+      <th>lat_centroid</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>Paraguay</td>
+      <td>288</td>
+      <td>221.889379</td>
+      <td>152.747420</td>
+      <td>-58.011269</td>
+      <td>-23.295993</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Atlantic forest</td>
+      <td>Atlantic Forest</td>
+      <td>Paraguay</td>
+      <td>150</td>
+      <td>86.925072</td>
+      <td>71.195638</td>
+      <td>-55.401142</td>
+      <td>-24.133811</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>Paraguay</td>
+      <td>148</td>
+      <td>631.626280</td>
+      <td>494.300792</td>
+      <td>-58.415215</td>
+      <td>-23.349952</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>Paraguay</td>
+      <td>500</td>
+      <td>164.206241</td>
+      <td>90.053798</td>
+      <td>-58.134978</td>
+      <td>-23.299144</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>Paraguay</td>
+      <td>280</td>
+      <td>41.372477</td>
+      <td>37.051844</td>
+      <td>-58.138403</td>
+      <td>-23.353939</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Atlantic forest</td>
+      <td>Atlantic Forest</td>
+      <td>Paraguay</td>
+      <td>983</td>
+      <td>295.964695</td>
+      <td>265.144293</td>
+      <td>-58.218388</td>
+      <td>-23.319533</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>Paraguay</td>
+      <td>621</td>
+      <td>302.134981</td>
+      <td>257.825576</td>
+      <td>-58.069228</td>
+      <td>-23.264689</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Atlantic forest</td>
+      <td>Atlantic Forest</td>
+      <td>Paraguay</td>
+      <td>540</td>
+      <td>274.415207</td>
+      <td>103.140241</td>
+      <td>-55.441810</td>
+      <td>-24.137409</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>Paraguay</td>
+      <td>1018</td>
+      <td>100.653748</td>
+      <td>89.078492</td>
+      <td>-58.046722</td>
+      <td>-23.332899</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>Paraguay</td>
+      <td>1668</td>
+      <td>250.020453</td>
+      <td>184.954611</td>
+      <td>-58.212047</td>
+      <td>-23.392531</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>Paraguay</td>
+      <td>913</td>
+      <td>128.870555</td>
+      <td>97.209955</td>
+      <td>-58.057978</td>
+      <td>-23.359630</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>2681</td>
+      <td>159.413187</td>
+      <td>117.210944</td>
+      <td>-57.374877</td>
+      <td>-17.024917</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>5040</td>
+      <td>53.911739</td>
+      <td>31.955298</td>
+      <td>-57.458912</td>
+      <td>-16.918426</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>jaguar_Oncafari Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>192</td>
+      <td>114.091643</td>
+      <td>105.544204</td>
+      <td>-56.345756</td>
+      <td>-19.850050</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>jaguar_Oncafari Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>1323</td>
+      <td>253.031088</td>
+      <td>212.234291</td>
+      <td>-56.286606</td>
+      <td>-20.000002</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Dry Chaco</td>
+      <td>Chaco</td>
+      <td>Paraguay</td>
+      <td>3462</td>
+      <td>827.346394</td>
+      <td>589.641707</td>
+      <td>-60.046587</td>
+      <td>-21.741929</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>IOP</td>
+      <td>Atlantic Forest</td>
+      <td>Brazil</td>
+      <td>537</td>
+      <td>822.834832</td>
+      <td>774.340462</td>
+      <td>-53.058129</td>
+      <td>-17.876774</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>2314</td>
+      <td>93.970723</td>
+      <td>73.187787</td>
+      <td>-57.410755</td>
+      <td>-16.898885</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>jaguar_Oncafari Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>741</td>
+      <td>40.124727</td>
+      <td>34.990326</td>
+      <td>-56.319648</td>
+      <td>-19.963660</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Jaguar Conservation in the Caatinga Biome</td>
+      <td>Caatinga</td>
+      <td>Brazil</td>
+      <td>5590</td>
+      <td>816.110720</td>
+      <td>773.677897</td>
+      <td>-42.549630</td>
+      <td>-8.637361</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Atlantic forest</td>
+      <td>Atlantic Forest</td>
+      <td>Paraguay</td>
+      <td>327</td>
+      <td>139.779830</td>
+      <td>107.957597</td>
+      <td>-55.438834</td>
+      <td>-24.113218</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>4709</td>
+      <td>82.983392</td>
+      <td>71.800264</td>
+      <td>-57.442123</td>
+      <td>-16.879499</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>572</td>
+      <td>12.774674</td>
+      <td>6.816490</td>
+      <td>-57.497332</td>
+      <td>-16.887819</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>IOP</td>
+      <td>Atlantic Forest</td>
+      <td>Brazil</td>
+      <td>153</td>
+      <td>364.391576</td>
+      <td>275.481567</td>
+      <td>-50.110106</td>
+      <td>-5.988103</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>jaguar_Oncafari Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>3219</td>
+      <td>75.262779</td>
+      <td>37.852018</td>
+      <td>-56.272300</td>
+      <td>-19.943981</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Costa Rica</td>
+      <td>Mesoamerican Forest</td>
+      <td>Costa Rica</td>
+      <td>5924</td>
+      <td>119.251555</td>
+      <td>75.775643</td>
+      <td>-85.662050</td>
+      <td>10.812684</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>560</td>
+      <td>43.301751</td>
+      <td>31.738704</td>
+      <td>-56.717517</td>
+      <td>-17.304319</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>205</td>
+      <td>35.517669</td>
+      <td>22.440703</td>
+      <td>-57.398661</td>
+      <td>-17.854090</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>67</td>
+      <td>18.621272</td>
+      <td>14.652762</td>
+      <td>-57.387747</td>
+      <td>-17.853416</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>581</td>
+      <td>62.247176</td>
+      <td>42.959148</td>
+      <td>-56.714895</td>
+      <td>-17.342975</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>103</td>
+      <td>27.850799</td>
+      <td>19.107711</td>
+      <td>-56.703265</td>
+      <td>-17.341347</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>240</td>
+      <td>81.686836</td>
+      <td>44.614194</td>
+      <td>-56.750480</td>
+      <td>-17.348742</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>133</td>
+      <td>48.821905</td>
+      <td>32.864179</td>
+      <td>-56.732804</td>
+      <td>-17.332834</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>Brazil</td>
+      <td>92</td>
+      <td>44.029589</td>
+      <td>19.026636</td>
+      <td>-52.261088</td>
+      <td>-22.641257</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>Brazil</td>
+      <td>17</td>
+      <td>57.361305</td>
+      <td>54.779983</td>
+      <td>-52.295369</td>
+      <td>-22.562615</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>Brazil</td>
+      <td>32</td>
+      <td>136.134708</td>
+      <td>93.991790</td>
+      <td>-52.352429</td>
+      <td>-22.559520</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>Brazil</td>
+      <td>211</td>
+      <td>89.063111</td>
+      <td>60.284067</td>
+      <td>-52.155037</td>
+      <td>-22.661154</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>Brazil</td>
+      <td>18</td>
+      <td>121.452044</td>
+      <td>116.540722</td>
+      <td>-52.257556</td>
+      <td>-22.591762</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>Brazil</td>
+      <td>326</td>
+      <td>225.740724</td>
+      <td>127.598747</td>
+      <td>-53.659878</td>
+      <td>-22.802701</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>Brazil</td>
+      <td>183</td>
+      <td>199.130198</td>
+      <td>178.759613</td>
+      <td>-53.646854</td>
+      <td>-22.930796</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>Brazil</td>
+      <td>4952</td>
+      <td>30.864613</td>
+      <td>19.673416</td>
+      <td>-57.416308</td>
+      <td>-16.882636</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Jaguar Conservation in Argentina</td>
+      <td>Chaco</td>
+      <td>Argentina</td>
+      <td>7668</td>
+      <td>644.968182</td>
+      <td>420.042657</td>
+      <td>-54.362332</td>
+      <td>-25.671161</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>jaguar of sonora</td>
+      <td>Mesoamerican Forest</td>
+      <td>Mexico</td>
+      <td>577</td>
+      <td>309.416204</td>
+      <td>242.950378</td>
+      <td>-109.237371</td>
+      <td>29.627840</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>Mexico</td>
+      <td>104</td>
+      <td>259.242209</td>
+      <td>186.013191</td>
+      <td>-91.035475</td>
+      <td>16.717921</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>Mexico</td>
+      <td>39</td>
+      <td>8.305944</td>
+      <td>7.074517</td>
+      <td>-90.983541</td>
+      <td>16.883441</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>Mexico</td>
+      <td>443</td>
+      <td>242.951795</td>
+      <td>180.536628</td>
+      <td>-90.984424</td>
+      <td>16.829773</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>Mexico</td>
+      <td>636</td>
+      <td>342.324600</td>
+      <td>281.449762</td>
+      <td>-91.077498</td>
+      <td>16.652608</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>Mexico</td>
+      <td>72</td>
+      <td>357.857402</td>
+      <td>314.625006</td>
+      <td>-91.058035</td>
+      <td>16.893874</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>Jaguar Mex</td>
+      <td>Mesoamerican Forest</td>
+      <td>Mexico</td>
+      <td>979</td>
+      <td>460.168090</td>
+      <td>207.195087</td>
+      <td>-87.595048</td>
+      <td>21.358843</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>Jaguar Conservation in the Caatinga Biome</td>
+      <td>Caatinga</td>
+      <td>Brazil</td>
+      <td>1361</td>
+      <td>171.537045</td>
+      <td>107.518305</td>
+      <td>-42.678757</td>
+      <td>-8.683263</td>
+    </tr>
+  </tbody>
+</table>
+<h3>individual_stats.csv (first 50 rows)</h3>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>individual.local.identifier (ID)</th>
+      <th>n_fixes</th>
+      <th>first_fix</th>
+      <th>last_fix</th>
+      <th>study</th>
+      <th>biome</th>
+      <th>duration_days</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>288</td>
+      <td>2010-06-15 22:43:00</td>
+      <td>2011-03-08 09:28:00</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>265.447917</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>150</td>
+      <td>2010-07-21 13:38:00</td>
+      <td>2011-12-09 00:30:00</td>
+      <td>Atlantic forest</td>
+      <td>Atlantic Forest</td>
+      <td>505.452778</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>148</td>
+      <td>2009-06-23 18:57:00</td>
+      <td>2009-09-19 11:27:00</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>87.687500</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>500</td>
+      <td>2011-07-04 16:41:00</td>
+      <td>2011-12-01 00:41:00</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>149.333333</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>280</td>
+      <td>2009-07-25 13:06:00</td>
+      <td>2009-09-17 14:31:00</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>54.059028</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>983</td>
+      <td>2009-07-25 15:32:00</td>
+      <td>2009-12-15 21:40:00</td>
+      <td>Atlantic forest</td>
+      <td>Atlantic Forest</td>
+      <td>143.255556</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>621</td>
+      <td>2011-07-16 20:26:00</td>
+      <td>2011-11-18 17:26:00</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>124.875000</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>540</td>
+      <td>2009-07-11 23:34:00</td>
+      <td>2010-07-10 20:02:00</td>
+      <td>Atlantic forest</td>
+      <td>Atlantic Forest</td>
+      <td>363.852778</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>1018</td>
+      <td>2014-06-29 12:35:00</td>
+      <td>2014-12-31 04:03:00</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>184.644444</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>1668</td>
+      <td>2014-06-26 13:05:00</td>
+      <td>2015-05-16 02:03:00</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>323.540278</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>913</td>
+      <td>2014-07-12 22:02:00</td>
+      <td>2015-07-09 06:01:00</td>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>361.332639</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>2681</td>
+      <td>2014-12-05 04:00:00</td>
+      <td>2015-04-18 23:01:00</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>134.792361</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>5040</td>
+      <td>2014-12-07 12:58:00</td>
+      <td>2015-08-24 09:00:00</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>259.834722</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>192</td>
+      <td>2012-04-04 12:59:00</td>
+      <td>2012-04-16 03:02:00</td>
+      <td>jaguar_Oncafari Project</td>
+      <td>Pantanal</td>
+      <td>11.585417</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>1323</td>
+      <td>2013-10-19 06:03:00</td>
+      <td>2014-01-03 05:01:00</td>
+      <td>jaguar_Oncafari Project</td>
+      <td>Pantanal</td>
+      <td>75.956944</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>3462</td>
+      <td>2011-04-21 04:05:00</td>
+      <td>2012-08-12 12:06:00</td>
+      <td>Dry Chaco</td>
+      <td>Chaco</td>
+      <td>479.334028</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>537</td>
+      <td>2014-03-06 10:53:00</td>
+      <td>2014-07-30 07:46:00</td>
+      <td>IOP</td>
+      <td>Atlantic Forest</td>
+      <td>145.870139</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>2314</td>
+      <td>2014-11-29 16:58:00</td>
+      <td>2015-04-13 15:31:00</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>134.939583</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>741</td>
+      <td>2011-10-30 11:03:00</td>
+      <td>2012-01-11 04:01:00</td>
+      <td>jaguar_Oncafari Project</td>
+      <td>Pantanal</td>
+      <td>72.706944</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>5590</td>
+      <td>2015-09-16 08:00:00</td>
+      <td>2016-06-02 08:00:00</td>
+      <td>Jaguar Conservation in the Caatinga Biome</td>
+      <td>Caatinga</td>
+      <td>260.000000</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>327</td>
+      <td>2011-08-03 20:25:00</td>
+      <td>2012-06-03 12:01:00</td>
+      <td>Atlantic forest</td>
+      <td>Atlantic Forest</td>
+      <td>304.650000</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>4709</td>
+      <td>2014-09-11 22:00:00</td>
+      <td>2015-05-21 23:00:00</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>252.041667</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>572</td>
+      <td>2014-09-01 17:02:00</td>
+      <td>2014-09-27 00:00:00</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>25.290278</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>153</td>
+      <td>2011-12-06 04:13:00</td>
+      <td>2012-03-11 12:02:00</td>
+      <td>IOP</td>
+      <td>Atlantic Forest</td>
+      <td>96.325694</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>3219</td>
+      <td>2012-10-22 19:03:00</td>
+      <td>2015-08-30 23:01:00</td>
+      <td>jaguar_Oncafari Project</td>
+      <td>Pantanal</td>
+      <td>1042.165278</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>5924</td>
+      <td>2014-11-20 03:56:00</td>
+      <td>2016-06-18 16:00:00</td>
+      <td>Costa Rica</td>
+      <td>Mesoamerican Forest</td>
+      <td>576.502778</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>560</td>
+      <td>2010-09-21 07:57:00</td>
+      <td>2013-11-24 04:02:00</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>1159.836806</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>205</td>
+      <td>2010-07-08 16:01:00</td>
+      <td>2010-10-14 00:10:00</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>97.339583</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>67</td>
+      <td>2011-07-08 16:01:00</td>
+      <td>2011-09-30 08:01:00</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>83.666667</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>581</td>
+      <td>2011-10-14 02:01:00</td>
+      <td>2012-11-19 06:00:00</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>402.165972</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>103</td>
+      <td>2013-10-22 03:59:00</td>
+      <td>2014-02-01 08:00:00</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>102.167361</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>240</td>
+      <td>2012-10-15 08:01:00</td>
+      <td>2013-04-13 00:00:00</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>179.665972</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>133</td>
+      <td>2013-10-22 04:00:00</td>
+      <td>2014-01-29 04:00:00</td>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>99.000000</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>92</td>
+      <td>2003-02-11 22:18:00</td>
+      <td>2003-07-03 23:15:00</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>142.039583</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>17</td>
+      <td>2000-08-07 12:00:00</td>
+      <td>2001-11-27 11:00:00</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>476.958333</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>32</td>
+      <td>1999-07-10 13:00:00</td>
+      <td>2003-07-15 07:00:00</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>1465.750000</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>211</td>
+      <td>2002-07-15 03:00:00</td>
+      <td>2002-11-30 05:15:00</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>138.093750</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>18</td>
+      <td>2002-07-16 01:15:00</td>
+      <td>2002-08-04 01:15:00</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>19.000000</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>326</td>
+      <td>2002-02-26 13:00:00</td>
+      <td>2005-04-12 10:00:00</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>1140.875000</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>183</td>
+      <td>2004-05-21 19:00:00</td>
+      <td>2004-12-16 19:00:00</td>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>209.000000</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>4952</td>
+      <td>2014-12-05 17:58:00</td>
+      <td>2015-08-17 18:00:00</td>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>255.001389</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>7668</td>
+      <td>2009-02-26 12:30:00</td>
+      <td>2009-10-04 19:00:00</td>
+      <td>Jaguar Conservation in Argentina</td>
+      <td>Chaco</td>
+      <td>220.270833</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>577</td>
+      <td>2013-01-02 01:00:00</td>
+      <td>2014-01-01 21:00:00</td>
+      <td>jaguar of sonora</td>
+      <td>Mesoamerican Forest</td>
+      <td>364.833333</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>104</td>
+      <td>2012-01-17 08:10:00</td>
+      <td>2013-09-14 02:50:00</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>605.777778</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>39</td>
+      <td>2012-08-07 03:21:00</td>
+      <td>2012-08-24 01:21:00</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>16.916667</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>443</td>
+      <td>2012-08-25 11:11:00</td>
+      <td>2013-11-10 12:21:00</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>442.048611</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>636</td>
+      <td>2012-01-08 01:50:00</td>
+      <td>2013-02-24 12:40:00</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>413.451389</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>72</td>
+      <td>2012-08-14 19:01:00</td>
+      <td>2012-12-24 16:51:00</td>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>131.909722</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>979</td>
+      <td>2014-01-12 06:00:00</td>
+      <td>2015-12-03 22:00:00</td>
+      <td>Jaguar Mex</td>
+      <td>Mesoamerican Forest</td>
+      <td>690.666667</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>1361</td>
+      <td>2014-11-14 11:04:00</td>
+      <td>2015-01-10 17:01:00</td>
+      <td>Jaguar Conservation in the Caatinga Biome</td>
+      <td>Caatinga</td>
+      <td>57.247917</td>
+    </tr>
+  </tbody>
+</table>
+<h3>network_metrics.csv</h3>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>group_type</th>
+      <th>group</th>
+      <th>n_nodes</th>
+      <th>n_edges</th>
+      <th>density</th>
+      <th>n_components</th>
+      <th>mean_degree</th>
+      <th>clustering_coeff</th>
+      <th>mean_jaccard</th>
+      <th>max_jaccard</th>
+      <th>biome_assortativity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>country</td>
+      <td>Argentina</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0.333333</td>
+      <td>2</td>
+      <td>0.666667</td>
+      <td>0.000000</td>
+      <td>0.038471</td>
+      <td>0.038471</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>country</td>
+      <td>Brazil</td>
+      <td>82</td>
+      <td>207</td>
+      <td>0.062331</td>
+      <td>17</td>
+      <td>5.048780</td>
+      <td>0.167463</td>
+      <td>0.199221</td>
+      <td>0.839068</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <td>country</td>
+      <td>Costa Rica</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>1</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>country</td>
+      <td>Mexico</td>
+      <td>8</td>
+      <td>7</td>
+      <td>0.250000</td>
+      <td>3</td>
+      <td>1.750000</td>
+      <td>0.053939</td>
+      <td>0.148461</td>
+      <td>0.571801</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>country</td>
+      <td>Paraguay</td>
+      <td>23</td>
+      <td>29</td>
+      <td>0.114625</td>
+      <td>9</td>
+      <td>2.521739</td>
+      <td>0.104437</td>
+      <td>0.209294</td>
+      <td>0.773882</td>
+      <td>0.456250</td>
+    </tr>
+    <tr>
+      <td>biome</td>
+      <td>Pantanal</td>
+      <td>52</td>
+      <td>156</td>
+      <td>0.117647</td>
+      <td>8</td>
+      <td>6.000000</td>
+      <td>0.159561</td>
+      <td>0.190711</td>
+      <td>0.773882</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>biome</td>
+      <td>Atlantic Forest</td>
+      <td>25</td>
+      <td>31</td>
+      <td>0.103333</td>
+      <td>11</td>
+      <td>2.480000</td>
+      <td>0.197185</td>
+      <td>0.264368</td>
+      <td>0.839068</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>biome</td>
+      <td>Chaco</td>
+      <td>17</td>
+      <td>20</td>
+      <td>0.147059</td>
+      <td>7</td>
+      <td>2.352941</td>
+      <td>0.113209</td>
+      <td>0.180331</td>
+      <td>0.511192</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>biome</td>
+      <td>Amazon/Transition</td>
+      <td>12</td>
+      <td>23</td>
+      <td>0.348485</td>
+      <td>3</td>
+      <td>3.833333</td>
+      <td>0.271191</td>
+      <td>0.207350</td>
+      <td>0.510526</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>biome</td>
+      <td>Mesoamerican Forest</td>
+      <td>9</td>
+      <td>7</td>
+      <td>0.194444</td>
+      <td>4</td>
+      <td>1.555556</td>
+      <td>0.047946</td>
+      <td>0.148461</td>
+      <td>0.571801</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>biome</td>
+      <td>Caatinga</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1.000000</td>
+      <td>1</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.029577</td>
+      <td>0.029577</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>global</td>
+      <td>ALL</td>
+      <td>117</td>
+      <td>246</td>
+      <td>0.036251</td>
+      <td>31</td>
+      <td>4.205128</td>
+      <td>0.140810</td>
+      <td>0.197381</td>
+      <td>0.839068</td>
+      <td>0.941775</td>
+    </tr>
+  </tbody>
+</table>
+<h3>overlap_matrix.csv (first 50 rows)</h3>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id_a</th>
+      <th>id_b</th>
+      <th>jaccard</th>
+      <th>cross_country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>4</td>
+      <td>0.171582</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>7</td>
+      <td>0.488282</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>9</td>
+      <td>0.230718</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>11</td>
+      <td>0.160310</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>8</td>
+      <td>0.239643</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>21</td>
+      <td>0.154497</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>6</td>
+      <td>0.108134</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>10</td>
+      <td>0.123328</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>0.153853</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>6</td>
+      <td>0.086722</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>7</td>
+      <td>0.346083</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>9</td>
+      <td>0.141068</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>10</td>
+      <td>0.053539</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>11</td>
+      <td>0.193958</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>0.025056</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>7</td>
+      <td>0.026152</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>9</td>
+      <td>0.085919</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>10</td>
+      <td>0.058270</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>11</td>
+      <td>0.101647</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>7</td>
+      <td>0.039301</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>10</td>
+      <td>0.309703</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>9</td>
+      <td>0.178258</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>11</td>
+      <td>0.151889</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>21</td>
+      <td>0.338249</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>11</td>
+      <td>0.511192</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>18</td>
+      <td>0.055549</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>81</td>
+      <td>0.124063</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>92</td>
+      <td>0.013090</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>18</td>
+      <td>0.222698</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>22</td>
+      <td>0.223024</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>23</td>
+      <td>0.048438</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>52</td>
+      <td>0.015098</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>81</td>
+      <td>0.163531</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>91</td>
+      <td>0.143684</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>92</td>
+      <td>0.423240</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>116</td>
+      <td>0.209393</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>117</td>
+      <td>0.379487</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>25</td>
+      <td>0.036071</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>69</td>
+      <td>0.039955</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>86</td>
+      <td>0.017875</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>19</td>
+      <td>0.151294</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>25</td>
+      <td>0.118285</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>68</td>
+      <td>0.397882</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>69</td>
+      <td>0.055084</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>79</td>
+      <td>0.266847</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>84</td>
+      <td>0.378529</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>86</td>
+      <td>0.054324</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>87</td>
+      <td>0.094256</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>70</td>
+      <td>0.234230</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>65</td>
+      <td>0.839068</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<h3>study_summary.csv</h3>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>study</th>
+      <th>biome</th>
+      <th>n_individuals</th>
+      <th>median_fixes</th>
+      <th>median_duration</th>
+      <th>median_step</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Atlantic forest</td>
+      <td>Atlantic Forest</td>
+      <td>6</td>
+      <td>669.0</td>
+      <td>352.7</td>
+      <td>689.4</td>
+    </tr>
+    <tr>
+      <td>Costa Rica</td>
+      <td>Mesoamerican Forest</td>
+      <td>1</td>
+      <td>5924.0</td>
+      <td>576.5</td>
+      <td>76.6</td>
+    </tr>
+    <tr>
+      <td>Dry Chaco</td>
+      <td>Chaco</td>
+      <td>6</td>
+      <td>1007.5</td>
+      <td>367.5</td>
+      <td>562.6</td>
+    </tr>
+    <tr>
+      <td>Greater Lacandona Ecosystem</td>
+      <td>Mesoamerican Forest</td>
+      <td>5</td>
+      <td>104.0</td>
+      <td>413.5</td>
+      <td>1110.4</td>
+    </tr>
+    <tr>
+      <td>Humid Chaco</td>
+      <td>Chaco</td>
+      <td>8</td>
+      <td>560.5</td>
+      <td>167.0</td>
+      <td>229.6</td>
+    </tr>
+    <tr>
+      <td>IOP</td>
+      <td>Atlantic Forest</td>
+      <td>6</td>
+      <td>658.5</td>
+      <td>195.1</td>
+      <td>466.0</td>
+    </tr>
+    <tr>
+      <td>Jaguar Conservation in Argentina</td>
+      <td>Atlantic Forest</td>
+      <td>2</td>
+      <td>82.5</td>
+      <td>87.0</td>
+      <td>1524.8</td>
+    </tr>
+    <tr>
+      <td>Jaguar Conservation in Argentina</td>
+      <td>Chaco</td>
+      <td>3</td>
+      <td>479.0</td>
+      <td>220.3</td>
+      <td>87.5</td>
+    </tr>
+    <tr>
+      <td>Jaguar Conservation in the Atlantic Forest</td>
+      <td>Atlantic Forest</td>
+      <td>10</td>
+      <td>157.5</td>
+      <td>190.0</td>
+      <td>1604.5</td>
+    </tr>
+    <tr>
+      <td>Jaguar Conservation in the Caatinga Biome</td>
+      <td>Caatinga</td>
+      <td>2</td>
+      <td>3475.5</td>
+      <td>158.6</td>
+      <td>17.5</td>
+    </tr>
+    <tr>
+      <td>Jaguar Mex</td>
+      <td>Mesoamerican Forest</td>
+      <td>1</td>
+      <td>979.0</td>
+      <td>690.7</td>
+      <td>99.9</td>
+    </tr>
+    <tr>
+      <td>Jaguar_Mamiraua</td>
+      <td>Amazon/Transition</td>
+      <td>8</td>
+      <td>503.5</td>
+      <td>292.0</td>
+      <td>150.2</td>
+    </tr>
+    <tr>
+      <td>Jaguar_Taiama</td>
+      <td>Pantanal</td>
+      <td>13</td>
+      <td>2681.0</td>
+      <td>193.3</td>
+      <td>14.6</td>
+    </tr>
+    <tr>
+      <td>Jaguars' Movement Pattern in a fragmente landscape</td>
+      <td>Atlantic Forest</td>
+      <td>1</td>
+      <td>2432.0</td>
+      <td>773.5</td>
+      <td>129.7</td>
+    </tr>
+    <tr>
+      <td>Pantanal</td>
+      <td>Pantanal</td>
+      <td>1</td>
+      <td>727.0</td>
+      <td>192.5</td>
+      <td>307.4</td>
+    </tr>
+    <tr>
+      <td>Panthera_Pantanal-Jaguar-Project</td>
+      <td>Pantanal</td>
+      <td>15</td>
+      <td>141.0</td>
+      <td>102.2</td>
+      <td>856.9</td>
+    </tr>
+    <tr>
+      <td>Paraguayan Pantanal</td>
+      <td>Pantanal</td>
+      <td>2</td>
+      <td>1497.0</td>
+      <td>322.2</td>
+      <td>144.3</td>
+    </tr>
+    <tr>
+      <td>Rio Negro</td>
+      <td>Amazon/Transition</td>
+      <td>4</td>
+      <td>142.5</td>
+      <td>135.6</td>
+      <td>640.5</td>
+    </tr>
+    <tr>
+      <td>Sao Bento</td>
+      <td>Pantanal</td>
+      <td>11</td>
+      <td>481.0</td>
+      <td>262.9</td>
+      <td>339.9</td>
+    </tr>
+    <tr>
+      <td>jaguar of sonora</td>
+      <td>Mesoamerican Forest</td>
+      <td>2</td>
+      <td>1096.5</td>
+      <td>365.1</td>
+      <td>413.3</td>
+    </tr>
+    <tr>
+      <td>jaguar_Oncafari Project</td>
+      <td>Pantanal</td>
+      <td>10</td>
+      <td>1357.0</td>
+      <td>81.7</td>
+      <td>30.0</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

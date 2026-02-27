@@ -1,0 +1,22 @@
+study,biome,n_individuals,median_fixes,median_duration,median_step
+Atlantic forest,Atlantic Forest,6,669.0,352.7,689.4
+Costa Rica,Mesoamerican Forest,1,5924.0,576.5,76.6
+Dry Chaco,Chaco,6,1007.5,367.5,562.6
+Greater Lacandona Ecosystem,Mesoamerican Forest,5,104.0,413.5,1110.4
+Humid Chaco,Chaco,8,560.5,167.0,229.6
+IOP,Atlantic Forest,6,658.5,195.1,466.0
+Jaguar Conservation in Argentina,Atlantic Forest,2,82.5,87.0,1524.8
+Jaguar Conservation in Argentina,Chaco,3,479.0,220.3,87.5
+Jaguar Conservation in the Atlantic Forest,Atlantic Forest,10,157.5,190.0,1604.5
+Jaguar Conservation in the Caatinga Biome,Caatinga,2,3475.5,158.6,17.5
+Jaguar Mex,Mesoamerican Forest,1,979.0,690.7,99.9
+Jaguar_Mamiraua,Amazon/Transition,8,503.5,292.0,150.2
+Jaguar_Taiama,Pantanal,13,2681.0,193.3,14.6
+Jaguars' Movement Pattern in a fragmente landscape,Atlantic Forest,1,2432.0,773.5,129.7
+Pantanal,Pantanal,1,727.0,192.5,307.4
+Panthera_Pantanal-Jaguar-Project,Pantanal,15,141.0,102.2,856.9
+Paraguayan Pantanal,Pantanal,2,1497.0,322.2,144.3
+Rio Negro,Amazon/Transition,4,142.5,135.6,640.5
+Sao Bento,Pantanal,11,481.0,262.9,339.9
+jaguar of sonora,Mesoamerican Forest,2,1096.5,365.1,413.3
+jaguar_Oncafari Project,Pantanal,10,1357.0,81.7,30.0
