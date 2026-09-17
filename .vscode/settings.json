@@ -1,1 +1,4 @@
-{}
+{
+    "claudegate.fileWatcher.enabled": true,
+    "claudegate.groupBySession": true
+}
