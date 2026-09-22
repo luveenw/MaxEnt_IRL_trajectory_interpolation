@@ -82,18 +82,96 @@ the script to regenerate it.
 
 ## Open / proposed next steps (not yet built)
 
-- **Donor-informed fitting test** (proposed, unverified): take a deliberately
-  data-starved subset of individual 13's track, fit ctmm with and without using
-  individual #117's τ/σ as an informative prior/starting value in `ctmm.fit()`, and
-  see whether borrowing improves interpolation on the same held-out gaps. Needs
-  verifying the correct way to fix/seed parameters in `ctmm.fit()` (didn't confirm
-  the exact API before deciding not to guess under time pressure — check
-  `?ctmm.fit`, `?ctmm.select`, and possibly `ctmm::meta()` properly first).
-- **`ctmm::rsf.fit()`** (autocorrelation-corrected resource selection function) was
-  identified as a better cross-individual-generalizing baseline than raw ctmm/OUF,
-  since it's a linear-preference-over-features model like the eventual IRL reward,
-  not an idiosyncratic per-individual space-use kernel. Not yet tried. Worth adding
-  alongside linear + ctmm in the baseline lineup.
+**Priority order**: finish the Task 1 (occurrence()-mode for `ctmm_interpolation_baseline.R`)
+and Task 2 (batch predict+occurrence across all individuals, insights/pooling plan)
+implementation plans currently being drafted *first*. The `rsf.fit()` + `occurrence()`
+direction below is queued to start immediately after those — confirmed as the
+priority next investigation, not a someday-maybe.
+
+### QUEUED NEXT: `rsf.fit()` + `occurrence()` for cross-individual predictive power
+
+This is the one concrete, already-built (not proposed/custom) mechanism found so far
+for giving a ctmm-based interpolation genuine cross-individual predictive power
+without the raw-telemetry-pooling problems described above. Two prior "borrow
+strength across individuals" ideas were dead ends or unverified:
+- `ctmm::mean.ctmm()` / `ctmm::meta()`: population-level *parameter inference*
+  (debiased mean + between-individual variance of τ, area, speed, diffusion via a
+  χ²-inverse-gamma hierarchical model). Real and correctly-calibrated for what it
+  does, but `ctmm.fit()` has no prior/shrinkage argument (checked its formals) — so
+  turning `meta()`'s population mean+variance into actual regularization of a
+  data-poor individual's own fit would be custom, unverified work, not a function
+  call. `mean.ctmm()` produces a composite "typical individual" (including an
+  averaged, not-physically-meaningful `mu`) for reporting, not for predicting a
+  *specific* individual's trajectory.
+- Naive model transplant (`predict(FIT_from_A, data=B, ...)`): confirmed crashes
+  outright (`'names' attribute [2] must be the same length as the vector [1]`) — a
+  fitted model's `mu` lives in a projection centered on the individual it was fit to.
+
+**`rsf.fit()` sidesteps this entirely** because it estimates preference coefficients
+over *environmental covariate rasters* (translation-invariant feature space), not
+raw coordinates — structurally the same kind of object as a MaxEnt IRL reward
+function, and the same reasoning about why IRL can legitimately pool across
+individuals (see the co-occurrence discussion above) applies to it, not the "doesn't
+even make sense" objection that applies to pooling raw OU/OUF telemetry.
+
+**The concrete, already-documented mechanism**: `occurrence()`'s own signature has an
+`R` argument — *"Named list of raster covariates, required only if CTMM contains a
+Resource Selection Function (RSF) model"* (verbatim from the Rd doc / package
+reference). This means `occurrence()` already supports being called with an
+RSF-augmented CTMM object, blending an individual's own fitted movement kernel with
+habitat-preference information that can legitimately be estimated from *pooled* data
+across individuals. This was not designed as an interpolation-improvement trick by
+us — it's the package's own built-in integration point for exactly this.
+
+**Sources**:
+- `ctmm::rsf.fit()` — package doc (title/description, extracted via `tools::Rd_db("ctmm")`):
+  > "Fit integrated resource selection functions (iRSFs) with autocorrelation-adjusted
+  > weighted likelihood... Integrated resource selection functions simultaneously
+  > estimate the spatially constraining (availability) parameters with the resource
+  > selection parameters, rather than first estimating the availability parameters
+  > (usually via MCP) and then holding those parameters fixed... The 'integrated'
+  > analysis reduces estimation bias, exposes correlations in the resource and
+  > availability estimate uncertainties, and propagates the availability estimate
+  > uncertainties into the final outputs."
+- **Alston, J.M., Fleming, C.H., Kays, R., et al. (2022).** "Mitigating
+  pseudoreplication and bias in resource selection functions with
+  autocorrelation‐informed weighting." *Methods in Ecology and Evolution*, 14(2),
+  643–654. doi:10.1111/2041-210X.14025. **This is the methods paper behind
+  `rsf.fit()`** — introduces the autocorrelation-weighted-likelihood scheme
+  specifically to fix the pseudoreplication/bias problem that plain IID-assuming RSFs
+  have with autocorrelated tracking data (i.e., it's the ctmm-ecosystem answer to
+  exactly the co-occurrence/pseudoreplication concern raised for IRL/RSF pooling —
+  worth reading alongside that discussion, not separately). Open access
+  (CC-BY, hybrid OA) — full text should be retrievable directly.
+- `ctmm::occurrence()` — Rd doc, `R` argument: *"A named list of raster covariates if
+  CTMM contains an RSF model."*
+- **Fleming, C.H., Fagan, W.F., Mueller, T., et al. (2016).** "Estimating where and
+  how animals travel: An optimal framework for path reconstruction from
+  autocorrelated tracking data." *Ecology*, 97(3), 576–588. doi:10.1890/15-1607.
+  Theoretical basis for `occurrence()`'s Kriging framework itself (closed access, no
+  full-text excerpts retrieved — abstract only).
+- **Calabrese, J.M., Fleming, C.H., & Gurarie, E. (2016).** "ctmm: an R package for
+  analyzing animal relocation data as a continuous‐time stochastic process."
+  *Methods in Ecology and Evolution*, 7(9), 1124–1132. doi:10.1111/2041-210X.12559.
+  The package paper; open access (bronze OA).
+
+**Not yet done**: actually running `rsf.fit()` on any jaguar individual, checking
+what raster covariates are actually available/needed (ties back to the GEE covariate
+pipeline — `jaguar_movement_data_with_biome.csv` doesn't exist on disk yet, and full
+environmental raster layers for `rsf.fit()`'s `R` argument are a separate, larger ask
+than the biome label alone), confirming `occurrence(..., R=...)` actually works
+end-to-end with a fitted RSF-CTMM object, and designing what "improves predictive
+power for interpolation" would even mean to measure here (probably: does an
+RSF-augmented `occurrence()` UD assign more density to true held-out points than a
+plain movement-only `occurrence()` UD, for the same individual and gap — a natural
+extension of the isopleth-coverage metric already planned for Task 1).
+
+- **Donor-informed fitting test** (proposed, unverified, lower priority than the
+  above): take a deliberately data-starved subset of individual 13's track, fit ctmm
+  with and without using individual #117's τ/σ as an informative prior/starting value
+  in `ctmm.fit()`, and see whether borrowing improves interpolation on the same
+  held-out gaps. Needs verifying the correct way to fix/seed parameters in
+  `ctmm.fit()`.
 - **Bout/excursion segmentation**: Hirakawa's "50% removed from the middle of the
   trajectory" protocol doesn't map cleanly onto a multi-month jaguar deployment (their
   unit was a discrete multi-day round trip). The correct translation is a discrete
@@ -110,6 +188,71 @@ the script to regenerate it.
   one is about environment/habitat, that one is about movement style) — likely want
   both as separate stratification axes for train/val splits.
 
+## occurrence()/predict() mechanics — verified during Task 1 scoping
+
+- `predict()`: point estimate + covariance at specific query times (one row per
+  time). `occurrence()`: a full spatial `UD` raster (`$PDF`/`$CDF` over `$x`/`$y`),
+  time marginalized away entirely — cannot ask it "where at time t" the way
+  `predict()` answers; comparison has to happen at the gap-window level, not
+  row-by-row.
+- `cor.min`/`dt.max` govern whether `occurrence()` will even attempt to bridge a
+  gap; `predict()` has **no equivalent safety valve at all** — it always returns a
+  confident-looking answer regardless of gap size, reverting silently toward the
+  stationary mean once correlation decays. `occurrence()` is the one ctmm gives you
+  that's designed to admit "the data no longer constrains this."
+- Closed form for the per-individual bridgeable-gap threshold (OUF velocity process
+  is a simple OU process, single-exponential ACF): `Δt_bridgeable = −τ_velocity · ln(cor.min)`.
+  Verified against individual 13's actual fit: predicted 54.5 min (cor.min=0.05,
+  τ_velocity=18.2 min) vs. actual `dt.max` default fallback 60.0 min
+  (`median(diff(t))`) — matches. **Every gap bin in the existing benchmark (2h–240h)
+  already exceeds individual 13's default bridgeable threshold** — under default
+  settings, `occurrence()` would likely refuse to smoothly bridge most of what's
+  already being tested. This is a feature to design around, not a bug.
+- `dt.max` default (`NULL` → `median(diff(data$t))`) and `cor.min` default (0.05,
+  velocity correlation as of ctmm ≥0.5.6) should be set **per individual**, not as
+  one global value — a fixed `dt.max=48h` is reasonable for individual 13
+  (τ_position≈3.2d) but would make `occurrence()` refuse almost everything for
+  individual 20 (τ_position≈53–73d), and vice versa.
+
+## Silent-failure risk in small-sample individuals — verified, not just theoretical
+
+Tested individuals 35 (17 pts) and 38 (18 pts) directly with only a `tryCatch`
+wrapper, no explicit point-count floor:
+- **ID 35**: `ctmm.fit()` issues a **warning**, not an error (`"MLE is near a
+  boundary or optimizer failed."`). An `error=`-only `tryCatch` (what
+  `home_ranges/home_range_analysis.R` actually uses) does **not** catch this —
+  execution would silently continue to AKDE/occurrence on a degenerate fit.
+- **ID 38**: **no error, no warning at all**, but the fitted parameters are
+  physically absurd (τ[velocity] ≈ 1.18e-43 s, speed ≈ 8.5e69 km/day). `occurrence()`
+  ran "successfully" on top of it, returning a technically-valid-shaped UD built on
+  meaningless numbers.
+- **Conclusion**: an explicit point-count floor is still doing real protective work,
+  not redundant with `tryCatch`. For the batch `predict`/`occurrence` pipeline
+  (Task 2), need: (a) `tryCatch(..., warning = function(w) stop(w))` or
+  `options(warn=2)` to escalate boundary-fit warnings into caught errors, and (b) a
+  post-fit plausibility check rejecting/flagging fits with physically-impossible
+  speed/diffusion/τ values, since case 38 shows neither error nor warning will
+  reliably surface a degenerate fit on its own.
+
+## Co-occurring individuals: IRL pooling ≠ ctmm pooling (don't conflate these)
+
+Pooling *raw telemetry* across individuals for one ctmm/OUF fit doesn't make sense
+(one process, one `mu`) — that objection does **not** transfer to MaxEnt IRL, whose
+entire mechanism is pooling many trajectories into one shared, feature-space reward
+function; that's the intended fix for data-poor individuals, not a workaround. What
+*does* carry over from co-occurrence specifically: (a) inflated effective sample
+size / overstated confidence when co-occurring individuals share near-identical
+environmental feature values along their paths (a precision problem); (b) genuine
+point-estimate bias only when there's direct interaction (territorial
+avoidance, mother–cub/mating pairs) or a shared unmodeled driver (fire, flood,
+carcass) — an omitted-variable confound, not just pseudoreplication. Mitigations:
+cluster-robust SEs on θ (cluster = same study + overlapping period), consider a
+local-conspecific-density reward feature if metadata supports real interaction risk,
+confirm the planned spatial-block CV doesn't leak by splitting co-occurring
+individuals across train/test. The Alston et al. (2022) autocorrelation-weighting
+paper above is the ctmm-ecosystem's own answer to the RSF version of this same
+problem — read together with this section, not separately.
+
 ## Files referenced above
 
 - `ctmm_interpolation_baseline.R` — the baseline script (committed).
@@ -117,6 +260,11 @@ the script to regenerate it.
   snippet that loops `home_range_output/individual_rds/*.rds` and pulls
   `summary(FIT, units=FALSE)$CI` (rownames use "position"/"velocity", not literal
   "tau" — Greek τ character — grep accordingly if rewriting).
-- `home_range_output/individual_rds/individual_*.rds` — per-individual ctmm fits
-  and telemetry from the existing `home_range_analysis.R` pipeline (already run for
-  115/117 individuals).
+- `home_ranges/home_range_analysis.R` — moved from repo root into `home_ranges/`
+  since this file was last written; update paths if referencing.
+- `home_range_output/individual_rds/individual_*.rds` — **does not currently exist
+  on disk** (gitignored output, cleaned between sessions) — rerun
+  `home_ranges/home_range_analysis.R` to regenerate before relying on checkpoints
+  again. All τ/speed/area numbers above came from either regenerating a fit on the
+  fly (`ctmm.guess`/`ctmm.fit` directly from `jaguar_movement_data.csv`, fast) or
+  were captured before the directory was cleaned.
