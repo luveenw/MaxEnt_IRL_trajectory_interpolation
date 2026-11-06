@@ -1,0 +1,2214 @@
+{
+  "users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2018": {
+    "type": "IMAGE",
+    "name": "projects/earthengine-legacy/assets/users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2018",
+    "id": "users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2018",
+    "properties": {
+      "Temporal_Resolution": "Annual",
+      "year_end": 2018,
+      "Spatial_Resolution": "300 m",
+      "Max_Latitude": 90,
+      "description": "source: https://www.esa-landcover-cci.org/?q=node/175\nv207 --> 1992 to 2015\nv211 --> 2016 to 2018\n\u00a0uploaded by: Mariano Gonzalez-Roglich",
+      "Min_Latitude": -90,
+      "Units": "Thematic land cover classes",
+      "DataSource": "ESA",
+      "Min_Longitude": -180,
+      "year_start": 1992,
+      "Max_Longitude": 180
+    },
+    "updateTime": "2021-01-28T14:59:25.435775Z",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            "-Infinity",
+            "-Infinity"
+          ],
+          [
+            "Infinity",
+            "-Infinity"
+          ],
+          [
+            "Infinity",
+            "Infinity"
+          ],
+          [
+            "-Infinity",
+            "Infinity"
+          ],
+          [
+            "-Infinity",
+            "-Infinity"
+          ]
+        ]
+      ]
+    },
+    "bands": [
+      {
+        "id": "y1992",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y1993",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y1994",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y1995",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y1996",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y1997",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y1998",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y1999",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2000",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2001",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2002",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2003",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2004",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2005",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2006",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2007",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2008",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2009",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2010",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2011",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2012",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2013",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2014",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2015",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2016",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2017",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      },
+      {
+        "id": "y2018",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MEAN"
+      }
+    ],
+    "sizeBytes": "16406016565"
+  },
+  "users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2020": {
+    "type": "IMAGE",
+    "name": "projects/earthengine-legacy/assets/users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2020",
+    "id": "users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2020",
+    "updateTime": "2021-08-31T22:50:10.720831Z",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            "-Infinity",
+            "-Infinity"
+          ],
+          [
+            "Infinity",
+            "-Infinity"
+          ],
+          [
+            "Infinity",
+            "Infinity"
+          ],
+          [
+            "-Infinity",
+            "Infinity"
+          ],
+          [
+            "-Infinity",
+            "-Infinity"
+          ]
+        ]
+      ]
+    },
+    "bands": [
+      {
+        "id": "y1992",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1993",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1994",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1995",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1996",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1997",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1998",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1999",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2000",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2001",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2002",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2003",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2004",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2005",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2006",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2007",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2008",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2009",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2010",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2011",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2012",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2013",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2014",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2015",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2016",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2017",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2018",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2019",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2020",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      }
+    ],
+    "sizeBytes": "12460803245"
+  },
+  "users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2022": {
+    "type": "IMAGE",
+    "name": "projects/earthengine-legacy/assets/users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2022",
+    "id": "users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2022",
+    "properties": {
+      "title": "Image: lcov_esacc_1992_2022"
+    },
+    "updateTime": "2024-03-25T13:50:46.400959Z",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            "-Infinity",
+            "-Infinity"
+          ],
+          [
+            "Infinity",
+            "-Infinity"
+          ],
+          [
+            "Infinity",
+            "Infinity"
+          ],
+          [
+            "-Infinity",
+            "Infinity"
+          ],
+          [
+            "-Infinity",
+            "-Infinity"
+          ]
+        ]
+      ]
+    },
+    "bands": [
+      {
+        "id": "y1992",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1993",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1994",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1995",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1996",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1997",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1998",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y1999",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2000",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2001",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2002",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2003",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2004",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2005",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2006",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2007",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2008",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2009",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2010",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2011",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2012",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2013",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2014",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2015",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2016",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2017",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2018",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2019",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2020",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2021",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      },
+      {
+        "id": "y2022",
+        "dataType": {
+          "precision": "INT",
+          "range": {
+            "min": -32768,
+            "max": 32767
+          }
+        },
+        "grid": {
+          "crsCode": "EPSG:4326",
+          "dimensions": {
+            "width": 129600,
+            "height": 57600
+          },
+          "affineTransform": {
+            "scaleX": 0.002777777777777778,
+            "translateX": -180,
+            "scaleY": -0.002777777777777778,
+            "translateY": 80
+          }
+        },
+        "pyramidingPolicy": "MODE"
+      }
+    ],
+    "sizeBytes": "13347477705"
+  }
+}

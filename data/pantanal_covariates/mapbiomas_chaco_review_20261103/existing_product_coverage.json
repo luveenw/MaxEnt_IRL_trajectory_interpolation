@@ -1,0 +1,174 @@
+{
+  "scope": "Local validated existing canonical MapBiomas products including approved temporal repair; read-only recheck of band3 effective coverage",
+  "products": [
+    {
+      "group": "G050",
+      "year": 2009,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 5767
+    },
+    {
+      "group": "G050",
+      "year": 2008,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 5767
+    },
+    {
+      "group": "G225",
+      "year": 2012,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4788
+    },
+    {
+      "group": "G225",
+      "year": 2011,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4788
+    },
+    {
+      "group": "G225",
+      "year": 2010,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4788
+    },
+    {
+      "group": "G225",
+      "year": 2013,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4788
+    },
+    {
+      "group": "G115",
+      "year": 2006,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 2478
+    },
+    {
+      "group": "G115",
+      "year": 2005,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 2478
+    },
+    {
+      "group": "G315",
+      "year": 2015,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 3519
+    },
+    {
+      "group": "G078",
+      "year": 2012,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4864
+    },
+    {
+      "group": "G078",
+      "year": 2011,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4864
+    },
+    {
+      "group": "G078",
+      "year": 2015,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4864
+    },
+    {
+      "group": "G078",
+      "year": 2013,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4864
+    },
+    {
+      "group": "G203",
+      "year": 2010,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4544
+    },
+    {
+      "group": "G312",
+      "year": 2015,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 2850
+    },
+    {
+      "group": "G090",
+      "year": 2013,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4582
+    },
+    {
+      "group": "G286",
+      "year": 2010,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 1302
+    },
+    {
+      "group": "G057",
+      "year": 2014,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4560
+    },
+    {
+      "group": "G057",
+      "year": 2015,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4560
+    },
+    {
+      "group": "G057",
+      "year": 2013,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 4560
+    },
+    {
+      "group": "G272",
+      "year": 2013,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 3060
+    },
+    {
+      "group": "G316",
+      "year": 2011,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 1295
+    },
+    {
+      "group": "G067",
+      "year": 2009,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 5236
+    },
+    {
+      "group": "G067",
+      "year": 2008,
+      "minimum_effective_coverage": 1.0,
+      "maximum_effective_coverage": 1.0,
+      "cells": 5236
+    }
+  ],
+  "total_cached_cells": 100402
+}

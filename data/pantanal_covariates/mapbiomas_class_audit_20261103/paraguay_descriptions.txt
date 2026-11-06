@@ -1,0 +1,43 @@
+                                                      Descripción de las clases de cobertura y uso del suelo utilizadas en la Leyenda de la colección 3 de MapBiomas
+                                                                                                         Paraguay
+
+                                                                                                                                                                    Clasificación
+NIVEL 1                  NIVEL 2                     Descripción
+                                                                                                                                                                    FAO (2012)
+                                                     Coberturas dominadas por árboles y/o arbustos, no haciendo una distinción entre ellos y englobándolos
+                                                     en la categoría leñosa. Incluye solamente las cubiertas vegetales naturales o                                  FEP, FEM,FSP,
+                         1.1 Leñosas cerradas
+                                                     seminaturales con un estrato leñoso superior al 65% de cobertura del dosel.                                    FSM
+
+                                                     Coberturas dominadas por árboles y/o arbustos, no haciendo una distinción entre ellos y englobándolos
+                                                     en la categoría leñosa. Incluye solamente las cubiertas vegetales naturales o
+1. Vegetación            1.2 Leñosas abiertas                                                                                                                       FSP
+                                                     seminaturales con un estrato leñoso entre 65% y 15% de cobertura del dosel.
+Leñosa Natural
+                                                     Áreas de transición entre los sistemas terrestres y acuáticos puros, donde la napa freática se encuentra
+                                                     por lo general en la superficie o cercana a ella (áreas encharcadas). La cobertura vegetal natural formada
+                         1.3 Leñosas inundables      por árboles, arbustos y sabanas palmares o una transición entre éstas está influenciada
+                                                     significativamente por el agua y/o depende de inundaciones.
+
+                                                     Áreas de transición entre los sistemas terrestres y acuáticos puros, donde la napa freática se encuentra
+                                                     por lo general en la superficie o cercana a ella (áreas encharcadas). La cobertura vegetal natural formada
+                         2.1 Pastizales inundables   por herbáceas está influenciada significativamente por el agua y/o depende de inundaciones (ej.:           OM
+2. Vegetación                                        esteros, bañados, cañadas, pantanos y lechos acuáticos).
+Herbácea Natural
+                                                     Áreas con vegetación natural formada por herbáceas. En esta categoría se admite la presencia de
+                         2.2 Pastizal                leñosas, pero las mismas deben encontrarse en coberturas comprendidas entre el 1-5 y 20%.                      OG, WG
+
+                         3.1 Pastura                 Áreas con cultivos de especies herbáceas con destino forrajero (producción animal)                             OP
+
+                                                     Dentro de esta categoría se incluyen cultivos de herbáceas anuales principalmente cereales y
+3. Agropecuario          3.2 Agricultura                                                                                                                            OCA
+                                                     leguminosas para la producción de grano o fibras
+                         3.3. Forestaciones          Áreas con cultivos de árboles (ej: forestaciones de pinos, eucaliptos, plantaciones de cítricos y frutales).   FPB, FPC, FPM
+
+                                                     Son áreas con una cobertura artificial como por ejemplo construcciones, caminos, canteras. Tambien
+4. Área sin vegetación                               incluye, áreas sin cobertura vegetal y que no presentan una cobertura artificial.                              OB
+
+5. Cuerpos de agua                                   Esta clase corresponde a las áreas cubiertas por agua naturales (ríos, lagos) o artificiales (reservorio,      IRP, IRS, IL, ID
+                                                     canales, lagos artificiales, etc.)
+6. No observado                                      Se atribuye a valores faltantes u otros errores que puedan surgir del proceso de clasificación.
+

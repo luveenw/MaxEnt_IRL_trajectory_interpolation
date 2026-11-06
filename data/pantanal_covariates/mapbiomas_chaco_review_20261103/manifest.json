@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-03",
+  "eecu_seconds": null,
+  "files": {
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G050_coverage.json": {
+      "bytes": 2887,
+      "sha256": "dc4c01101cd6ac2f883f0b9056e7f9814c0094f756a0ff888cf92dbe76f37c1e"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G050_coverage.npz": {
+      "bytes": 2450,
+      "sha256": "6000dad528ecb9ec19d9ab2d5c787e498dc519c956d4366ba81e14a0c138e496"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G057_coverage.json": {
+      "bytes": 3871,
+      "sha256": "a590bc76f7dcbed87cd41994a9870b781d61d409657ab25cfa82f45e275c09f8"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G057_coverage.npz": {
+      "bytes": 3523,
+      "sha256": "e428604ffd99345ba026219bc480a1132a40cd7361f61f8ba400ce7edd62a1c6"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G067_coverage.json": {
+      "bytes": 2879,
+      "sha256": "e08ceb7d625e7fa742c903ad83a3dff93e60fef0bd2d74ccf8b1ce26bc5760c3"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G067_coverage.npz": {
+      "bytes": 2412,
+      "sha256": "ba05f964b19a23be558a3b6a0239074d2c419a0e44e0d3048e9e4e8e17b0f3b8"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G078_coverage.json": {
+      "bytes": 4863,
+      "sha256": "5443940489430f92f3ff45628ce95aa9cdfbef9e69bcaebd66cfcc993e083dbf"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G078_coverage.npz": {
+      "bytes": 4730,
+      "sha256": "dde846bb6452bd5dc01477339ef18be80f4622068412b2e1a72f42bceb3cb1a0"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G090_coverage.json": {
+      "bytes": 1887,
+      "sha256": "1adc4f4721dc729d04fd3e3a804ca162ea41308f682d7b76de64ecfcda10ded5"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G090_coverage.npz": {
+      "bytes": 1181,
+      "sha256": "8c0aa823b44ed825a808aee3743ad6734c5054444f8787463a8f8ec956bfad69"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G115_coverage.json": {
+      "bytes": 3163,
+      "sha256": "22a40078f053bda1c7b5560cfb62d88b760535ad6aa7f897b4ebd998f5f3b01a"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G115_coverage.npz": {
+      "bytes": 6957,
+      "sha256": "59d51971865bce8d0000344f782a6f23db1d3371ce2add65f0347799911ee4e5"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G203_coverage.json": {
+      "bytes": 1881,
+      "sha256": "6af7f3734455328de271723868894f1ebba3427b216711266becdedc730d6b8b"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G203_coverage.npz": {
+      "bytes": 1214,
+      "sha256": "635e8df8584aada9a7031afe36e515e04283613d035ea5f5e31178fc693724ac"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G225_coverage.json": {
+      "bytes": 4863,
+      "sha256": "05f7e19e0bd4196abc577a963ed4bf467ad1e5cc4ffcd77d8c33a5a481f98ed4"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G225_coverage.npz": {
+      "bytes": 4730,
+      "sha256": "379d66ea8f5cd87ed4e507d9ee821e976058457141fd2d5e94b99670e5b9b09c"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G272_coverage.json": {
+      "bytes": 1883,
+      "sha256": "45663a3f390d9e8cee49c92d1532796498132f2b74f6f4736e61c073f337b0f4"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G272_coverage.npz": {
+      "bytes": 1122,
+      "sha256": "eb6c6d74667090f79bae276baa3a3011150fdfdfbbdfbaed2748b2f24368b37f"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G286_coverage.json": {
+      "bytes": 1883,
+      "sha256": "af6c1c3d8fab35ce432255f1ffa9b1ce194ae49ddcab50b37e548ee4d0f75178"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G286_coverage.npz": {
+      "bytes": 1062,
+      "sha256": "62eb449c02e16ea5231a499da80a0df271a51b8a7dd1ee76bea4aa922341c672"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G312_coverage.json": {
+      "bytes": 1883,
+      "sha256": "ed978c670ac775fa6091b26e12248c0e53c2daa8cf6b94e62f0cbca1baaa9f56"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G312_coverage.npz": {
+      "bytes": 1116,
+      "sha256": "904cc4aecd9d183b98f2a645b246dbda5072859c47df00d37d5c341b61f701d6"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G315_coverage.json": {
+      "bytes": 1887,
+      "sha256": "23a0ce46adc67ac0f51ab3e7982aa427445210c623e11af3689c5b21c47f3d7f"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G315_coverage.npz": {
+      "bytes": 1141,
+      "sha256": "3ad6b0d9e08b4101795e1169e4883bae3a189767b386b58db76480e30580b435"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G316_coverage.json": {
+      "bytes": 2064,
+      "sha256": "606563a0bd051c9536bf2d84d5334075879ac00588f89051ad7dc047c1e70058"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/G316_coverage.npz": {
+      "bytes": 1103,
+      "sha256": "2af7caf813cda762b62cc13cb7d1f4e3d971a11e80fabcce5abfd9d149b3d171"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/asset_metadata.json": {
+      "bytes": 158124,
+      "sha256": "9254afb1f9841127251f3d212789a200b201c0c05f21729a28ec74789af8ad53"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/chaco_observed_classes.json": {
+      "bytes": 938,
+      "sha256": "f1b89b62a6c91cc082df87dceb40df4d3c2a8c78e872680856cae00df7b0fa92"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/coverage_summary.json": {
+      "bytes": 23942,
+      "sha256": "f300f537b31385f6d8665aa5eb4199d457516e05e50c20b25b327a7998a58294"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/exact_gap_pixels.json": {
+      "bytes": 162185,
+      "sha256": "97a34f291c2360308ee925b98f2c2733b7c3147bd4ae6c1a38837c6c05c66940"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/existing_product_coverage.json": {
+      "bytes": 3997,
+      "sha256": "fd32cd1571af84e8c73e940df52238bd959c2d4dcb6be5eba45bd506ab93eb49"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/inputs.json": {
+      "bytes": 978,
+      "sha256": "8c1fe0754da136ca362219095b87ff0a55a2ebc4bd880a14383a00e927cd8be5"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/primary_sources.json": {
+      "bytes": 569,
+      "sha256": "72abcd2d60c424c2350c786f0fe36640932be236e665df05d1edbe688a451bbc"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/projections.json": {
+      "bytes": 899,
+      "sha256": "d143c162653f9f5666138687738f279e6751fab3c9dac52b2738a69bbc6f4650"
+    },
+    "data/pantanal_covariates/mapbiomas_chaco_review_20261103/query_attempts.json": {
+      "bytes": 298,
+      "sha256": "e540c79da4f00d4f9641da13778333302f7be86a65b75633189159c7f6d7783b"
+    },
+    "gee/mapbiomas_chaco_review_20261103/probe_chaco_classes.py": {
+      "bytes": 1106,
+      "sha256": "0bf4609c357c8f0099c27abc6209de0ab86eac7a35ae6bd91a2082460ebab0da"
+    },
+    "gee/mapbiomas_chaco_review_20261103/review_coverage.py": {
+      "bytes": 5641,
+      "sha256": "6648f7d704fedf955f1f0f29af85e6055b64d70b498e5c6b5554d4d8105c86f4"
+    },
+    "research_notes/Jaguar trajectory coverage/mapbiomas_chaco_collection_review_20261103.md": {
+      "bytes": 8521,
+      "sha256": "1cb8b23c84c760096f8a79f68b0ff9d78536c5a4f6f88f9a2e02182224d826d4"
+    }
+  },
+  "recommendation": "Keep national priority plus existing Chaco water fallback and approved G316 temporal consensus; no Chaco replacement",
+  "schema": "pantanal_chaco_collection_review/1",
+  "scope": "13 Spring groups,24 candidate group/year pairs,100402 cached model cells;97 native gap centers"
+}

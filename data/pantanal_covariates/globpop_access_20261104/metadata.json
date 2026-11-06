@@ -1,0 +1,286 @@
+{
+  "count": {
+    "asset": {
+      "id": "projects/sat-io/open-datasets/GLOBPOP_COUNT",
+      "name": "projects/earthengine-legacy/assets/projects/sat-io/open-datasets/GLOBPOP_COUNT",
+      "type": "IMAGE_COLLECTION",
+      "updateTime": "2025-05-15T13:40:07.155163Z"
+    },
+    "first_image": {
+      "bands": [
+        {
+          "crs": "EPSG:4326",
+          "crs_transform": [
+            0.008333333333333333,
+            0,
+            -180,
+            0,
+            -0.008333333333333333,
+            90
+          ],
+          "data_type": {
+            "max": 2147483647,
+            "min": -2147483648,
+            "precision": "int",
+            "type": "PixelType"
+          },
+          "dimensions": [
+            43200,
+            21600
+          ],
+          "id": "b1"
+        }
+      ],
+      "id": "projects/sat-io/open-datasets/GLOBPOP_COUNT/GlobPOP_Count_30arc_1990_I32",
+      "properties": {
+        "id_no": "GlobPOP_Count_30arc_1990_I32",
+        "num_bands": 1,
+        "system:asset_size": 65302685,
+        "system:footprint": {
+          "coordinates": [
+            [
+              -180,
+              -90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ],
+          "type": "LinearRing"
+        },
+        "system:index": "GlobPOP_Count_30arc_1990_I32",
+        "system:time_end": 662601600000,
+        "system:time_start": 631152000000,
+        "xsize": 43200,
+        "ysize": 21600
+      },
+      "type": "Image",
+      "version": 1747316391481677
+    },
+    "indices": [
+      "GlobPOP_Count_30arc_1990_I32",
+      "GlobPOP_Count_30arc_1991_I32",
+      "GlobPOP_Count_30arc_1992_I32",
+      "GlobPOP_Count_30arc_1993_I32",
+      "GlobPOP_Count_30arc_1994_I32",
+      "GlobPOP_Count_30arc_1995_I32",
+      "GlobPOP_Count_30arc_1996_I32",
+      "GlobPOP_Count_30arc_1997_I32",
+      "GlobPOP_Count_30arc_1998_I32",
+      "GlobPOP_Count_30arc_1999_I32",
+      "GlobPOP_Count_30arc_2000_I32",
+      "GlobPOP_Count_30arc_2001_I32",
+      "GlobPOP_Count_30arc_2002_I32",
+      "GlobPOP_Count_30arc_2003_I32",
+      "GlobPOP_Count_30arc_2004_I32",
+      "GlobPOP_Count_30arc_2005_I32",
+      "GlobPOP_Count_30arc_2006_I32",
+      "GlobPOP_Count_30arc_2007_I32",
+      "GlobPOP_Count_30arc_2008_I32",
+      "GlobPOP_Count_30arc_2009_I32",
+      "GlobPOP_Count_30arc_2010_I32",
+      "GlobPOP_Count_30arc_2011_I32",
+      "GlobPOP_Count_30arc_2012_I32",
+      "GlobPOP_Count_30arc_2013_I32",
+      "GlobPOP_Count_30arc_2014_I32",
+      "GlobPOP_Count_30arc_2015_I32",
+      "GlobPOP_Count_30arc_2016_I32",
+      "GlobPOP_Count_30arc_2017_I32",
+      "GlobPOP_Count_30arc_2018_I32",
+      "GlobPOP_Count_30arc_2019_I32",
+      "GlobPOP_Count_30arc_2020_I32",
+      "GlobPOP_Count_30arc_2021_I32",
+      "GlobPOP_Count_30arc_2022_I32"
+    ],
+    "size": 33,
+    "times": [
+      631152000000,
+      662688000000,
+      694224000000,
+      725846400000,
+      757382400000,
+      788918400000,
+      820454400000,
+      852076800000,
+      883612800000,
+      915148800000,
+      946684800000,
+      978307200000,
+      1009843200000,
+      1041379200000,
+      1072915200000,
+      1104537600000,
+      1136073600000,
+      1167609600000,
+      1199145600000,
+      1230768000000,
+      1262304000000,
+      1293840000000,
+      1325376000000,
+      1356998400000,
+      1388534400000,
+      1420070400000,
+      1451606400000,
+      1483228800000,
+      1514764800000,
+      1546300800000,
+      1577836800000,
+      1609459200000,
+      1640995200000
+    ]
+  },
+  "density": {
+    "asset": {
+      "id": "projects/sat-io/open-datasets/GLOBPOP_DENSITY",
+      "name": "projects/earthengine-legacy/assets/projects/sat-io/open-datasets/GLOBPOP_DENSITY",
+      "type": "IMAGE_COLLECTION",
+      "updateTime": "2025-05-15T13:39:45.718034Z"
+    },
+    "first_image": {
+      "bands": [
+        {
+          "crs": "EPSG:4326",
+          "crs_transform": [
+            0.008333333333333333,
+            0,
+            -180,
+            0,
+            -0.008333333333333333,
+            90
+          ],
+          "data_type": {
+            "precision": "float",
+            "type": "PixelType"
+          },
+          "dimensions": [
+            43200,
+            21600
+          ],
+          "id": "b1"
+        }
+      ],
+      "id": "projects/sat-io/open-datasets/GLOBPOP_DENSITY/GlobPOP_Density_30arc_1990_F32",
+      "properties": {
+        "id_no": "GlobPOP_Density_30arc_1990_F32",
+        "num_bands": 1,
+        "system:asset_size": 270724426,
+        "system:footprint": {
+          "coordinates": [
+            [
+              -180,
+              -90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ],
+          "type": "LinearRing"
+        },
+        "system:index": "GlobPOP_Density_30arc_1990_F32",
+        "system:time_end": 662601600000,
+        "system:time_start": 631152000000,
+        "xsize": 43200,
+        "ysize": 21600
+      },
+      "type": "Image",
+      "version": 1747316370053966
+    },
+    "indices": [
+      "GlobPOP_Density_30arc_1990_F32",
+      "GlobPOP_Density_30arc_1991_F32",
+      "GlobPOP_Density_30arc_1992_F32",
+      "GlobPOP_Density_30arc_1993_F32",
+      "GlobPOP_Density_30arc_1994_F32",
+      "GlobPOP_Density_30arc_1995_F32",
+      "GlobPOP_Density_30arc_1996_F32",
+      "GlobPOP_Density_30arc_1997_F32",
+      "GlobPOP_Density_30arc_1998_F32",
+      "GlobPOP_Density_30arc_1999_F32",
+      "GlobPOP_Density_30arc_2000_F32",
+      "GlobPOP_Density_30arc_2001_F32",
+      "GlobPOP_Density_30arc_2002_F32",
+      "GlobPOP_Density_30arc_2003_F32",
+      "GlobPOP_Density_30arc_2004_F32",
+      "GlobPOP_Density_30arc_2005_F32",
+      "GlobPOP_Density_30arc_2006_F32",
+      "GlobPOP_Density_30arc_2007_F32",
+      "GlobPOP_Density_30arc_2008_F32",
+      "GlobPOP_Density_30arc_2009_F32",
+      "GlobPOP_Density_30arc_2010_F32",
+      "GlobPOP_Density_30arc_2011_F32",
+      "GlobPOP_Density_30arc_2012_F32",
+      "GlobPOP_Density_30arc_2013_F32",
+      "GlobPOP_Density_30arc_2014_F32",
+      "GlobPOP_Density_30arc_2015_F32",
+      "GlobPOP_Density_30arc_2016_F32",
+      "GlobPOP_Density_30arc_2017_F32",
+      "GlobPOP_Density_30arc_2018_F32",
+      "GlobPOP_Density_30arc_2019_F32",
+      "GlobPOP_Density_30arc_2020_F32",
+      "GlobPOP_Density_30arc_2021_F32",
+      "GlobPOP_Density_30arc_2022_F32"
+    ],
+    "size": 33,
+    "times": [
+      631152000000,
+      662688000000,
+      694224000000,
+      725846400000,
+      757382400000,
+      788918400000,
+      820454400000,
+      852076800000,
+      883612800000,
+      915148800000,
+      946684800000,
+      978307200000,
+      1009843200000,
+      1041379200000,
+      1072915200000,
+      1104537600000,
+      1136073600000,
+      1167609600000,
+      1199145600000,
+      1230768000000,
+      1262304000000,
+      1293840000000,
+      1325376000000,
+      1356998400000,
+      1388534400000,
+      1420070400000,
+      1451606400000,
+      1483228800000,
+      1514764800000,
+      1546300800000,
+      1577836800000,
+      1609459200000,
+      1640995200000
+    ]
+  }
+}

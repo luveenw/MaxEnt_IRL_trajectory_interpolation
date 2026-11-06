@@ -1,0 +1,10 @@
+{
+  "schema": "extraction_scheduling_revision/1",
+  "recorded_utc": "2026-11-03T13:26:18.483708+00:00",
+  "reason": "Root authorized two total active batch tasks, one per ESA/MapBiomas driver",
+  "previous_driver_sha256": "13d5afb0a094fc5b325c87bc958b5bca2f4640d3fc485cef099f65a3f7a41204",
+  "current_driver_sha256": "d896e534a270ff1287eb0477e7e0dc850f06a7ae45e363904c0a9fca1a4763c9",
+  "original_source_archive": "gee/_historical/20261103/esa_shrubland_acquire_serial.py",
+  "interruption": "SIGINT only polling process between validated G067_2009 and next submission; cloud tasks never cancelled; existing ledgers reused",
+  "recipe_or_bundle_changed": false
+}

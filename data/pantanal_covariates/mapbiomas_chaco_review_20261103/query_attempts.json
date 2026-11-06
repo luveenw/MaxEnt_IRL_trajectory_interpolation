@@ -1,0 +1,9 @@
+{
+  "failed_initial_request": {
+    "group": "G115",
+    "year": 2005,
+    "reason": "reduceRegion toList(6) counted14868 inputbandpixels; maxPixels10000 too low",
+    "remedy": "pin maxPixels to output_cells times6, preserving exact targetgrid and bestEffortFalse",
+    "eecu_seconds": null
+  }
+}

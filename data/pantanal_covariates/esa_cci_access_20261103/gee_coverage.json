@@ -1,0 +1,155 @@
+{
+  "asset": "users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2022",
+  "pilot_year": 2005,
+  "required_spring_bands": [
+    "y2005",
+    "y2006",
+    "y2008",
+    "y2009",
+    "y2010",
+    "y2011",
+    "y2012",
+    "y2013",
+    "y2014",
+    "y2015"
+  ],
+  "available_bands": [
+    "y1992",
+    "y1993",
+    "y1994",
+    "y1995",
+    "y1996",
+    "y1997",
+    "y1998",
+    "y1999",
+    "y2000",
+    "y2001",
+    "y2002",
+    "y2003",
+    "y2004",
+    "y2005",
+    "y2006",
+    "y2007",
+    "y2008",
+    "y2009",
+    "y2010",
+    "y2011",
+    "y2012",
+    "y2013",
+    "y2014",
+    "y2015",
+    "y2016",
+    "y2017",
+    "y2018",
+    "y2019",
+    "y2020",
+    "y2021",
+    "y2022"
+  ],
+  "groups": {
+    "G050": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.03257819944645101,
+      "shrub_fraction_min": 0
+    },
+    "G057": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.24923291423359734,
+      "shrub_fraction_min": 0
+    },
+    "G067": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.10228120616537263,
+      "shrub_fraction_min": 0
+    },
+    "G078": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.10803427132672021,
+      "shrub_fraction_min": 0
+    },
+    "G090": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.0930934173947335,
+      "shrub_fraction_min": 0
+    },
+    "G115": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.04553556202856192,
+      "shrub_fraction_min": 0
+    },
+    "G203": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.13295688570646552,
+      "shrub_fraction_min": 0
+    },
+    "G225": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.2994833133383677,
+      "shrub_fraction_min": 0
+    },
+    "G272": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.3258545824444203,
+      "shrub_fraction_min": 0
+    },
+    "G286": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.017344100216682392,
+      "shrub_fraction_min": 0
+    },
+    "G312": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.04415751831461022,
+      "shrub_fraction_min": 0
+    },
+    "G315": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.13980459574155846,
+      "shrub_fraction_min": 0
+    },
+    "G316": {
+      "coverage_max": 1,
+      "coverage_mean": 1,
+      "coverage_min": 1,
+      "shrub_fraction_max": 1,
+      "shrub_fraction_mean": 0.10826809606735116,
+      "shrub_fraction_min": 0
+    }
+  }
+}

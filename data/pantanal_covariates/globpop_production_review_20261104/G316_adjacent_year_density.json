@@ -1,0 +1,52 @@
+{
+  "2009": {
+    "type": "FeatureCollection",
+    "columns": {},
+    "properties": {
+      "band_order": [
+        "b1"
+      ]
+    },
+    "features": []
+  },
+  "2010": {
+    "type": "FeatureCollection",
+    "columns": {},
+    "properties": {
+      "band_order": [
+        "b1"
+      ]
+    },
+    "features": []
+  },
+  "2011": {
+    "type": "FeatureCollection",
+    "columns": {},
+    "properties": {
+      "band_order": [
+        "b1"
+      ]
+    },
+    "features": []
+  },
+  "2012": {
+    "type": "FeatureCollection",
+    "columns": {},
+    "properties": {
+      "band_order": [
+        "b1"
+      ]
+    },
+    "features": []
+  },
+  "2013": {
+    "type": "FeatureCollection",
+    "columns": {},
+    "properties": {
+      "band_order": [
+        "b1"
+      ]
+    },
+    "features": []
+  }
+}

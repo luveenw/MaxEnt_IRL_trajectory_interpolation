@@ -1,0 +1,33 @@
+{
+  "schema": "pantanal_wooded_cover_source_decision/1",
+  "date": "2026-11-03",
+  "status": "Completed all24Springcandidatepairs2026-11-04; verified24arrays24TIFFs100402cells; split-independent; no binding/fitting.",
+  "source_family": "MapBiomas annual land-cover classifications",
+  "geography": "Pantanal study domains across Brazil, Paraguay and Bolivia",
+  "geographic_portability": "Revisit source choice before extending to a geography without MapBiomas coverage; explicitly review spatial/temporal/legend compatibility and version any replacement.",
+  "predictor_meaning": "Forest/savanna classified-area fraction (classes 3/4), excluding separately mapped flooded woody classes 6/7; not continuous canopy closure or all wooded habitat.",
+  "codes_status": "User explicitly chose Keep only 3 and 4 after considering inclusion of 6/7. Collection-specific descriptions verified in recipe review.",
+  "spatial_treatment": "Native categorical indicators then overlap-area-weighted mean on exact checkpoint500m EPSG32721 cells; no extra smoothing.",
+  "units": "classified area fraction0\u20131",
+  "temporal_treatment": "Representative annual map applied throughout Spring Aug15\u2013Nov14 as a static seasonal approximation; does not resolve within-season change.",
+  "year_policy": "2026-11-04: cache all applicable candidate years; plan train/test context separately using respective split metadata. Planner records/skips maps absent from the requested split. Test context never changes training years or weights. Evaluator separate binding support remains unimplemented.",
+  "supersedes": "Unexecuted Hansen treecover2000 proposal and static-baseline temporal question",
+  "collection_review": "Completed Spring24pair mask audit plus97nativegapcenters: retain Brazil > Paraguay > Bolivia plus Chaco26 gap-only and existing G3162011 approved temporal consensus. Chaco or Brazil+Chaco would leave42.9449%ofG115 uncovered; Chaco lacksG316pixel. No re-extraction justified by coverage.",
+  "accuracy_caveat": "User motivated by regional suitability; no comparative local classification-accuracy validation performed.",
+  "existing_data_policy": "Retain Spring candidate caches and historical repair provenance; do not relabel or overwrite.",
+  "research_agents": [
+    "chaco_collection_review",
+    "hansen_tree_cover_extract"
+  ],
+  "coverage_evidence": "data/pantanal_covariates/mapbiomas_chaco_review_20261103/coverage_summary.json",
+  "selected_codes": [
+    3,
+    4
+  ],
+  "excluded_flooded_woody_codes": [
+    6,
+    7
+  ],
+  "interpretation_limitations": "Classes 3/4 include tree/shrub mixtures, without a >5 m height threshold. Transitions into excluded 6/7 may change this predictor without canopy loss; no flood-transition correction or cross-border accuracy validation is claimed.",
+  "verification": "data/pantanal_covariates/spring_mapbiomas_wooded_cover_v1/verification.json"
+}

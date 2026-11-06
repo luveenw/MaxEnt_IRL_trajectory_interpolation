@@ -1,0 +1,689 @@
+                                                                                      Descripción de las clases de cobertura y uso del suelo utilizadas en la
+                                                                                                Leyenda de la Colección 4 de MapBiomas Bolivia
+
+   Clase Nivel 1     Clase Nivel 2            Región                                 Descripción                                    Clases FAO***   Clase IPCC****    Google Earth      Imagen Landsat             Foto
+
+                                                       En la región Amazonía Alta, corresponde a una formación vegetal            FEP, FEM, FEY,    FNM, FSEC, CS ID03_AmazoniaAlt ID03_AmazoniaAlta ID03_AmazoniaAlta
+                                                       dominada por fisionomías boscosas y siempreverde, que se distribuyen FSP, FSM, FSY                            a_Bosque_Google    _Bosque_Landsat     _Bosque_Paisaje
+                                                                                                                                                                     Earth
+                                                       generalmente por encima de 1.000 m de altitud hasta poco más de
+                                                       4.000 m, ocupando principalmente la porción oriental de los Andes
+                                                       tropicales. Incluye también los bosques yungueños.
+                                     Amazonía
+                                                       En la región Amazonía Baja, está conformado principalmente por             FEP, FEM, FEY,    FNM, FSEC, CS ID03_AmazoniaBaj ID03_AmazoniaBaja ID03_AmazoniaBaja
+                                                       bosque húmedo casi siempreverde (30-45m), siempreverde (30-35m),           FSP, FSM, FSY                      a_Bosque_Google    _Bosque_Landsat_ _Bosque_Paisaje_d
+                                                                                                                                                                     Earth_dl           dl               l
+                                                       bosques siempreverdes en transición hacia bosques semideciduos
+                                                       estacionales del Bosque Seco Chiquitano (>25 (30) m), bosque de galería
+                                                       e Islas de bosque.
+                                                       Bosques secos interandinos y bosques de Polylepis. Los primeros se         FEP, FEM,         FNM, FSec, CS ID03_Andes_Bosq ID03_Andes_Bosqu ID03_Andes_Bosqu
+                                                                                                                                  FEY, FSP,                          ue_GoogleEarth     e_Landsat           e_Paisaje_dl
+                                                       distribuyen entre los 1.000 y 3.000 m de altitud, ocupando valles y
+                                                       partes bajas de laderas. Incluyen bosques bajos, deciduos y espinosos,     FSM, FSY
+                                                       con dosel arbóreo arbustivo de 3 a 5 m de altura y cactus columnares de
+                                     Andes             hasta 10 m; y bosques semideciduos, con dosel arbóreo de 10 a 15 m.
+                                                       Por otro lado, los bosques de Polylepis (kewiñales), son dominados por
+                                                       diversas especies de este género, los cuales se distribuyen por encima
+                                                       de los 2.500 m de altitud formando manchas dispersas en medio de un
+                                                       paisaje dominado por fisionomías campestres.
+                                                       Bosques de Polylepis altimontanos siempreverdes estacionales,              FEP, FEM, FEY,    FNM              ID03_Valles_bosqu ID03_Valles_bosqu ID03_Valles_bosqu
+                                     Valles                                                                                                                          e_google_earth    e_landsat         e_paisaje
+                                                       distribuidos entre los 2.400-3.900 m de altitud.                           FSP, FSM, FSY
+                                                                                                                                                                     ID03_Tucumano_B ID03_Tucumano_B ID03_Tucumano_B
+                                                       Bosques que cambian en estructura, composición y periodicidad según FEP, FEM, FEY,           FNM
+                                                                                                                                                                     osque_GoogleEart osque_Landsat  osque_Paisaje
+                                                       su distribución altitudinal en los andes tropicales (entre los 800 y 3.500 FSP, FSM, FSY                      h
+                   1.1 Bosque                          msnm). Generalmente, por debajo de 2.000 m de altitud es de tipo
+                                     Tucumano-         semideciduo, con dosel arbóreo distribuido entre 15 y 20 m de altura, y
+                                     Boliviano         árboles emergentes que alcanzan poco más de 25 m. Por encima de los
+                                                       2.000 m de altitud los bosques son húmedos y siempreverdes, gracias a
+                                                       los vientos alisios. Los árboles conforman un dosel distribuido entre los
+                                                       20 y 25 m de altura, con emergentes que alcanzan hasta 30 m.
+                                                       El bosque chaqueño se distribuye en la sur del país y es generalmente       FDP, FDM, FDY, FSP,
+                                                                                                                                                    FNMFSM, FSY      ID03_Chaco_Bosq ID03_Chaco_Bosqu ID03_Chaco_Bosqu
+                                                                                                                                                                     ue_GoogleEarth  e_Landsat        e_Paisaje
+                                                       deciduo, microfoliado y espinoso. Posee un dosel arbóreo arbustivo de
+                                                       entre 3 a 5 m de altura, con emergentes que llegan a sobrepasar los 10
+                                     Chaco             m, siendo frecuente la presencia de cactus columnares. El bosque
+                                                       chaqueño se desarrolla sobre sedimentos de origen reciente en suelos
+                                                       rojos bien drenados con afloramiento rocoso, caracterizado por árboles
+                                                       de madera dura, cuyas hojas se desprenden durante la estación seca.
+1. Formación                                           Los bosques en este bioma se caracterizan por la presencia de               FDP, FDM, FDY, FSP,
+                                                                                                                                                    FNMFSM, FSY      ID03_Chiquitano_B ID03_Chiquitano_B ID03_Chiquitano_B
+boscosa                                                                                                                                                              osque_GoogleEart osque_Landsat      osque_Paisaje
+                                                       numerosas plantas suculentas, en su mayoría espinosas, el dosel es
+                                                                                                                                                                     h
+                                                       continuo y bajo con especies emergentes aisladas, cuya composición
+                                     Chiquitano        florística y estructura varía según las condiciones edáficas y
+                                                       topográficas. El Bosque medianamente alto semideciduo con árboles
+                                                       de entre 15-25 m de altura, que forman un mosaico complejo con otras
+                                                       ecoregiones como el Cerrado y las Sabanas Inundables.
+                                                       Presenta bosques densos a semiabiertos y sabanas arboladas                  FEP, FSP         FNM              ID03_Pantanal_Bo ID03_Pantanal_Bos ID03_Pantanal_Bos
+                                                       hidrofílicas (6-10 m). Se caracterizan por ser pluviestacionales                                              sque_GoogleEarth que_Landsat       que_Paisaje
+
+                                     Pantanal          semideciduos. Bosques chiquitanos bajos, Bosques chiquitano
+                                                       transicional al Pantanal, y Bosques subhúmedos de suelos bien
+                                                       drenados.
+                                      Amazonía,        Áreas con vegetación natural formada por árboles, arbustos o una            FMN,FM           FMN, FM          ID04_Bosque_Abie ID04_Bosque_Abier ID04_Bosque_Abier
+                                                                                                                                                                     rto_GoogleEarth  to_Landsat        to_Paisaje
+                   1.2 Bosque abierto Chiquitano       mezcla de ambos, con una cobertura entra 20 y 65%.
+                                                                                                                                                   FNM, FSec, CS ID06_Amazonía_B ID06_Amazonía_Bo ID06_Amazonía_Bo
+                                                                                                                                   FEP, FEM, FEY, WW
+                                                       Bosques amazónicos de inundación, bosques de várzea y con una                                                 osqueInundable_G squeInundable_Lan squeInundable_Pais
+                                                       comunidad de plantas que por lo regular se inundan durante                                                    oogle_Earth.png  dsat.png          aje.png
+                                                       aproximadamente dos meses al año y bosques de igapó que se inundan
+                                     Amazonía          por períodos de cinco a seis meses, dependiendo de la geografía local.
+                                                       Bosque Amazónico de inundación, bosques de várzea (inundados por
+                                                       aguas blancas, ricas en sedimentos y minerales) y bosques de igapó
+                                                       (inundados por aguas negras, ricas en materia orgánica.
+
+                                                       Bosque chaqueños que suelen inundarse se encuentran a lo largo de los FDP, FDM, FDY, FSP,
+                                                                                                                                               FNMFSM, FSY    ID6_Chaco_google ID6_Chaco_landsat ID6_Chaco_Paisaje
+                                                                                                                                                              _earth
+                                                       ríos, en la llanura Chaqueña en el paisaje de bajada y las llanuras
+                                     Chaco
+                                                       aluviales (antigua, del Parapetí y de inundación), los suelos son
+                   1.3 Bosque                          profundos, moderados y bien desarrollados.
+                   inundable                           Se desarrolla en el lecho fluvial y llanura de inundación de arroyos   FEP, FSP         FNM, FSec, CS ID06_Bosque_Inun ID06_Bosque_Inun ID06_Bosque_Inun
+                                                                                                                                                              dable_Chiquitano_ dable_Chiquitano_L dable_Chiquitano_
+                                                       estacionales en la zona de transición entre el noreste del Chaco y la
+                                                                                                                                                              google_earth      andsat             Paisaje
+                                                       Chiquitania y Bosque anegable estacionalmente por aguas estancadas
+                                     Chiquitano
+                                                       de la transición Chaco-Chiquitania. Bosque bajo, con dosel denso de 6-
+                                                       8 m. de altura, y emergentes de 10-12 m, que se desarrolla en las
+                                                       depresiones someras.
+                                                                                                                              FDP, FEP, FSP, FEM,
+                                                                                                                                               FNM,
+                                                                                                                                                  FDM,
+                                                                                                                                                    FM,  FSec ID06_Bosque_Inun ID06_Bosque_Inun ID06_Bosque_Inun
+                                                                                                                                                       FSM
+                                                       El bosque inundable del Pantanal boliviano está compuesto por                                          dable_Pantanal_go dable_Pantanal_La dable_Pantanal_Pai
+                                                       especies adaptadas a largos períodos de inundación estacional. Este                                    ogle_earth        ndsat              saje
+                                     Pantanal          ecosistema es fundamental para la regulación hídrica, el mantenimiento
+                                                       de la biodiversidad. La dinámica de inundación favorece procesos
+                                                       ecológicos esenciales como la dispersión de semillas.
+
+                                                       Cobertura vegetal ubicada en la llanura aluvial inundable, como          WW, OM              GNM, GM,         ID11_Amazonía_FN ID11_Amazonía_FN      ID11_Amazonía_FN
+                                                                                                                                                                     NF_Inundable_Goo NF_Inundable_Lan      NF_Inundable_Pais
+                                                       herbazales y sabanas hidrofíticas, los cuales se inundan por un largo
+                                                                                                                                                                     gle_Earth.png    dsat.png              aje.png
+                                     Amazonía          periodo del año. Grupo de bosques caducifolios que se desarrolla sobre
+                                                       suelos arcillosos o limosos, con mal drenaje estacionalmente inundados
+                                                       en valles fluviales, los cuales se inundan por un largo periodo del año.
+                                                       Áreas con presencia de bofedales planos y/o almohadillados de la puna OG                     GNM, GM,         ID11_Valles_google ID11_Valles_Landsat ID11_Valles_Paisaje
+                                     Andes, Valles     húmeda, pluviestacionales localizados cerca de cuerpos de agua.                                               earth
+
+                                                       Vegetación acuática en aguas poco profundas.
+                                                       Las inundaciones son ocasionadas por el desborde de los ríos que         OG                  GNM, GM,         ID11_Tucumano_go ID11_Tucumano_lan ID11_Tucumano_Pai
+                                                       forman mazamorras creando un efecto de represamiento afectando a la                                           ogle_earth       dsat              saje
+                                     Tucumano-
+                                                       vegetación y/o posibles deslizamientos. En algunas zonas generan
+                                     Boliviano
+                                                       humedad del suelo que son aprovechadas por los agricultores para
+                                                       formar atajados.
+                                                       Las inundaciones no son muy frecuentes, ocurren cada ocho o diez         OG                  GNM, GM,         ID11_FNNF_Chaco    ID11_FNNF_Chaco_ ID11_FNNF_Chaco_
+                   2.1                                                                                                                                               _Google_earth      Landsat          Paisaje
+                   Herbazal/arbustal Chaco             años. Las zonas más afectadas son las que están ubicadas en los
+                   inundable                           paisajes de pie de monte, de bajada y las laderas de los ríos.
+                                                       Vegetación que se desarrolla sobre suelos hidromórfìcos pesados,         OM                  GMN, GM          ID11_Chiquitano_F ID11_Chiquitano_FN ID11_Chiquitano_FN
+                                                       arcillosos o limosos, con mal drenaje interno hasta estacionalmente                                           NNF_Inundable_G NF_Inundable_Lan NF_Inundable_Pais
+                                                                                                                                                                     oogle_Earth.png   dsat.png           aje.png
+                                                       inundados, en llanuras aluviales y valles fluviales. Compuesta por
+                                     Chiquitano
+                                                       sabanas hidrofíticas con montículos del Cerrado en la Chiquitanía
+                                                       (Pampas- termitero), distribuida en las zonas meridionales y orientales,
+                                                       que se inundan temporalmente en grado variable según la topografía.
+                                                       Vegetación herbácea con predominio de gramíneas sujetas a                OM                  GNM, GM, GSec ID11_Pantanal_FNN ID11_Pantanal_FNN ID11_Pantanal_FNN
+                                                       inundaciones permanentes o temporales (al menos una vez al año)                                               F_Inundable_Goog F_Inundable_Lands F_Inundable_Paisaj
+                                                                                                                                                                     le_Earth.PNG     at.PNG            e.png
+                                                       según los pulsos naturales de inundación. Las áreas pantanosas
+                                                       generalmente ocurren en los márgenes de lagos temporales o
+                                     Pantanal
+                                                       permanentes ocupados por plantas acuáticas emergentes, sumergidas
+                                                       o flotantes (por ejemplo, curichis y pantanos). Área de inundación
+                                                       frecuente y estacional (3-4 meses). Presenta vegetación herbazal,
+                                                       gramíneas y sabanas herbáceas.
+                                                         Sabanas con gramíneas, ciperáceas y arbustos dispersos, sabanas de        WG, OG, WS    GNM, GM, GSec ID12_Amazonía_Fo ID12_Amazonía_For ID12_Amazonía_For
+                                                                                                                                                                  rmaciónCampestre maciónCampestre_ maciónCampestre_
+                                                         tipo cerrado con pajonales altos y en las cimas de las serranías en zonas                                _Google_Earth.png Landsat.png     Paisaje.png
+                                     Amazonía            con suelos poco profundos. Están presentes en zonas por encima de los
+                                                         >3.000 m.s.n.m. Aparecen en zonas con suelos poco profundos (cimas
+                                                         de serranías).
+                                                         Áreas con vegetación arbustal subhúmedo montano y herbazal                 WG, OG       GNM, GM, GSec ID12_Valles_Camp ID12_Valles_Campe ID12_Valles_Campe
+                                     Andes, Valles                                                                                                                estre_google_eart   stre_landsat        stre_Paisaje
+                                                         presentes mayor al 65% y de manera dispersa tholares y matorrales.
+                                                                                                                                                                  h
+                                                         Pajonales arbustales y matorrales pluviestacionales montanos boliviano- WG, OG, WS      GNM, GM, GSec ID12_TucumanpBol ID12_TucumanpBoli ID12_TucumanpBoli
+                                                                                                                                                                  iviano_FormaciónC viano_FormaciónCa viano_FormaciónCa
+                                     Tucumano-           Tucumanos. Pajonal subhúmedo montano boliviano-tucumano sobre                                            ampestre_Google_ mpestre_Landsat.p mpestre_Paisaje.pn
+                                     Boliviano           suelos bien drenados. Pajonales y arbustales xerofíticos; compuesta por                                  Earth.png         ng                g
+                                                         matorrales y pajonales (Pajonal de Ichu) abiertos.
+                2.2
+                Herbazal/arbustal                        Se desarrolla en formaciones vegetales de climas extremadamente            WG, OG, OP   GNM, GM, GSec ID12_Campestre_C ID12_Campestre_C ID12_Campestre_C
+                                                                                                                                                                  haco_Google_eart haco_Landsat           haco_Paisaje
+                                                         xéricos denominados sabana y que presentan elementos arbustivos y
+                                     Chaco                                                                                                                        h
+                                                         arbóreos que no se desarrollan, sobre una capa continua de hierbas y/o
+                                                         están dominadas por gramíneas.
+                                                         Compuesta principalmente por especies herbáceas y sabanas                  WG, OG, WS   GNM, GM, GSec ID12_Chiquitano_F ID12_Chiquitano_Fo ID12_Chiquitano_Fo
+                                                         arbustivas abiertas. El estrato gramíneo-herbáceo forma una capa                                         ormaciónCampestr rmaciónCampestre       rmaciónCampestre
+                                                                                                                                                                  e_Google_Earth.pn _Landsat.png          _Paisaje.png
+                                     Chiquitano          continua que generalmente no supera los 1 m de altura. Chaparrales                                       g
+                                                         esclerófilos y sabanas arboladas de la Chiquitania sobre suelos bien
+                                                         drenados.
+                                                         Vegetación con predominio de estratos herbáceos, con presencia de          WG, OG, OX   GNM, GM, GSec ID12_Pantanal_For ID12_Pantanal_For  ID12_Pantanal_For
+                                                                                                                                                                  maciónCampestre_ maciónCampestre_ maciónCampestre_
+                                     Pantanal            arbustos aislados y árboles leñosos raquíticos. La composición botánica                                  Google_Earth.png Landsat.png      Paisaje.png
+                                                         está influenciada por gradientes edáficos y topográficos.
+                                                         Existen afloraciones rocosas que corresponde al Paleozoico,                Ar           OX               ID29_Afloramiento ID29_AfloramientoR ID29_AfloramientoR
+                                                         normalmente esta clase presenta roca consolidada, afloramientos y                                        Rocoso_Amazonia ocoso_Amazonia_l ocoso_Amazonia_P
+                                                                                                                                                                  _google_earthxx   andsat             aisaje
+                                                         sedimentos rocosos arrastrados principalmente por el hielo. Sin
+                                     Amazonía            embargo, existen inclusiones donde existe acumulación coluvial de
+                                                         suelo, desarrollándose bajo condiciones de muy baja temperatura y
+                                                         buena humedad que se encuentra de forma más frecuente en la parte
+                                                         alta (Montañas medias).
+                                                                                                                                    Ar           OX               ID29_Andes_Aflora ID29_Andes_Aflora ID29_Afloramiento_
+                                     Andes               Áreas formadas principalmente por rocas expuestas con poca o nula                                        miento_rocoso_Go miento_rocoso_Lan rocoso_Paisaje
+                                                                                                                                                                  ogleEarth          dsat
+                                                         vegetación que puede ser saxícola y/o rupícola. Se localiza en áreas con                                 ID29_Valles_Aflora ID29_Valles_Aflora ID29_Valles_Aflora
+                                     Valles              pendientes.                                                                                              mientorocoso_goo mientorocoso_Land mientorocoso_Pais
+                2.3 Afloramiento                                                                                                                                  gle Earth.png      sat.png            aje.png
+                Rocoso                                   Áreas con poca o nula vegetación, presente en terreno ondulado y           Ar           OX               D29_Tucumano_Af D29_Tucumano_Afl D29_Tucumano_Afl
+                                     Tucumano-                                                                                                                    loramiento_google oramiento_imagem oramiento_Paisaje
+                                                         fuertemente erosionado, se ha formado a partir de diversas rocas
+                                     Boliviano
+                                                         graníticas y metamórficas. Puede incluir roca expuesta.
+                                                         Los afloramientos rocosos en el Chaco boliviano son áreas expuestas de Ar               OX               ID29_Chaco_Googl ID29_Chaco_landsa ID29_Chaco_Paisaj
+                                                                                                                                                                  e_earth          t                 e
+                                                         roca sedimentaria que influyen en el paisaje, la hidrología y la
+                                     Chaco
+                                                         biodiversidad. Representan zonas con baja capacidad agrícola y sirven
+                                                         como refugio para especies adaptadas a ambientes áridos.
+                                                                                                                                Ar               OX               ID29_Chiquitano_G ID29_Chiquitano_la ID29_Chiquitano_P
+                                                         Presenta superficies con afloramiento rocoso o laderas abruptas muy
+                                                                                                                                                                  oogle_earth       ndsat              aisaje
+                                                         pedregosas. El terreno ondulado y fuertemente erosionado (Serranía de
+                                     Chiquitano
+                                                         Santiago de Chiquitos), se ha formado a partir de diversas rocas
+                                                         graníticas y metamórficas.
+                                                                                                                                    WS, WG       GNM              ID66_Amazonía_M ID66_Amazonía_Ma ID66_Amazonía_Ma
+                                                         Áreas conformadas por varias comunidades de arbustales bajos
+                                                                                                                                                                  atorral_GoogleEart torral_Landsat torral_Paisaje
+                                                         (tholares) abiertos y/o semicerrados; que alcanzan una altura entre 1-                                   h
+                                     Amazonía
+                                                         1.5m. Se desarrollan en superficies de piedemonte, topografías planas
+2. Herbazal y                                            y/o terrazas fluviales.
+arbustal                                                                                                                                                          ID66_Matorral_Go    ID66_Matorral_Lan   ID66_Matorral_Pais
+                                                         Los matorrales se desarrollan en regiones altoandinas, por encima de     WS, WG, OG     GNM
+                                                                                                                                                                  ogleEarth           dsat                aje
+                                                         los 3.000 m.s.n.m. Este tipo de vegetación se caracteriza por arbustos
+                                                         resistentes a condiciones climáticas extremas, como bajas
+                                     Andes               temperaturas, alta radiación solar y suelos pobres en nutrientes; cumple
+                                                         funciones ecológicas importantes como la protección del suelo frente a
+                                                         la erosión y el mantenimiento de la biodiversidad adaptada a ambientes
+                                                         áridos y fríos.
+                2.4 Matorral                                                                                                      WS, WG, OG     GNM              ID66_Matorral_Go    ID66_Matorral_Lan   ID66_Matorral_Pais
+                                                         En los valles interandinos de Bolivia, los matorrales son formaciones
+                                                                                                                                                                  ogleEarth           dsat                aje
+                                                         vegetales típicas de zonas semiáridas, entre los 1.800 y 3.200 m s.n.m.,
+                                                         en suelos poco profundos y erosionados. Están compuestos por
+                                     Valles
+                                                         arbustos bajos y dispersos, como Dodonaea viscosa, Baccharis, Mimosa,
+                                                         Parastrephia y Acacia, adaptados a climas secos con alta amplitud
+                                                         térmica.
+                                                                                                                                    WS, WG, OG   GNM              ID66_Matorral_Go    ID66_Matorral_Lan   ID66_Matorral_Pais
+                                                         En estas regiones, los matorrales están dominados por arbustos bajos y
+                                                                                                                                                                  ogleEarth           dsat                aje
+                                                         dispersos, como Baccharis, Parastrephia y Acantholippia, y están
+                                     Tucumano-           presente junto a los cardonales, que se caracterizan por la presencia de
+                                     Boliviano           cactáceas columnares, como el cardón (Trichocereus o Echinopsis),
+                                                         típicos de regiones pedregosas del altiplano seco y de zonas
+                                                         intermedias de Chuquisaca, Potosí y Tarija.
+                                                         Presenta predominio de arbustos xeromórficos y espinosos abiertos del WS                FLG              ID77_Arbustal_abie ID77_Arbustal_abie ID77_Arbustal_abie
+                                                                                                                                                                  rto_GoogleEarth    rto_Landsat        rto_Paisaje
+                2.5. Arbustal                            sur de Bolivia, incluida vegetación cactácea, gramínea y otras especies
+                                     Andes
+                abierto (Beta)                           herbáceas adaptadas a condiciones de déficit hídrico y ambientes
+                                                         áridos, destinados a la ganadería.
+                                                         Se desarrollan principalmente en ambientes áridos y fríos del Altiplano WS              N/A              ID63_Estepa_Goog ID63_Estepa_Lands ID63_Estepa_Paisaj
+                                                                                                                                                                  leEarth          at                e
+                                                         boliviano, generalmente por encima de los 3.200 msnm. Presentan
+                                                         cobertura vegetal abierta a moderada, alternada con áreas de suelo
+                2.6. Estepa (Beta)   Andes
+                                                         desnudo, afloramientos rocosos y localmente superficies salinas, con
+                                                         presencia de tolares utilizados principalmente para pastoreo de
+                                                         camélidos y ovinos.
+                                                                                                                                                              ID81_Pajonal_y_ar ID81_Pajonal_y_arb ID81_Pajonal_y_arb
+                                                         Los herbazales y arbustales andinos son coberturas vegetales típicas de WG, OG          GNM, GM,GSec, A
+                                                                                                                                                                  bustal_andino_Go    ustal_andino_Lands ustal_andino_Paisaj
+                                                         las zonas altoandinas que generalmente se encuentran por encima de la                                    ogle_Earth          at                 e
+                                                         línea de bosques y la transición entre ambas coberturas depende de las
+                                     Amazonía, Valles,
+                                                         condiciones locales. Es un complejo mosaico de herbazales y arbustales
+                                     Tucumano-
+                                                         que varía ampliamente en su fisionomía, composición florística y
+                                     Boliviano
+                2.7. Pajonal y                           presentan alto endemismo. Suele estar conformado por diversidad de
+                arbustal andino                          formas de crecimiento. Estas áreas están restringidas a los Andes y
+                                                         están sometidas a un conjunto de amenazas antrópicas.
+                                                         Pajonales altoandinos de la Puna húmeda distribuidos en diferentes         WG, OG       GNM, GM, GSec ID81_Pajonales_alt ID81_Pajonales_alto ID81_Pajonales_alto
+                                                                                                                                                                  oandinos_Andes_G andinos_Andes_Lan andinos_Andes_Pai
+                                                         tipos de suelos desde húmedos a erosionados. Se presenta en zonas                                        oogle_Earth      dsat.jpg          saje
+                                     Andes
+                                                         >3.000 m.s.n.m. En la zona sur pajonales y matorrales altoandinos de la
+                                                         Puna Xerofítica sur. Áreas con pajonales con pastoreo de camélidos.
+                                                         Es un tipo de cobertura herbácea y arbustiva que se asociada a tres        OM           GNM, GM,GSec ID82_Pajonal_y_ar ID82_Pajonal_y_ar ID82_Pajonal_y_ar
+                                                                                                                                                                  bustal_andino_inu bustal_andino_inun bustal_andino_inun
+                                                         tipos de sistemas de agua dulce: lacustre, palustre, y fluviales con                                     ndable_Google_Ea dable_Landsat       dable_Paisaje
+                                                         cobertura de hierbas y /o arbustos, planicies aluviales y en general                                     rth
+                                     Amazonía, Valles
+                                                         zonas riparias inundables. Generalmente, comparten el mismo piso
+                2.8 Pajonal y                            altitudinal de herbazal/arbustal andino; estos ecosistemas presentan
+                arbustal andino                          una alta diversidad y endemismo.
+                inundable                                Bofedal altoandino de la Puna Xerofítica inundado por las aguas            OM           GNM, GM,         ID82_Pajonal_y_ar ID82_Pajonal_y_ar ID82_Pajonal_y_ar
+                                                                                                                                                                  bustal_andino_inu bustal_andino_inun bustal_andino_inun
+                                                         mineralizadas. Se localizan en las depresiones topográficas, cerca de                                    ndable_Google_Ea dable_Landsat       dable_Paisaje
+                                     Andes               cuerpos de agua o de fenómenos de deshielo, típico de las altas                                          rth
+                                                         montañas tropicales. Su forma es plana o en forma de cojines
+                                                         almohadillados, se presenta a una altura >3.000 m.s.n.m.
+                                                         Arbustales, chaparrales presentes en la región de Amazonía alta, con      WS, WG, OG    GNM              ID13_Amazonía_Ot ID13_Amazonía_Otr ID13_Amazonía_Otr
+                                                                                                                                                                  raFNNF_Google_E aFNNF_Landsat.pn aFNNF_Paisaje.png
+                                     Amazonía            varios pisos altitudinales y diferentes tipos de vegetación siempreverde,
+                                                                                                                                                                  arth.png         g
+                                                         generalmente <3.000 m.s.n.m.
+                                                                                                                                       WS, WG        GNM     ID13_Andes_OtraF ID13_Andes_OtraFN ID13_Andes_OtraFN
+                                                          En esta región la fisionomía dominante corresponde a matorrales o                                  NNF_GoogleEarth NF_Landsat         NF_Paisaje
+                                                          arbustos los cuales crecen generalmente por debajo de los 3.000 m de
+                                                          altitud. Matorrales y pajonales altimontanos de la Puna y Altiplano
+                                      Andes
+                                                          xerofíticos sobre suelos bien drenados con barbechos y prados
+                                                          extensos. Constituido principalmente por matorrales xeromórficos con
+                                                          gramíneas y cactáceas.
+                                                                                                                                       WG, OG        GNM     ID13_Valles_OtraF   ID13_Valles_OtraFN ID13_Valles_OtraFN
+                                                          Áreas conformadas por varias comunidades de arbustales bajos,
+                                      Valles                                                                                                                 NNF_GoogleEarth     NF_landsat         NF_Paisaje
+                                                          chaparrales cerrados y dispersos.
+                  2.9 Otra                                Presenta vegetación mixta de pajonal con presencia de matorrales o           WS, WG, OG    GNM     ID13_Tucumano_O ID13_Tucumano_Ot ID13_Tucumano_Ot
+                  formación natural Tucumano-             arbustos pequeños y vegetación saxícola altimontana. Se encuentran
+                                                                                                                                                             traFNNF_GoogleEa raFNNF_Landsat  raFNNF_Paisaje
+                  no forestal                                                                                                                                rth
+                                    Boliviano             distribuidas por encima de los 2.800 – 3.000 m en las cimas de las
+                                                          serranías Boliviano-Tucumano y/o zonas con suelos poco profundos.
+                                                                                                                                       WG, OG        GNM     ID13_Chaco_OtraF ID13_Chaco_OtraFN ID13_Chaco_OtraFN
+                                                          Está conformado por chaparrales en suelos muy arenosos, donde las
+                                                                                                                                                             NNF_GoogleEarth NF_Landsat         NF_Paisaje_dl
+                                                          arenas han cubierto el suelo con sedimentos limosos y arcillosos,
+                                      Chaco
+                                                          depositados en las viejas llanuras aluviales. Sabanas arboladas de los
+                                                          arenales del chaco.
+                                                          Están conformados florísticamente por los chaparrales del Abayoy que, WS, WG, OG           GNM     ID13_Chiquitano_O ID13_Chiquitano_Ot ID13_Chiquitano_Ot
+                                                                                                                                                             traFNNF_GoogleEa raFNNF_Landsat      raFNNF_Paisaje
+                                                          en su mayoría comprende elementos amplios del Cerrado, seguido de                                  rth
+                                      Chiquitano,         algunos componentes florísticos del Gran Chaco, caracterizados por sus
+                                      Pantanal            suelos arenosos. Además, presenta arbustales, matorrales y bosques
+                                                          bajos con frecuentes bromeliáceas espinosas, cactáceas y helechos
+                                                          xeromórficos.
+                                                          Esta cobertura comprende las tierras ocupadas por pastizales naturales OP, OM, OG          Ap      Id15_Amazonia_Pa Id15_Amazonia_Pas Id15_Amazonia_Pas
+                                                                                                                                                             sto_GoogleEarth  to_Landsat        to_Paisaje
+                                                          donde son evidentes las prácticas de manejo ganadero y además de
+                                                          pasturas cultivadas (Brachiarias, Festuca, Sorgo forrajero, etc.) para
+                                      Amazonía
+                                                          ganadería. Los pastos plantados o alimento forrajero perenne tienen
+                                                          una duración de 4, 5 o más años, manteniendo el suelo cubierto todo el
+                                                          año.
+                                                                                                                                                             Id15_Andes_Pasto    Id15_Andes_Pasto_ Id15_Andes_Pasto_
+                                                          En la Puna Andina (> 4.000 metros de altura), se realiza la ganadería en OP, OG            Ap
+                                                                                                                                                             _GoogleEarth        Landsat           Paisaje
+                                                          pasturas naturales, que hacen uso de prácticas ancestrales adaptadas a
+                                                          sus objetivos de producción y al rudo medio natural, ganadería ovina,
+                                      Andes
+                                                          caprina, y vacuna. También presenta algunas pasturas cultivadas
+                                                          (Alfalfa, trébol, pasto ovillo, avena, cebada, etc.). Presenta patrones
+                                                          geométricos como efecto de la parcelación de los predios.
+                                                          La crianza de ganados se practica bajo un sistema de producción         OP, OG             Ap      Id15_Valles_Pasto_ Id15_Valles_Pasto_l Id15_Valles_Pasto_
+                                                          extensivo, donde la administración es familiar y siguiendo sistemas                                GoogleEarth        andsat              Paisaje
+
+                                                          tradicionales. Se practica una rotación de pastoreo, donde en las zonas                            Id15_Tucumano-    Id15_Tucumano-     Id15_Tucumano-
+                                      Valles, Tucumano-   altas y menos húmedas se pastorean en épocas de lluvia y las zonas                                 Boliviano_Pasto_G Boliviano_Pasto_La Boliviano_Pasto_Pa
+                                      Boliviano           bajas en época de sequía. Esta actividad se realiza generalmente en las                            oogleEarth        ndsat              isaje
+                                                          propiedades comunales, en el bosque o praderas. La disposición de las
+                                                          pasturas cultivadas generalmente es en parcelas de tamaño pequeños a
+                  3.1 Pasto
+                                                          medianos.
+                                                          En el Chaco boliviano se viene implementando una nueva forma de         OP, OG             Ap      Id15_Chaco_Pasto    Id15_Chaco_Pasto_ Id15_Chaco_Pasto_
+                                                                                                                                                             _GoogleEarth        Landsat           Paisaje
+                                                          explotación ganadera, caracterizada por un manejo semi-intensivo,
+                                                          denominada “ganadería comunitaria sostenible” o nueva ganadería, en
+                                                          comunidades donde el uso sostenible y racional del monte y agua son
+                                      Chaco               sus principales pilares, esto acompañado de un manejo riguroso del
+                                                          hato ganadero. Se caracteriza por la construcción de atajados para
+                                                          dotar agua al ganado por la escasez de forraje y agua en época seca.
+                                                          También presenta pasturas cultivadas como ser (festuca, brachiaria,
+                                                          raigras, etc.)
+                                                                                                                                  OP, OG             Ap      Id15_Chiquitano_P Id15_Chiquitano_Pa Id15_Chiquitano_Pa
+                                                          El bioma Chiquitano es históricamente un territorio con vocación
+                                                                                                                                                             asto_GoogleEarth sto_Landsat         sto_Paisaje
+                                                          pecuaria semi-extensiva o ganadera, esta zona se caracteriza por
+                                                          presentar pasturas sembradas y en menor proporción naturales. Se
+                                      Chiquitano
+                                                          practica la rotación de ganado debido a la carencia de agua. En la
+                                                          actualidad es una zona importante para la exportación de carne de res a
+                                                          mercados internacionales y consumo interno.
+                                                          Pasturas cultivadas (brachiarias, festuca, raigras, etc) y naturales, para OM              Ap      Id15_Pantanal_Past Id15_Pantanal_Past Id15_Pantanal_Past
+                                      Pantanal            alimento de ganado. Las pasturas sembradas son perennes y tiene una                                o_GoogleEarth      o_Landsat          o_Paisaje
+
+                                                          duración de 4 a 5 años.
+                                                          Áreas donde la cobertura original ha sido modificada o reemplazada por OCA, OCP, OCM       AC, S   Id18_Amazonia_Ag Id18_Amazonia_Agr Id18_Amazonia_Agr
+                                                          cultivos anuales, temporales y perennes. La producción agrícola se                                 ricultura_GoogleEa icultura_Landsat icultura_Paisaje
+                                                                                                                                                             rth
+                                                          desarrolla básicamente para consumo interno y se concentra en cultivo
+                                      Amazonía
+                                                          de arroz, cacao, caña panelera, fríjol, maíz, plátano, papaya, frutales
+                                                          (cítricos) y yuca. La variación de pisos altitudinales y de climas genera
+                                                          una diversidad de cultivos.
+                                                          Los cultivos transitorios se localizan en áreas ocupadas con cultivos      OX, OCM, OF     AC, S   Id18_Andes_Agricu Id18_Andes_Agricul Id18_Andes_Agricul
+                                                          cuyo ciclo vegetativo es menor a un año, llegando incluso a ser de sólo                            ltura_GoogleEarth tura_Landsat       tura_Paisaje
+
+                                                          unos pocos meses con la característica de que después de la cosecha es
+                                      Andes
+                                                          necesario volver a sembrar o plantar para seguir produciendo. Algunos
+                                                          cultivos que se siembran son frutales (cítricos), café, cultivos de coca,
+                                                          tubérculos (papa, oca, walusa), quinua, haba, entre otros.
+                                                          La producción agrícola se realiza mediante sistemas agroforestales con OCA, OW, OF         AC, S   ID18_Valles_Agricu ID18_Valles_Agricul ID18_Valles_Agricul
+                                                                                                                                                             ltura_GoogleEarth tura_Landsat         tura_Paisaje
+                                                          productos como la uva, durazno, manzana, etc. Estos cultivos se
+                                                          localizan generalmente en valles. Se maneja el enfoque de “territorio”
+                                      Valles, Tucumano-                                                                                                      Id18_Tucumano-    Id18_Tucumano-       Id18_Tucumano-
+                                                          para efectuar cultivos tradicionales dirigidos a la producción de                                  Boliviano_GoogleE Boliviano_Landsat    Boliviano_Paisaje
+                                      Boliviano
+                  3.2 Agricultura                         cereales, haba, arveja, maíz y hortalizas a secano y riego para                                    arth
+                                                          autoconsumo, así mismo los cultivos de hortalizas, tubérculos, cereales
+                                                          y frutales para la comercialización.
+                                                          Las comunidades indígenas guaranís cultivan principalmente maíz,             OF, OCA       AC, S   Id18_Chaco_Agricu Id18_Chaco_Agricul Id18_Chaco_Agricul
+                                                          kumanda, maní, y diversas hortalizas, considerando la aridez de la                                 ltura_GoogleEarth tura_Landsat       tura_Paisaje
+
+                                                          región y los efectos del cambio climático se han generado ciertas
+                                                          prácticas que buscan la sostenibilidad de su vida en esta región árida
+                                      Chaco
+                                                          del chaco y asegurar su producción agrícola. La soja y el maíz
+                                                          genéticamente modificados tienen como característica que son
+                                                          resistentes a la sequía, al igual que el girasol, el secreto que permitió
+                                                          cultivar en estas tierras.
+                                                                                                                                       OCM, OF, OP   AC, S   Id18_Chiquitano_A Id18_Chiquitano_Ag Id18_Chiquitano_Ag
+                                                          Tomando en cuenta como base la cobertura del tipo de bosque y las
+                                                                                                                                                             gricultura_GoogleE ricultura_Landsat ricultura_Paisaje
+                                                          áreas quemadas reportadas en los últimos años, se puede decir que la                               arth
+                                                          ampliación de la frontera agrícola es significativa, principalmente para
+                                      Chiquitano
+                                                          el cultivo de grandes extensiones de Soya en verano, y en invierno
+                                                          predominan cultivos de girasol, sorgo, trigo, maíz, arroz y chía. Cultivos
+                                                          con una extensión menor son yuca, fréjol, plátano, guineo y cítricos.
+                                                          El cultivo de soya constituye una de las principales dinámicas                                     ID_39_Amazonia_     ID_39_Amazonia_S ID_39_Amazonia_S
+                                                          agroproductivas de Bolivia, destacando tanto por su impacto                                        Soya_GoogleEarth    oya_Landsat      oya_Paisaje
+                                      Amazonía
+                                                          económico como por su amplia extensión territorial. En el bioma
+                                                          Amazonía donde se desarrolla, esta actividad se ve favorecida por
+                                                                                                                                                             ID_39_Chiquitania ID_39_Chiquitania_ ID_39_Chiquitania_
+                                                          condiciones climáticas óptimas, como suelos fértiles, lluvias
+                                                                                                                                                             _Soya_GoogleEart Soya_Landsat        Soya_Paisaje
+                                                          estacionales y temperaturas cálidas. El sistema de producción es                                   h
+                                      Chiquitanía,        predominantemente mecanizado y tecnificado, con el uso de siembra
+                                      Pantanal            directa y rotación de cultivos. La campaña principal se lleva a cabo en
+3. Agropecuario                                           época de verano (noviembre a abril), y se complementa con una
+                                                          campaña de invierno (mayo a septiembre), destinada principalmente a
+
+
+
+
+                  3.2.1 Soya (Beta)                                                                                                    OCA AC        AC
+3. Agropecuario
+
+                                                            Abarca zonas de transición entre los valles interandinos y las tierras                            ID_39_Soya_Googl ID_39_Soya_Lands ID_39_Soya_Paisaj
+                                                            bajas del sur de Bolivia (Tarija, Chuquisaca y el sur de Santa Cruz), se                          eEarth           at               e
+                                                            encuentra en una fase incipiente pero en crecimiento. Esta área, con
+                                                            pendientes moderadas, suelos frágiles y alta diversidad ecológica, ha
+                  3.2.1 Soya (Beta)   Tucumano-             sido tradicionalmente dedicada a la agricultura de subsistencia y la     OCA AC           AC
+                                      Boliviano             ganadería. Las condiciones agroecológicas, como lluvias irregulares,
+                                                            altas temperaturas y riesgo de erosión, dificultan su expansión a gran
+                                                            escala, aunque ya se incorpora soya en sistemas de rotación con maíz o
+                                                            sorgo, utilizando producción mecanizada y semillas adaptadas al estrés
+                                                            hídrico.
+                                                                                                                                                              ID_39_Soya_Googl ID_39_Soya_Lands ID_39_Soya_Paisaj
+                                                            El cultivo de soya en el Chaco boliviano ha crecido en los últimos años,
+                                                                                                                                                              eEarth           at               e
+                                                            especialmente en el Chaco cruceño y chuquisaqueño, como estrategia
+                                                            para diversificar zonas ganaderas. A pesar de las condiciones
+                                                            agroecológicas limitadas, como baja precipitación y altas temperaturas,
+                                      Chaco                 se han implementado sistemas mecanizados y tecnologías adaptadas.
+                                                            El uso de variedades resistentes al estrés hídrico y prácticas de manejo
+                                                            sostenible del suelo y del agua hacen necesaria una planificación
+                                                            territorial adecuada para asegurar la sostenibilidad del cultivo en esta
+                                                            región vulnerable.
+                                                                                                                                     OCA              AC      ID_40_Arroz_inun ID_40_Arroz_inund ID_40_Arroz_inund
+                  3.2.2. Arroz        Amazonía,             Áreas cultivadas con arroz inundado, mediante sistemas de riego
+                                                                                                                                                              dado_GoogleEarth ado_Landsat       ado_Paisaje
+                  inundado (Beta)     Chiquitanía           controlado, durante el ciclo productivo de la campaña de verano.
+                                                            Áreas agrícolas donde la vegetación original ha sido reemplazada por     OCM, OCA, OCP Ac         ID72_Otro_cultivos ID72_Otros_cultivo ID72_Otros_cultivo
+                                                                                                                                                              _GoogleEarth       s_landsat          s_Paisaje
+                                                            cultivos anuales, temporales y perennes, destinados principalmente al
+                                      Amazonía              consumo interno. Predominan cultivos como arroz, maíz, yuca, frijol,
+                                                            plátano, papaya, cítricos, caña panelera y cacao, influenciados por la
+                                                            diversidad de climas y pisos altitudinales.
+                                                            Cultivos transitorios andinos: Se ubican en áreas donde se siembran       OX, OCM, OF             ID72_Otro_cultivos ID72_Otros_cultivo ID72_Otros_cultivo
+                                                                                                                                                              _GoogleEarth       s_landsat          s_Paisaje
+                                                            especies de ciclo corto (menos de un año), que requieren resiembra tras
+                                      Andes
+                                                            cada cosecha. Incluyen papa, oca, walusa, quinua, haba, coca, café y
+                                                            cítricos.
+                  3.2.3 Otros                               Se desarrolla mediante sistemas agroforestales con cultivos como uva, OCA, OW, OF                 ID72_Otro_cultivos ID72_Otros_cultivo ID72_Otros_cultivo
+                  cultivos                                                                                                                                    _GoogleEarth       s_landsat          s_Paisaje
+                                      Valles, Tucumano-     durazno y manzana, combinados con prácticas tradicionales orientadas
+                                      Boliviano             al autoconsumo (haba, arveja, maíz, hortalizas) y a la comercialización
+                                                            de tubérculos, cereales y frutales, bajo riego o secano.                                  AC, S
+                                                            En estas regiones se cultivan maíz, kumanda, maní y hortalizas,           OCM, OF, OP             ID72_Otro_cultivos ID72_Otros_cultivo ID72_Otros_cultivo
+                                                            adaptándose a la aridez mediante prácticas sostenibles. La expansión                              _GoogleEarth       s_landsat          s_Paisaje
+
+                                                            agrícola ha sido significativa, con cultivos extensivos de soya en verano
+                                      Chaco, Chiquitano     y de girasol, sorgo, trigo, maíz, arroz y chía en invierno. También se
+                                                            producen en menor escala yuca, fréjol, plátano, guineo y cítricos, todo
+                                                            ello en un contexto de pérdida de cobertura boscosa y aumento de
+                                                            áreas quemadas.
+                                                            En la región Amazonía Alta, incluye agricultura a pequeña escala, así     OCA,            AC, S   ID21_Amazonia_M ID21_Amazonia_Mo ID21_Amazonia_Mo
+                                                                                                                                                              osaico de        isaico_de_Usos_im isaico_de_usos_Pai
+                                                            como cultivos perennes de coca, café y cítricos. En la región Amazonía OCM, OP,
+                                                                                                                                                              Usos_Google_Eart agen              sajes
+                                                            Baja, se practica la agricultura mecanizada, principalmente el norte del OG                       h
+                                      Amazonía
+                                                            departamento de Santa Cruz. Sin embargo, en los últimos años, se ha
+                                                            ido incremento las actividades ganaderas, provocando la sustitución de
+                                                            extensas áreas naturales por pasturas introducidas.
+                                                            Ganadería (vacunos, ovinos, caprinos y camélidos), agricultura de         OCA,            AC, S   ID21_Andes_Moisai ID21_Andes_Moisai ID21_Amazonia_Mo
+                                                                                                                                      OCM, OP,                co_de_Usos_Goog co_de_Usos_Image isaico_de_Usos_pai
+                                                            pequeña escala, por ejemplo, quinua (Chenopodium quinoa ) y
+                                      Andes                                                                                                                   le_Earth          n                 saje
+                                                            agricultura mecanizada con cultivos de hortalizas, papa, maíz, alfalfa,   OG
+                                                            cebada, oca, haba, quinua, avena, trigo, etc.
+                                                            Ganadería de ramoneo, extracción selectiva de especies con valor          OCA, OCM, OP,   AC, S   ID21_Tucumano-     ID21_Tucumano-      ID21_Tucumano-
+                                      Valles, Tucumano-                                                                                                       Boliviani_Moisaico Boliviani_Moisaico_ Boliviani_Moisaico_
+                                                            forestal, y actividades agrícolas a pequeña escala. Cultivos de maíz,     OG
+                                      Boliviano                                                                                                               _de_Usos_Google de_Usos_Imagen         de_Usos_Paisajes
+                                                            trigo, soya y hortalizas.                                                                         _Earth
+                                                            Se practica la siembra escalonada en sus cultivos de maíz, con esto se    OCA,            AC, S   ID21_Chaco_Moisai ID21_Chaco_Moisai ID21_Chaco_Moisai
+                                                            logra asegurar la germinación y brote de las plantas aprovechando la      OCM, OP,                co_de_Usos_Goog co_de_Usos_Image co_de_Usos_Paisaj
+                                                                                                                                                              le_Earth           n                   e
+                                                            disponibilidad de humedad en el suelo luego de las lluvias, con lo que se OG
+                                                            logra optimizar el uso de sus tierras y la mano de obra, además de
+                                                            asegurar mejores rendimientos. Otra actividad importante es la crianza
+                  3.3 Mosaico de
+                                                            de bovinos criollos, el monte chaqueño es extenso pero escaso en
+                  usos                Chaco
+                                                            recursos hídricos, junto a la disponibilidad de forraje, por lo que se ha
+                                                            implementado el manejo de producción de pasto y con esto se
+                                                            posibilita la producción de forraje que logra abastecer la alimentación
+                                                            en los meses más críticos. Ganadería semi-intensiva y extensiva de base
+                                                            comunitaria. Cultivos de maíz, trigo y soya tanto en la temporada de
+                                                            invierno y verano.
+                                                            Ganadería de ramoneo, extracción de combustible vegetal (leña y           OCA, OCM, OP,   AC, S   ID21_Chiquitano_M ID21_Chiquitano_M ID21_Chiquitano_M
+                                                                                                                                      OG                      oisaico_de_Usos_ oisaico_de_Usos_I oisaico_de_Usos_P
+                                                            producción de carbón), agricultura de pequeña escala (comunidades
+                                                                                                                                                              Google Earth      magem             aisaje
+                                      Chiquitano            campesinas) y gran escala (empresas agrícolas y colonias menonitas).
+                                                            Ganadería intensiva Chiquitana. Cultivos de arroz, yuca, maní, entre
+                                                            otros.
+                                                            Predomina la actividad ganadera y pasturas cultivadas para el consumo OP, OG              AC, S   ID21_Pantanal_Moi ID21_Pantanal_Mois ID21_Pantanal_Mois
+                                                                                                                                                              saico_de_Usos_Go aico_de_Usos_Ima aico_de_Usos_Pais
+                                                            de los mismos. Las pasturas al ser perennes tienen una duración de 4 a 5                          ogle_Earth        gen                aje
+                                                            años, mantienen el suelo cubierto y se aprovechan los cortes y rebrotes.
+                                      Pantanal              Se observa la implementación de agricultura con cultivos a pequeña
+                                                            escala, debido principalmente por su moderada fertilidad para la
+                                                            agricultura. Además, presentas zonas muy propensas a inundaciones lo
+                                                            cual no es apta para muchos cultivos.
+                                                            Áreas con presencia de coberturas arenosas o nula vegetación que es       OX                      ID23_Playas_dunas ID23_Playas_dunas ID23_Playas_dunas
+                                      Amazonía,                                                                                                               _GoogleEarth      _landsat          _Paisaje
+                                                            transportada por los ríos y depositada en las llanuras orientales
+                                      Chiquitanía
+                                                            formando arenales.
+                                                                                                                                     OX                       ID23_Andes_Googl ID23_Andes_Lands ID23_Andes_Paisaj
+                                                       Estas regiones se caracterizan por poseer obstrucción periódica del
+                                        Andes, Valles,                                                                                                        e_earth
+                                                                                                                                                              ID23_Chaco_googl at
+                                                                                                                                                                               ID23_Chaco_landsa e
+                                                                                                                                                                                                 ID23_Chaco_Paisaj
+                                                       desagüe fluvial por los sedimentos del propio río. Además,
+                  4.1 Playa, duna o   Chaco, Tucumano-                                                                                                        e_earth            t                   e
+                                                       estacionalmente los causes de los ríos secundarios se secan formado                            O
+                  bancos de arena         Boliviano
+                                                       playas o bancos de arena.
+
+                                                            En el Pantanal boliviano, las playas, dunas y bancos de arena son       OX
+                                                            formaciones dinámicas en planicies aluviales y riberas, creadas por el
+                                      Pantanal
+                                                            agua y el viento. Sirven como hábitats temporales para fauna acuática y
+                                                            aves, y juegan un papel en la hidrología local.
+                                                            Infraestructura urbana se comprende a todas las redes de servicios y      OB              S       ID_24_Infraestruct ID_24_Infraestructu ID_24_Infraestructu
+                                                                                                                                                              ura_Urbana_Googl ra_Urbana_imagen ra_Urbana_Paisaje
+                                                            estructuración vial necesarios para el establecimiento de equipamiento
+                                                                                                                                                              e_Earth
+                                      Amazonía, Andes,      urbano y vivienda, cuyas características urbanísticas son: estructuración
+                  4.2.                Valles, Chaco,        vial, límites construidos predominantes, tipologías de entramado
+                  Infraestructura     Chiquitano,           urbano de las diferentes zonas, estructuración de las redes de
+                   urbana             Tucumano-             equipamiento y servicio público, que en suma permitan la comprensión
+                                      Boliviano, Pantanal   de la “forma urbana” para describir su conformación, tipo de trazo,
+                                                            densidad edificada y etc. Área cubierta por infraestructura urbana, con
+                                                            asentamientos humanos mayores a 1.000 habitantes.
+                                                            En Bolivia se tiene do tipos de minería a cielo abierto y aluvial. La     OQ              Min     ID30_Amazonia_M ID30_Amazonia_Mi ID30_Amazonia_Mi
+                                                                                                                                                              ineria_Google_Eart neria_Imagen  neria_Paisaje
+                                                            minera presente en la explotación subterránea y/o a cielo abierto, se
+                                                                                                                                                              h
+                                                            caracteriza porque el mineral extraído en ambos casos es llevado a
+                                                            plantas de tratamiento o concentración, también se emplean medios
+                                                            mecánicos o explosivos para remover los terrenos que recubren o
+                                      Amazonía              rodean la formación geológica que forma al yacimiento, o banco de
+                                                            materiales. La minería aurífera/aluvial comprende tanto la explotación
+                                                            de yacimientos primarios como secundarios, en la actualidad, la
+                                                            explotación está centrada principalmente en las cuencas de los ríos
+                                                            Tipuani y Kʼaka (Amazonía), donde se explotan depósitos en cauces de
+                                                            ríos antiguos o en plataformas y terrazas de ríos recientes.
+                  4.3 Minería
+
+
+
+
+4. Área sin
+vegetación
+                    4.3 Minería
+                                                                                                                                      OQ                     Min       ID30_Andes_Googl ID30_Andes_Lands ID30_Andes_Paisaj
+                                                            La actividad minera esta desde la época colonial, como tal, empezó
+                                                                                                                                                                       eEarth           at               e
+                                                            cuando se descubrieron yacimientos de plata en Potosí. Posteriormente
+                                                            a la explotación de la plata se desarrollaron las minerías del estaño, el
+                                                            wolfram, el antimonio, el zinc y algo de cobre. Son yacimientos y el
+                                      Andes, Valles
+4. Área sin                                                 método de explotación usado es el de tajo abierto, siendo el agua un
+vegetación                                                  recurso estratégico para la actividad minera, que necesita maximizar la
+                                                            provisión de agua para esta actividad debido a que es un recurso
+                                                            limitado en este bioma.
+                                                                                                                                         OQ                  Min       ID30_Mineria_Chiq ID30_Mineria_Chiq ID30_Mineria_Chiq
+                                      Chaco, Chiquitano, Áreas de extracción de minerales, con clara exposición del suelo.                                             uitano_Google_ear uitano_Landsat    uitano_Paisaje
+                                      Pantanal           Generalmente artesanal o ilegal.                                                                              th
+                                                                                                                                         OX                  O         ID61_Andes_salar_ ID61_Andes_salar_i ID63_Andes_salar_
+                                                            Desierto de sal a una altura de 3.650 m.s.n.m. Se destaca el Salar de                                      Google_Earth      magen              Paisaje
+                                                            Uyuni y Coipasa. Praderas salobres del altoandino central. Durante la
+                                                            temporada de lluvias, el agua puede anegar parte del salar y darle una
+                                                            apariencia impresionante, como de un espejo, ese espejo de agua
+                    4.4. Salar        Andes                 puede permanecer por más tiempo del acostumbrado en otros años,
+                                                            debido a las abundantes precipitaciones. También se observa la
+                                                            decoloración del agua y la salina, lo que podría deberse a una
+                                                            combinación de escorrentías, sedimentos volcánicos y los microbios o
+                                                            las algas que proliferan en el agua.
+                                                          Superficie rocosa natural caracterizada por afloramientos rocosos y            Ar                  OX        ID92_Superficie_ro ID92_Superficie_ro ID92_Superficie_ro
+                                                                                                                                                                       cosa_GoogleEarth cosa_GoogleEarth cosa_Paisaje
+                                                          escasa cobertura vegetal de tipo rupícola. Se localiza principalmente
+                                                          sobre formaciones de morrena de fondo o basal, que se extienden por
+                    4.5. Superficie                       debajo de la masa de hielo y están constituidas por sedimentos
+                                      Andes
+                    rocosa                                transportados y depositados por los glaciares, los cuales son
+                                                          presionados contra el lecho rocoso. Estas áreas se encuentran
+                                                          generalmente por encima de los 4.100 m s. n. m., donde predominan
+                                                          condiciones climáticas frías, áridas y de elevada rigurosidad ambiental.
+                                                          En la zona amazónica suele encontrarse en las laderas bajas y suaves           OX                  S         ID68_Andes_Valles ID68_Andes_Valles ID68_Andes_Valles
+                                                                                                                                                                       _GoogleEarth
+                                                                                                                                                                       ID68_Valles_Googl _Landsat
+                                                                                                                                                                                         ID68_Valles_Landsa _Paisaje
+                                                                                                                                                                                                            ID68_Valles_Paisaje
+                                                          con algún tipo erosión o deslizamiento; en las mesetas generalmente
+                                      Amazonía, Andes, con superficies reducidas con campo rupestre, también, se distinguen                                            eEarth            t
+
+                    4.6 Otra área     Valles, Chaco,      en los acantilados, torres de roca. Sus suelos son superficiales y poseen
+                    natural sin       Chiquitano,         poca materia orgánica, son pobres en nutrientes. En Bioma Andes,
+                    vegetación        Tucumano-           Valles, Tucumano-Boliviano se muestran en superficies compuestas de
+                                      Boliviano, Pantanal suelo salino o arcillosas en la parte puna semiárida. Finalmente, dentro
+                                                          de esta región se cuenta con los sedimentos de los cuerpos de agua.
+                                                          Suelo salino y mineralizados.
+                                      Amazonía, Andes,                                                                                   OX                  S         ID_25_Amazonia_ ID_25_Otra_Amazo ID_25_Otra_Amazo
+                                                                                                                                                                       Otra_area_sin     nia_Otra_area_sin_ nia_Otra_area_sin_
+                    4.7 Otra área     Valles, Chaco,
+                                                          Áreas de transición de cultivos, caminos y carreteras, pistas de                                             vegetacion_google vegetación_imagen vegetación_Paisaje
+                    antrópica sin     Chiquitano,                                                                                                                      _earth
+                                                          aterrizaje, patios industriales, y zonas de reciente deforestación.
+                    vegetación        Tucumano-
+                                      Boliviano, Pantanal
+                                                                                                                                         IRP, IRS, IL, ID, IP A, Res   ID33_Rio_o_Lago_ ID33_Rio_o_Lago_ ID33_Rio_o_Lago_
+                                                                                                                                                                       Amazonia_Google Amazonia_imagen Amazonia_paisaje
+                                                                                                                                                                       _Earth
+                                                                                                                                                                       ID33_Rio_o_Lago_ ID33_Rio_o_Lago_ ID33_Rio_o_Lago_
+                                                            Extensión de agua superficial natural o artificial. Comprende ríos, lagos,
+                                                                                                                                                                       Andes_Google_Ear Andes_Imagen     Andes_Paisaje
+                                      Amazonía, Andes,      embalse y otros cuerpos de agua. Ríos permanentes y laguna perenne.                                        th
+                                                                                                                                                                       ID33_Rio_o_Lago_ ID33_Rio_o_Lago_ ID33_Rio_o_Lago_
+                                      Valles, Chaco,        En los Andes a pesar de las condiciones climáticas adversas, la región                                     Chaco_Google_Ear Chaco_Imagen       Chaco_Paisaje
+                    5.1 Río o lago    Chiquitano,           muestra cuerpos de agua superficiales como ser: ríos de bajo caudal, en                                    thof
+                                                                                                                                                                       ID33_Rio_o_Lago_ ID33_Rio_o_Lago_ ID33_Rio_o_Lago_
+                                      Tucumano-             forma de hileras, lagunas, lagos dulces y salados.                                                         Chiquitano_Google Chiquitano_imagen Chiquitano_paisaje
+                                      Boliviano, Pantanal   En Chaco y Tucumano-Boliviano los ríos estacionalmente secos.                                              _Earth
+                                                                                                                                                                       ID33_Rio_o_Lago_ ID33_Rio_o_Lago_ ID33_Rio_o_Lago_
+                                                            En el Pantanal Áreas inundables con acuíferos de gran extensión.                                           Tucumano-          Tucumano-         Tucumano-
+                                                                                                                                                                       ID33_Rio_o_Lago_ Boliviano_Imagen
+                                                                                                                                                                       Boliviano_Google_  ID33_Rio_o_Lago_ Boliviano_Paisaje
+                                                                                                                                                                                                            ID33_Rio_o_Lago_
+5. Cuerpo de agua
+                                                                                                                                                                       Pantanal_Google_ Pantanal_Imagen     Pantanal_Paisaje
+                                                                                                                                                                       Earth
+                                                                                                                                                                       ID31_Acuicultura_G ID31_Acuicultura_ ID31_Acuicultura_p
+                                                         La acuicultura en las regiones boliviana se centra en la cría de especies NA                        NA
+                                                         nativas como pacú, surubí y cachama, que tienen alta demanda tanto                                            oogle_Earth       imagen              aisaje
+                                      Amazonía,
+                    5.2 Acuicultura                      local como regional. Esta actividad contribuye a la seguridad
+                                      Chiquitanía, Chaco
+                                                         alimentaria y al desarrollo sostenible de las comunidades, con prácticas
+                                                         que buscan minimizar el impacto ambiental.
+                                                         Área de cobertura o masa de hielo permanente, localizados en las          NA                        O         ID34_Andes_Glacia ID34_Andes_         ID34_Andes_Glaciar
+                                                         cumbres andinas, producto de la acumulación, compactación y                                                   r_Google_Earth    Glaciar_ imagen     _paisaje
+                    5.3 Glaciar       Andes              recristalización de la nieve. Cordillera Real en los Andes, Nevado
+                                                         Sajama, Nevado Ulla Khaya.
+6. No observado                                             Áreas que no han podido ser identificadas en sus clases por presencia
+                                                            de nubes, sombra de nubes, ruido atmosférico o calidad de las
+                                                            imágenes de satélite.
+

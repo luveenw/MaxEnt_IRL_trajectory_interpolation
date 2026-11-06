@@ -1,0 +1,348 @@
+{
+  "landscan": {
+    "asset": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL",
+    "collection_metadata": {
+      "type": "IMAGE_COLLECTION",
+      "name": "projects/earthengine-legacy/assets/projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL",
+      "id": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL",
+      "properties": {
+        "dataset_admin_delete_protected": "yes"
+      },
+      "updateTime": "2025-10-27T14:56:31.874022Z"
+    },
+    "count": 25,
+    "indices": [
+      "landscan-global-2000",
+      "landscan-global-2001",
+      "landscan-global-2002",
+      "landscan-global-2003",
+      "landscan-global-2004",
+      "landscan-global-2005",
+      "landscan-global-2006",
+      "landscan-global-2007",
+      "landscan-global-2008",
+      "landscan-global-2009",
+      "landscan-global-2010",
+      "landscan-global-2011",
+      "landscan-global-2012",
+      "landscan-global-2013",
+      "landscan-global-2014",
+      "landscan-global-2015",
+      "landscan-global-2016",
+      "landscan-global-2017",
+      "landscan-global-2018",
+      "landscan-global-2019",
+      "landscan-global-2020",
+      "landscan-global-2021",
+      "landscan-global-2022",
+      "landscan-global-2023",
+      "landscan-global-2024"
+    ],
+    "times": [
+      946690200000,
+      978312600000,
+      1009848600000,
+      1041384600000,
+      1072920600000,
+      1104543000000,
+      1136079000000,
+      1167615000000,
+      1199151000000,
+      1230773400000,
+      1262309400000,
+      1293845400000,
+      1325381400000,
+      1357003800000,
+      1388539800000,
+      1420075800000,
+      1451611800000,
+      1483234200000,
+      1514770200000,
+      1546306200000,
+      1577842200000,
+      1609464600000,
+      1640995200000,
+      1672531200000,
+      1704067200000
+    ],
+    "first": {
+      "type": "Image",
+      "bands": [
+        {
+          "id": "b1",
+          "data_type": {
+            "type": "PixelType",
+            "precision": "int",
+            "min": -2147483648,
+            "max": 2147483647
+          },
+          "dimensions": [
+            43200,
+            21120
+          ],
+          "crs": "EPSG:4326",
+          "crs_transform": [
+            0.0083333333333333,
+            0,
+            -180,
+            0,
+            -0.0083333333333333,
+            85.99999999999929
+          ]
+        }
+      ],
+      "version": 1664042032746763,
+      "id": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2000",
+      "properties": {
+        "system:time_start": 946690200000,
+        "num_bands": 1,
+        "id_no": "landscan-global-2000",
+        "ysize": 21120,
+        "system:footprint": {
+          "type": "LinearRing",
+          "coordinates": [
+            [
+              -180,
+              -90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        },
+        "system:time_end": 978226200000,
+        "xsize": 43200,
+        "system:asset_size": 107982768,
+        "system:index": "landscan-global-2000"
+      }
+    }
+  },
+  "ghs_2023": {
+    "asset": "JRC/GHSL/P2023A/GHS_POP",
+    "collection_metadata": {
+      "type": "IMAGE_COLLECTION",
+      "name": "projects/earthengine-public/assets/JRC/GHSL/P2023A/GHS_POP",
+      "id": "JRC/GHSL/P2023A/GHS_POP",
+      "updateTime": "2023-07-24T08:09:31.127274Z"
+    },
+    "count": 12,
+    "indices": [
+      "1975",
+      "1980",
+      "1985",
+      "1990",
+      "1995",
+      "2000",
+      "2005",
+      "2010",
+      "2015",
+      "2020",
+      "2025",
+      "2030"
+    ],
+    "times": [
+      157766400000,
+      315532800000,
+      473385600000,
+      631152000000,
+      788918400000,
+      946684800000,
+      1104537600000,
+      1262304000000,
+      1420070400000,
+      1577836800000,
+      1735689600000,
+      1893456000000
+    ],
+    "first": {
+      "type": "Image",
+      "bands": [
+        {
+          "id": "population_count",
+          "data_type": {
+            "type": "PixelType",
+            "precision": "double"
+          },
+          "dimensions": [
+            360820,
+            180000
+          ],
+          "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
+          "crs_transform": [
+            100,
+            0,
+            -18041000,
+            0,
+            -100,
+            9000000
+          ]
+        }
+      ],
+      "version": 1690185742435464,
+      "id": "JRC/GHSL/P2023A/GHS_POP/1975",
+      "properties": {
+        "system:time_start": 157766400000,
+        "system:footprint": {
+          "type": "LinearRing",
+          "coordinates": [
+            [
+              -180,
+              -90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        },
+        "system:time_end": 315532800000,
+        "system:asset_size": 3207088560,
+        "system:index": "1975"
+      }
+    }
+  },
+  "ghs_2016": {
+    "asset": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1",
+    "collection_metadata": {
+      "type": "IMAGE_COLLECTION",
+      "name": "projects/earthengine-public/assets/JRC/GHSL/P2016/POP_GPW_GLOBE_V1",
+      "id": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1",
+      "properties": {
+        "type_name": "ImageCollection",
+        "keywords": [
+          "ciesin_derived",
+          "jrc",
+          "population"
+        ],
+        "thumb": "https://mw1.google.com/ges/dd/images/GHSL_POP_thumb.png",
+        "description": "<p>The GHSL relies on the design and implementation of new spatial data mining\ntechnologies allowing to automatically process and extract analytics and\nknowledge from large amount of heterogeneous data including: global,\nfine-scale satellite image data streams, census data, and crowd sources or\nvolunteered geographic information sources.</p><p>This dataset depicts the distribution and density of population, expressed\nas the number of people per cell, for reference epochs: 1975, 1990, 2000,\n2015.</p><p>Residential population estimates were provided by CIESIN GPW v4. These were\ndisaggregated from census or administrative units to grid cells, informed by\nthe distribution and density of built-up as mapped in the GHSL global layer\nper corresponding epoch. (See <a href=\"https://publications.jrc.ec.europa.eu/repository/handle/JRC100523\">\u201cDevelopment of New Open and Free\nMulti-temporal Global Population Grids at 250 m\nResolution.\u201d</a>)</p><p>This dataset was produced in the World Mollweide projection (EPSG:54009).</p><p>For more information visit: https://ghsl.jrc.ec.europa.eu/ghs_pop.php.</p><p><b>Provider: <a href=\"https://ghsl.jrc.ec.europa.eu/index.php\">EC JRC</a></b><br><p><b>Resolution</b><br>250 meters\n</p><p><b>Bands</b><table class=\"eecat\"><tr><th scope=\"col\">Name</th><th scope=\"col\">Description</th></tr><tr><td>population_count</td><td><p>Number of people per cell</p></td></tr></table><p><sup>The Global Human Settlement Layer (GHSL) project is supported by the\nEuropean Commission, Joint Research Center, and Directorate-General for\nRegional and Urban Policy. The GHSL produces new global spatial information,\nevidence-based analytics, and knowledge describing the human presence in\nthe planet.</sup><p><b>Terms of Use</b><br><p>The GHSL has been produced by the EC JRC as open and free data. Reuse is\nauthorised, provided the source is acknowledged. For more information,\nplease read the use conditions (<a href=\"https://ec.europa.eu/info/legal-notice_en\">European Commission Reuse and Copyright\nNotice</a>).</p><p><b>Suggested citation(s)</b><ul><li><p>European Commission, Joint Research Centre (JRC); Columbia University,\nCenter for International Earth Science Information Network - CIESIN (2015):\nGHS population grid, derived from GPW4, multitemporal (1975, 1990, 2000,\n2015). European Commission, Joint Research Centre (JRC) [Dataset]\nPID: https://data.europa.eu/89h/jrc-ghsl-ghs_pop_gpw4_globe_r2015a</p></li></ul><style>\n  table.eecat {\n  border: 1px solid black;\n  border-collapse: collapse;\n  font-size: 13px;\n  }\n  table.eecat td, tr, th {\n  text-align: left; vertical-align: top;\n  border: 1px solid gray; padding: 3px;\n  }\n  td.nobreak { white-space: nowrap; }\n</style>",
+        "source_tags": [
+          "jrc"
+        ],
+        "visualization_0_max": "200.0",
+        "title": "GHSL: Global Human Settlement Layers, Population Grid 1975-1990-2000-2015 (P2016)",
+        "product_tags": [
+          "population",
+          "ciesin_derived"
+        ],
+        "provider": "EC JRC",
+        "visualization_0_min": "0.0",
+        "visualization_0_name": "Population Count",
+        "date_range": [
+          157766400000,
+          1451520000000
+        ],
+        "period": 0,
+        "provider_url": "https://ghsl.jrc.ec.europa.eu/index.php",
+        "sample": "https://mw1.google.com/ges/dd/images/GHSL_POP_sample.png",
+        "tags": [
+          "ciesin_derived",
+          "jrc",
+          "population"
+        ],
+        "visualization_0_palette": "060606,337663,337663,ffffff",
+        "visualization_0_bands": "population_count"
+      },
+      "updateTime": "2022-01-12T12:23:06.570575Z"
+    },
+    "count": 4,
+    "indices": [
+      "1975",
+      "1990",
+      "2000",
+      "2015"
+    ],
+    "times": [
+      157766400000,
+      631152000000,
+      946684800000,
+      1420070400000
+    ],
+    "first": {
+      "type": "Image",
+      "bands": [
+        {
+          "id": "population_count",
+          "data_type": {
+            "type": "PixelType",
+            "precision": "float"
+          },
+          "dimensions": [
+            141988,
+            60942
+          ],
+          "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"GCS_WGS_1984\", \n    DATUM[\"D_WGS_1984\", \n      SPHEROID[\"WGS_1984\", 6378137.0, 298.257223563]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"x\", EAST], \n  AXIS[\"y\", NORTH]]",
+          "crs_transform": [
+            250,
+            0,
+            -17619594.54744353,
+            0,
+            -250,
+            8750529.46186849
+          ]
+        }
+      ],
+      "version": 1527121034822140.0,
+      "id": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1/1975",
+      "properties": {
+        "system:time_start": 157766400000,
+        "system:footprint": {
+          "type": "LinearRing",
+          "coordinates": [
+            [
+              -180,
+              -90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        },
+        "system:asset_size": 304855351,
+        "system:index": "1975"
+      }
+    }
+  },
+  "ghs_2019": {
+    "asset": "JRC/GHSL/P2019A/GHS_POP",
+    "error": "Asset \"projects/earthengine-public/assets/JRC/GHSL/P2019A/GHS_POP\" not found."
+  }
+}

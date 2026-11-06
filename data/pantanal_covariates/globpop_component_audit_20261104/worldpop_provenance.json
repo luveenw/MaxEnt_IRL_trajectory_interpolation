@@ -1,0 +1,6 @@
+{
+  "project": "perceptive-ivy-780",
+  "script_sha256": "b37bf3d5c5f52ee69e67a3ead3bc4221336e7a37382ad873f9e3fd9a31b94df4",
+  "scope": "read-only coverage; no imputation or production",
+  "asset": "WorldPop/GP/100m/pop"
+}

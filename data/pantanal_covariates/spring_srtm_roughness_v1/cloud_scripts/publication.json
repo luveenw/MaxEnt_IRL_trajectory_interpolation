@@ -1,0 +1,14 @@
+{
+  "branch": "master",
+  "code_editor_url": "https://code.earthengine.google.com/?scriptPath=users%2Fluveenw%2FColumbiaMAThesis%3Aseasonal_covariates%2Fpantanal_spring_srtm_roughness_v1%2Fextract_roughness",
+  "commit": "1620451e9971ac208da168e2b98e35df62255a8f",
+  "local_script": "extract_roughness.js",
+  "recorded_client_date": "2026-11-03",
+  "remote_content_hash_verified": true,
+  "repository": "users/luveenw/ColumbiaMAThesis",
+  "repository_url": "https://earthengine.googlesource.com/users/luveenw/ColumbiaMAThesis",
+  "schema": "earth_engine_script_publication/1",
+  "scope": "script publication only; no compute task submission",
+  "script_path": "seasonal_covariates/pantanal_spring_srtm_roughness_v1/extract_roughness",
+  "script_sha256": "a37dfc4734fd6017e2bfdf4b632ae800ae38ca322bd328925ae2a55a11ea4732"
+}

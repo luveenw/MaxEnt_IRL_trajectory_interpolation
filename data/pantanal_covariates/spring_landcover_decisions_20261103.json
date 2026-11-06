@@ -1,0 +1,54 @@
+{
+  "schema": "spring_landcover_decisions/1",
+  "recorded_client_date": "2026-11-03",
+  "collection": "SPR-C01",
+  "aggregation": "overlap-area-weighted classified-area fraction within exact 500m cells",
+  "extra_smoothing": null,
+  "year_policy": "cache all24observed selected Spring group/year combinations; select training-only representative years after animal split",
+  "trajectory_year_filter": null,
+  "features": {
+    "grassland": {
+      "source": "MapBiomas",
+      "codes": [
+        12
+      ],
+      "meaning": "natural grass-dominated vegetation; Bolivia combined grassland/shrubland accepted; excludes managed pasture"
+    },
+    "flooded_habitat": {
+      "source": "MapBiomas",
+      "codes": [
+        11
+      ],
+      "meaning": "Alvarenga narrow flood-influenced herbaceous/shrubby vegetation; excludes open water, flooded forest, flooded savanna"
+    },
+    "shrubland": {
+      "source": "ESA CCI Land Cover",
+      "codes": [
+        120,
+        121,
+        122
+      ],
+      "meaning": "area classified as shrubland/evergreen shrubland/deciduous shrubland, not canopy cover"
+    }
+  },
+  "mapbiomas_priority": [
+    "Brazil",
+    "Paraguay",
+    "Bolivia"
+  ],
+  "gap_only_fallback": {
+    "source": "Chaco Collection5",
+    "code": 26,
+    "meaning": "open water",
+    "target_grassland": 0,
+    "target_flooded_habitat": 0,
+    "condition": "all3national sources missing; no replacement of valid non-target classes"
+  },
+  "source_versions": "pinned in each immutable extraction bundle and source snapshot",
+  "project": "perceptive-ivy-780",
+  "data_root": "data/pantanal_covariates",
+  "executable_root": "gee",
+  "drive_parent": "columbia_ma_thesis/jaguar_irl/seasonal_covariates",
+  "production_representative_years": null,
+  "formal_evaluation": "placeholder pending review"
+}

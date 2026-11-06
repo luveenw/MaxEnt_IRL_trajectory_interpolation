@@ -1,0 +1,8 @@
+{
+  "repository": "ConservationInternational/trends.earth",
+  "commit": "045d1dcb598fc7e094b079989d8ae9a877c9ac60",
+  "path": "LDMP/data/gee_datasets.jsonc",
+  "raw_url": "https://raw.githubusercontent.com/ConservationInternational/trends.earth/045d1dcb598fc7e094b079989d8ae9a877c9ac60/LDMP/data/gee_datasets.jsonc",
+  "sha256": "4065f4b8700ac20c204aeee1c0c6ff2b8ac63f32203832b90576448c7a8e21e3",
+  "caveat": "Config includes stale description/sourcecitation; pilot fidelity independently checked againstofficial CEDA v2.0.7"
+}

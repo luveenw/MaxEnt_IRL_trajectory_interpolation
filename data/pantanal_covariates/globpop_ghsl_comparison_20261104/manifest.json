@@ -1,0 +1,37 @@
+{
+  "status": "read-only comparison; no production repair or fill",
+  "files": {
+    "data/pantanal_covariates/globpop_ghsl_comparison_20261104/ghs_2023_G057_2013_epoch2010.npz": {
+      "sha256": "16a1ee2caf7f910e85d2e18b5af478471c568f5275fab4c0c26d391b92146630",
+      "bytes": 1851
+    },
+    "data/pantanal_covariates/globpop_ghsl_comparison_20261104/per_gap_comparison.json": {
+      "sha256": "8c90bc67437315c21115de94b9c184c3b04db191581515d6b45b5c530c0c2790",
+      "bytes": 145166
+    },
+    "data/pantanal_covariates/globpop_ghsl_comparison_20261104/extra_epoch_metadata.json": {
+      "sha256": "8473204e09983e996bc822d145f7683d7b422d17d8d50cea3b2e69b09a66f0a2",
+      "bytes": 2315
+    },
+    "data/pantanal_covariates/globpop_ghsl_comparison_20261104/comparison_summary.json": {
+      "sha256": "6534fd94b09837b4673667b92d35f57e86890f4e22dd43c6b31be33c32c5e1c6",
+      "bytes": 5143
+    },
+    "data/pantanal_covariates/globpop_ghsl_comparison_20261104/ee_zero_corroboration.json": {
+      "sha256": "fb253d291e9858e64c983a875f5320d867840967ecdcf269fa570dec1ededf21",
+      "bytes": 236907
+    },
+    "gee/globpop_ghsl_comparison_20261104/verify_zero_ee.py": {
+      "sha256": "7a81308f5f08f1b77540fc5221a33ad18295529a8a5585ad66d459dddbfdf64f",
+      "bytes": 1160
+    },
+    "gee/globpop_ghsl_comparison_20261104/compare.py": {
+      "sha256": "be4579e20029df23827436c0e622f837856d0a091984058ac7748323c66173d8",
+      "bytes": 4702
+    },
+    "gee/globpop_ghsl_comparison_20261104/fetch_extra_epoch.py": {
+      "sha256": "c446bd23e60904e047da3a9cd41da2b9c9c154835d905769d89fadcb3981c44a",
+      "bytes": 1228
+    }
+  }
+}

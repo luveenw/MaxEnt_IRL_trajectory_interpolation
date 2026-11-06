@@ -1,0 +1,40 @@
+{
+  "url": "https://zenodo.org/api/records/11179644/files/GlobPOP_Density_30arc_2011_F32.tiff/content",
+  "record_version": "2.0",
+  "filename": "GlobPOP_Density_30arc_2011_F32.tiff",
+  "archive_checksum": "md5:c67feaa1c77bd87dad388c610cf4cff3",
+  "source_shape": [
+    21600,
+    43200
+  ],
+  "source_transform": [
+    0.008333333333333333,
+    0.0,
+    -180.0,
+    0.0,
+    -0.008333333333333333,
+    90.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "nodata": NaN,
+  "window": [
+    14681,
+    12929,
+    22,
+    20
+  ],
+  "window_bounds": [
+    -57.65833333333333,
+    -17.90833333333333,
+    -57.47500000000001,
+    -17.74166666666666
+  ],
+  "window_shape": [
+    20,
+    22
+  ],
+  "minimum": 8.290214464068413e-05,
+  "maximum": 20.133647918701172
+}

@@ -1,0 +1,14 @@
+{
+  "class_validity": "mask>0 and code not 0 or 27; optimistic coverage before thematic crosswalk",
+  "current_mosaic": "national union plus Chaco only class26, before G3162011 temporal repair",
+  "plan_sha256": "76e4dacb78417b3f046034f04f4a6043ee5b4c105d34dc6bb966e58575d5b3e0",
+  "project": "perceptive-ivy-780",
+  "queries": "interactive read-only computeValue; no export tasks; EECU unmeasured",
+  "script_sha256": "6648f7d704fedf955f1f0f29af85e6055b64d70b498e5c6b5554d4d8105c86f4",
+  "sources": {
+    "bolivia": "projects/mapbiomas-public/assets/bolivia/lulc/collection4/mapbiomas_bolivia_collection4_coverage_v1",
+    "brazil": "projects/mapbiomas-public/assets/brazil/lulc/collection11/mapbiomas_brazil_collection11_coverage_v3",
+    "chaco": "projects/mapbiomas-public/assets/chaco/lulc/collection5/mapbiomas_chaco_collection5_integration_v2",
+    "paraguay": "projects/mapbiomas-public/assets/paraguay/lulc/collection3/mapbiomas_paraguay_collection3_coverage_v1"
+  }
+}

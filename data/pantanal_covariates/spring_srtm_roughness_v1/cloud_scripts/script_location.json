@@ -1,0 +1,9 @@
+{
+  "schema": "published_script_location/1",
+  "current_local_script": "gee/spring_srtm_roughness_v1/cloud_scripts/extract_roughness.js",
+  "original_publication_record": "publication.json",
+  "script_sha256": "a37dfc4734fd6017e2bfdf4b632ae800ae38ca322bd328925ae2a55a11ea4732",
+  "remote_script_path": "seasonal_covariates/pantanal_spring_srtm_roughness_v1/extract_roughness",
+  "remote_commit": "1620451e9971ac208da168e2b98e35df62255a8f",
+  "layout_migration": "data/pantanal_covariates/script_migration.json"
+}

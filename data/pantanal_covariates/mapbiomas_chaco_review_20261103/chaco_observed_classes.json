@@ -1,0 +1,34 @@
+{
+  "source": "projects/mapbiomas-public/assets/chaco/lulc/collection5/mapbiomas_chaco_collection5_integration_v2",
+  "script_sha256": "0bf4609c357c8f0099c27abc6209de0ab86eac7a35ae6bd91a2082460ebab0da",
+  "counts_are_weighted_native_pixel_equivalents": true,
+  "histograms": {
+    "G115_2005": {
+      "classification_2005": {
+        "11": 32543.803921568633,
+        "15": 180,
+        "26": 2967.4862745098053,
+        "3": 72667.54901960789,
+        "6": 311906.1568627428
+      }
+    },
+    "G115_2006": {
+      "classification_2006": {
+        "11": 39299.70196078434,
+        "15": 127,
+        "26": 2939.047058823531,
+        "3": 75629.78823529418,
+        "6": 302269.4588235269
+      }
+    },
+    "G203_2010": {
+      "classification_2010": {
+        "11": 82902.07450980392,
+        "15": 9618.160784313757,
+        "26": 33647.105882352946,
+        "3": 628057.8784313725,
+        "6": 600605.5568627452
+      }
+    }
+  }
+}

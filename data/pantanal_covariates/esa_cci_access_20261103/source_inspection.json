@@ -1,0 +1,51 @@
+{
+  "url": "https://dap.ceda.ac.uk/neodc/esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2005-v2.0.7.tif",
+  "source": {
+    "shape": [
+      64800,
+      129600
+    ],
+    "crs": "EPSG:4326",
+    "transform": [
+      0.002777777777778,
+      0.0,
+      -180.0,
+      0.0,
+      -0.002777777777778,
+      90.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "dtype": [
+      "uint8"
+    ],
+    "nodata": 0.0,
+    "block_shapes": [
+      [
+        256,
+        256
+      ]
+    ],
+    "tags": {
+      "Copyright": "ESA 2017 - UCLouvain",
+      "Dataset": "Global annual land cover map at 300 m based on the full archives of 300 m MERIS, 1 km SPOT-VEGETATION, 1 km PROBA-V and 1 km AVHRR surface reflectance 7-day composites",
+      "Description": "Pixel value corresponds to the label of a land cover class defined using UN-LCCS classifiers",
+      "Scaling Factor": "none",
+      "Version": "2.0.7",
+      "AREA_OR_POINT": "Area"
+    }
+  },
+  "requested_bounds": [
+    -58.291517078519796,
+    -20.63467051405846,
+    -55.92186436206023,
+    -16.781443029144118
+  ],
+  "window": {
+    "col_off": 43815,
+    "row_off": 38441,
+    "width": 853,
+    "height": 1387
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "G115_2005": {
+    "density_image_id": "projects/sat-io/open-datasets/GLOBPOP_DENSITY/GlobPOP_Density_30arc_2005_F32",
+    "count_image_id": "projects/sat-io/open-datasets/GLOBPOP_COUNT/GlobPOP_Count_30arc_2005_I32",
+    "geometry": {
+      "geodesic": false,
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "EPSG:32721"
+        }
+      },
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            365000,
+            7774000
+          ],
+          [
+            386000,
+            7774000
+          ],
+          [
+            386000,
+            7803500
+          ],
+          [
+            365000,
+            7803500
+          ],
+          [
+            365000,
+            7774000
+          ]
+        ]
+      ]
+    },
+    "shape": [
+      33,
+      25
+    ],
+    "native_pixels": 825,
+    "density_mask_valid": 825,
+    "count_mask_valid": 825,
+    "density_positive_count_zero_valid": 455,
+    "density_positive_count_masked": 0,
+    "count_to_density_ratio_km2_min": 0.5417581075541814,
+    "count_to_density_ratio_km2_max": 1.597705169910048,
+    "count_integer_values": true,
+    "native_data_file": "G115_2005_native.npz"
+  },
+  "G312_2015": {
+    "density_image_id": "projects/sat-io/open-datasets/GLOBPOP_DENSITY/GlobPOP_Density_30arc_2015_F32",
+    "count_image_id": "projects/sat-io/open-datasets/GLOBPOP_COUNT/GlobPOP_Count_30arc_2015_I32",
+    "geometry": {
+      "geodesic": false,
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "EPSG:32721"
+        }
+      },
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            556000,
+            7813500
+          ],
+          [
+            584500,
+            7813500
+          ],
+          [
+            584500,
+            7838500
+          ],
+          [
+            556000,
+            7838500
+          ],
+          [
+            556000,
+            7813500
+          ]
+        ]
+      ]
+    },
+    "shape": [
+      28,
+      33
+    ],
+    "native_pixels": 924,
+    "density_mask_valid": 924,
+    "count_mask_valid": 924,
+    "density_positive_count_zero_valid": 911,
+    "density_positive_count_masked": 0,
+    "count_to_density_ratio_km2_min": 0.6607976938981237,
+    "count_to_density_ratio_km2_max": 1.4310888862199609,
+    "count_integer_values": true,
+    "native_data_file": "G312_2015_native.npz"
+  },
+  "G316_2011": {
+    "density_image_id": "projects/sat-io/open-datasets/GLOBPOP_DENSITY/GlobPOP_Density_30arc_2011_F32",
+    "count_image_id": "projects/sat-io/open-datasets/GLOBPOP_COUNT/GlobPOP_Count_30arc_2011_I32",
+    "geometry": {
+      "geodesic": false,
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "EPSG:32721"
+        }
+      },
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            431000,
+            8020500
+          ],
+          [
+            449500,
+            8020500
+          ],
+          [
+            449500,
+            8038000
+          ],
+          [
+            431000,
+            8038000
+          ],
+          [
+            431000,
+            8020500
+          ]
+        ]
+      ]
+    },
+    "shape": [
+      20,
+      22
+    ],
+    "native_pixels": 440,
+    "density_mask_valid": 440,
+    "count_mask_valid": 437,
+    "density_positive_count_zero_valid": 434,
+    "density_positive_count_masked": 0,
+    "count_to_density_ratio_km2_min": 0.7946895696501365,
+    "count_to_density_ratio_km2_max": 1.5502948081824794,
+    "count_integer_values": true,
+    "native_data_file": "G316_2011_native.npz"
+  }
+}

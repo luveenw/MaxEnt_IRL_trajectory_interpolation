@@ -1,0 +1,174 @@
+{
+  "group": "G115",
+  "grid_cells": 2478,
+  "per_year": {
+    "year_2005_mean": 0.9998700229570656,
+    "year_2005_min": 0.8693660988897567,
+    "year_2006_mean": 0.9998700229570656,
+    "year_2006_min": 0.8693660988897567,
+    "year_2008_mean": 0.9998700229570656,
+    "year_2008_min": 0.8693660988897567,
+    "year_2009_mean": 0.9998700229570656,
+    "year_2009_min": 0.8693660988897567,
+    "year_2010_mean": 0.9998700229570656,
+    "year_2010_min": 0.8693660988897567,
+    "year_2011_mean": 0.9998700229570656,
+    "year_2011_min": 0.8693660988897567,
+    "year_2012_mean": 0.9998700229570656,
+    "year_2012_min": 0.8693660988897567,
+    "year_2013_mean": 0.9998700229570656,
+    "year_2013_min": 0.8693660988897567,
+    "year_2014_mean": 0.9998700229570656,
+    "year_2014_min": 0.8693660988897567,
+    "year_2015_mean": 0.9998700229570656,
+    "year_2015_min": 0.8693660988897567
+  },
+  "incomplete_cells": {
+    "type": "FeatureCollection",
+    "columns": {
+      "coverage": "Float<0.0, 1.0>",
+      "x": "Float",
+      "y": "Float"
+    },
+    "properties": {
+      "band_order": [
+        "coverage",
+        "x",
+        "y"
+      ]
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -58.09289441378053,
+            -20.107482285947125
+          ]
+        },
+        "id": "0",
+        "properties": {
+          "coverage": 0.9865534776801055,
+          "x": 41.5,
+          "y": 54.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -58.10252220179862,
+            -20.116457665317267
+          ]
+        },
+        "id": "1",
+        "properties": {
+          "coverage": 0.9842865653309121,
+          "x": 39.5,
+          "y": 56.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -58.09773968420935,
+            -20.11648750118859
+          ]
+        },
+        "id": "2",
+        "properties": {
+          "coverage": 0.9462318928873878,
+          "x": 40.5,
+          "y": 56.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -58.10255386128716,
+            -20.12097510801634
+          ]
+        },
+        "id": "3",
+        "properties": {
+          "coverage": 0.8693660988897567,
+          "x": 39.5,
+          "y": 57.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -58.09777120643284,
+            -20.12100495115161
+          ]
+        },
+        "id": "4",
+        "properties": {
+          "coverage": 0.9975430816207621,
+          "x": 40.5,
+          "y": 57.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -58.10736831293143,
+            -20.125462568247773
+          ]
+        },
+        "id": "5",
+        "properties": {
+          "coverage": 0.9415705853731376,
+          "x": 38.5,
+          "y": 58.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -58.102585529408486,
+            -20.125492548355282
+          ]
+        },
+        "id": "6",
+        "properties": {
+          "coverage": 0.9523651858271491,
+          "x": 39.5,
+          "y": 58.5
+        }
+      }
+    ]
+  },
+  "chaco_G115_coverage": {
+    "min_mean": 0.5705512276658189,
+    "min_min": 0
+  },
+  "retained_points_in_incomplete_cells": {
+    "74": 0,
+    "75": 0
+  },
+  "retained_points_checked": {
+    "74": 1177,
+    "75": 1563
+  }
+}

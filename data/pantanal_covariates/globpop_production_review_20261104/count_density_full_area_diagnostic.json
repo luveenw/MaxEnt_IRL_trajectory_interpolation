@@ -1,0 +1,41 @@
+{
+  "G115_2005": {
+    "valid_native_cells": 825,
+    "area_km2_range": [
+      0.8038591250715256,
+      0.8051894342653751
+    ],
+    "count_matches_rounded_density_times_full_wgs84_area": 824,
+    "count_matches_floor_density_times_full_wgs84_area": 468,
+    "residual_range": [
+      -0.4952642142729867,
+      0.5053239173341393
+    ]
+  },
+  "G312_2015": {
+    "valid_native_cells": 924,
+    "area_km2_range": [
+      0.805642759452343,
+      0.8067468500347137
+    ],
+    "count_matches_rounded_density_times_full_wgs84_area": 924,
+    "count_matches_floor_density_times_full_wgs84_area": 913,
+    "residual_range": [
+      -0.2191972927444119,
+      0.43672677466285437
+    ]
+  },
+  "G316_2011": {
+    "valid_native_cells": 437,
+    "area_km2_range": [
+      0.8144308604650498,
+      0.8151372749788761
+    ],
+    "count_matches_rounded_density_times_full_wgs84_area": 437,
+    "count_matches_floor_density_times_full_wgs84_area": 435,
+    "residual_range": [
+      -0.47409929931689476,
+      0.47437240682362614
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "checkpoint": "analysis/pantanal_seasonal_selection/checkpoints/selection_5bf188474d229bb43e3efde0",
+  "checkpoint_sha256": "39f6e54658c5b5165500466379de21e99412ee7496851e9d00dba2b79dd3d648",
+  "script_sha256": "6616f03e3d16ae1475374c3c4205781bca239958e17b224d1328a3da30bc4dbd",
+  "exports_index": "analysis/pantanal_seasonal_selection/exports.json",
+  "input_hashes": {
+    "source_points.csv": "a92b85a7c0b5f8a94020e6eb54b9b0a62996fba30d8817c13f49222d42ab3d11",
+    "selector_points.csv": "60878e1dc2aae5b6e1838aa1045ab71d4514880d00515b28d1e898397f791345",
+    "collection_members.csv": "04e4cab55d68b0b54c246be6f28c4e63c018ba25445f779b17501aefde4d758d",
+    "window_seasons.csv": "3de89f1bf39ef49bf30a2a8dc9530258440a53266b2767bf4334a5ac6541cd80",
+    "groups.csv": "de08399f96e15bc937db2710b45c3ec74857a90a9bbc3c5a688caa1e20b8f311",
+    "grids.json": "da512002caccfe3004bf7633d782ce7cbab64fa169f24917d469a58de306deec"
+  },
+  "export_input_hashes": {
+    "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/analysis/pantanal_seasonal_selection/exports/winter-WIN-C01-20261102T232718761654Z-e6bdb27b4968/data/trajectory_manifest.csv": "6b988fdef1c5bda385f1fa44cfddd7a81570112c175dbfc8dbb58d9326137fee",
+    "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/analysis/pantanal_seasonal_selection/exports/winter-WIN-C01-20261102T232718761654Z-e6bdb27b4968/data/point_links.csv": "eee9b6759c2abfc2ec4c1d591afe1c7ef4d49fe8f3080e49b2b06ac104c0ca7d",
+    "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/analysis/pantanal_seasonal_selection/exports/spring-SPR-C01-20261102T232801913923Z-ec50b73bb05c/data/trajectory_manifest.csv": "d9fa95ec8e0a7f2db7c3809e9c2e9e0133286b67a0ff8a20a7440d6bc18f25f2",
+    "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/analysis/pantanal_seasonal_selection/exports/spring-SPR-C01-20261102T232801913923Z-ec50b73bb05c/data/point_links.csv": "dc6878456f24b17bd4dc56089db547d024a51c8c0145945caba21a4729311e6c",
+    "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/analysis/pantanal_seasonal_selection/exports/summer-SUM-C01-20261102T232848643834Z-de576f8c70e1/data/trajectory_manifest.csv": "9f10663b6771441e3ea0ef46fd5190d8503a0e8e0bac8b6231cde3ed279e1f57",
+    "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/analysis/pantanal_seasonal_selection/exports/summer-SUM-C01-20261102T232848643834Z-de576f8c70e1/data/point_links.csv": "457377351aa695a956a70888f0509202a62f30ab35936263422f9ac23eac243d",
+    "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/analysis/pantanal_seasonal_selection/exports/autumn-AUT-C01-20261102T232917892206Z-49aeb5308344/data/trajectory_manifest.csv": "9dd9692f8c75b1240ce0e310b697fab25440cb94bb6fc79aef1e3dda00b3353c",
+    "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/analysis/pantanal_seasonal_selection/exports/autumn-AUT-C01-20261102T232917892206Z-49aeb5308344/data/point_links.csv": "5af6ee64772ae51cdda14ed53b43908ecdec198f2a82453468ff9f8564470bf1"
+  },
+  "export_comparison": {
+    "selector_edges": 40575,
+    "export_edges": 40575,
+    "selector_only": 0,
+    "export_only": 0
+  },
+  "counts": {
+    "selected_fixes": 43244,
+    "bursts": 2669,
+    "steps": 40575
+  },
+  "geodesic_projection_max_difference_m": 7.686531563052995,
+  "checks": [
+    "all canonical selected events equal deduplicated selector evidence",
+    "unique event and edge ownership across seasons",
+    "within-burst same animal and tag",
+    "at least three fixes and 1.5\u20134.25 hour step gaps",
+    "selector edges equal independent two_hour export edges",
+    "500 m same-cell classifications match actual export point links"
+  ]
+}

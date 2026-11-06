@@ -1,0 +1,3885 @@
+{
+  "G316_2011": {
+    "status": "diagnostic candidate only; not approved or applied production repair",
+    "source": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2011",
+    "mapping": "Global source index inferred from each image affine; annual origins differ (84N or90N in tested years).",
+    "method": "integer ambient count / full native WGS84 ellipsoidal pixel area; not a claim about GlobPOP original denominator",
+    "gap_pixels": [
+      {
+        "source_col": 14698,
+        "source_row": 12930,
+        "landscan_col": 14698,
+        "landscan_row": 12210,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8151002477936745,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12937,
+        "landscan_col": 14702,
+        "landscan_row": 12217,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8148405829112529,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12940,
+        "landscan_col": 14702,
+        "landscan_row": 12220,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8147290437502861,
+        "candidate_density_people_per_km2": 0.0
+      }
+    ],
+    "filled_candidate_count": 3,
+    "expected_gap_pixel_count": 3,
+    "candidate_range": [
+      0.0,
+      0.0
+    ],
+    "finite_overlap_comparison": {
+      "pixels": 57,
+      "globpop_density_range": [
+        8.290214464068413e-05,
+        0.0006388748879544437
+      ],
+      "landscan_density_range": [
+        0.0,
+        0.0
+      ],
+      "mean_absolute_difference": 0.00031098541831740654,
+      "root_mean_squared_difference": 0.00033237448188504177,
+      "median_signed_difference": -0.0003256189520470798,
+      "mean_signed_difference": -0.00031098541831740654,
+      "globpop_median": 0.0003256189520470798,
+      "landscan_median": 0.0
+    },
+    "native_shape": [
+      20,
+      22
+    ]
+  },
+  "G057_2013": {
+    "status": "diagnostic candidate only; not approved or applied production repair",
+    "source": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2013",
+    "mapping": "Global source index inferred from each image affine; annual origins differ (84N or90N in tested years).",
+    "method": "integer ambient count / full native WGS84 ellipsoidal pixel area; not a claim about GlobPOP original denominator",
+    "gap_pixels": [
+      {
+        "source_col": 14705,
+        "source_row": 12816,
+        "landscan_col": 14705,
+        "landscan_row": 12816,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8192120163326263,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12816,
+        "landscan_col": 14706,
+        "landscan_row": 12816,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8192120163326263,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14685,
+        "source_row": 12818,
+        "landscan_col": 14685,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191417836272716,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14686,
+        "source_row": 12818,
+        "landscan_col": 14686,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191417836272716,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14687,
+        "source_row": 12818,
+        "landscan_col": 14687,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191417836272716,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14688,
+        "source_row": 12818,
+        "landscan_col": 14688,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191417836272716,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14689,
+        "source_row": 12818,
+        "landscan_col": 14689,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191417836272716,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12818,
+        "landscan_col": 14690,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191417836272716,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14686,
+        "source_row": 12819,
+        "landscan_col": 14686,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14687,
+        "source_row": 12819,
+        "landscan_col": 14687,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14688,
+        "source_row": 12819,
+        "landscan_col": 14688,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14689,
+        "source_row": 12819,
+        "landscan_col": 14689,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12819,
+        "landscan_col": 14690,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14691,
+        "source_row": 12819,
+        "landscan_col": 14691,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12819,
+        "landscan_col": 14692,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12819,
+        "landscan_col": 14695,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12819,
+        "landscan_col": 14696,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12819,
+        "landscan_col": 14697,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12819,
+        "landscan_col": 14698,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417474747,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12820,
+        "landscan_col": 14690,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14691,
+        "source_row": 12820,
+        "landscan_col": 14691,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12820,
+        "landscan_col": 14692,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14693,
+        "source_row": 12820,
+        "landscan_col": 14693,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14694,
+        "source_row": 12820,
+        "landscan_col": 14694,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12820,
+        "landscan_col": 14695,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12820,
+        "landscan_col": 14696,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12820,
+        "landscan_col": 14697,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12820,
+        "landscan_col": 14698,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12820,
+        "landscan_col": 14699,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12820,
+        "landscan_col": 14700,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12820,
+        "landscan_col": 14701,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828491211,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12821,
+        "landscan_col": 14690,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14691,
+        "source_row": 12821,
+        "landscan_col": 14691,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12821,
+        "landscan_col": 14692,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14693,
+        "source_row": 12821,
+        "landscan_col": 14693,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14694,
+        "source_row": 12821,
+        "landscan_col": 14694,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12821,
+        "landscan_col": 14695,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12821,
+        "landscan_col": 14696,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12821,
+        "landscan_col": 14697,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12821,
+        "landscan_col": 14698,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12821,
+        "landscan_col": 14699,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12821,
+        "landscan_col": 14700,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12821,
+        "landscan_col": 14701,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12821,
+        "landscan_col": 14702,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12822,
+        "landscan_col": 14692,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14693,
+        "source_row": 12822,
+        "landscan_col": 14693,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14694,
+        "source_row": 12822,
+        "landscan_col": 14694,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12822,
+        "landscan_col": 14695,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12822,
+        "landscan_col": 14696,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12822,
+        "landscan_col": 14697,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12822,
+        "landscan_col": 14698,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12822,
+        "landscan_col": 14699,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12822,
+        "landscan_col": 14700,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12822,
+        "landscan_col": 14701,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140058041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14680,
+        "source_row": 12823,
+        "landscan_col": 14680,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040601254,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12823,
+        "landscan_col": 14698,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040601254,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12823,
+        "landscan_col": 14699,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040601254,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12823,
+        "landscan_col": 14700,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040601254,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12823,
+        "landscan_col": 14701,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040601254,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12823,
+        "landscan_col": 14702,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040601254,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12823,
+        "landscan_col": 14703,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040601254,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12823,
+        "landscan_col": 14704,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040601254,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12824,
+        "landscan_col": 14700,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306770982743,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12824,
+        "landscan_col": 14701,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306770982743,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12824,
+        "landscan_col": 14702,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306770982743,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12824,
+        "landscan_col": 14703,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306770982743,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12824,
+        "landscan_col": 14704,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306770982743,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12824,
+        "landscan_col": 14705,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306770982743,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12824,
+        "landscan_col": 14706,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306770982743,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12825,
+        "landscan_col": 14701,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331243038,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12825,
+        "landscan_col": 14702,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331243038,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12825,
+        "landscan_col": 14703,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331243038,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12825,
+        "landscan_col": 14704,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331243038,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12825,
+        "landscan_col": 14705,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331243038,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12825,
+        "landscan_col": 14706,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331243038,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12826,
+        "landscan_col": 14702,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721346378,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12826,
+        "landscan_col": 14703,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721346378,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12826,
+        "landscan_col": 14704,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721346378,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12826,
+        "landscan_col": 14705,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721346378,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12826,
+        "landscan_col": 14706,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721346378,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12826,
+        "landscan_col": 14707,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721346378,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12826,
+        "landscan_col": 14708,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721346378,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12827,
+        "landscan_col": 14703,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188248941323757,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12827,
+        "landscan_col": 14704,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188248941323757,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12827,
+        "landscan_col": 14705,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188248941323757,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12827,
+        "landscan_col": 14706,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188248941323757,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12827,
+        "landscan_col": 14707,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188248941323757,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12827,
+        "landscan_col": 14708,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188248941323757,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12827,
+        "landscan_col": 14709,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188248941323757,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12827,
+        "landscan_col": 14710,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188248941323757,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12828,
+        "landscan_col": 14703,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991177558,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12828,
+        "landscan_col": 14704,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991177558,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12828,
+        "landscan_col": 14705,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991177558,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12828,
+        "landscan_col": 14706,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991177558,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12828,
+        "landscan_col": 14707,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991177558,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12828,
+        "landscan_col": 14708,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991177558,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12828,
+        "landscan_col": 14709,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991177558,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12828,
+        "landscan_col": 14710,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991177558,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12829,
+        "landscan_col": 14704,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870900631,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12829,
+        "landscan_col": 14705,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870900631,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12829,
+        "landscan_col": 14706,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870900631,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12829,
+        "landscan_col": 14707,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870900631,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12829,
+        "landscan_col": 14708,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870900631,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12829,
+        "landscan_col": 14709,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870900631,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12829,
+        "landscan_col": 14710,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870900631,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12830,
+        "landscan_col": 14709,
+        "landscan_row": 12830,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187189580514431,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12830,
+        "landscan_col": 14710,
+        "landscan_row": 12830,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187189580514431,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12830,
+        "landscan_col": 14711,
+        "landscan_row": 12830,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187189580514431,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12831,
+        "landscan_col": 14709,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120021344,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12831,
+        "landscan_col": 14710,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120021344,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12831,
+        "landscan_col": 14711,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120021344,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12831,
+        "landscan_col": 14712,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120021344,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12832,
+        "landscan_col": 14710,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489414215,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12832,
+        "landscan_col": 14711,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489414215,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12832,
+        "landscan_col": 14712,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489414215,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12832,
+        "landscan_col": 14713,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489414215,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12833,
+        "landscan_col": 14710,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688726425,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12833,
+        "landscan_col": 14711,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688726425,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12833,
+        "landscan_col": 14712,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688726425,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12833,
+        "landscan_col": 14713,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688726425,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12834,
+        "landscan_col": 14711,
+        "landscan_row": 12834,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185774717934131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12834,
+        "landscan_col": 14712,
+        "landscan_row": 12834,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185774717934131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12834,
+        "landscan_col": 14713,
+        "landscan_row": 12834,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185774717934131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12835,
+        "landscan_col": 14695,
+        "landscan_row": 12835,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818542057705164,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12835,
+        "landscan_col": 14701,
+        "landscan_row": 12835,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818542057705164,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12835,
+        "landscan_col": 14713,
+        "landscan_row": 12835,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818542057705164,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12836,
+        "landscan_col": 14700,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12836,
+        "landscan_col": 14701,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12836,
+        "landscan_col": 14704,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12836,
+        "landscan_col": 14705,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12837,
+        "landscan_col": 14699,
+        "landscan_row": 12837,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818471178507328,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12837,
+        "landscan_col": 14700,
+        "landscan_row": 12837,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818471178507328,
+        "candidate_density_people_per_km2": 0.0
+      }
+    ],
+    "filled_candidate_count": 132,
+    "expected_gap_pixel_count": 132,
+    "candidate_range": [
+      0.0,
+      0.0
+    ],
+    "finite_overlap_comparison": {
+      "pixels": 673,
+      "globpop_density_range": [
+        5.993245508761902e-07,
+        1.1642570495605469
+      ],
+      "landscan_density_range": [
+        0.0,
+        2.441999120389263
+      ],
+      "mean_absolute_difference": 0.09166318213499246,
+      "root_mean_squared_difference": 0.17805688461847374,
+      "median_signed_difference": -0.02355266734957695,
+      "mean_signed_difference": -0.07417248549827768,
+      "globpop_median": 0.024314194917678833,
+      "landscan_median": 0.0
+    },
+    "native_shape": [
+      32,
+      46
+    ]
+  },
+  "G057_2014": {
+    "status": "diagnostic candidate only; not approved or applied production repair",
+    "source": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2014",
+    "mapping": "Global source index inferred from each image affine; annual origins differ (84N or90N in tested years).",
+    "method": "integer ambient count / full native WGS84 ellipsoidal pixel area; not a claim about GlobPOP original denominator",
+    "gap_pixels": [
+      {
+        "source_col": 14705,
+        "source_row": 12816,
+        "landscan_col": 14705,
+        "landscan_row": 12816,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8192120163328648,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12816,
+        "landscan_col": 14706,
+        "landscan_row": 12816,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8192120163328648,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14685,
+        "source_row": 12818,
+        "landscan_col": 14685,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14686,
+        "source_row": 12818,
+        "landscan_col": 14686,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14687,
+        "source_row": 12818,
+        "landscan_col": 14687,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14688,
+        "source_row": 12818,
+        "landscan_col": 14688,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14689,
+        "source_row": 12818,
+        "landscan_col": 14689,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12818,
+        "landscan_col": 14690,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14686,
+        "source_row": 12819,
+        "landscan_col": 14686,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14687,
+        "source_row": 12819,
+        "landscan_col": 14687,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14688,
+        "source_row": 12819,
+        "landscan_col": 14688,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14689,
+        "source_row": 12819,
+        "landscan_col": 14689,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12819,
+        "landscan_col": 14690,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14691,
+        "source_row": 12819,
+        "landscan_col": 14691,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12819,
+        "landscan_col": 14692,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12819,
+        "landscan_col": 14695,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12819,
+        "landscan_col": 14696,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12819,
+        "landscan_col": 14697,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12819,
+        "landscan_col": 14698,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12820,
+        "landscan_col": 14690,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14691,
+        "source_row": 12820,
+        "landscan_col": 14691,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12820,
+        "landscan_col": 14692,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14693,
+        "source_row": 12820,
+        "landscan_col": 14693,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14694,
+        "source_row": 12820,
+        "landscan_col": 14694,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12820,
+        "landscan_col": 14695,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12820,
+        "landscan_col": 14696,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12820,
+        "landscan_col": 14697,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12820,
+        "landscan_col": 14698,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12820,
+        "landscan_col": 14699,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12820,
+        "landscan_col": 14700,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12820,
+        "landscan_col": 14701,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12821,
+        "landscan_col": 14690,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14691,
+        "source_row": 12821,
+        "landscan_col": 14691,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12821,
+        "landscan_col": 14692,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14693,
+        "source_row": 12821,
+        "landscan_col": 14693,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14694,
+        "source_row": 12821,
+        "landscan_col": 14694,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12821,
+        "landscan_col": 14695,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12821,
+        "landscan_col": 14696,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12821,
+        "landscan_col": 14697,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12821,
+        "landscan_col": 14698,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12821,
+        "landscan_col": 14699,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12821,
+        "landscan_col": 14700,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12821,
+        "landscan_col": 14701,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12821,
+        "landscan_col": 14702,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12822,
+        "landscan_col": 14692,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14693,
+        "source_row": 12822,
+        "landscan_col": 14693,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14694,
+        "source_row": 12822,
+        "landscan_col": 14694,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12822,
+        "landscan_col": 14695,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12822,
+        "landscan_col": 14696,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12822,
+        "landscan_col": 14697,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12822,
+        "landscan_col": 14698,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12822,
+        "landscan_col": 14699,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12822,
+        "landscan_col": 14700,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12822,
+        "landscan_col": 14701,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14680,
+        "source_row": 12823,
+        "landscan_col": 14680,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12823,
+        "landscan_col": 14698,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12823,
+        "landscan_col": 14699,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12823,
+        "landscan_col": 14700,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12823,
+        "landscan_col": 14701,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12823,
+        "landscan_col": 14702,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12823,
+        "landscan_col": 14703,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12823,
+        "landscan_col": 14704,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12824,
+        "landscan_col": 14700,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12824,
+        "landscan_col": 14701,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12824,
+        "landscan_col": 14702,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12824,
+        "landscan_col": 14703,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12824,
+        "landscan_col": 14704,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12824,
+        "landscan_col": 14705,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12824,
+        "landscan_col": 14706,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12825,
+        "landscan_col": 14701,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12825,
+        "landscan_col": 14702,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12825,
+        "landscan_col": 14703,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12825,
+        "landscan_col": 14704,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12825,
+        "landscan_col": 14705,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12825,
+        "landscan_col": 14706,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12826,
+        "landscan_col": 14702,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12826,
+        "landscan_col": 14703,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12826,
+        "landscan_col": 14704,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12826,
+        "landscan_col": 14705,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12826,
+        "landscan_col": 14706,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12826,
+        "landscan_col": 14707,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12826,
+        "landscan_col": 14708,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12827,
+        "landscan_col": 14703,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12827,
+        "landscan_col": 14704,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12827,
+        "landscan_col": 14705,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12827,
+        "landscan_col": 14706,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12827,
+        "landscan_col": 14707,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12827,
+        "landscan_col": 14708,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12827,
+        "landscan_col": 14709,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12827,
+        "landscan_col": 14710,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12828,
+        "landscan_col": 14703,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12828,
+        "landscan_col": 14704,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12828,
+        "landscan_col": 14705,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12828,
+        "landscan_col": 14706,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12828,
+        "landscan_col": 14707,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12828,
+        "landscan_col": 14708,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12828,
+        "landscan_col": 14709,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12828,
+        "landscan_col": 14710,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12829,
+        "landscan_col": 14704,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12829,
+        "landscan_col": 14705,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12829,
+        "landscan_col": 14706,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12829,
+        "landscan_col": 14707,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12829,
+        "landscan_col": 14708,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12829,
+        "landscan_col": 14709,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12829,
+        "landscan_col": 14710,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12830,
+        "landscan_col": 14709,
+        "landscan_row": 12830,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187189580521583,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12830,
+        "landscan_col": 14710,
+        "landscan_row": 12830,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187189580521583,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12830,
+        "landscan_col": 14711,
+        "landscan_row": 12830,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187189580521583,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12831,
+        "landscan_col": 14709,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120016575,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12831,
+        "landscan_col": 14710,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120016575,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12831,
+        "landscan_col": 14711,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120016575,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12831,
+        "landscan_col": 14712,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120016575,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12832,
+        "landscan_col": 14710,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489423752,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12832,
+        "landscan_col": 14711,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489423752,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12832,
+        "landscan_col": 14712,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489423752,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12832,
+        "landscan_col": 14713,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489423752,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12833,
+        "landscan_col": 14710,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688724041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12833,
+        "landscan_col": 14711,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688724041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12833,
+        "landscan_col": 14712,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688724041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12833,
+        "landscan_col": 14713,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688724041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12834,
+        "landscan_col": 14711,
+        "landscan_row": 12834,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185774717943668,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12834,
+        "landscan_col": 14712,
+        "landscan_row": 12834,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185774717943668,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12834,
+        "landscan_col": 14713,
+        "landscan_row": 12834,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185774717943668,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12835,
+        "landscan_col": 14695,
+        "landscan_row": 12835,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818542057706356,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12835,
+        "landscan_col": 14701,
+        "landscan_row": 12835,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818542057706356,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12835,
+        "landscan_col": 14713,
+        "landscan_row": 12835,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818542057706356,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12836,
+        "landscan_col": 14700,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12836,
+        "landscan_col": 14701,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12836,
+        "landscan_col": 14704,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12836,
+        "landscan_col": 14705,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12837,
+        "landscan_col": 14699,
+        "landscan_row": 12837,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8184711785087585,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12837,
+        "landscan_col": 14700,
+        "landscan_row": 12837,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8184711785087585,
+        "candidate_density_people_per_km2": 0.0
+      }
+    ],
+    "filled_candidate_count": 132,
+    "expected_gap_pixel_count": 132,
+    "candidate_range": [
+      0.0,
+      0.0
+    ],
+    "finite_overlap_comparison": {
+      "pixels": 673,
+      "globpop_density_range": [
+        1.898865775729064e-07,
+        1.1830180883407593
+      ],
+      "landscan_density_range": [
+        0.0,
+        2.441999120389974
+      ],
+      "mean_absolute_difference": 0.08533238511416542,
+      "root_mean_squared_difference": 0.163014017889603,
+      "median_signed_difference": -0.024430498480796814,
+      "mean_signed_difference": -0.06810847904462711,
+      "globpop_median": 0.02477332390844822,
+      "landscan_median": 0.0
+    },
+    "native_shape": [
+      32,
+      46
+    ]
+  },
+  "G057_2015": {
+    "status": "diagnostic candidate only; not approved or applied production repair",
+    "source": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2015",
+    "mapping": "Global source index inferred from each image affine; annual origins differ (84N or90N in tested years).",
+    "method": "integer ambient count / full native WGS84 ellipsoidal pixel area; not a claim about GlobPOP original denominator",
+    "gap_pixels": [
+      {
+        "source_col": 14705,
+        "source_row": 12816,
+        "landscan_col": 14705,
+        "landscan_row": 12816,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8192120163328648,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12816,
+        "landscan_col": 14706,
+        "landscan_row": 12816,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8192120163328648,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14685,
+        "source_row": 12818,
+        "landscan_col": 14685,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14686,
+        "source_row": 12818,
+        "landscan_col": 14686,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14687,
+        "source_row": 12818,
+        "landscan_col": 14687,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14688,
+        "source_row": 12818,
+        "landscan_col": 14688,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14689,
+        "source_row": 12818,
+        "landscan_col": 14689,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12818,
+        "landscan_col": 14690,
+        "landscan_row": 12818,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.819141783627987,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14686,
+        "source_row": 12819,
+        "landscan_col": 14686,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14687,
+        "source_row": 12819,
+        "landscan_col": 14687,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14688,
+        "source_row": 12819,
+        "landscan_col": 14688,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14689,
+        "source_row": 12819,
+        "landscan_col": 14689,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12819,
+        "landscan_col": 14690,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14691,
+        "source_row": 12819,
+        "landscan_col": 14691,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12819,
+        "landscan_col": 14692,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12819,
+        "landscan_col": 14695,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12819,
+        "landscan_col": 14696,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12819,
+        "landscan_col": 14697,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12819,
+        "landscan_col": 14698,
+        "landscan_row": 12819,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8191066417477131,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12820,
+        "landscan_col": 14690,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14691,
+        "source_row": 12820,
+        "landscan_col": 14691,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12820,
+        "landscan_col": 14692,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14693,
+        "source_row": 12820,
+        "landscan_col": 14693,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14694,
+        "source_row": 12820,
+        "landscan_col": 14694,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12820,
+        "landscan_col": 14695,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12820,
+        "landscan_col": 14696,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12820,
+        "landscan_col": 14697,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12820,
+        "landscan_col": 14698,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12820,
+        "landscan_col": 14699,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12820,
+        "landscan_col": 14700,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12820,
+        "landscan_col": 14701,
+        "landscan_row": 12820,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190714828505516,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14690,
+        "source_row": 12821,
+        "landscan_col": 14690,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14691,
+        "source_row": 12821,
+        "landscan_col": 14691,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12821,
+        "landscan_col": 14692,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14693,
+        "source_row": 12821,
+        "landscan_col": 14693,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14694,
+        "source_row": 12821,
+        "landscan_col": 14694,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12821,
+        "landscan_col": 14695,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12821,
+        "landscan_col": 14696,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12821,
+        "landscan_col": 14697,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12821,
+        "landscan_col": 14698,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12821,
+        "landscan_col": 14699,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12821,
+        "landscan_col": 14700,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12821,
+        "landscan_col": 14701,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12821,
+        "landscan_col": 14702,
+        "landscan_row": 12821,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190363069362641,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14692,
+        "source_row": 12822,
+        "landscan_col": 14692,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14693,
+        "source_row": 12822,
+        "landscan_col": 14693,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14694,
+        "source_row": 12822,
+        "landscan_col": 14694,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12822,
+        "landscan_col": 14695,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14696,
+        "source_row": 12822,
+        "landscan_col": 14696,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14697,
+        "source_row": 12822,
+        "landscan_col": 14697,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12822,
+        "landscan_col": 14698,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12822,
+        "landscan_col": 14699,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12822,
+        "landscan_col": 14700,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12822,
+        "landscan_col": 14701,
+        "landscan_row": 12822,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8190011140055656,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14680,
+        "source_row": 12823,
+        "landscan_col": 14680,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14698,
+        "source_row": 12823,
+        "landscan_col": 14698,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12823,
+        "landscan_col": 14699,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12823,
+        "landscan_col": 14700,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12823,
+        "landscan_col": 14701,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12823,
+        "landscan_col": 14702,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12823,
+        "landscan_col": 14703,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12823,
+        "landscan_col": 14704,
+        "landscan_row": 12823,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189659040606022,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12824,
+        "landscan_col": 14700,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12824,
+        "landscan_col": 14701,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12824,
+        "landscan_col": 14702,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12824,
+        "landscan_col": 14703,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12824,
+        "landscan_col": 14704,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12824,
+        "landscan_col": 14705,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12824,
+        "landscan_col": 14706,
+        "landscan_row": 12824,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8189306771001815,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12825,
+        "landscan_col": 14701,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12825,
+        "landscan_col": 14702,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12825,
+        "landscan_col": 14703,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12825,
+        "landscan_col": 14704,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12825,
+        "landscan_col": 14705,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12825,
+        "landscan_col": 14706,
+        "landscan_row": 12825,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188954331245423,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12826,
+        "landscan_col": 14702,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12826,
+        "landscan_col": 14703,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12826,
+        "landscan_col": 14704,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12826,
+        "landscan_col": 14705,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12826,
+        "landscan_col": 14706,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12826,
+        "landscan_col": 14707,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12826,
+        "landscan_col": 14708,
+        "landscan_row": 12826,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8188601721353531,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12827,
+        "landscan_col": 14703,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12827,
+        "landscan_col": 14704,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12827,
+        "landscan_col": 14705,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12827,
+        "landscan_col": 14706,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12827,
+        "landscan_col": 14707,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12827,
+        "landscan_col": 14708,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12827,
+        "landscan_col": 14709,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12827,
+        "landscan_col": 14710,
+        "landscan_row": 12827,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818824894133091,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12828,
+        "landscan_col": 14703,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12828,
+        "landscan_col": 14704,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12828,
+        "landscan_col": 14705,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12828,
+        "landscan_col": 14706,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12828,
+        "landscan_col": 14707,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12828,
+        "landscan_col": 14708,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12828,
+        "landscan_col": 14709,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12828,
+        "landscan_col": 14710,
+        "landscan_row": 12828,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187895991179943,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12829,
+        "landscan_col": 14704,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12829,
+        "landscan_col": 14705,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14706,
+        "source_row": 12829,
+        "landscan_col": 14706,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14707,
+        "source_row": 12829,
+        "landscan_col": 14707,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14708,
+        "source_row": 12829,
+        "landscan_col": 14708,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12829,
+        "landscan_col": 14709,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12829,
+        "landscan_col": 14710,
+        "landscan_row": 12829,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187542870905399,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12830,
+        "landscan_col": 14709,
+        "landscan_row": 12830,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187189580521583,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12830,
+        "landscan_col": 14710,
+        "landscan_row": 12830,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187189580521583,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12830,
+        "landscan_col": 14711,
+        "landscan_row": 12830,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8187189580521583,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14709,
+        "source_row": 12831,
+        "landscan_col": 14709,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120016575,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12831,
+        "landscan_col": 14710,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120016575,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12831,
+        "landscan_col": 14711,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120016575,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12831,
+        "landscan_col": 14712,
+        "landscan_row": 12831,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186836120016575,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12832,
+        "landscan_col": 14710,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489423752,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12832,
+        "landscan_col": 14711,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489423752,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12832,
+        "landscan_col": 14712,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489423752,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12832,
+        "landscan_col": 14713,
+        "landscan_row": 12832,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186482489423752,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14710,
+        "source_row": 12833,
+        "landscan_col": 14710,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688724041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12833,
+        "landscan_col": 14711,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688724041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12833,
+        "landscan_col": 14712,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688724041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12833,
+        "landscan_col": 14713,
+        "landscan_row": 12833,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8186128688724041,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14711,
+        "source_row": 12834,
+        "landscan_col": 14711,
+        "landscan_row": 12834,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185774717943668,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12834,
+        "landscan_col": 14712,
+        "landscan_row": 12834,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185774717943668,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12834,
+        "landscan_col": 14713,
+        "landscan_row": 12834,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185774717943668,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14695,
+        "source_row": 12835,
+        "landscan_col": 14695,
+        "landscan_row": 12835,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818542057706356,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12835,
+        "landscan_col": 14701,
+        "landscan_row": 12835,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818542057706356,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12835,
+        "landscan_col": 14713,
+        "landscan_row": 12835,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.818542057706356,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12836,
+        "landscan_col": 14700,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14701,
+        "source_row": 12836,
+        "landscan_col": 14701,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14704,
+        "source_row": 12836,
+        "landscan_col": 14704,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12836,
+        "landscan_col": 14705,
+        "landscan_row": 12836,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8185066266109944,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14699,
+        "source_row": 12837,
+        "landscan_col": 14699,
+        "landscan_row": 12837,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8184711785087585,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14700,
+        "source_row": 12837,
+        "landscan_col": 14700,
+        "landscan_row": 12837,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8184711785087585,
+        "candidate_density_people_per_km2": 0.0
+      }
+    ],
+    "filled_candidate_count": 132,
+    "expected_gap_pixel_count": 132,
+    "candidate_range": [
+      0.0,
+      0.0
+    ],
+    "finite_overlap_comparison": {
+      "pixels": 673,
+      "globpop_density_range": [
+        3.4791937650879845e-06,
+        1.4210439920425415
+      ],
+      "landscan_density_range": [
+        0.0,
+        2.441999120389974
+      ],
+      "mean_absolute_difference": 0.04765293822789284,
+      "root_mean_squared_difference": 0.09731125358962968,
+      "median_signed_difference": -0.013799237087368965,
+      "mean_signed_difference": -0.033315433755670865,
+      "globpop_median": 0.014079652726650238,
+      "landscan_median": 0.0
+    },
+    "native_shape": [
+      32,
+      46
+    ]
+  },
+  "G286_2010": {
+    "status": "diagnostic candidate only; not approved or applied production repair",
+    "source": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2010",
+    "mapping": "Global source index inferred from each image affine; annual origins differ (84N or90N in tested years).",
+    "method": "integer ambient count / full native WGS84 ellipsoidal pixel area; not a claim about GlobPOP original denominator",
+    "gap_pixels": [
+      {
+        "source_col": 14713,
+        "source_row": 12933,
+        "landscan_col": 14713,
+        "landscan_row": 12213,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8149890645372868,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14714,
+        "source_row": 12933,
+        "landscan_col": 14714,
+        "landscan_row": 12213,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8149890645372868,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14715,
+        "source_row": 12933,
+        "landscan_col": 14715,
+        "landscan_row": 12213,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8149890645372868,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14716,
+        "source_row": 12933,
+        "landscan_col": 14716,
+        "landscan_row": 12213,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8149890645372868,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12934,
+        "landscan_col": 14713,
+        "landscan_row": 12214,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8149519695529938,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14714,
+        "source_row": 12934,
+        "landscan_col": 14714,
+        "landscan_row": 12214,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8149519695529938,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14713,
+        "source_row": 12935,
+        "landscan_col": 14713,
+        "landscan_row": 12215,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.814914857619524,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14714,
+        "source_row": 12935,
+        "landscan_col": 14714,
+        "landscan_row": 12215,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.814914857619524,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12937,
+        "landscan_col": 14702,
+        "landscan_row": 12217,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8148405829112529,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14703,
+        "source_row": 12938,
+        "landscan_col": 14703,
+        "landscan_row": 12218,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8148034201359748,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14712,
+        "source_row": 12939,
+        "landscan_col": 14712,
+        "landscan_row": 12219,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8147662404153347,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14702,
+        "source_row": 12940,
+        "landscan_col": 14702,
+        "landscan_row": 12220,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8147290437502861,
+        "candidate_density_people_per_km2": 0.0
+      },
+      {
+        "source_col": 14705,
+        "source_row": 12943,
+        "landscan_col": 14705,
+        "landscan_row": 12223,
+        "population_count": 0.0,
+        "full_cell_geodesic_area_km2": 0.8146173520867824,
+        "candidate_density_people_per_km2": 0.0
+      }
+    ],
+    "filled_candidate_count": 13,
+    "expected_gap_pixel_count": 13,
+    "candidate_range": [
+      0.0,
+      0.0
+    ],
+    "finite_overlap_comparison": {
+      "pixels": 163,
+      "globpop_density_range": [
+        1.4135498531686608e-05,
+        1.1555103063583374
+      ],
+      "landscan_density_range": [
+        0.0,
+        2.454020657486377
+      ],
+      "mean_absolute_difference": 0.07356786428945279,
+      "root_mean_squared_difference": 0.17945921265807957,
+      "median_signed_difference": -0.0004348255170043558,
+      "mean_signed_difference": -0.04967069913147287,
+      "globpop_median": 0.00044520857045426965,
+      "landscan_median": 0.0
+    },
+    "native_shape": [
+      18,
+      25
+    ]
+  }
+}

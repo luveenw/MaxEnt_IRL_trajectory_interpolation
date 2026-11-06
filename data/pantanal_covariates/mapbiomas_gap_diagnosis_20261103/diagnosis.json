@@ -1,0 +1,1647 @@
+{
+  "assets": {
+    "brazil": "projects/mapbiomas-public/assets/brazil/lulc/collection11/mapbiomas_brazil_collection11_coverage_v3",
+    "bolivia": "projects/mapbiomas-public/assets/bolivia/lulc/collection4/mapbiomas_bolivia_collection4_coverage_v1",
+    "paraguay": "projects/mapbiomas-public/assets/paraguay/lulc/collection3/mapbiomas_paraguay_collection3_coverage_v1"
+  },
+  "native_projections": {
+    "brazil": {
+      "type": "Projection",
+      "crs": "EPSG:4326",
+      "transform": [
+        0.00026949458523585647,
+        0,
+        -74.02073025380652,
+        0,
+        -0.00026949458523585647,
+        5.405791885246045
+      ]
+    },
+    "bolivia": {
+      "type": "Projection",
+      "crs": "EPSG:4326",
+      "transform": [
+        0.00026949458523585647,
+        0,
+        -72.00598873458325,
+        0,
+        -0.00026949458523585647,
+        -8.682307052543587
+      ]
+    },
+    "paraguay": {
+      "type": "Projection",
+      "crs": "EPSG:4326",
+      "transform": [
+        0.0002694945852358564,
+        0,
+        -63.02615965993928,
+        0,
+        -0.0002694945852358564,
+        -19.068089378363023
+      ]
+    }
+  },
+  "stages": {
+    "raw_mask": {
+      "u_mean": 0.9998700229570656,
+      "u_min": 0.8693660988897567
+    },
+    "nonzero": {
+      "u_mean": 0.9998700229570656,
+      "u_min": 0.8693660988897567
+    },
+    "observed": {
+      "u_mean": 0.9998700229570656,
+      "u_min": 0.8693660988897567
+    }
+  },
+  "native_gap_samples": {
+    "type": "FeatureCollection",
+    "columns": {
+      "bolivia_class": "Short<-999, 255>",
+      "bolivia_mask": "Byte<0, 1>",
+      "brazil_class": "Short<-999, 255>",
+      "brazil_mask": "Byte<0, 1>",
+      "chaco_class": "Short<-999, 255>",
+      "latitude": "Float",
+      "longitude": "Float",
+      "paraguay_class": "Short<-999, 255>",
+      "paraguay_mask": "Byte<0, 1>"
+    },
+    "properties": {
+      "band_order": [
+        "brazil_class",
+        "brazil_mask",
+        "bolivia_class",
+        "bolivia_mask",
+        "paraguay_class",
+        "paraguay_mask",
+        "chaco_class",
+        "longitude",
+        "latitude"
+      ]
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "0",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.108742719251282,
+          "longitude": -58.093196024489544,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "1",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.109012213836518,
+          "longitude": -58.09373501366002,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "2",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.109012213836518,
+          "longitude": -58.09346551907478,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "3",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.109281708421754,
+          "longitude": -58.09373501366002,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "4",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11467160012647,
+          "longitude": -58.098046927023795,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "5",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11548008388218,
+          "longitude": -58.09858591619427,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "6",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11601907305265,
+          "longitude": -58.0988554107795,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "7",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.116288567637888,
+          "longitude": -58.09912490536474,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "8",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.116558062223124,
+          "longitude": -58.09912490536474,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "9",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11682755680836,
+          "longitude": -58.09939439994997,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "10",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.117097051393596,
+          "longitude": -58.09966389453521,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "11",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.117097051393596,
+          "longitude": -58.09939439994997,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "12",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.117366545978832,
+          "longitude": -58.09966389453521,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "13",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.117636040564065,
+          "longitude": -58.099933389120444,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "14",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.117636040564065,
+          "longitude": -58.09966389453521,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "15",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.1179055351493,
+          "longitude": -58.10020288370568,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "16",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.1179055351493,
+          "longitude": -58.099933389120444,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "17",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.1179055351493,
+          "longitude": -58.09966389453521,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "18",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.118175029734537,
+          "longitude": -58.10020288370568,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "19",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.118175029734537,
+          "longitude": -58.099933389120444,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "20",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.118444524319774,
+          "longitude": -58.10047237829092,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "21",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.118444524319774,
+          "longitude": -58.10020288370568,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "22",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.118444524319774,
+          "longitude": -58.099933389120444,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "23",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11871401890501,
+          "longitude": -58.10074187287615,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "24",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11871401890501,
+          "longitude": -58.10047237829092,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "25",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11871401890501,
+          "longitude": -58.10020288370568,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "26",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.118983513490246,
+          "longitude": -58.10074187287615,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "27",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.118983513490246,
+          "longitude": -58.10047237829092,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "28",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.118983513490246,
+          "longitude": -58.10020288370568,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "29",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.119253008075482,
+          "longitude": -58.10101136746139,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "30",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.119253008075482,
+          "longitude": -58.10074187287615,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "31",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.119253008075482,
+          "longitude": -58.10047237829092,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "32",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.119253008075482,
+          "longitude": -58.10020288370568,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "33",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11952250266072,
+          "longitude": -58.10101136746139,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "34",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11952250266072,
+          "longitude": -58.10074187287615,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "35",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.11952250266072,
+          "longitude": -58.10047237829092,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "36",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.119791997245954,
+          "longitude": -58.10101136746139,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "37",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.119791997245954,
+          "longitude": -58.10074187287615,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "38",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.119791997245954,
+          "longitude": -58.10047237829092,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "39",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12006149183119,
+          "longitude": -58.10128086204662,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "40",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12006149183119,
+          "longitude": -58.10101136746139,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "41",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12006149183119,
+          "longitude": -58.10074187287615,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "42",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.120330986416427,
+          "longitude": -58.10128086204662,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "43",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.120330986416427,
+          "longitude": -58.10101136746139,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "44",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.120330986416427,
+          "longitude": -58.10074187287615,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "45",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12060048100166,
+          "longitude": -58.10155035663186,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "46",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12060048100166,
+          "longitude": -58.10128086204662,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "47",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12060048100166,
+          "longitude": -58.10101136746139,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "48",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.120869975586896,
+          "longitude": -58.10155035663186,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "49",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.120869975586896,
+          "longitude": -58.10128086204662,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "50",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.120869975586896,
+          "longitude": -58.10101136746139,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "51",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.121139470172132,
+          "longitude": -58.101819851217094,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "52",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.121139470172132,
+          "longitude": -58.10155035663186,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "53",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.121139470172132,
+          "longitude": -58.10128086204662,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "54",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.121408964757368,
+          "longitude": -58.101819851217094,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "55",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.121408964757368,
+          "longitude": -58.10155035663186,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "56",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.121678459342604,
+          "longitude": -58.102089345802334,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "57",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.121678459342604,
+          "longitude": -58.101819851217094,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "58",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.121678459342604,
+          "longitude": -58.10155035663186,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "59",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12194795392784,
+          "longitude": -58.102089345802334,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "60",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12194795392784,
+          "longitude": -58.101819851217094,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "61",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.122217448513076,
+          "longitude": -58.102089345802334,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "62",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.122486943098313,
+          "longitude": -58.102358840387566,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "63",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.123025932268785,
+          "longitude": -58.102628334972806,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "64",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12329542685402,
+          "longitude": -58.10289782955804,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "65",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.123564921439254,
+          "longitude": -58.10343681872851,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "66",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.123564921439254,
+          "longitude": -58.10316732414327,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "67",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12383441602449,
+          "longitude": -58.10370631331375,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "68",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12383441602449,
+          "longitude": -58.10343681872851,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "69",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.124103910609726,
+          "longitude": -58.10397580789898,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "70",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.124103910609726,
+          "longitude": -58.10370631331375,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "71",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.124373405194962,
+          "longitude": -58.104245302484216,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "72",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.124373405194962,
+          "longitude": -58.10397580789898,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "73",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.1246428997802,
+          "longitude": -58.104514797069456,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "74",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.1246428997802,
+          "longitude": -58.104245302484216,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "75",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.124912394365435,
+          "longitude": -58.10478429165469,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "76",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.124912394365435,
+          "longitude": -58.104514797069456,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "77",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12518188895067,
+          "longitude": -58.10478429165469,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "78",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.125451383535907,
+          "longitude": -58.10505378623993,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "79",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.125720878121143,
+          "longitude": -58.10532328082516,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "80",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.125720878121143,
+          "longitude": -58.10505378623993,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "81",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12599037270638,
+          "longitude": -58.1055927754104,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "82",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12599037270638,
+          "longitude": -58.10532328082516,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "83",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.126259867291616,
+          "longitude": -58.10586226999563,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "84",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.126259867291616,
+          "longitude": -58.1055927754104,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "85",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.126529361876848,
+          "longitude": -58.10586226999563,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "86",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.126798856462084,
+          "longitude": -58.106131764580866,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "87",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.126798856462084,
+          "longitude": -58.10586226999563,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "88",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12706835104732,
+          "longitude": -58.106401259166105,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "89",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.12706835104732,
+          "longitude": -58.106131764580866,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "90",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.127337845632557,
+          "longitude": -58.106670753751345,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "91",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.127337845632557,
+          "longitude": -58.106401259166105,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "92",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.127337845632557,
+          "longitude": -58.106131764580866,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "93",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.127607340217793,
+          "longitude": -58.10694024833658,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "94",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.127607340217793,
+          "longitude": -58.106670753751345,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": null,
+        "id": "95",
+        "properties": {
+          "bolivia_class": -999,
+          "bolivia_mask": 0,
+          "brazil_class": -999,
+          "brazil_mask": 0,
+          "chaco_class": 26,
+          "latitude": -20.127607340217793,
+          "longitude": -58.106401259166105,
+          "paraguay_class": -999,
+          "paraguay_mask": 0
+        }
+      }
+    ]
+  },
+  "native_gap_count": 96,
+  "gap_class_histograms": {
+    "brazil": {
+      "brazil_class": {
+        "-999": 95.62352941176471
+      }
+    },
+    "bolivia": {
+      "bolivia_class": {
+        "-999": 95.62352941176471
+      }
+    },
+    "paraguay": {
+      "paraguay_class": {
+        "-999": 95.62352941176471
+      }
+    },
+    "chaco": {
+      "chaco_class": {
+        "26": 95.62352941176471
+      }
+    }
+  }
+}

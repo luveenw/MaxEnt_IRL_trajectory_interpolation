@@ -1,0 +1,4296 @@
+{
+  "ghs_2023_G057_2013_epoch2015": [
+    {
+      "source_col": 14705,
+      "source_row": 12816,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8192120152436271,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12816,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8192120152436271,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14685,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14686,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14687,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14688,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14689,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14686,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14687,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14688,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14689,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14691,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14691,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14693,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14694,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14691,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14693,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14694,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14693,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14694,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14680,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12830,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187189569675922,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12830,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187189569675922,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12830,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187189569675922,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12834,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185774707118199,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12834,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185774707118199,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12834,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185774707118199,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12835,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185420566241592,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12835,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185420566241592,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12835,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185420566241592,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12837,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8184711774273887,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12837,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8184711774273887,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    }
+  ],
+  "ghs_2023_G286_2010_epoch2010": [
+    {
+      "source_col": 14713,
+      "source_row": 12933,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8149890634950325,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14714,
+      "source_row": 12933,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8149890634950325,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14715,
+      "source_row": 12933,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8149890634950325,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14716,
+      "source_row": 12933,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8149890634950325,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12934,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8149519685110896,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14714,
+      "source_row": 12934,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8149519685110896,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12935,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8149148565786705,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14714,
+      "source_row": 12935,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8149148565786705,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12937,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8148405818706528,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12938,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.81480341909644,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12939,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.814766239376165,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12940,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8147290427104011,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12943,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8146173510489165,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    }
+  ],
+  "ghs_2023_G316_2011_epoch2010": [
+    {
+      "source_col": 14698,
+      "source_row": 12930,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8151002467516437,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12937,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8148405818706528,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12940,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8147290427104011,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    }
+  ],
+  "ghs_2016_G057_2013_epoch2015": [
+    {
+      "source_col": 14705,
+      "source_row": 12816,
+      "ghsl_allocated_people": 0.14170392168062892,
+      "full_native_footprint_geodesic_area_km2": 0.8192120152436271,
+      "ghsl_density_people_per_km2": 0.1729758829751628,
+      "positive_ghsl_cells_contributing": 20,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12816,
+      "ghsl_allocated_people": 0.14170392168668414,
+      "full_native_footprint_geodesic_area_km2": 0.8192120152436271,
+      "ghsl_density_people_per_km2": 0.1729758829825543,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14685,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14686,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14687,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14688,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14689,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14686,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14687,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14688,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14689,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14691,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14691,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14693,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14694,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14691,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14693,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14694,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14693,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14694,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14680,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12830,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187189569675922,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12830,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187189569675922,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12830,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187189569675922,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12834,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185774707118199,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12834,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185774707118199,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12834,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185774707118199,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12835,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185420566241592,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12835,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185420566241592,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12835,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185420566241592,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12837,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8184711774273887,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12837,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8184711774273887,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    }
+  ],
+  "ghs_2016_G286_2010_epoch2015": [
+    {
+      "source_col": 14713,
+      "source_row": 12933,
+      "ghsl_allocated_people": 0.0005054481117905708,
+      "full_native_footprint_geodesic_area_km2": 0.8149890634950325,
+      "ghsl_density_people_per_km2": 0.0006201900546039064,
+      "positive_ghsl_cells_contributing": 23,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14714,
+      "source_row": 12933,
+      "ghsl_allocated_people": 0.0005054481116381321,
+      "full_native_footprint_geodesic_area_km2": 0.8149890634950325,
+      "ghsl_density_people_per_km2": 0.0006201900544168627,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14715,
+      "source_row": 12933,
+      "ghsl_allocated_people": 0.001276179900424275,
+      "full_native_footprint_geodesic_area_km2": 0.8149890634950325,
+      "ghsl_density_people_per_km2": 0.001565885921157583,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14716,
+      "source_row": 12933,
+      "ghsl_allocated_people": 0.012772935409944636,
+      "full_native_footprint_geodesic_area_km2": 0.8149890634950325,
+      "ghsl_density_people_per_km2": 0.015672523696414597,
+      "positive_ghsl_cells_contributing": 20,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12934,
+      "ghsl_allocated_people": 0.0005054245329044603,
+      "full_native_footprint_geodesic_area_km2": 0.8149519685110896,
+      "ghsl_density_people_per_km2": 0.0006201893515612542,
+      "positive_ghsl_cells_contributing": 21,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14714,
+      "source_row": 12934,
+      "ghsl_allocated_people": 0.0005054245331043794,
+      "full_native_footprint_geodesic_area_km2": 0.8149519685110896,
+      "ghsl_density_people_per_km2": 0.0006201893518065681,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12935,
+      "ghsl_allocated_people": 0.0005054009437301693,
+      "full_native_footprint_geodesic_area_km2": 0.8149148565786705,
+      "ghsl_density_people_per_km2": 0.0006201886487283336,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14714,
+      "source_row": 12935,
+      "ghsl_allocated_people": 0.0036297359125686086,
+      "full_native_footprint_geodesic_area_km2": 0.8149148565786705,
+      "ghsl_density_people_per_km2": 0.004454129021291441,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12937,
+      "ghsl_allocated_people": 0.0005053537327641261,
+      "full_native_footprint_geodesic_area_km2": 0.8148405818706528,
+      "ghsl_density_people_per_km2": 0.0006201872415386715,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12938,
+      "ghsl_allocated_people": 0.0005053301112919196,
+      "full_native_footprint_geodesic_area_km2": 0.81480341909644,
+      "ghsl_density_people_per_km2": 0.0006201865375728238,
+      "positive_ghsl_cells_contributing": 21,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12939,
+      "ghsl_allocated_people": 0.0005053064791247812,
+      "full_native_footprint_geodesic_area_km2": 0.814766239376165,
+      "ghsl_density_people_per_km2": 0.000620185833315424,
+      "positive_ghsl_cells_contributing": 21,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12940,
+      "ghsl_allocated_people": 0.0005052828363047532,
+      "full_native_footprint_geodesic_area_km2": 0.8147290427104011,
+      "ghsl_density_people_per_km2": 0.0006201851288175548,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12943,
+      "ghsl_allocated_people": 0.0005052118436096584,
+      "full_native_footprint_geodesic_area_km2": 0.8146173510489165,
+      "ghsl_density_people_per_km2": 0.0006201830134837395,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    }
+  ],
+  "ghs_2016_G316_2011_epoch2015": [
+    {
+      "source_col": 14698,
+      "source_row": 12930,
+      "ghsl_allocated_people": 0.0005055187852187517,
+      "full_native_footprint_geodesic_area_km2": 0.8151002467516437,
+      "ghsl_density_people_per_km2": 0.0006201921631521482,
+      "positive_ghsl_cells_contributing": 23,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12937,
+      "ghsl_allocated_people": 0.0005053537327641261,
+      "full_native_footprint_geodesic_area_km2": 0.8148405818706528,
+      "ghsl_density_people_per_km2": 0.0006201872415386715,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12940,
+      "ghsl_allocated_people": 0.0005052828363047532,
+      "full_native_footprint_geodesic_area_km2": 0.8147290427104011,
+      "ghsl_density_people_per_km2": 0.0006201851288175548,
+      "positive_ghsl_cells_contributing": 22,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    }
+  ],
+  "ghs_2023_G057_2013_epoch2010": [
+    {
+      "source_col": 14705,
+      "source_row": 12816,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8192120152436271,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12816,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8192120152436271,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14685,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14686,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14687,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14688,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14689,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12818,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191417825395912,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14686,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14687,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14688,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14689,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14691,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12819,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8191066406597645,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14691,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14693,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14694,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12820,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190714817627593,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14690,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14691,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14693,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14694,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12821,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190363058491722,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14692,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14693,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14694,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14696,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14697,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12822,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8190011129199043,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14680,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14698,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12823,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8189659029734134,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12824,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818930676013805,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12825,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188954320387691,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14702,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12826,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188601710500568,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12827,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8188248930481449,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14703,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12828,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187895980336517,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14706,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14707,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14708,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12829,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187542860070244,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12830,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187189569675922,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12830,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187189569675922,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12830,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8187189569675922,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14709,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12831,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.818683610919714,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12832,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186482478592246,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14710,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12833,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8186128677901924,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14711,
+      "source_row": 12834,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185774707118199,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14712,
+      "source_row": 12834,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185774707118199,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12834,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185774707118199,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14695,
+      "source_row": 12835,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185420566241592,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12835,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185420566241592,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14713,
+      "source_row": 12835,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185420566241592,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14701,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14704,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14705,
+      "source_row": 12836,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8185066255301013,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14699,
+      "source_row": 12837,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8184711774273887,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    },
+    {
+      "source_col": 14700,
+      "source_row": 12837,
+      "ghsl_allocated_people": 0,
+      "full_native_footprint_geodesic_area_km2": 0.8184711774273887,
+      "ghsl_density_people_per_km2": 0.0,
+      "positive_ghsl_cells_contributing": 0,
+      "landscan_observed_people": 0,
+      "landscan_density_people_per_km2": 0
+    }
+  ]
+}

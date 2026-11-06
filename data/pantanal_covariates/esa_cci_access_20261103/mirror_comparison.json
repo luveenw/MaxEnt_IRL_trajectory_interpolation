@@ -1,0 +1,66 @@
+{
+  "asset": "users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2022",
+  "band": "y2005",
+  "official_source": "https://dap.ceda.ac.uk/neodc/esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2005-v2.0.7.tif",
+  "official_subset_sha256": "7fa5e6c84eaad01d58dce91dbef0f9fe06fa9dabd94b4bc32f0325ab36a55e1f",
+  "mirror_download_sha256": "e8adf5ef4f232156e0ad8429f0e94887c639bae856678305c50497041aa31c52",
+  "official_shape": [
+    1402,
+    869
+  ],
+  "mirror_shape": [
+    1402,
+    869
+  ],
+  "official_transform": [
+    0.002777777777778,
+    0.0,
+    -58.31388888887916,
+    0.0,
+    -0.002777777777778,
+    -16.761111111119646,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "mirror_transform": [
+    0.002777777777778,
+    0.0,
+    -58.31388888887916,
+    0.0,
+    -0.002777777777778,
+    -16.761111111119646,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "crs_match": true,
+  "transforms_match": true,
+  "nodata_official": 0.0,
+  "nodata_mirror": -32768.0,
+  "total_pixels": 1218338,
+  "mismatched_pixels": 0,
+  "mirror_classes": {
+    "10": 7626,
+    "11": 24452,
+    "30": 20057,
+    "40": 12903,
+    "50": 341730,
+    "60": 18849,
+    "61": 19905,
+    "62": 3766,
+    "90": 6,
+    "100": 66557,
+    "110": 1830,
+    "120": 181300,
+    "130": 27241,
+    "150": 42,
+    "180": 444604,
+    "190": 377,
+    "210": 47093
+  },
+  "all_values_identical": true,
+  "mask_mismatched_pixels": 0,
+  "official_valid_pixels": 1218338,
+  "mirror_valid_pixels": 1218338
+}

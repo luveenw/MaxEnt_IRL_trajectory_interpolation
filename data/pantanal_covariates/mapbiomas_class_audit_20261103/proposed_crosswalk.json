@@ -1,0 +1,86 @@
+{
+  "schema": "proposed_mapbiomas_class_crosswalk/1",
+  "status": "research proposal; not production-approved",
+  "country_priority": [
+    "brazil",
+    "paraguay",
+    "bolivia"
+  ],
+  "unknown_code_policy": "stop for legend review; do not fall through to another country",
+  "invalid_values": [
+    0,
+    27
+  ],
+  "observed_source_code_maps": {
+    "brazil": {
+      "3": "natural_closed_woody",
+      "4": "natural_open_woody",
+      "7": "flooded_savanna_beta",
+      "11": "wet_natural_herbaceous_or_shrub",
+      "12": "natural_grass_dominated_open",
+      "15": "managed_pasture",
+      "21": "mosaic_of_land_uses",
+      "25": "other_nonvegetated",
+      "29": "rocky_outcrop",
+      "33": "open_water",
+      "39": "soybean",
+      "41": "other_temporary_crops"
+    },
+    "paraguay": {
+      "3": "natural_closed_woody",
+      "6": "flooded_natural_woody",
+      "11": "wet_natural_herbaceous_or_shrub",
+      "15": "managed_pasture",
+      "25": "other_nonvegetated",
+      "33": "open_water"
+    },
+    "bolivia": {
+      "3": "natural_closed_woody",
+      "11": "wet_natural_herbaceous_or_shrub",
+      "12": "natural_grass_dominated_open",
+      "33": "open_water"
+    }
+  },
+  "optional_gap_only_source": {
+    "source": "Chaco Collection5 integration_v2",
+    "mapping": {
+      "26": "open_water"
+    },
+    "status": "source evidence confirmed; adoption pending gap-policy review"
+  },
+  "target_features": {
+    "grassland": {
+      "candidate_codes": {
+        "brazil": [
+          12
+        ],
+        "paraguay": [
+          12
+        ],
+        "bolivia": [
+          12
+        ]
+      },
+      "status": "broad grass-dominated natural vegetation candidate; Bolivia label includes shrubland; not exact pure-grass equivalence"
+    },
+    "flooded_habitat": {
+      "candidate_codes": {
+        "brazil": [
+          11
+        ],
+        "paraguay": [
+          11
+        ],
+        "bolivia": [
+          11
+        ]
+      },
+      "status": "narrow wet herbaceous/shrub proposal; exclude open water, flooded forest and flooded savanna unless definition explicitly broadened"
+    },
+    "shrubland": {
+      "candidate_codes": null,
+      "status": "not separately identifiable from selected national classes; do not encode blanket absence"
+    }
+  },
+  "rule": "choose highest-priority valid source class before deriving target indicators; retain source/code/beta/ambiguity flags"
+}

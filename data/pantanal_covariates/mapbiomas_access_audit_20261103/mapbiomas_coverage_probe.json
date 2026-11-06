@@ -1,0 +1,317 @@
+{
+  "checked_utc": "2026-11-03T11:13:18.279004+00:00",
+  "inputs": {
+    "checkpoint": "analysis/pantanal_seasonal_selection/checkpoints/selection_5bf188474d229bb43e3efde0",
+    "source_time_span": [
+      "2005-08-09T10:12:00",
+      "2016-05-23T22:00:00"
+    ],
+    "spring_years": [
+      "2005",
+      "2006",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "individuals": {
+      "74": {
+        "fixes": 1177,
+        "start": "2005-08-09T16:01:00",
+        "end": "2006-05-06T08:00:00",
+        "bounds_lonlat": [
+          -58.2441,
+          -20.079479,
+          -58.13943,
+          -19.927577
+        ],
+        "spring_groups": [
+          "G115"
+        ],
+        "reported_countries": [
+          "Paraguay"
+        ]
+      },
+      "75": {
+        "fixes": 1563,
+        "start": "2005-08-09T10:12:00",
+        "end": "2006-08-15T12:01:00",
+        "bounds_lonlat": [
+          -58.236558,
+          -20.077574,
+          -58.145636,
+          -19.910097
+        ],
+        "spring_groups": [
+          "G115"
+        ],
+        "reported_countries": [
+          "Paraguay"
+        ]
+      }
+    }
+  },
+  "assets": {
+    "brazil": {
+      "id": "projects/mapbiomas-public/assets/brazil/lulc/collection11/mapbiomas_brazil_collection11_coverage_v3",
+      "band_count": 41,
+      "first_band": "classification_1985",
+      "last_band": "classification_2025",
+      "missing_spring_bands": []
+    },
+    "bolivia": {
+      "id": "projects/mapbiomas-public/assets/bolivia/lulc/collection4/mapbiomas_bolivia_collection4_coverage_v1",
+      "band_count": 41,
+      "first_band": "classification_1985",
+      "last_band": "classification_2025",
+      "missing_spring_bands": []
+    },
+    "paraguay": {
+      "id": "projects/mapbiomas-public/assets/paraguay/lulc/collection3/mapbiomas_paraguay_collection3_coverage_v1",
+      "band_count": 41,
+      "first_band": "classification_1985",
+      "last_band": "classification_2025",
+      "missing_spring_bands": []
+    }
+  },
+  "grid_probes": {
+    "G050": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G057": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G067": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G078": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G090": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G115": {
+      "bolivia": {
+        "bolivia_mean": 0.44471637319389234,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 0.0033612135945066896,
+        "brazil_min": 0
+      },
+      "paraguay": {
+        "paraguay_mean": 0.7157142005572915,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 0.9998700229557798,
+        "union_min": 0.8693661093711853
+      }
+    },
+    "G203": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 0.2925421357712123,
+        "brazil_min": 0
+      },
+      "paraguay": {
+        "paraguay_mean": 0.8264640741741639,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G225": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G272": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G286": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G312": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G315": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    },
+    "G316": {
+      "bolivia": {
+        "bolivia_mean": 0,
+        "bolivia_min": 0
+      },
+      "brazil": {
+        "brazil_mean": 1,
+        "brazil_min": 1
+      },
+      "paraguay": {
+        "paraguay_mean": 0,
+        "paraguay_min": 0
+      },
+      "union": {
+        "union_mean": 1,
+        "union_min": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "covariate_source_decision/1",
+  "recorded_client_date": "2026-11-03",
+  "decision": "accepted_by_user",
+  "scope": "MapBiomas source gaps in current Spring grids",
+  "national_priority": [
+    "Brazil",
+    "Paraguay",
+    "Bolivia"
+  ],
+  "fallback_asset": "projects/mapbiomas-public/assets/chaco/lulc/collection5/mapbiomas_chaco_collection5_integration_v2",
+  "fallback_condition": "All three national products missing at the source location; never replace valid non-target classifications",
+  "source_class": 26,
+  "common_class": "open_water",
+  "verified_year_coverage": [
+    1985,
+    2023
+  ],
+  "provenance_requirement": "Retain original source/class and fallback mask or area fraction",
+  "implementation_status": "Production land-cover extraction not yet implemented; acceptance does not adopt other feature mappings or representative years"
+}

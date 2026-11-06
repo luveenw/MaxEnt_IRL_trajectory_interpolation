@@ -1,0 +1,24 @@
+{
+  "request_url": "https://storage.googleapis.com/storage/v1/b?project=perceptive-ivy-780&fields=items%28name%2CprojectNumber%29",
+  "http_status": 200,
+  "response": {
+    "items": [
+      {
+        "name": "gcf-sources-649987002740-us-west2",
+        "projectNumber": "649987002740"
+      },
+      {
+        "name": "jour-22",
+        "projectNumber": "649987002740"
+      },
+      {
+        "name": "us.artifacts.perceptive-ivy-780.appspot.com",
+        "projectNumber": "649987002740"
+      },
+      {
+        "name": "vfaes",
+        "projectNumber": "649987002740"
+      }
+    ]
+  }
+}

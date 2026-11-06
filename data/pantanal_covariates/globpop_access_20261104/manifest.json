@@ -1,0 +1,9 @@
+{
+  "status": "read-only access pilot; no production exports",
+  "sha256": {
+    "initial_query_error.json": "073f7de98e4741d5343b40b23c00c1b4315fa50d999d4d3efe93400e3909139e",
+    "inputs.json": "d49d6def3bba85bde8cf4bcd70a5c6d3ec9049b801bd4797724d49bbe9d32dec",
+    "metadata.json": "732cba902296d05a49a0294ee1330e02483e5356cf91c4db2093f6df519883fe",
+    "pilots.json": "dde92f14a112b15a1fbac8d940577d001c3a096214f4e411ca65be8fce93e2cd"
+  }
+}

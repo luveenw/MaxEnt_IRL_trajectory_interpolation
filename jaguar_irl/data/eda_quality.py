@@ -25,6 +25,20 @@ from .eda_config import (
 
 logger = logging.getLogger(__name__)
 
+# Study -> ecoregion mapping (path resolved relative to this file, not the CWD)
+STUDY_ECOREGION_CSV = (
+    Path(__file__).resolve().parent / "../../data/study_area_biome_mapping.csv"
+).resolve()
+COL_ECOREGION = "biome_ecoregion"
+
+
+def _load_study_ecoregion_map(csv_path: Path = STUDY_ECOREGION_CSV) -> dict:
+    """Return {study_name: biome_ecoregion} from the study-area mapping CSV."""
+    mapping = pd.read_csv(csv_path, encoding="utf-8")
+    mapping["study_name"] = mapping["study_name"].astype(str).str.strip()
+    mapping[COL_ECOREGION] = mapping[COL_ECOREGION].astype(str).str.strip()
+    return dict(zip(mapping["study_name"], mapping[COL_ECOREGION]))
+
 
 def data_quality_diagnostics(df: pd.DataFrame, out_dir: Path) -> dict:
     """Fix counts, durations, fix intervals, temporal coverage, + biome breakdowns."""
@@ -90,6 +104,43 @@ def data_quality_diagnostics(df: pd.DataFrame, out_dir: Path) -> dict:
     fig.tight_layout()
     fig.savefig(out_dir / "1c_fix_interval_by_study.png", dpi=150)
     figs["fix_interval"] = fig
+
+    # --- 1c2. Fix interval distribution by biome ecoregion (from study mapping CSV) ---
+    study_to_eco = _load_study_ecoregion_map()
+    unmapped = sorted(s for s in intervals_by_study if str(s).strip() not in study_to_eco)
+    if unmapped:
+        logger.warning("Studies missing from ecoregion mapping (excluded from 1c2): %s", unmapped)
+
+    intervals_by_eco: dict[str, list] = {}
+    for study, vals in intervals_by_study.items():
+        eco = study_to_eco.get(str(study).strip())
+        if eco is not None:
+            intervals_by_eco.setdefault(eco, []).extend(vals)
+
+    # Individuals per ecoregion (for axis labels)
+    eco_per_ind = grouped[COL_STUDY].first().astype(str).str.strip().map(study_to_eco)
+    n_ind_by_eco = eco_per_ind.value_counts().to_dict()
+
+    # Order ecoregions by median interval so differences in sampling schedule are easy to read
+    eco_names = sorted(intervals_by_eco, key=lambda e: np.median(intervals_by_eco[e]))
+    data_eco = [np.clip(intervals_by_eco[e], 0, 48) for e in eco_names]
+    eco_labels = [f"{e}\n(n={n_ind_by_eco.get(e, 0)})" for e in eco_names]
+
+    fig, ax = plt.subplots(figsize=(max(12, 1.1 * len(eco_names)), 7))
+    bp = ax.boxplot(data_eco, tick_labels=eco_labels, vert=True,
+                    patch_artist=True, showfliers=False)
+    cmap_eco = plt.get_cmap("tab20")
+    for k, patch in enumerate(bp["boxes"]):
+        patch.set_facecolor(cmap_eco(k % 20))
+        patch.set_alpha(0.7)
+    ax.set_ylabel("Fix Interval (hours, capped at 48h)")
+    ax.set_title("Fix Interval Distribution by Biome Ecoregion (ordered by median)")
+    ax.tick_params(axis="x", rotation=60, labelsize=8)
+    for lbl in ax.get_xticklabels():
+        lbl.set_ha("right")
+    fig.tight_layout()
+    fig.savefig(out_dir / "1c2_fix_interval_by_ecoregion.png", dpi=150)
+    figs["fix_interval_by_ecoregion"] = fig
 
     # --- 1d. Temporal coverage heatmap ---
     df_copy = df.copy()

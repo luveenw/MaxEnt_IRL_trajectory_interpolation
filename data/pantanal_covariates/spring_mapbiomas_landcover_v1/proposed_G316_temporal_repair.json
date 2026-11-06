@@ -1,0 +1,33 @@
+{
+  "status": "proposal_only; requires user choice before execution",
+  "scope": {
+    "job_id": "G316_2011",
+    "model_cell_row": 20,
+    "model_cell_col": 13,
+    "source_native_row": 86248,
+    "source_native_col": 60974,
+    "source_native_center_lonlat": [
+      -57.58843266634279,
+      -17.83771184946872
+    ]
+  },
+  "necessary_guards": [
+    "original 2011 selected source is unavailable",
+    "2010 Brazil and 2012 Brazil both valid and class4 Savanna formation",
+    "all original source asset fingerprints match",
+    "patch only the exact native source pixel and year2011"
+  ],
+  "candidate_class": 4,
+  "candidate_label": "Savanna formation (both target indicators zero)",
+  "unchanged_features": {
+    "grassland": 12,
+    "flooded_habitat": 11
+  },
+  "new_provenance": [
+    "temporal_imputed_fraction",
+    "observed_valid_fraction",
+    "effective_supported_coverage_fraction",
+    "original failed product/plan lineage"
+  ],
+  "preservation": "No changes to original 23 products, original bundle, rejected TIFF or rejected ledger. Repair must use a new versioned plan, product key, filename and ledger. Final inventory references its own repair plan for only this job."
+}

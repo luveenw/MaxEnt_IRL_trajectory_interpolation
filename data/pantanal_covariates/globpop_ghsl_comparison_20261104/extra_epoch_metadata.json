@@ -1,0 +1,77 @@
+{
+  "ghs_2023_G057_2013_epoch2010": {
+    "asset": "JRC/GHSL/P2023A/GHS_POP/2010",
+    "target_year": 2013,
+    "selected_epoch": 2010,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "double"
+      },
+      "dimensions": [
+        360820,
+        180000
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
+      "crs_transform": [
+        100,
+        0,
+        -18041000,
+        0,
+        -100,
+        9000000
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420070400000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1577836800000,
+      "system:asset_size": 4681252269,
+      "system:index": "2015"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      223,
+      311
+    ],
+    "native_frame_pixels": 69353,
+    "finite_nonnegative_maskvalid_pixels": 69353,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 69349,
+    "maximum_native_count": 0.40945014357566833,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  }
+}

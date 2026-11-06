@@ -1,0 +1,21 @@
+{
+  "schema": "mapbiomas_acquisition_transport_history/1",
+  "unchanged_recipe": true,
+  "batch_jobs_preserved": [
+    "G115_2005",
+    "G050_2008",
+    "G050_2009"
+  ],
+  "direct_usage": "interactive EECU usage unmeasured; not represented as zero",
+  "source_hashes_pinned_in_plan": true,
+  "first_direct_recovery": {
+    "job_id": "G057_2013",
+    "initial_request_helper_sha256": "031b22f14a906f26299f9e950d3f903fa0fd511f5518492289049601c099b229",
+    "successful_reconciliation_upload_helper_sha256": "cf271f4ae50c547a9f61f6ebe33f5d24a526c112da6482e45a261213c02f72c2",
+    "initial_helper_archive": "gee/_historical/20261103/gee_direct_before_param_copy.py",
+    "existing_download_reused": true,
+    "additional_gee_computation_for_recovery": false,
+    "reason": "Earth Engine client mutated parameter dictionary; helper isolated request parameters before metadata serialization"
+  },
+  "scheduling": "One owned job at a time; batch creation refuses two visible active project tasks; remaining unsubmitted small rasters use sequential direct download with pre-upload validation"
+}

@@ -1,0 +1,314 @@
+{
+  "G316_2011": {
+    "native_array_shape": [
+      20,
+      22
+    ],
+    "native_array_nonfinite": 3,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 3,
+    "affected_target_cells": 19,
+    "missing_projected_area_m2": 2137853.466264467,
+    "domain_area_m2": 323750000.0,
+    "maximum_missing_cell_fraction": 1.0
+  },
+  "G050_2008": {
+    "native_array_shape": [
+      41,
+      46
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1441750000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G050_2009": {
+    "native_array_shape": [
+      41,
+      46
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1441750000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G057_2013": {
+    "native_array_shape": [
+      32,
+      46
+    ],
+    "native_array_nonfinite": 132,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 132,
+    "affected_target_cells": 554,
+    "missing_projected_area_m2": 108014733.28312151,
+    "domain_area_m2": 1140000000.0,
+    "maximum_missing_cell_fraction": 1.000000000004787
+  },
+  "G057_2014": {
+    "native_array_shape": [
+      32,
+      46
+    ],
+    "native_array_nonfinite": 132,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 132,
+    "affected_target_cells": 554,
+    "missing_projected_area_m2": 108014733.28312151,
+    "domain_area_m2": 1140000000.0,
+    "maximum_missing_cell_fraction": 1.000000000004787
+  },
+  "G057_2015": {
+    "native_array_shape": [
+      32,
+      46
+    ],
+    "native_array_nonfinite": 132,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 132,
+    "affected_target_cells": 554,
+    "missing_projected_area_m2": 108014733.28312151,
+    "domain_area_m2": 1140000000.0,
+    "maximum_missing_cell_fraction": 1.000000000004787
+  },
+  "G067_2008": {
+    "native_array_shape": [
+      38,
+      45
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1309000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G067_2009": {
+    "native_array_shape": [
+      38,
+      45
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1309000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G078_2011": {
+    "native_array_shape": [
+      43,
+      38
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1216000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G078_2012": {
+    "native_array_shape": [
+      43,
+      38
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1216000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G078_2013": {
+    "native_array_shape": [
+      43,
+      38
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1216000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G078_2015": {
+    "native_array_shape": [
+      43,
+      38
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1216000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G090_2013": {
+    "native_array_shape": [
+      44,
+      35
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1145500000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G115_2005": {
+    "native_array_shape": [
+      33,
+      25
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 619500000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G115_2006": {
+    "native_array_shape": [
+      33,
+      25
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 619500000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G203_2010": {
+    "native_array_shape": [
+      40,
+      38
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1136000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G225_2010": {
+    "native_array_shape": [
+      36,
+      44
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1197000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G225_2011": {
+    "native_array_shape": [
+      36,
+      44
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1197000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G225_2012": {
+    "native_array_shape": [
+      36,
+      44
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1197000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G225_2013": {
+    "native_array_shape": [
+      36,
+      44
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 1197000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G272_2013": {
+    "native_array_shape": [
+      25,
+      40
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 765000000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G286_2010": {
+    "native_array_shape": [
+      18,
+      25
+    ],
+    "native_array_nonfinite": 13,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 13,
+    "affected_target_cells": 64,
+    "missing_projected_area_m2": 8226834.6846782705,
+    "domain_area_m2": 325500000.0,
+    "maximum_missing_cell_fraction": 1.0000000000046787
+  },
+  "G312_2015": {
+    "native_array_shape": [
+      28,
+      33
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 712500000.0,
+    "maximum_missing_cell_fraction": 0
+  },
+  "G315_2015": {
+    "native_array_shape": [
+      29,
+      41
+    ],
+    "native_array_nonfinite": 0,
+    "native_array_masked": 0,
+    "bad_pixels_intersecting_domain": 0,
+    "affected_target_cells": 0,
+    "missing_projected_area_m2": 0,
+    "domain_area_m2": 879750000.0,
+    "maximum_missing_cell_fraction": 0
+  }
+}

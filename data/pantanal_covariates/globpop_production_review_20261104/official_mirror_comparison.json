@@ -1,0 +1,42 @@
+{
+  "window": "G316_2011",
+  "shape": [
+    20,
+    22
+  ],
+  "pixel_count": 440,
+  "finite_pixels": 437,
+  "nonfinite_pixels": 3,
+  "exact_float32_equal_including_nan": true,
+  "maximum_finite_absolute_difference": 0.0,
+  "nan_positions_local": [
+    [
+      1,
+      17
+    ],
+    [
+      8,
+      21
+    ],
+    [
+      11,
+      21
+    ]
+  ],
+  "count_mask_missing_positions_local": [
+    [
+      1,
+      17
+    ],
+    [
+      8,
+      21
+    ],
+    [
+      11,
+      21
+    ]
+  ],
+  "density_mask_claims_valid_at_nan": true,
+  "scope": "Bounded window equivalence, not global release identity proof."
+}

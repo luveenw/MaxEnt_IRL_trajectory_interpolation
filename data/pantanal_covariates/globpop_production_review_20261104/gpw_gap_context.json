@@ -1,0 +1,2967 @@
+{
+  "metadata": {
+    "Land_Area": {
+      "type": "Image",
+      "bands": [
+        {
+          "id": "land_area",
+          "data_type": {
+            "type": "PixelType",
+            "precision": "float"
+          },
+          "dimensions": [
+            43200,
+            21600
+          ],
+          "crs": "EPSG:4326",
+          "crs_transform": [
+            0.00833333333333333,
+            0,
+            -180,
+            0,
+            -0.00833333333333333,
+            89.99999999999991
+          ]
+        }
+      ],
+      "version": 1696349548957744,
+      "id": "CIESIN/GPWv411/GPW_Land_Area/gpw_v4_land_water_area_rev11_landareakm_30_sec",
+      "properties": {
+        "system:time_start": 946684800000,
+        "system:footprint": {
+          "type": "LinearRing",
+          "coordinates": [
+            [
+              -180,
+              -90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        },
+        "system:time_end": 1577836800000,
+        "system:asset_size": 209113298,
+        "system:index": "gpw_v4_land_water_area_rev11_landareakm_30_sec"
+      }
+    },
+    "Water_Area": {
+      "type": "Image",
+      "bands": [
+        {
+          "id": "water_area",
+          "data_type": {
+            "type": "PixelType",
+            "precision": "float"
+          },
+          "dimensions": [
+            43200,
+            17400
+          ],
+          "crs": "EPSG:4326",
+          "crs_transform": [
+            0.00833333333333333,
+            0,
+            -180,
+            0,
+            -0.00833333333333333,
+            84.99999999999994
+          ]
+        }
+      ],
+      "version": 1696350477575143,
+      "id": "CIESIN/GPWv411/GPW_Water_Area/gpw_v4_land_water_area_rev11_waterareakm_30_sec",
+      "properties": {
+        "system:time_start": 946684800000,
+        "system:footprint": {
+          "type": "LinearRing",
+          "coordinates": [
+            [
+              -180,
+              -90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        },
+        "system:time_end": 1577836800000,
+        "system:asset_size": 118416988,
+        "system:index": "gpw_v4_land_water_area_rev11_waterareakm_30_sec"
+      }
+    },
+    "Water_Mask": {
+      "type": "Image",
+      "bands": [
+        {
+          "id": "water_mask",
+          "data_type": {
+            "type": "PixelType",
+            "precision": "int",
+            "min": -32768,
+            "max": 32767
+          },
+          "dimensions": [
+            43200,
+            21600
+          ],
+          "crs": "EPSG:4326",
+          "crs_transform": [
+            0.00833333333333333,
+            0,
+            -180,
+            0,
+            -0.00833333333333333,
+            90.00000000000001
+          ]
+        }
+      ],
+      "version": 1696350671250222,
+      "id": "CIESIN/GPWv411/GPW_Water_Mask/gpw_v4_data_quality_indicators_rev11_watermask_30_sec",
+      "properties": {
+        "system:time_start": 946684800000,
+        "system:footprint": {
+          "type": "LinearRing",
+          "coordinates": [
+            [
+              -180,
+              -90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        },
+        "system:time_end": 1577836800000,
+        "system:asset_size": 11808487,
+        "system:index": "gpw_v4_data_quality_indicators_rev11_watermask_30_sec"
+      }
+    }
+  },
+  "samples": {
+    "type": "FeatureCollection",
+    "columns": {},
+    "properties": {
+      "band_order": [
+        "land_area",
+        "water_area",
+        "water_mask"
+      ]
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.51250000000006,
+            -17.754166666666706
+          ]
+        },
+        "id": "0_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14698,
+          "source_row": 12930,
+          "water_area": 0.8195722103118896,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.479166666666714,
+            -17.812500000000043
+          ]
+        },
+        "id": "1_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14702,
+          "source_row": 12937,
+          "water_area": 0.8193047642707825,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.479166666666714,
+            -17.837500000000034
+          ]
+        },
+        "id": "2_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14702,
+          "source_row": 12940,
+          "water_area": 0.8191896080970764,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.45416666666672,
+            -16.804166666666703
+          ]
+        },
+        "id": "3_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14705,
+          "source_row": 12816,
+          "water_area": 0.8238105177879333,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.44583333333338,
+            -16.804166666666703
+          ]
+        },
+        "id": "4_0",
+        "properties": {
+          "land_area": 0.025857659056782722,
+          "source_col": 14706,
+          "source_row": 12816,
+          "water_area": 0.7979527711868286,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.62083333333338,
+            -16.82083333333337
+          ]
+        },
+        "id": "5_0",
+        "properties": {
+          "land_area": 0.7253441214561462,
+          "source_col": 14685,
+          "source_row": 12818,
+          "water_area": 0.09839396178722382,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.612500000000054,
+            -16.82083333333337
+          ]
+        },
+        "id": "6_0",
+        "properties": {
+          "land_area": 0.8225939273834229,
+          "source_col": 14686,
+          "source_row": 12818,
+          "water_area": 0.0011441500391811132,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.604166666666714,
+            -16.82083333333337
+          ]
+        },
+        "id": "7_0",
+        "properties": {
+          "land_area": 0.7626442313194275,
+          "source_col": 14687,
+          "source_row": 12818,
+          "water_area": 0.06109391152858734,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.59583333333339,
+            -16.82083333333337
+          ]
+        },
+        "id": "8_0",
+        "properties": {
+          "land_area": 0.8237379789352417,
+          "source_col": 14688,
+          "source_row": 12818,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.58750000000005,
+            -16.82083333333337
+          ]
+        },
+        "id": "9_0",
+        "properties": {
+          "land_area": 0.8237380385398865,
+          "source_col": 14689,
+          "source_row": 12818,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.57916666666672,
+            -16.82083333333337
+          ]
+        },
+        "id": "10_0",
+        "properties": {
+          "land_area": 0.8237380385398865,
+          "source_col": 14690,
+          "source_row": 12818,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.612500000000054,
+            -16.82916666666671
+          ]
+        },
+        "id": "11_0",
+        "properties": {
+          "land_area": 0.8047099709510803,
+          "source_col": 14686,
+          "source_row": 12819,
+          "water_area": 0.01899177022278309,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.604166666666714,
+            -16.82916666666671
+          ]
+        },
+        "id": "12_0",
+        "properties": {
+          "land_area": 0.7841169238090515,
+          "source_col": 14687,
+          "source_row": 12819,
+          "water_area": 0.039584893733263016,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.59583333333339,
+            -16.82916666666671
+          ]
+        },
+        "id": "13_0",
+        "properties": {
+          "land_area": 0.8237017393112183,
+          "source_col": 14688,
+          "source_row": 12819,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.58750000000005,
+            -16.82916666666671
+          ]
+        },
+        "id": "14_0",
+        "properties": {
+          "land_area": 0.8237017393112183,
+          "source_col": 14689,
+          "source_row": 12819,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.57916666666672,
+            -16.82916666666671
+          ]
+        },
+        "id": "15_0",
+        "properties": {
+          "land_area": 0.8237017393112183,
+          "source_col": 14690,
+          "source_row": 12819,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.57083333333338,
+            -16.82916666666671
+          ]
+        },
+        "id": "16_0",
+        "properties": {
+          "land_area": 0.7536873817443848,
+          "source_col": 14691,
+          "source_row": 12819,
+          "water_area": 0.07001425325870514,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.56250000000006,
+            -16.82916666666671
+          ]
+        },
+        "id": "17_0",
+        "properties": {
+          "land_area": 0.8012773394584656,
+          "source_col": 14692,
+          "source_row": 12819,
+          "water_area": 0.022424448281526566,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.53750000000005,
+            -16.82916666666671
+          ]
+        },
+        "id": "18_0",
+        "properties": {
+          "land_area": 0.823701798915863,
+          "source_col": 14695,
+          "source_row": 12819,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.529166666666725,
+            -16.82916666666671
+          ]
+        },
+        "id": "19_0",
+        "properties": {
+          "land_area": 0.8237017393112183,
+          "source_col": 14696,
+          "source_row": 12819,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.520833333333385,
+            -16.82916666666671
+          ]
+        },
+        "id": "20_0",
+        "properties": {
+          "land_area": 0.8237017393112183,
+          "source_col": 14697,
+          "source_row": 12819,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.51250000000006,
+            -16.82916666666671
+          ]
+        },
+        "id": "21_0",
+        "properties": {
+          "land_area": 0.8237016797065735,
+          "source_col": 14698,
+          "source_row": 12819,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.57916666666672,
+            -16.837500000000034
+          ]
+        },
+        "id": "22_0",
+        "properties": {
+          "land_area": 0.8227505087852478,
+          "source_col": 14690,
+          "source_row": 12820,
+          "water_area": 0.0009151750127784908,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.57083333333338,
+            -16.837500000000034
+          ]
+        },
+        "id": "23_0",
+        "properties": {
+          "land_area": 0.502889096736908,
+          "source_col": 14691,
+          "source_row": 12820,
+          "water_area": 0.32077649235725403,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.56250000000006,
+            -16.837500000000034
+          ]
+        },
+        "id": "24_0",
+        "properties": {
+          "land_area": 0.5948708057403564,
+          "source_col": 14692,
+          "source_row": 12820,
+          "water_area": 0.2287949025630951,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.55416666666672,
+            -16.837500000000034
+          ]
+        },
+        "id": "25_0",
+        "properties": {
+          "land_area": 0.8236657381057739,
+          "source_col": 14693,
+          "source_row": 12820,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.54583333333339,
+            -16.837500000000034
+          ]
+        },
+        "id": "26_0",
+        "properties": {
+          "land_area": 0.8236656188964844,
+          "source_col": 14694,
+          "source_row": 12820,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.53750000000005,
+            -16.837500000000034
+          ]
+        },
+        "id": "27_0",
+        "properties": {
+          "land_area": 0.8236657381057739,
+          "source_col": 14695,
+          "source_row": 12820,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.529166666666725,
+            -16.837500000000034
+          ]
+        },
+        "id": "28_0",
+        "properties": {
+          "land_area": 0.8236656188964844,
+          "source_col": 14696,
+          "source_row": 12820,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.520833333333385,
+            -16.837500000000034
+          ]
+        },
+        "id": "29_0",
+        "properties": {
+          "land_area": 0.8236656785011292,
+          "source_col": 14697,
+          "source_row": 12820,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.51250000000006,
+            -16.837500000000034
+          ]
+        },
+        "id": "30_0",
+        "properties": {
+          "land_area": 0.8236656188964844,
+          "source_col": 14698,
+          "source_row": 12820,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.50416666666672,
+            -16.837500000000034
+          ]
+        },
+        "id": "31_0",
+        "properties": {
+          "land_area": 0.8236657381057739,
+          "source_col": 14699,
+          "source_row": 12820,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.49583333333338,
+            -16.837500000000034
+          ]
+        },
+        "id": "32_0",
+        "properties": {
+          "land_area": 0.8236656785011292,
+          "source_col": 14700,
+          "source_row": 12820,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.487500000000054,
+            -16.837500000000034
+          ]
+        },
+        "id": "33_0",
+        "properties": {
+          "land_area": 0.8236657381057739,
+          "source_col": 14701,
+          "source_row": 12820,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.57916666666672,
+            -16.845833333333374
+          ]
+        },
+        "id": "34_0",
+        "properties": {
+          "land_area": 0.5966706871986389,
+          "source_col": 14690,
+          "source_row": 12821,
+          "water_area": 0.22695836424827576,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.57083333333338,
+            -16.845833333333374
+          ]
+        },
+        "id": "35_0",
+        "properties": {
+          "land_area": 0.6351059079170227,
+          "source_col": 14691,
+          "source_row": 12821,
+          "water_area": 0.18852318823337555,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.56250000000006,
+            -16.845833333333374
+          ]
+        },
+        "id": "36_0",
+        "properties": {
+          "land_area": 0.59918612241745,
+          "source_col": 14692,
+          "source_row": 12821,
+          "water_area": 0.2244429886341095,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.55416666666672,
+            -16.845833333333374
+          ]
+        },
+        "id": "37_0",
+        "properties": {
+          "land_area": 0.8142486214637756,
+          "source_col": 14693,
+          "source_row": 12821,
+          "water_area": 0.009380573406815529,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.54583333333339,
+            -16.845833333333374
+          ]
+        },
+        "id": "38_0",
+        "properties": {
+          "land_area": 0.8236290812492371,
+          "source_col": 14694,
+          "source_row": 12821,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.53750000000005,
+            -16.845833333333374
+          ]
+        },
+        "id": "39_0",
+        "properties": {
+          "land_area": 0.8236292004585266,
+          "source_col": 14695,
+          "source_row": 12821,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.529166666666725,
+            -16.845833333333374
+          ]
+        },
+        "id": "40_0",
+        "properties": {
+          "land_area": 0.8236290812492371,
+          "source_col": 14696,
+          "source_row": 12821,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.520833333333385,
+            -16.845833333333374
+          ]
+        },
+        "id": "41_0",
+        "properties": {
+          "land_area": 0.8236290812492371,
+          "source_col": 14697,
+          "source_row": 12821,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.51250000000006,
+            -16.845833333333374
+          ]
+        },
+        "id": "42_0",
+        "properties": {
+          "land_area": 0.8236291408538818,
+          "source_col": 14698,
+          "source_row": 12821,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.50416666666672,
+            -16.845833333333374
+          ]
+        },
+        "id": "43_0",
+        "properties": {
+          "land_area": 0.8236292004585266,
+          "source_col": 14699,
+          "source_row": 12821,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.49583333333338,
+            -16.845833333333374
+          ]
+        },
+        "id": "44_0",
+        "properties": {
+          "land_area": 0.8236290812492371,
+          "source_col": 14700,
+          "source_row": 12821,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.487500000000054,
+            -16.845833333333374
+          ]
+        },
+        "id": "45_0",
+        "properties": {
+          "land_area": 0.8236292004585266,
+          "source_col": 14701,
+          "source_row": 12821,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.479166666666714,
+            -16.845833333333374
+          ]
+        },
+        "id": "46_0",
+        "properties": {
+          "land_area": 0.6438038945198059,
+          "source_col": 14702,
+          "source_row": 12821,
+          "water_area": 0.17982518672943115,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.56250000000006,
+            -16.8541666666667
+          ]
+        },
+        "id": "47_0",
+        "properties": {
+          "land_area": 0.420711874961853,
+          "source_col": 14692,
+          "source_row": 12822,
+          "water_area": 0.4028812050819397,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.55416666666672,
+            -16.8541666666667
+          ]
+        },
+        "id": "48_0",
+        "properties": {
+          "land_area": 0.7194969058036804,
+          "source_col": 14693,
+          "source_row": 12822,
+          "water_area": 0.10409627854824066,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.54583333333339,
+            -16.8541666666667
+          ]
+        },
+        "id": "49_0",
+        "properties": {
+          "land_area": 0.8235930800437927,
+          "source_col": 14694,
+          "source_row": 12822,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.53750000000005,
+            -16.8541666666667
+          ]
+        },
+        "id": "50_0",
+        "properties": {
+          "land_area": 0.8235931396484375,
+          "source_col": 14695,
+          "source_row": 12822,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.529166666666725,
+            -16.8541666666667
+          ]
+        },
+        "id": "51_0",
+        "properties": {
+          "land_area": 0.823593020439148,
+          "source_col": 14696,
+          "source_row": 12822,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.520833333333385,
+            -16.8541666666667
+          ]
+        },
+        "id": "52_0",
+        "properties": {
+          "land_area": 0.8235931396484375,
+          "source_col": 14697,
+          "source_row": 12822,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.51250000000006,
+            -16.8541666666667
+          ]
+        },
+        "id": "53_0",
+        "properties": {
+          "land_area": 0.8235930800437927,
+          "source_col": 14698,
+          "source_row": 12822,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.50416666666672,
+            -16.8541666666667
+          ]
+        },
+        "id": "54_0",
+        "properties": {
+          "land_area": 0.8235931396484375,
+          "source_col": 14699,
+          "source_row": 12822,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.49583333333338,
+            -16.8541666666667
+          ]
+        },
+        "id": "55_0",
+        "properties": {
+          "land_area": 0.6973071694374084,
+          "source_col": 14700,
+          "source_row": 12822,
+          "water_area": 0.12628589570522308,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.487500000000054,
+            -16.8541666666667
+          ]
+        },
+        "id": "56_0",
+        "properties": {
+          "land_area": 0.8126116394996643,
+          "source_col": 14701,
+          "source_row": 12822,
+          "water_area": 0.010981569066643715,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.66250000000005,
+            -16.86250000000004
+          ]
+        },
+        "id": "57_0",
+        "properties": {
+          "land_area": 0.3280494511127472,
+          "source_col": 14680,
+          "source_row": 12823,
+          "water_area": 0.49550724029541016,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.51250000000006,
+            -16.86250000000004
+          ]
+        },
+        "id": "58_0",
+        "properties": {
+          "land_area": 0.8235566020011902,
+          "source_col": 14698,
+          "source_row": 12823,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.50416666666672,
+            -16.86250000000004
+          ]
+        },
+        "id": "59_0",
+        "properties": {
+          "land_area": 0.8235567212104797,
+          "source_col": 14699,
+          "source_row": 12823,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.49583333333338,
+            -16.86250000000004
+          ]
+        },
+        "id": "60_0",
+        "properties": {
+          "land_area": 0.823556661605835,
+          "source_col": 14700,
+          "source_row": 12823,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.487500000000054,
+            -16.86250000000004
+          ]
+        },
+        "id": "61_0",
+        "properties": {
+          "land_area": 0.823556661605835,
+          "source_col": 14701,
+          "source_row": 12823,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.479166666666714,
+            -16.86250000000004
+          ]
+        },
+        "id": "62_0",
+        "properties": {
+          "land_area": 0.5149508714675903,
+          "source_col": 14702,
+          "source_row": 12823,
+          "water_area": 0.30860573053359985,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.47083333333339,
+            -16.86250000000004
+          ]
+        },
+        "id": "63_0",
+        "properties": {
+          "land_area": 0.35893481969833374,
+          "source_col": 14703,
+          "source_row": 12823,
+          "water_area": 0.4646218717098236,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.46250000000005,
+            -16.86250000000004
+          ]
+        },
+        "id": "64_0",
+        "properties": {
+          "land_area": 0.823556661605835,
+          "source_col": 14704,
+          "source_row": 12823,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.49583333333338,
+            -16.870833333333366
+          ]
+        },
+        "id": "65_0",
+        "properties": {
+          "land_area": 0.8235203623771667,
+          "source_col": 14700,
+          "source_row": 12824,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.487500000000054,
+            -16.870833333333366
+          ]
+        },
+        "id": "66_0",
+        "properties": {
+          "land_area": 0.8235204219818115,
+          "source_col": 14701,
+          "source_row": 12824,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.479166666666714,
+            -16.870833333333366
+          ]
+        },
+        "id": "67_0",
+        "properties": {
+          "land_area": 0.7821140885353088,
+          "source_col": 14702,
+          "source_row": 12824,
+          "water_area": 0.041406355798244476,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.47083333333339,
+            -16.870833333333366
+          ]
+        },
+        "id": "68_0",
+        "properties": {
+          "land_area": 0.6370801329612732,
+          "source_col": 14703,
+          "source_row": 12824,
+          "water_area": 0.18644030392169952,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.46250000000005,
+            -16.870833333333366
+          ]
+        },
+        "id": "69_0",
+        "properties": {
+          "land_area": 0.8235203623771667,
+          "source_col": 14704,
+          "source_row": 12824,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.45416666666672,
+            -16.870833333333366
+          ]
+        },
+        "id": "70_0",
+        "properties": {
+          "land_area": 0.8235204219818115,
+          "source_col": 14705,
+          "source_row": 12824,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.44583333333338,
+            -16.870833333333366
+          ]
+        },
+        "id": "71_0",
+        "properties": {
+          "land_area": 0.8235203623771667,
+          "source_col": 14706,
+          "source_row": 12824,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.487500000000054,
+            -16.879166666666706
+          ]
+        },
+        "id": "72_0",
+        "properties": {
+          "land_area": 0.8234841227531433,
+          "source_col": 14701,
+          "source_row": 12825,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.479166666666714,
+            -16.879166666666706
+          ]
+        },
+        "id": "73_0",
+        "properties": {
+          "land_area": 0.8234840035438538,
+          "source_col": 14702,
+          "source_row": 12825,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.47083333333339,
+            -16.879166666666706
+          ]
+        },
+        "id": "74_0",
+        "properties": {
+          "land_area": 0.8234840631484985,
+          "source_col": 14703,
+          "source_row": 12825,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.46250000000005,
+            -16.879166666666706
+          ]
+        },
+        "id": "75_0",
+        "properties": {
+          "land_area": 0.8234840035438538,
+          "source_col": 14704,
+          "source_row": 12825,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.45416666666672,
+            -16.879166666666706
+          ]
+        },
+        "id": "76_0",
+        "properties": {
+          "land_area": 0.8234840631484985,
+          "source_col": 14705,
+          "source_row": 12825,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.44583333333338,
+            -16.879166666666706
+          ]
+        },
+        "id": "77_0",
+        "properties": {
+          "land_area": 0.2706066370010376,
+          "source_col": 14706,
+          "source_row": 12825,
+          "water_area": 0.5528773665428162,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.479166666666714,
+            -16.887500000000045
+          ]
+        },
+        "id": "78_0",
+        "properties": {
+          "land_area": 0.7141097784042358,
+          "source_col": 14702,
+          "source_row": 12826,
+          "water_area": 0.10933797061443329,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.47083333333339,
+            -16.887500000000045
+          ]
+        },
+        "id": "79_0",
+        "properties": {
+          "land_area": 0.7653471827507019,
+          "source_col": 14703,
+          "source_row": 12826,
+          "water_area": 0.05810052901506424,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.46250000000005,
+            -16.887500000000045
+          ]
+        },
+        "id": "80_0",
+        "properties": {
+          "land_area": 0.7589417695999146,
+          "source_col": 14704,
+          "source_row": 12826,
+          "water_area": 0.06450597196817398,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.45416666666672,
+            -16.887500000000045
+          ]
+        },
+        "id": "81_0",
+        "properties": {
+          "land_area": 0.8074359893798828,
+          "source_col": 14705,
+          "source_row": 12826,
+          "water_area": 0.016011817380785942,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.44583333333338,
+            -16.887500000000045
+          ]
+        },
+        "id": "82_0",
+        "properties": {
+          "land_area": 0.12968990206718445,
+          "source_col": 14706,
+          "source_row": 12826,
+          "water_area": 0.6937578916549683,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.43750000000006,
+            -16.887500000000045
+          ]
+        },
+        "id": "83_0",
+        "properties": {
+          "land_area": 0.443512886762619,
+          "source_col": 14707,
+          "source_row": 12826,
+          "water_area": 0.3799348771572113,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.42916666666672,
+            -16.887500000000045
+          ]
+        },
+        "id": "84_0",
+        "properties": {
+          "land_area": 0.8234477043151855,
+          "source_col": 14708,
+          "source_row": 12826,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.47083333333339,
+            -16.89583333333337
+          ]
+        },
+        "id": "85_0",
+        "properties": {
+          "land_area": 0.823411226272583,
+          "source_col": 14703,
+          "source_row": 12827,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.46250000000005,
+            -16.89583333333337
+          ]
+        },
+        "id": "86_0",
+        "properties": {
+          "land_area": 0.823411226272583,
+          "source_col": 14704,
+          "source_row": 12827,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.45416666666672,
+            -16.89583333333337
+          ]
+        },
+        "id": "87_0",
+        "properties": {
+          "land_area": 0.8234113454818726,
+          "source_col": 14705,
+          "source_row": 12827,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.44583333333338,
+            -16.89583333333337
+          ]
+        },
+        "id": "88_0",
+        "properties": {
+          "land_area": 0.823411226272583,
+          "source_col": 14706,
+          "source_row": 12827,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.43750000000006,
+            -16.89583333333337
+          ]
+        },
+        "id": "89_0",
+        "properties": {
+          "land_area": 0.8234112858772278,
+          "source_col": 14707,
+          "source_row": 12827,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.42916666666672,
+            -16.89583333333337
+          ]
+        },
+        "id": "90_0",
+        "properties": {
+          "land_area": 0.8234111666679382,
+          "source_col": 14708,
+          "source_row": 12827,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.42083333333339,
+            -16.89583333333337
+          ]
+        },
+        "id": "91_0",
+        "properties": {
+          "land_area": 0.8234112858772278,
+          "source_col": 14709,
+          "source_row": 12827,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.41250000000005,
+            -16.89583333333337
+          ]
+        },
+        "id": "92_0",
+        "properties": {
+          "land_area": 0.618930995464325,
+          "source_col": 14710,
+          "source_row": 12827,
+          "water_area": 0.20448024570941925,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.47083333333339,
+            -16.90416666666671
+          ]
+        },
+        "id": "93_0",
+        "properties": {
+          "land_area": 0.6971209049224854,
+          "source_col": 14703,
+          "source_row": 12828,
+          "water_area": 0.12625403702259064,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.46250000000005,
+            -16.90416666666671
+          ]
+        },
+        "id": "94_0",
+        "properties": {
+          "land_area": 0.8233749270439148,
+          "source_col": 14704,
+          "source_row": 12828,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.45416666666672,
+            -16.90416666666671
+          ]
+        },
+        "id": "95_0",
+        "properties": {
+          "land_area": 0.7973010540008545,
+          "source_col": 14705,
+          "source_row": 12828,
+          "water_area": 0.02607400342822075,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.44583333333338,
+            -16.90416666666671
+          ]
+        },
+        "id": "96_0",
+        "properties": {
+          "land_area": 0.816055953502655,
+          "source_col": 14706,
+          "source_row": 12828,
+          "water_area": 0.007318967487663031,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.43750000000006,
+            -16.90416666666671
+          ]
+        },
+        "id": "97_0",
+        "properties": {
+          "land_area": 0.8233751058578491,
+          "source_col": 14707,
+          "source_row": 12828,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.42916666666672,
+            -16.90416666666671
+          ]
+        },
+        "id": "98_0",
+        "properties": {
+          "land_area": 0.7483541965484619,
+          "source_col": 14708,
+          "source_row": 12828,
+          "water_area": 0.07502062618732452,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.42083333333339,
+            -16.90416666666671
+          ]
+        },
+        "id": "99_0",
+        "properties": {
+          "land_area": 0.7776309847831726,
+          "source_col": 14709,
+          "source_row": 12828,
+          "water_area": 0.04574406519532204,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.41250000000005,
+            -16.90416666666671
+          ]
+        },
+        "id": "100_0",
+        "properties": {
+          "land_area": 0.7298286557197571,
+          "source_col": 14710,
+          "source_row": 12828,
+          "water_area": 0.0935463011264801,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.46250000000005,
+            -16.912500000000037
+          ]
+        },
+        "id": "101_0",
+        "properties": {
+          "land_area": 0.80252605676651,
+          "source_col": 14704,
+          "source_row": 12829,
+          "water_area": 0.0208125002682209,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.45416666666672,
+            -16.912500000000037
+          ]
+        },
+        "id": "102_0",
+        "properties": {
+          "land_area": 0.7300230860710144,
+          "source_col": 14705,
+          "source_row": 12829,
+          "water_area": 0.09331551194190979,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.44583333333338,
+            -16.912500000000037
+          ]
+        },
+        "id": "103_0",
+        "properties": {
+          "land_area": 0.6495190262794495,
+          "source_col": 14706,
+          "source_row": 12829,
+          "water_area": 0.17381949722766876,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.43750000000006,
+            -16.912500000000037
+          ]
+        },
+        "id": "104_0",
+        "properties": {
+          "land_area": 0.7460347414016724,
+          "source_col": 14707,
+          "source_row": 12829,
+          "water_area": 0.0773039162158966,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.42916666666672,
+            -16.912500000000037
+          ]
+        },
+        "id": "105_0",
+        "properties": {
+          "land_area": 0.8233383893966675,
+          "source_col": 14708,
+          "source_row": 12829,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.42083333333339,
+            -16.912500000000037
+          ]
+        },
+        "id": "106_0",
+        "properties": {
+          "land_area": 0.7592984437942505,
+          "source_col": 14709,
+          "source_row": 12829,
+          "water_area": 0.0640401616692543,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.41250000000005,
+            -16.912500000000037
+          ]
+        },
+        "id": "107_0",
+        "properties": {
+          "land_area": 0.7581548690795898,
+          "source_col": 14710,
+          "source_row": 12829,
+          "water_area": 0.06518369913101196,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.42083333333339,
+            -16.920833333333377
+          ]
+        },
+        "id": "108_0",
+        "properties": {
+          "land_area": 0.8233022093772888,
+          "source_col": 14709,
+          "source_row": 12830,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.41250000000005,
+            -16.920833333333377
+          ]
+        },
+        "id": "109_0",
+        "properties": {
+          "land_area": 0.8233020901679993,
+          "source_col": 14710,
+          "source_row": 12830,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.404166666666725,
+            -16.920833333333377
+          ]
+        },
+        "id": "110_0",
+        "properties": {
+          "land_area": 0.8233022093772888,
+          "source_col": 14711,
+          "source_row": 12830,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.42083333333339,
+            -16.929166666666703
+          ]
+        },
+        "id": "111_0",
+        "properties": {
+          "land_area": 0.8118311762809753,
+          "source_col": 14709,
+          "source_row": 12831,
+          "water_area": 0.011434623040258884,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.41250000000005,
+            -16.929166666666703
+          ]
+        },
+        "id": "112_0",
+        "properties": {
+          "land_area": 0.6325420141220093,
+          "source_col": 14710,
+          "source_row": 12831,
+          "water_area": 0.19072364270687103,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.404166666666725,
+            -16.929166666666703
+          ]
+        },
+        "id": "113_0",
+        "properties": {
+          "land_area": 0.8232657313346863,
+          "source_col": 14711,
+          "source_row": 12831,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.395833333333385,
+            -16.929166666666703
+          ]
+        },
+        "id": "114_0",
+        "properties": {
+          "land_area": 0.8168622255325317,
+          "source_col": 14712,
+          "source_row": 12831,
+          "water_area": 0.006403530947864056,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.41250000000005,
+            -16.937500000000043
+          ]
+        },
+        "id": "115_0",
+        "properties": {
+          "land_area": 0.6016425490379333,
+          "source_col": 14710,
+          "source_row": 12832,
+          "water_area": 0.2215867042541504,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.404166666666725,
+            -16.937500000000043
+          ]
+        },
+        "id": "116_0",
+        "properties": {
+          "land_area": 0.8232293128967285,
+          "source_col": 14711,
+          "source_row": 12832,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.395833333333385,
+            -16.937500000000043
+          ]
+        },
+        "id": "117_0",
+        "properties": {
+          "land_area": 0.823229193687439,
+          "source_col": 14712,
+          "source_row": 12832,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.38750000000006,
+            -16.937500000000043
+          ]
+        },
+        "id": "118_0",
+        "properties": {
+          "land_area": 0.8232293725013733,
+          "source_col": 14713,
+          "source_row": 12832,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.41250000000005,
+            -16.94583333333337
+          ]
+        },
+        "id": "119_0",
+        "properties": {
+          "land_area": 0.7518476843833923,
+          "source_col": 14710,
+          "source_row": 12833,
+          "water_area": 0.07134498655796051,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.404166666666725,
+            -16.94583333333337
+          ]
+        },
+        "id": "120_0",
+        "properties": {
+          "land_area": 0.7033701539039612,
+          "source_col": 14711,
+          "source_row": 12833,
+          "water_area": 0.11982256174087524,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.395833333333385,
+            -16.94583333333337
+          ]
+        },
+        "id": "121_0",
+        "properties": {
+          "land_area": 0.8113014101982117,
+          "source_col": 14712,
+          "source_row": 12833,
+          "water_area": 0.011891254223883152,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.38750000000006,
+            -16.94583333333337
+          ]
+        },
+        "id": "122_0",
+        "properties": {
+          "land_area": 0.8231927752494812,
+          "source_col": 14713,
+          "source_row": 12833,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.404166666666725,
+            -16.95416666666671
+          ]
+        },
+        "id": "123_0",
+        "properties": {
+          "land_area": 0.7842829823493958,
+          "source_col": 14711,
+          "source_row": 12834,
+          "water_area": 0.038873471319675446,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.395833333333385,
+            -16.95416666666671
+          ]
+        },
+        "id": "124_0",
+        "properties": {
+          "land_area": 0.7577594518661499,
+          "source_col": 14712,
+          "source_row": 12834,
+          "water_area": 0.06539685279130936,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.38750000000006,
+            -16.95416666666671
+          ]
+        },
+        "id": "125_0",
+        "properties": {
+          "land_area": 0.8231564164161682,
+          "source_col": 14713,
+          "source_row": 12834,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.53750000000005,
+            -16.962500000000034
+          ]
+        },
+        "id": "126_0",
+        "properties": {
+          "land_area": 0.0352104976773262,
+          "source_col": 14695,
+          "source_row": 12835,
+          "water_area": 0.7879092693328857,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.487500000000054,
+            -16.962500000000034
+          ]
+        },
+        "id": "127_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14701,
+          "source_row": 12835,
+          "water_area": 0.8231197595596313,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.38750000000006,
+            -16.962500000000034
+          ]
+        },
+        "id": "128_0",
+        "properties": {
+          "land_area": 0.8231197595596313,
+          "source_col": 14713,
+          "source_row": 12835,
+          "water_area": 0,
+          "water_mask": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.49583333333338,
+            -16.970833333333374
+          ]
+        },
+        "id": "129_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14700,
+          "source_row": 12836,
+          "water_area": 0.8230832815170288,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.487500000000054,
+            -16.970833333333374
+          ]
+        },
+        "id": "130_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14701,
+          "source_row": 12836,
+          "water_area": 0.8230834007263184,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.46250000000005,
+            -16.970833333333374
+          ]
+        },
+        "id": "131_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14704,
+          "source_row": 12836,
+          "water_area": 0.8230832815170288,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.45416666666672,
+            -16.970833333333374
+          ]
+        },
+        "id": "132_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14705,
+          "source_row": 12836,
+          "water_area": 0.8226262927055359,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.50416666666672,
+            -16.9791666666667
+          ]
+        },
+        "id": "133_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14699,
+          "source_row": 12837,
+          "water_area": 0.8230467438697815,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.49583333333338,
+            -16.9791666666667
+          ]
+        },
+        "id": "134_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14700,
+          "source_row": 12837,
+          "water_area": 0.8230466842651367,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.38750000000006,
+            -17.77916666666671
+          ]
+        },
+        "id": "135_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14713,
+          "source_row": 12933,
+          "water_area": 0.8194578289985657,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.37916666666672,
+            -17.77916666666671
+          ]
+        },
+        "id": "136_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14714,
+          "source_row": 12933,
+          "water_area": 0.8194577097892761,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.37083333333338,
+            -17.77916666666671
+          ]
+        },
+        "id": "137_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14715,
+          "source_row": 12933,
+          "water_area": 0.8194577693939209,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.362500000000054,
+            -17.77916666666671
+          ]
+        },
+        "id": "138_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14716,
+          "source_row": 12933,
+          "water_area": 0.8194577097892761,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.38750000000006,
+            -17.787500000000037
+          ]
+        },
+        "id": "139_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14713,
+          "source_row": 12934,
+          "water_area": 0.8194194436073303,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.37916666666672,
+            -17.787500000000037
+          ]
+        },
+        "id": "140_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14714,
+          "source_row": 12934,
+          "water_area": 0.8194193243980408,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.38750000000006,
+            -17.795833333333377
+          ]
+        },
+        "id": "141_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14713,
+          "source_row": 12935,
+          "water_area": 0.8193813562393188,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.37916666666672,
+            -17.795833333333377
+          ]
+        },
+        "id": "142_0",
+        "properties": {
+          "land_area": 0.030500413849949837,
+          "source_col": 14714,
+          "source_row": 12935,
+          "water_area": 0.7888807058334351,
+          "water_mask": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.47083333333339,
+            -17.82083333333337
+          ]
+        },
+        "id": "143_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14703,
+          "source_row": 12938,
+          "water_area": 0.8192663192749023,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.395833333333385,
+            -17.82916666666671
+          ]
+        },
+        "id": "144_0",
+        "properties": {
+          "land_area": 0,
+          "source_col": 14712,
+          "source_row": 12939,
+          "water_area": 0.8192281723022461,
+          "water_mask": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "geodesic": false,
+          "type": "Point",
+          "coordinates": [
+            -57.45416666666672,
+            -17.86250000000004
+          ]
+        },
+        "id": "145_0",
+        "properties": {
+          "land_area": 0.010693302378058434,
+          "source_col": 14705,
+          "source_row": 12943,
+          "water_area": 0.8083815574645996,
+          "water_mask": 1
+        }
+      }
+    ]
+  }
+}

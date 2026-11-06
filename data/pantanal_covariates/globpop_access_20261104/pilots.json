@@ -1,0 +1,755 @@
+{
+  "G115_2005": {
+    "crs_transform": [
+      500,
+      0,
+      365000.0,
+      0,
+      -500,
+      7803500.0
+    ],
+    "grid": {
+      "action_offsets": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "barrier_status": "not_supplied",
+      "bounds": [
+        365000.0,
+        7774000.0,
+        386000.0,
+        7803500.0
+      ],
+      "cell_size_m": 500.0,
+      "col_direction": "east",
+      "cols": 42,
+      "crs": "EPSG:32721",
+      "diagonal_corner_crossing": "allowed",
+      "grid_key": "grid_8a8f14e07f802effa35cb72f",
+      "origin": "upper_left",
+      "outer_boundary": "inclusive_last_cell_exact_boundary_only",
+      "row_direction": "south",
+      "rows": 59
+    },
+    "group": "G115",
+    "season_end_exclusive": "2005-11-15",
+    "season_start": "2005-08-15",
+    "source": {
+      "count": {
+        "annual_filtered_images": 1,
+        "image": {
+          "bands": [
+            {
+              "crs": "EPSG:4326",
+              "crs_transform": [
+                0.008333333333333333,
+                0,
+                -180,
+                0,
+                -0.008333333333333333,
+                90
+              ],
+              "data_type": {
+                "max": 2147483647,
+                "min": -2147483648,
+                "precision": "int",
+                "type": "PixelType"
+              },
+              "dimensions": [
+                43200,
+                21600
+              ],
+              "id": "count"
+            }
+          ],
+          "id": "projects/sat-io/open-datasets/GLOBPOP_COUNT/GlobPOP_Count_30arc_2005_I32",
+          "properties": {
+            "id_no": "GlobPOP_Count_30arc_2005_I32",
+            "num_bands": 1,
+            "system:asset_size": 118391318,
+            "system:footprint": {
+              "coordinates": [
+                [
+                  -180,
+                  -90
+                ],
+                [
+                  180,
+                  -90
+                ],
+                [
+                  180,
+                  90
+                ],
+                [
+                  -180,
+                  90
+                ],
+                [
+                  -180,
+                  -90
+                ]
+              ],
+              "type": "LinearRing"
+            },
+            "system:index": "GlobPOP_Count_30arc_2005_I32",
+            "system:time_end": 1135987200000,
+            "system:time_start": 1104537600000,
+            "xsize": 43200,
+            "ysize": 21600
+          },
+          "type": "Image",
+          "version": 1747316397259779
+        },
+        "native_statistics": {
+          "count_count": 825,
+          "count_max": 12,
+          "count_mean": 0.5655815753428147,
+          "count_min": 0
+        },
+        "nominal_scale_m": 927.6624232772797,
+        "projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.008333333333333333,
+            0,
+            -180,
+            0,
+            -0.008333333333333333,
+            90
+          ],
+          "type": "Projection"
+        },
+        "spring_date_filter_count": 0,
+        "target_center_validity_nearest_only": {
+          "count_max": 1,
+          "count_min": 1,
+          "count_sum": 2478
+        }
+      },
+      "density": {
+        "annual_filtered_images": 1,
+        "image": {
+          "bands": [
+            {
+              "crs": "EPSG:4326",
+              "crs_transform": [
+                0.008333333333333333,
+                0,
+                -180,
+                0,
+                -0.008333333333333333,
+                90
+              ],
+              "data_type": {
+                "precision": "float",
+                "type": "PixelType"
+              },
+              "dimensions": [
+                43200,
+                21600
+              ],
+              "id": "density"
+            }
+          ],
+          "id": "projects/sat-io/open-datasets/GLOBPOP_DENSITY/GlobPOP_Density_30arc_2005_F32",
+          "properties": {
+            "id_no": "GlobPOP_Density_30arc_2005_F32",
+            "num_bands": 1,
+            "system:asset_size": 870466338,
+            "system:footprint": {
+              "coordinates": [
+                [
+                  -180,
+                  -90
+                ],
+                [
+                  180,
+                  -90
+                ],
+                [
+                  180,
+                  90
+                ],
+                [
+                  -180,
+                  90
+                ],
+                [
+                  -180,
+                  -90
+                ]
+              ],
+              "type": "LinearRing"
+            },
+            "system:index": "GlobPOP_Density_30arc_2005_F32",
+            "system:time_end": 1135987200000,
+            "system:time_start": 1104537600000,
+            "xsize": 43200,
+            "ysize": 21600
+          },
+          "type": "Image",
+          "version": 1747316376190414
+        },
+        "native_statistics": {
+          "density_count": 825,
+          "density_max": 14.687495231628418,
+          "density_mean": 0.6329893948987805,
+          "density_min": 0.03697821497917175
+        },
+        "nominal_scale_m": 927.6624232772797,
+        "projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.008333333333333333,
+            0,
+            -180,
+            0,
+            -0.008333333333333333,
+            90
+          ],
+          "type": "Projection"
+        },
+        "spring_date_filter_count": 0,
+        "target_center_validity_nearest_only": {
+          "density_max": 1,
+          "density_min": 1,
+          "density_sum": 2478
+        }
+      }
+    },
+    "year": 2005
+  },
+  "G312_2015": {
+    "crs_transform": [
+      500,
+      0,
+      556000.0,
+      0,
+      -500,
+      7838500.0
+    ],
+    "grid": {
+      "action_offsets": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "barrier_status": "not_supplied",
+      "bounds": [
+        556000.0,
+        7813500.0,
+        584500.0,
+        7838500.0
+      ],
+      "cell_size_m": 500.0,
+      "col_direction": "east",
+      "cols": 57,
+      "crs": "EPSG:32721",
+      "diagonal_corner_crossing": "allowed",
+      "grid_key": "grid_66c10678e599a1ddac0d54b3",
+      "origin": "upper_left",
+      "outer_boundary": "inclusive_last_cell_exact_boundary_only",
+      "row_direction": "south",
+      "rows": 50
+    },
+    "group": "G312",
+    "season_end_exclusive": "2015-11-15",
+    "season_start": "2015-08-15",
+    "source": {
+      "count": {
+        "annual_filtered_images": 1,
+        "image": {
+          "bands": [
+            {
+              "crs": "EPSG:4326",
+              "crs_transform": [
+                0.008333333333333333,
+                0,
+                -180,
+                0,
+                -0.008333333333333333,
+                90
+              ],
+              "data_type": {
+                "max": 2147483647,
+                "min": -2147483648,
+                "precision": "int",
+                "type": "PixelType"
+              },
+              "dimensions": [
+                43200,
+                21600
+              ],
+              "id": "count"
+            }
+          ],
+          "id": "projects/sat-io/open-datasets/GLOBPOP_COUNT/GlobPOP_Count_30arc_2015_I32",
+          "properties": {
+            "id_no": "GlobPOP_Count_30arc_2015_I32",
+            "num_bands": 1,
+            "system:asset_size": 120908455,
+            "system:footprint": {
+              "coordinates": [
+                [
+                  -180,
+                  -90
+                ],
+                [
+                  180,
+                  -90
+                ],
+                [
+                  180,
+                  90
+                ],
+                [
+                  -180,
+                  90
+                ],
+                [
+                  -180,
+                  -90
+                ]
+              ],
+              "type": "LinearRing"
+            },
+            "system:index": "GlobPOP_Count_30arc_2015_I32",
+            "system:time_end": 1451520000000,
+            "system:time_start": 1420070400000,
+            "xsize": 43200,
+            "ysize": 21600
+          },
+          "type": "Image",
+          "version": 1747316402568766
+        },
+        "native_statistics": {
+          "count_count": 924,
+          "count_max": 1,
+          "count_mean": 0.012253641056571646,
+          "count_min": 0
+        },
+        "nominal_scale_m": 927.6624232772797,
+        "projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.008333333333333333,
+            0,
+            -180,
+            0,
+            -0.008333333333333333,
+            90
+          ],
+          "type": "Projection"
+        },
+        "spring_date_filter_count": 0,
+        "target_center_validity_nearest_only": {
+          "count_max": 1,
+          "count_min": 1,
+          "count_sum": 2850
+        }
+      },
+      "density": {
+        "annual_filtered_images": 1,
+        "image": {
+          "bands": [
+            {
+              "crs": "EPSG:4326",
+              "crs_transform": [
+                0.008333333333333333,
+                0,
+                -180,
+                0,
+                -0.008333333333333333,
+                90
+              ],
+              "data_type": {
+                "precision": "float",
+                "type": "PixelType"
+              },
+              "dimensions": [
+                43200,
+                21600
+              ],
+              "id": "density"
+            }
+          ],
+          "id": "projects/sat-io/open-datasets/GLOBPOP_DENSITY/GlobPOP_Density_30arc_2015_F32",
+          "properties": {
+            "id_no": "GlobPOP_Density_30arc_2015_F32",
+            "num_bands": 1,
+            "system:asset_size": 865410892,
+            "system:footprint": {
+              "coordinates": [
+                [
+                  -180,
+                  -90
+                ],
+                [
+                  180,
+                  -90
+                ],
+                [
+                  180,
+                  90
+                ],
+                [
+                  -180,
+                  90
+                ],
+                [
+                  -180,
+                  -90
+                ]
+              ],
+              "type": "LinearRing"
+            },
+            "system:index": "GlobPOP_Density_30arc_2015_F32",
+            "system:time_end": 1451520000000,
+            "system:time_start": 1420070400000,
+            "xsize": 43200,
+            "ysize": 21600
+          },
+          "type": "Image",
+          "version": 1747316381575944
+        },
+        "native_statistics": {
+          "density_count": 924,
+          "density_max": 1.5133224725723267,
+          "density_mean": 0.03559901114630683,
+          "density_min": 0.013809308409690857
+        },
+        "nominal_scale_m": 927.6624232772797,
+        "projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.008333333333333333,
+            0,
+            -180,
+            0,
+            -0.008333333333333333,
+            90
+          ],
+          "type": "Projection"
+        },
+        "spring_date_filter_count": 0,
+        "target_center_validity_nearest_only": {
+          "density_max": 1,
+          "density_min": 1,
+          "density_sum": 2850
+        }
+      }
+    },
+    "year": 2015
+  },
+  "G316_2011": {
+    "crs_transform": [
+      500,
+      0,
+      431000.0,
+      0,
+      -500,
+      8038000.0
+    ],
+    "grid": {
+      "action_offsets": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "barrier_status": "not_supplied",
+      "bounds": [
+        431000.0,
+        8020500.0,
+        449500.0,
+        8038000.0
+      ],
+      "cell_size_m": 500.0,
+      "col_direction": "east",
+      "cols": 37,
+      "crs": "EPSG:32721",
+      "diagonal_corner_crossing": "allowed",
+      "grid_key": "grid_6befb4e4451589ad0b222a45",
+      "origin": "upper_left",
+      "outer_boundary": "inclusive_last_cell_exact_boundary_only",
+      "row_direction": "south",
+      "rows": 35
+    },
+    "group": "G316",
+    "season_end_exclusive": "2011-11-15",
+    "season_start": "2011-08-15",
+    "source": {
+      "count": {
+        "annual_filtered_images": 1,
+        "image": {
+          "bands": [
+            {
+              "crs": "EPSG:4326",
+              "crs_transform": [
+                0.008333333333333333,
+                0,
+                -180,
+                0,
+                -0.008333333333333333,
+                90
+              ],
+              "data_type": {
+                "max": 2147483647,
+                "min": -2147483648,
+                "precision": "int",
+                "type": "PixelType"
+              },
+              "dimensions": [
+                43200,
+                21600
+              ],
+              "id": "count"
+            }
+          ],
+          "id": "projects/sat-io/open-datasets/GLOBPOP_COUNT/GlobPOP_Count_30arc_2011_I32",
+          "properties": {
+            "id_no": "GlobPOP_Count_30arc_2011_I32",
+            "num_bands": 1,
+            "system:asset_size": 122224178,
+            "system:footprint": {
+              "coordinates": [
+                [
+                  -180,
+                  -90
+                ],
+                [
+                  180,
+                  -90
+                ],
+                [
+                  180,
+                  90
+                ],
+                [
+                  -180,
+                  90
+                ],
+                [
+                  -180,
+                  -90
+                ]
+              ],
+              "type": "LinearRing"
+            },
+            "system:index": "GlobPOP_Count_30arc_2011_I32",
+            "system:time_end": 1325289600000,
+            "system:time_start": 1293840000000,
+            "xsize": 43200,
+            "ysize": 21600
+          },
+          "type": "Image",
+          "version": 1747316402183890.0
+        },
+        "native_statistics": {
+          "count_count": 437,
+          "count_max": 16,
+          "count_mean": 0.04562805678158175,
+          "count_min": 0
+        },
+        "nominal_scale_m": 927.6624232772797,
+        "projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.008333333333333333,
+            0,
+            -180,
+            0,
+            -0.008333333333333333,
+            90
+          ],
+          "type": "Projection"
+        },
+        "spring_date_filter_count": 0,
+        "target_center_validity_nearest_only": {
+          "count_max": 1,
+          "count_min": 0,
+          "count_sum": 1288
+        }
+      },
+      "density": {
+        "annual_filtered_images": 1,
+        "image": {
+          "bands": [
+            {
+              "crs": "EPSG:4326",
+              "crs_transform": [
+                0.008333333333333333,
+                0,
+                -180,
+                0,
+                -0.008333333333333333,
+                90
+              ],
+              "data_type": {
+                "precision": "float",
+                "type": "PixelType"
+              },
+              "dimensions": [
+                43200,
+                21600
+              ],
+              "id": "density"
+            }
+          ],
+          "id": "projects/sat-io/open-datasets/GLOBPOP_DENSITY/GlobPOP_Density_30arc_2011_F32",
+          "properties": {
+            "id_no": "GlobPOP_Density_30arc_2011_F32",
+            "num_bands": 1,
+            "system:asset_size": 875454943,
+            "system:footprint": {
+              "coordinates": [
+                [
+                  -180,
+                  -90
+                ],
+                [
+                  180,
+                  -90
+                ],
+                [
+                  180,
+                  90
+                ],
+                [
+                  -180,
+                  90
+                ],
+                [
+                  -180,
+                  -90
+                ]
+              ],
+              "type": "LinearRing"
+            },
+            "system:index": "GlobPOP_Density_30arc_2011_F32",
+            "system:time_end": 1325289600000,
+            "system:time_start": 1293840000000,
+            "xsize": 43200,
+            "ysize": 21600
+          },
+          "type": "Image",
+          "version": 1747316380973129
+        },
+        "native_statistics": {
+          "density_count": 437,
+          "density_max": 20.133647918701172,
+          "density_mean": 0.1425311762629057,
+          "density_min": 8.290214464068413e-05
+        },
+        "nominal_scale_m": 927.6624232772797,
+        "projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.008333333333333333,
+            0,
+            -180,
+            0,
+            -0.008333333333333333,
+            90
+          ],
+          "type": "Projection"
+        },
+        "spring_date_filter_count": 0,
+        "target_center_validity_nearest_only": {
+          "density_max": 1,
+          "density_min": 1,
+          "density_sum": 1295
+        }
+      }
+    },
+    "year": 2011
+  }
+}

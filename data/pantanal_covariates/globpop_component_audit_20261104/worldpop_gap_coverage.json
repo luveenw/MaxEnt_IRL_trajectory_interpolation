@@ -1,0 +1,4332 @@
+{
+  "G057_2013": {
+    "source_images": [
+      {
+        "country": "BOL",
+        "ids": [
+          "WorldPop/GP/100m/pop/BOL_2013"
+        ]
+      },
+      {
+        "country": "PRY",
+        "ids": [
+          "WorldPop/GP/100m/pop/PRY_2013"
+        ]
+      },
+      {
+        "country": "BRA",
+        "ids": [
+          "WorldPop/GP/100m/pop/BRA_2013"
+        ]
+      }
+    ],
+    "projection": {
+      "type": "Projection",
+      "crs": "EPSG:4326",
+      "transform": [
+        0.0008333333300044304,
+        0,
+        -73.989583022,
+        0,
+        -0.0008333333300081173,
+        5.264583514
+      ]
+    },
+    "native_gap_footprints": 132,
+    "complete_finite_footprints": 69,
+    "zero_finite_footprints": 8,
+    "minimum_finite_fraction": 0,
+    "maximum_finite_fraction": 1,
+    "footprints": [
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14705,
+        "source_row": 12816
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14706,
+        "source_row": 12816
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8900741205537472,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14685,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14686,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14687,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14688,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14689,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14686,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14687,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14688,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14689,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9849798031295345,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14691,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7399505862975019,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14691,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7799129377622652,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14693,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14694,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9849798031295345,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9499980391387898,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8250911800462762,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8399545080199224,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14691,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9200752970704734,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14693,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14694,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9049374485273934,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.6600258833679752,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7999529393309541,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14693,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14694,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9399976469665476,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14680,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7525785324914701,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.49221538099533335,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.977567747754814,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8276402996195931,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9499980391387898,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9750186281814974,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.3773873485234715,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.939919212518138,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9599592140868269,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9649790187850504,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9150947095964547,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.24271540060394511,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.47754813914271144,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.885015098631319,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9749794109572926,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8399545080199223,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.969998823483274,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9450174516647711,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9849798031295345,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9450566688889761,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9750186281814973,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9249774500960822,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9799992156555158,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12830
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12830
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12830
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9399976469665476,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7373622494999804,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.989999607827758,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9325463743676223,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9099964704498216,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9599984313110318,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12834
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9599984313110318,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12834
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12834
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.00247068512490686,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.00037173726013861597,
+        "raw_count_mean": 0.00037173726013861597,
+        "raw_count_min": 0.00037173726013861597,
+        "source_col": 14695,
+        "source_row": 12835
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14701,
+        "source_row": 12835
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12835
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14700,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14701,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.03733479744303699,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.0004473543958738446,
+        "raw_count_mean": 0.0003999853228180211,
+        "raw_count_min": 0.00037411399534903467,
+        "source_col": 14704,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.029883524844111543,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.00043917694711126387,
+        "raw_count_mean": 0.0004157907805549777,
+        "raw_count_min": 0.00039354621549136937,
+        "source_col": 14705,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14699,
+        "source_row": 12837
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14700,
+        "source_row": 12837
+      }
+    ],
+    "semantics": "Native count means are diagnostic people/native100m pixel, NOTdensity. Coverage is EE overlap-weighted native-pixel predicate mean; not final exact500m integration."
+  },
+  "G057_2014": {
+    "source_images": [
+      {
+        "country": "BOL",
+        "ids": [
+          "WorldPop/GP/100m/pop/BOL_2014"
+        ]
+      },
+      {
+        "country": "PRY",
+        "ids": [
+          "WorldPop/GP/100m/pop/PRY_2014"
+        ]
+      },
+      {
+        "country": "BRA",
+        "ids": [
+          "WorldPop/GP/100m/pop/BRA_2014"
+        ]
+      }
+    ],
+    "projection": {
+      "type": "Projection",
+      "crs": "EPSG:4326",
+      "transform": [
+        0.0008333333300044304,
+        0,
+        -73.989583022,
+        0,
+        -0.0008333333300081173,
+        5.264583514
+      ]
+    },
+    "native_gap_footprints": 132,
+    "complete_finite_footprints": 69,
+    "zero_finite_footprints": 8,
+    "minimum_finite_fraction": 0,
+    "maximum_finite_fraction": 1,
+    "footprints": [
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14705,
+        "source_row": 12816
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14706,
+        "source_row": 12816
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8900741205537472,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14685,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14686,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14687,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14688,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14689,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14686,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14687,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14688,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14689,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9849798031295345,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14691,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7399505862975019,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14691,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7799129377622652,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14693,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14694,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9849798031295345,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9499980391387898,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8250911800462762,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8399545080199224,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14691,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9200752970704734,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14693,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14694,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9049374485273934,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.6600258833679752,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7999529393309541,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14693,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14694,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9399976469665476,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14680,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7525785324914701,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.49221538099533335,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.977567747754814,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8276402996195931,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9499980391387898,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9750186281814974,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.3773873485234715,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.939919212518138,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9599592140868269,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9649790187850504,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9150947095964547,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.24271540060394511,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.47754813914271144,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.885015098631319,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9749794109572926,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8399545080199223,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.969998823483274,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9450174516647711,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9849798031295345,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9450566688889761,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9750186281814973,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9249774500960822,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9799992156555158,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12830
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12830
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12830
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9399976469665476,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7373622494999804,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.989999607827758,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9325463743676223,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9099964704498216,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9599984313110318,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12834
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9599984313110318,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12834
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12834
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.00247068512490686,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.0003617903857957572,
+        "raw_count_mean": 0.0003617903857957572,
+        "raw_count_min": 0.0003617903857957572,
+        "source_col": 14695,
+        "source_row": 12835
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14701,
+        "source_row": 12835
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12835
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14700,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14701,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.03733479744303699,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.00043679255759343505,
+        "raw_count_mean": 0.0003899515625661701,
+        "raw_count_min": 0.0003629091661423445,
+        "source_col": 14704,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.029883524844111543,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.0004233549698255956,
+        "raw_count_mean": 0.0003891613553956474,
+        "raw_count_min": 0.00037135978345759213,
+        "source_col": 14705,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14699,
+        "source_row": 12837
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14700,
+        "source_row": 12837
+      }
+    ],
+    "semantics": "Native count means are diagnostic people/native100m pixel, NOTdensity. Coverage is EE overlap-weighted native-pixel predicate mean; not final exact500m integration."
+  },
+  "G057_2015": {
+    "source_images": [
+      {
+        "country": "BOL",
+        "ids": [
+          "WorldPop/GP/100m/pop/BOL_2015"
+        ]
+      },
+      {
+        "country": "PRY",
+        "ids": [
+          "WorldPop/GP/100m/pop/PRY_2015"
+        ]
+      },
+      {
+        "country": "BRA",
+        "ids": [
+          "WorldPop/GP/100m/pop/BRA_2015"
+        ]
+      }
+    ],
+    "projection": {
+      "type": "Projection",
+      "crs": "EPSG:4326",
+      "transform": [
+        0.0008333333300044304,
+        0,
+        -73.989583022,
+        0,
+        -0.0008333333300081173,
+        5.264583514
+      ]
+    },
+    "native_gap_footprints": 132,
+    "complete_finite_footprints": 69,
+    "zero_finite_footprints": 8,
+    "minimum_finite_fraction": 0,
+    "maximum_finite_fraction": 1,
+    "footprints": [
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14705,
+        "source_row": 12816
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14706,
+        "source_row": 12816
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8900741205537472,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14685,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14686,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14687,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14688,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14689,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12818
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14686,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14687,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14688,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14689,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9849798031295345,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14691,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12819
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7399505862975019,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14691,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7799129377622652,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14693,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14694,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9849798031295345,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9499980391387898,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12820
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8250911800462762,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14690,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8399545080199224,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14691,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9200752970704734,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14693,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14694,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9049374485273934,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12821
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.6600258833679752,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14692,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7999529393309541,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14693,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14694,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14695,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14696,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14697,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9399976469665476,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12822
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14680,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14698,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14699,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7525785324914701,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.49221538099533335,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12823
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14700,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.977567747754814,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8276402996195931,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9499980391387898,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12824
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14701,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9750186281814974,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.3773873485234715,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12825
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.939919212518138,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14702,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9599592140868269,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9649790187850504,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9150947095964547,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.24271540060394511,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.47754813914271144,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12826
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.885015098631319,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9749794109572926,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.8399545080199223,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12827
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14703,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.969998823483274,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9450174516647711,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9849798031295345,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9450566688889761,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12828
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14704,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9750186281814973,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14705,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9249774500960822,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14706,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14707,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14708,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9799992156555158,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12829
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12830
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12830
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12830
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14709,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9399976469665476,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12831
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.7373622494999804,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.989999607827758,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12832
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9325463743676223,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14710,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9099964704498216,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9599984313110318,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12833
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9899996078277581,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14711,
+        "source_row": 12834
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9599984313110318,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14712,
+        "source_row": 12834
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.9850190203537393,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12834
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.00247068512490686,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.00039026353624649346,
+        "raw_count_mean": 0.00039026353624649346,
+        "raw_count_min": 0.00039026353624649346,
+        "source_col": 14695,
+        "source_row": 12835
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14701,
+        "source_row": 12835
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 1,
+        "finite_nonnegative_coverage_min": 1,
+        "raw_count_max": 0,
+        "raw_count_mean": 0,
+        "raw_count_min": 0,
+        "source_col": 14713,
+        "source_row": 12835
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14700,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14701,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.03733479744303699,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.00036078839912079275,
+        "raw_count_mean": 0.00034269813764664273,
+        "raw_count_min": 0.0003200130595359951,
+        "source_col": 14704,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.029883524844111543,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.0003525747742969543,
+        "raw_count_mean": 0.0003449142098306431,
+        "raw_count_min": 0.00034050585236400366,
+        "source_col": 14705,
+        "source_row": 12836
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14699,
+        "source_row": 12837
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14700,
+        "source_row": 12837
+      }
+    ],
+    "semantics": "Native count means are diagnostic people/native100m pixel, NOTdensity. Coverage is EE overlap-weighted native-pixel predicate mean; not final exact500m integration."
+  },
+  "G286_2010": {
+    "source_images": [
+      {
+        "country": "BOL",
+        "ids": [
+          "WorldPop/GP/100m/pop/BOL_2010"
+        ]
+      },
+      {
+        "country": "PRY",
+        "ids": [
+          "WorldPop/GP/100m/pop/PRY_2010"
+        ]
+      },
+      {
+        "country": "BRA",
+        "ids": [
+          "WorldPop/GP/100m/pop/BRA_2010"
+        ]
+      }
+    ],
+    "projection": {
+      "type": "Projection",
+      "crs": "EPSG:4326",
+      "transform": [
+        0.0008333333300044304,
+        0,
+        -73.989583022,
+        0,
+        -0.0008333333300081173,
+        5.264583514
+      ]
+    },
+    "native_gap_footprints": 13,
+    "complete_finite_footprints": 0,
+    "zero_finite_footprints": 7,
+    "minimum_finite_fraction": 0,
+    "maximum_finite_fraction": 0.014941762422055771,
+    "footprints": [
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.00247068512490686,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 6.200918960530544e-06,
+        "raw_count_mean": 6.200918960530544e-06,
+        "raw_count_min": 6.200918960530544e-06,
+        "source_col": 14713,
+        "source_row": 12933
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14714,
+        "source_row": 12933
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14715,
+        "source_row": 12933
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14716,
+        "source_row": 12933
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14713,
+        "source_row": 12934
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14714,
+        "source_row": 12934
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14713,
+        "source_row": 12935
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.00996117494803718,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 0.0003718951775226742,
+        "raw_count_mean": 0.00018912688142336265,
+        "raw_count_min": 6.3585853240510914e-06,
+        "source_col": 14714,
+        "source_row": 12935
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.00247068512490686,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 7.776517122692894e-06,
+        "raw_count_mean": 7.776517122692894e-06,
+        "raw_count_min": 7.776517122692894e-06,
+        "source_col": 14702,
+        "source_row": 12937
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.01247107729714891,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 8.51559525472112e-06,
+        "raw_count_mean": 8.415413881352232e-06,
+        "raw_count_min": 8.273784260381944e-06,
+        "source_col": 14703,
+        "source_row": 12938
+      },
+      {
+        "finite_nonnegative_coverage_max": 0,
+        "finite_nonnegative_coverage_mean": 0,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": null,
+        "raw_count_mean": null,
+        "raw_count_min": null,
+        "source_col": 14712,
+        "source_row": 12939
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.014941762422055771,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 8.758647709328216e-06,
+        "raw_count_mean": 8.729333179265572e-06,
+        "raw_count_min": 8.680185601406265e-06,
+        "source_col": 14702,
+        "source_row": 12940
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.012431860072944041,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 1.3316120202944148e-05,
+        "raw_count_mean": 1.3077920743208069e-05,
+        "raw_count_min": 1.2418888218235224e-05,
+        "source_col": 14705,
+        "source_row": 12943
+      }
+    ],
+    "semantics": "Native count means are diagnostic people/native100m pixel, NOTdensity. Coverage is EE overlap-weighted native-pixel predicate mean; not final exact500m integration."
+  },
+  "G316_2011": {
+    "source_images": [
+      {
+        "country": "BOL",
+        "ids": [
+          "WorldPop/GP/100m/pop/BOL_2011"
+        ]
+      },
+      {
+        "country": "PRY",
+        "ids": [
+          "WorldPop/GP/100m/pop/PRY_2011"
+        ]
+      },
+      {
+        "country": "BRA",
+        "ids": [
+          "WorldPop/GP/100m/pop/BRA_2011"
+        ]
+      }
+    ],
+    "projection": {
+      "type": "Projection",
+      "crs": "EPSG:4326",
+      "transform": [
+        0.0008333333300044304,
+        0,
+        -73.989583022,
+        0,
+        -0.0008333333300081173,
+        5.264583514
+      ]
+    },
+    "native_gap_footprints": 3,
+    "complete_finite_footprints": 0,
+    "zero_finite_footprints": 0,
+    "minimum_finite_fraction": 0.00247068512490686,
+    "maximum_finite_fraction": 0.022393035020981222,
+    "footprints": [
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.022393035020981222,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 6.718405074934708e-06,
+        "raw_count_mean": 6.684398997155357e-06,
+        "raw_count_min": 6.6254151533939876e-06,
+        "source_col": 14698,
+        "source_row": 12930
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.00247068512490686,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 7.734915016044397e-06,
+        "raw_count_mean": 7.734915016044397e-06,
+        "raw_count_min": 7.734915016044397e-06,
+        "source_col": 14702,
+        "source_row": 12937
+      },
+      {
+        "finite_nonnegative_coverage_max": 1,
+        "finite_nonnegative_coverage_mean": 0.014941762422055771,
+        "finite_nonnegative_coverage_min": 0,
+        "raw_count_max": 8.370329851459246e-06,
+        "raw_count_mean": 8.18893901547805e-06,
+        "raw_count_min": 7.910259228083305e-06,
+        "source_col": 14702,
+        "source_row": 12940
+      }
+    ],
+    "semantics": "Native count means are diagnostic people/native100m pixel, NOTdensity. Coverage is EE overlap-weighted native-pixel predicate mean; not final exact500m integration."
+  }
+}

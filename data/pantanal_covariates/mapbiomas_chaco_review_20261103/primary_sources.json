@@ -1,0 +1,12 @@
+{
+  "checked_date": "2026-11-03",
+  "urls": {
+    "products": "https://chaco.mapbiomas.org/en/products/",
+    "tools": "https://chaco.mapbiomas.org/en/tools/",
+    "project": "https://chaco.mapbiomas.org/conoce-mapbiomas/",
+    "codes": "https://chaco.mapbiomas.org/wp-content/uploads/sites/2/2024/12/MB-Chaco-Col-5-pdf-Legend-Code.pdf",
+    "descriptions": "https://chaco.mapbiomas.org/wp-content/uploads/sites/2/2024/08/MB-Chaco-Col-5-pdf-Legend-Descript-EN.pdf"
+  },
+  "latest_official_collection_found": 5,
+  "no_newer_official_chaco_collection_identified": true
+}

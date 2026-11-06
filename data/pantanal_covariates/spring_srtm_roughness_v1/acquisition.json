@@ -1,0 +1,143 @@
+{
+  "batch_eecu_usage_seconds": 117.01144981384277,
+  "completed_groups": 13,
+  "drive_folder_id": "1bdeDHJdhhyeWOYl9DONwtHT34kECJuFl",
+  "expected_groups": 13,
+  "groups": {
+    "G050": {
+      "eecu_seconds": 9.376471519470215,
+      "grid_key": "grid_d2577b5caf69bfd0cd064b5a",
+      "maximum": 89.90747833251953,
+      "minimum": 0.22763456404209137,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G050/roughness.npy",
+      "product_key": "65724d3955f80544c57d6696348d6ada41217e91a6aaa4f83d32f1ce741ed3cf",
+      "task_id": "K4BBZKWOJSVX55XJ5QH4GVAQ",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G050_roughness_65724d3955f8.tif"
+    },
+    "G057": {
+      "eecu_seconds": 7.606836318969727,
+      "grid_key": "grid_39493a3f72e85670e17d065e",
+      "maximum": 8.002548217773438,
+      "minimum": 0.0,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G057/roughness.npy",
+      "product_key": "8449f220af4ccac99330dfb3ec6f799af00d829d771d29ec9c7e4d21688723d7",
+      "task_id": "XR5ITJN5BMMHQDXH2IVKC34J",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G057_roughness_8449f220af4c.tif"
+    },
+    "G067": {
+      "eecu_seconds": 14.34939956665039,
+      "grid_key": "grid_0beb3da13a21d1fa1dd07566",
+      "maximum": 15.54139232635498,
+      "minimum": 0.2580246925354004,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G067/roughness.npy",
+      "product_key": "8a05c89ea85f33ce1c79c18ca27c4d622a861a4cb6350eee94b7c5e2dbe4102c",
+      "task_id": "A6O4BYTWZ75OFFHIUAE4FPOD",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G067_roughness_8a05c89ea85f.tif"
+    },
+    "G078": {
+      "eecu_seconds": 9.309348106384277,
+      "grid_key": "grid_f90a779437af7508903da71c",
+      "maximum": 11.60150146484375,
+      "minimum": 0.003496296238154173,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G078/roughness.npy",
+      "product_key": "316cf5ca04deb98e65993abbd451a4d207137976bb32869a9aaeb008aeb03ee9",
+      "task_id": "MN6PNF42FCPYLOBTF2XIPFIC",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G078_roughness_316cf5ca04de.tif"
+    },
+    "G090": {
+      "eecu_seconds": 8.803105354309082,
+      "grid_key": "grid_92f5c9500e6c1b887f18dd12",
+      "maximum": 11.60150146484375,
+      "minimum": 0.003496296238154173,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G090/roughness.npy",
+      "product_key": "4745d831eaef34e17e30ac0180d83e7334b3b62edb3e852acc0a2850c58193fc",
+      "task_id": "O7ZXYJYJXIZEROW6ZGQGEH4K",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G090_roughness_4745d831eaef.tif"
+    },
+    "G115": {
+      "eecu_seconds": 9.033730506896973,
+      "grid_key": "grid_8a8f14e07f802effa35cb72f",
+      "maximum": 3.387772798538208,
+      "minimum": 0.0006320987595245242,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G115/roughness.npy",
+      "product_key": "80e8624deeb2a51f16c34524d503178eaf86297bc64c9497085849318cf45079",
+      "task_id": "CGRJW65NDDAY7YQ6YZPUCLML",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G115_roughness_80e8624deeb2.tif"
+    },
+    "G203": {
+      "eecu_seconds": 7.651198863983154,
+      "grid_key": "grid_fc6756125cddf8b85e0b4bdb",
+      "maximum": 2.860602378845215,
+      "minimum": 0.0021135802380740643,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G203/roughness.npy",
+      "product_key": "0a2bcdd26b1fbbc2e2636057db180abb9db79e2e184cadba3bdbfd067c0dfe27",
+      "task_id": "SNVSXWFU5IMWXNXOMP4QCCRI",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G203_roughness_0a2bcdd26b1f.tif"
+    },
+    "G225": {
+      "eecu_seconds": 16.201108932495117,
+      "grid_key": "grid_5afe564e463976097c323aad",
+      "maximum": 6.626014709472656,
+      "minimum": 0.1281876564025879,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G225/roughness.npy",
+      "product_key": "dab2cc0d026f25bb77ee85d94334a70a2b58b36f8e1ae004dfbdf94dae9af485",
+      "task_id": "KX5FWZZGXVFUCYST4U466LAK",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G225_roughness_dab2cc0d026f.tif"
+    },
+    "G272": {
+      "eecu_seconds": 9.272629737854004,
+      "grid_key": "grid_b5845764d751fb55bc0f8829",
+      "maximum": 6.626014709472656,
+      "minimum": 0.2926024794578552,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G272/roughness.npy",
+      "product_key": "4712f788c8ebf729c7f89cef97b742c501be1544c403d59597d5aeb5e1ee3c2a",
+      "task_id": "76MIX7JMCZMQCE3XHD33QPST",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G272_roughness_4712f788c8eb.tif"
+    },
+    "G286": {
+      "eecu_seconds": 5.173157691955566,
+      "grid_key": "grid_321b567d8c2e2063f07162fe",
+      "maximum": 346.7138366699219,
+      "minimum": 0.0,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G286/roughness.npy",
+      "product_key": "fff8f0602cf9923be69c05357ebeaa3242621a49ea69fc9503447009f30d4f9f",
+      "task_id": "FWK767SW2JUOELD23CP42KKG",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G286_roughness_fff8f0602cf9.tif"
+    },
+    "G312": {
+      "eecu_seconds": 8.155349731445312,
+      "grid_key": "grid_66c10678e599a1ddac0d54b3",
+      "maximum": 8.328513145446777,
+      "minimum": 0.25667160749435425,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G312/roughness.npy",
+      "product_key": "b213fa8fefefb8202bfab269d6451faf1840393fe426f89e20c8785366c84ffe",
+      "task_id": "6KTGBQ44GBEZ7RNXA67427AT",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G312_roughness_b213fa8fefef.tif"
+    },
+    "G315": {
+      "eecu_seconds": 9.73227596282959,
+      "grid_key": "grid_e7725b11ead27a2b376eca7d",
+      "maximum": 30.422943115234375,
+      "minimum": 0.2676839530467987,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G315/roughness.npy",
+      "product_key": "1f1e08271061f019eaf06a79cf9e8d1141e690731559564f8d49bfe77b553ac6",
+      "task_id": "SRVNLQYNWUGXKPOE34ZJK4P3",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G315_roughness_1f1e08271061.tif"
+    },
+    "G316": {
+      "eecu_seconds": 2.3468375205993652,
+      "grid_key": "grid_6befb4e4451589ad0b222a45",
+      "maximum": 513.5153198242188,
+      "minimum": 0.0,
+      "npy": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/products/G316/roughness.npy",
+      "product_key": "439d245ac6f5e385e3b777f92bec0f8ebefcea801f7846e181b8b9b0c0656751",
+      "task_id": "TA22X2HWFLZN4VPGAZU6QWXM",
+      "tif": "/home/luveen/Dropbox/Documents/Luveen Wadhwani/OneDrive/OneDrive Documents/Luveen-Obsidian/03 - Projects/Columbia/00 - Thesis/MaxEnt_IRL_trajectory_interpolation/data/pantanal_covariates/spring_srtm_roughness_v1/downloads/SPR-C01_G316_roughness_439d245ac6f5.tif"
+    }
+  },
+  "output_cells": 48845,
+  "project": "perceptive-ivy-780",
+  "quality": "exact-grid/coverage/numerical checks passed; scientific interpretation not validated",
+  "schema": "spring_terrain_acquisition/1",
+  "submission_usage_guard_seconds": 1000
+}

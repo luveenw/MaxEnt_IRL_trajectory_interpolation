@@ -1,0 +1,1 @@
+{"error":"Image.rename input required: direct Aug15-Nov15 filter returned no images because filterDate selects system:time_start (Jan1), not annual time-interval overlap.","resolution":"Select calendar-year Jan1-Jan1 or explicit annual image ID; apply annual estimate to Spring as documented approximation."}

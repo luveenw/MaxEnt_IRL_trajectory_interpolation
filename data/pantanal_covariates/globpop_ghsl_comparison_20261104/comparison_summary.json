@@ -1,0 +1,163 @@
+{
+  "ghs_2023_G057_2013_epoch2015": {
+    "source_asset": "JRC/GHSL/P2023A/GHS_POP/2015",
+    "selected_epoch": 2015,
+    "gap_footprints": 132,
+    "positive_ghsl_cells_in_enclosing_frame": 4,
+    "positive_gap_footprints": 0,
+    "zero_gap_footprints": 132,
+    "sum_people_full_gap_footprints": 0.0,
+    "maximum_people_one_gap_footprint": 0.0,
+    "density_min": 0.0,
+    "density_max": 0.0,
+    "area_weighted_density": 0.0,
+    "total_full_native_footprint_area_km2": 108.09388355170654,
+    "source_sha256": "20204ec353a61749cbf7aa371e3afd4860af3d6b92e1cceb0a1d85d286960d7d",
+    "source_window_offset": [
+      124151,
+      110658
+    ],
+    "source_shape": [
+      223,
+      311
+    ]
+  },
+  "ghs_2023_G286_2010_epoch2010": {
+    "source_asset": "JRC/GHSL/P2023A/GHS_POP/2010",
+    "selected_epoch": 2010,
+    "gap_footprints": 13,
+    "positive_ghsl_cells_in_enclosing_frame": 4,
+    "positive_gap_footprints": 0,
+    "zero_gap_footprints": 13,
+    "sum_people_full_gap_footprints": 0.0,
+    "maximum_people_one_gap_footprint": 0.0,
+    "density_min": 0.0,
+    "density_max": 0.0,
+    "area_weighted_density": 0.0,
+    "total_full_native_footprint_area_km2": 10.593446538262226,
+    "source_sha256": "e01cbd28635b56cbe73e6a0a06d20f823f38e3df8baf0decefe1a48228d7833c",
+    "source_window_offset": [
+      124513,
+      111842
+    ],
+    "source_shape": [
+      112,
+      140
+    ]
+  },
+  "ghs_2023_G316_2011_epoch2010": {
+    "source_asset": "JRC/GHSL/P2023A/GHS_POP/2010",
+    "selected_epoch": 2010,
+    "gap_footprints": 3,
+    "positive_ghsl_cells_in_enclosing_frame": 0,
+    "positive_gap_footprints": 0,
+    "zero_gap_footprints": 3,
+    "sum_people_full_gap_footprints": 0.0,
+    "maximum_people_one_gap_footprint": 0.0,
+    "density_min": 0.0,
+    "density_max": 0.0,
+    "area_weighted_density": 0.0,
+    "total_full_native_footprint_area_km2": 2.4446698713326978,
+    "source_sha256": "d80ab3a4b9656641577172026499aaaf2c6147b58c629e08e1343fa17e45a3cd",
+    "source_window_offset": [
+      124476,
+      111812
+    ],
+    "source_shape": [
+      112,
+      59
+    ]
+  },
+  "ghs_2016_G057_2013_epoch2015": {
+    "source_asset": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1/2015",
+    "selected_epoch": 2015,
+    "gap_footprints": 132,
+    "positive_ghsl_cells_in_enclosing_frame": 2641,
+    "positive_gap_footprints": 2,
+    "zero_gap_footprints": 130,
+    "sum_people_full_gap_footprints": 0.28340784336731306,
+    "maximum_people_one_gap_footprint": 0.14170392168668414,
+    "density_min": 0.0,
+    "density_max": 0.1729758829825543,
+    "area_weighted_density": 0.0026218675289961745,
+    "total_full_native_footprint_area_km2": 108.09388355170654,
+    "source_sha256": "fe592a28229d62065b7d8bacccdb5feaf7d9de5357f47efb3992bd31827001cd",
+    "source_window_offset": [
+      47974,
+      43152
+    ],
+    "source_shape": [
+      90,
+      125
+    ]
+  },
+  "ghs_2016_G286_2010_epoch2015": {
+    "source_asset": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1/2015",
+    "selected_epoch": 2015,
+    "gap_footprints": 13,
+    "positive_ghsl_cells_in_enclosing_frame": 2565,
+    "positive_gap_footprints": 13,
+    "zero_gap_footprints": 0,
+    "sum_people_full_gap_footprints": 0.022732482459200475,
+    "maximum_people_one_gap_footprint": 0.012772935409944636,
+    "density_min": 0.0006201830134837395,
+    "density_max": 0.015672523696414597,
+    "area_weighted_density": 0.00214590052227984,
+    "total_full_native_footprint_area_km2": 10.593446538262226,
+    "source_sha256": "aecb49cb4b80dd77e3ca61806ef73824d7e3b44e9e52c1ffb1a98dadc1dd1e19",
+    "source_window_offset": [
+      48119,
+      43626
+    ],
+    "source_shape": [
+      45,
+      57
+    ]
+  },
+  "ghs_2016_G316_2011_epoch2015": {
+    "source_asset": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1/2015",
+    "selected_epoch": 2015,
+    "gap_footprints": 3,
+    "positive_ghsl_cells_in_enclosing_frame": 1150,
+    "positive_gap_footprints": 3,
+    "zero_gap_footprints": 0,
+    "sum_people_full_gap_footprints": 0.001516155354287631,
+    "maximum_people_one_gap_footprint": 0.0005055187852187517,
+    "density_min": 0.0006201851288175548,
+    "density_max": 0.0006201921631521482,
+    "area_weighted_density": 0.000620188178398545,
+    "total_full_native_footprint_area_km2": 2.4446698713326978,
+    "source_sha256": "71bd4acc412efa1c1f4814865140b197041cf19af39842d8e4a6670c2345126f",
+    "source_window_offset": [
+      48104,
+      43613
+    ],
+    "source_shape": [
+      46,
+      25
+    ]
+  },
+  "ghs_2023_G057_2013_epoch2010": {
+    "source_asset": "JRC/GHSL/P2023A/GHS_POP/2010",
+    "selected_epoch": 2010,
+    "gap_footprints": 132,
+    "positive_ghsl_cells_in_enclosing_frame": 4,
+    "positive_gap_footprints": 0,
+    "zero_gap_footprints": 132,
+    "sum_people_full_gap_footprints": 0.0,
+    "maximum_people_one_gap_footprint": 0.0,
+    "density_min": 0.0,
+    "density_max": 0.0,
+    "area_weighted_density": 0.0,
+    "total_full_native_footprint_area_km2": 108.09388355170654,
+    "source_sha256": "16a1ee2caf7f910e85d2e18b5af478471c568f5275fab4c0c26d391b92146630",
+    "source_window_offset": [
+      124151,
+      110658
+    ],
+    "source_shape": [
+      223,
+      311
+    ]
+  }
+}

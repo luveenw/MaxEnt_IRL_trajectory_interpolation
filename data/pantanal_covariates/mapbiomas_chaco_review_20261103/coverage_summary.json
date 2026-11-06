@@ -1,0 +1,940 @@
+{
+  "G050": {
+    "2008": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1441.75,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 5767,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1441.75,
+        "zero_cells": 5767
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1441.75,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1441.75,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2009": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1441.75,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 5767,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1441.75,
+        "zero_cells": 5767
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1441.75,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1441.75,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G057": {
+    "2013": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1140.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4560,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1140.0,
+        "zero_cells": 4560
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1140.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1140.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2014": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1140.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4560,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1140.0,
+        "zero_cells": 4560
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1140.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1140.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2015": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1140.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4560,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1140.0,
+        "zero_cells": 4560
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1140.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1140.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G067": {
+    "2008": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1309.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 5236,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1309.0,
+        "zero_cells": 5236
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1309.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1309.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2009": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1309.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 5236,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1309.0,
+        "zero_cells": 5236
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1309.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1309.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G078": {
+    "2011": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4864,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1216.0,
+        "zero_cells": 4864
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2012": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4864,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1216.0,
+        "zero_cells": 4864
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2013": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4864,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1216.0,
+        "zero_cells": 4864
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2015": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4864,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1216.0,
+        "zero_cells": 4864
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1216.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G090": {
+    "2013": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1145.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4582,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1145.5,
+        "zero_cells": 4582
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1145.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1145.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G115": {
+    "2005": {
+      "brazil_chaco": {
+        "covered_projected_km2": 353.4564855389667,
+        "incomplete_cells": 1117,
+        "maximum": 1.0,
+        "mean": 0.5705512276658058,
+        "minimum": 0.0,
+        "missing_projected_km2": 266.0435144610333,
+        "zero_cells": 1008
+      },
+      "chaco": {
+        "covered_projected_km2": 353.4564855389667,
+        "incomplete_cells": 1117,
+        "maximum": 1.0,
+        "mean": 0.5705512276658058,
+        "minimum": 0.0,
+        "missing_projected_km2": 266.0435144610333,
+        "zero_cells": 1008
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 619.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 619.4194792219023,
+        "incomplete_cells": 7,
+        "maximum": 1.0,
+        "mean": 0.9998700229570658,
+        "minimum": 0.8693660988897567,
+        "missing_projected_km2": 0.08052077809769725,
+        "zero_cells": 0
+      }
+    },
+    "2006": {
+      "brazil_chaco": {
+        "covered_projected_km2": 353.4564855389667,
+        "incomplete_cells": 1117,
+        "maximum": 1.0,
+        "mean": 0.5705512276658058,
+        "minimum": 0.0,
+        "missing_projected_km2": 266.0435144610333,
+        "zero_cells": 1008
+      },
+      "chaco": {
+        "covered_projected_km2": 353.4564855389667,
+        "incomplete_cells": 1117,
+        "maximum": 1.0,
+        "mean": 0.5705512276658058,
+        "minimum": 0.0,
+        "missing_projected_km2": 266.0435144610333,
+        "zero_cells": 1008
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 619.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 619.4194792219023,
+        "incomplete_cells": 7,
+        "maximum": 1.0,
+        "mean": 0.9998700229570658,
+        "minimum": 0.8693660988897567,
+        "missing_projected_km2": 0.08052077809769725,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G203": {
+    "2010": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1136.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 1136.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1136.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1136.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G225": {
+    "2010": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4788,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1197.0,
+        "zero_cells": 4788
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2011": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4788,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1197.0,
+        "zero_cells": 4788
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2012": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4788,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1197.0,
+        "zero_cells": 4788
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    },
+    "2013": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 4788,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 1197.0,
+        "zero_cells": 4788
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1197.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G272": {
+    "2013": {
+      "brazil_chaco": {
+        "covered_projected_km2": 765.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 3060,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 765.0,
+        "zero_cells": 3060
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 765.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 765.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G286": {
+    "2010": {
+      "brazil_chaco": {
+        "covered_projected_km2": 325.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 1302,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 325.5,
+        "zero_cells": 1302
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 325.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 325.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G312": {
+    "2015": {
+      "brazil_chaco": {
+        "covered_projected_km2": 712.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 2850,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 712.5,
+        "zero_cells": 2850
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 712.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 712.5,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G315": {
+    "2015": {
+      "brazil_chaco": {
+        "covered_projected_km2": 879.75,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 3519,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 879.75,
+        "zero_cells": 3519
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 879.75,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 879.75,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "G316": {
+    "2011": {
+      "brazil_chaco": {
+        "covered_projected_km2": 323.7491485296465,
+        "incomplete_cells": 1,
+        "maximum": 1.0,
+        "mean": 0.9999973699757421,
+        "minimum": 0.9965941185860724,
+        "missing_projected_km2": 0.0008514703534819035,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 0.0,
+        "incomplete_cells": 1295,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "missing_projected_km2": 323.75,
+        "zero_cells": 1295
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 323.7491485296465,
+        "incomplete_cells": 1,
+        "maximum": 1.0,
+        "mean": 0.9999973699757421,
+        "minimum": 0.9965941185860724,
+        "missing_projected_km2": 0.0008514703534819035,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 323.7491485296465,
+        "incomplete_cells": 1,
+        "maximum": 1.0,
+        "mean": 0.9999973699757421,
+        "minimum": 0.9965941185860724,
+        "missing_projected_km2": 0.0008514703534819035,
+        "zero_cells": 0
+      }
+    }
+  }
+}

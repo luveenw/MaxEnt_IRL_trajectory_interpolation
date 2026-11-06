@@ -1,0 +1,373 @@
+{
+  "https://data.ceda.ac.uk/neodc/esacci/land_cover/data/land_cover_maps/v2.0.7/": {
+    "status": 200,
+    "final_url": "https://data.ceda.ac.uk/neodc/esacci/land_cover/data/land_cover_maps/v2.0.7/",
+    "headers": {
+      "server": "gunicorn",
+      "date": "Tue, 03 Nov 2026 12:31:31 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "x-frame-options": "DENY",
+      "content-length": "70701",
+      "vary": "Origin, Cookie",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "same-origin",
+      "cross-origin-opener-policy": "same-origin",
+      "strict-transport-security": "max-age=15768000"
+    },
+    "prefix": "\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>CEDA Archive Web Browser</title>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        \n        \n\n        \n        <!-- Bootstrap Core\n        CSS -->\n        <link rel=\"stylesheet\" href=\"https://artefacts.ceda.ac.uk/themes/orgtheme_ceda_serv/0.2/4/flatly/bootstrap.css\" media=\"screen\">\n        <!-- Custom CSS -->\n        <link rel=\"stylesheet\" href=\"https://artefacts.ceda.ac.uk/themes/orgtheme_ceda_serv/0.2/_assets/css/custom.min.css\">\n        <link rel=\"stylesheet\" href=\"https://artefacts.ceda.ac.uk/themes/orgtheme_ceda_serv/0.2/_assets/css/org-custom.css\">\n\n        \n        \n\n        <link href=\"/static/fwtheme_django/css/fw-custom.475feb7d8445.css\" rel=\"stylesheet\">\n\n        <!-- Custom Fonts -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css\" integrity=\"sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\">        \n        \n\n        <link rel=\"shortcut icon\" href=\"/static/common/img/favicon.d61e624a1ae4.ico\">\n\n    \n\n        \n            <script src=\"/static/cookielaw/js/cookielaw.c678ea08ba04.js\"></script>\n            <!-- Google Tag Manager -->\n            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                                                          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n            })(window,document,'script','dataLayer','GTM-NDG2XX7');</script>\n            <!-- End Google Tag Manager -->\n        \n\n        \n    \n    <meta name=\"description\" content=\"Web based directory browser for the CEDA Archive.\n    Provides download links and access to the relevant CEDA Catalogue record.\">\n    <meta name=\"keywords\" content=\"climate data, netcdf, satellite, earth observation, observations, CEDA\">\n    <meta http-equiv=\"refresh\" content=\"3\" > \n\n    <script>\n        function copyPath() {\n            var copyText = document.getElementById(\"path_for_copy_button\");\n            copyText.select();\n            copyText.setSelectionRange(0, 99999); /* For mobile devices */\n            navigator.clipboard.writeText(copyText.value);\n        }\n    </script>\n    \n\n\n        \n\n    </head>\n    <body id=\"body\" class=\"d-flex flex-column min-vh-100\">\n        <!-- Google Tag Manager (noscript) -->\n        <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NDG2XX7\"\n                          height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n        <!-- End Google Tag Manager (noscript) -->\n        \n            \n                <div class=\"alert alert-info text-center\" id=\"CookielawBanner\">\n                    This website uses cookies.\n                    By continuing to use this website you are agreeing to our use of cookies.&nbsp;\n                    <div class=\"btn-group\">\n                        <button type=\"button\" class=\"btn btn-secondary\"\n                                onclick=\"javascript:Cookielaw.accept();\">OK</a>\n\n                        <button type=\"button\" class=\"btn btn-secondary\"\n                                onclick=\"javascript:window.open('http://www.ceda.ac.uk/privacy-and-cookies/')\">Find out more</button>\n                    </div>\n                </div>\n            \n        \n\n        \n\n\n\n            <div class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-primary\">\n                <div class=\"container\">\n                    \n    <a href=\"https://archive.ceda.ac.uk/\" class=\"navbar-brand\">\n        <img src=\"https://artefacts.ceda.ac.uk/themes/orgtheme_ceda_serv/0.2/_assets/img/ceda_archive_logo_transp_white_3_h80.png\" alt=\"CEDA log"
+  },
+  "https://data.ceda.ac.uk/neodc/esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2005-v2.0.7.tif": {
+    "status": 206,
+    "final_url": "https://dap.ceda.ac.uk/neodc/esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2005-v2.0.7.tif",
+    "headers": {
+      "server": "nginx",
+      "date": "Tue, 03 Nov 2026 12:31:32 GMT",
+      "content-type": "image/tiff",
+      "content-length": "4096",
+      "last-modified": "Fri, 09 Aug 2019 09:26:03 GMT",
+      "etag": "\"5d4d3c2b-12952d11\"",
+      "x-frame-options": "DENY",
+      "x-content-type-options": "nosniff",
+      "content-range": "bytes 0-4095/311766289",
+      "strict-transport-security": "max-age=15768000"
+    },
+    "prefix": "b'II*\\x00>q\\x85\\x12\\x13\\x00\\x00\\x01\\x04\\x00\\x01\\x00\\x00\\x00@\\xfa\\x01\\x00\\x01\\x01\\x03\\x00\\x01\\x00\\x00\\x00 \\xfd\\x00\\x00\\x02\\x01\\x03\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x03\\x01\\x03\\x00'"
+  },
+  "https://data.cci.ceda.ac.uk/thredds/catalog/esacci/land_cover/data/land_cover_maps/v2.0.7/catalog.html": {
+    "status": 200,
+    "final_url": "https://data.cci.ceda.ac.uk/thredds/catalog/esacci/land_cover/data/land_cover_maps/v2.0.7/catalog.html",
+    "headers": {
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "10582",
+      "date": "Tue, 03 Nov 2026 12:31:32 GMT",
+      "strict-transport-security": "max-age=15768000"
+    },
+    "prefix": "<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'\n        'http://www.w3.org/TR/html4/loose.dtd'>\n<html>\n<head>\r\n<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'><title>Catalog https://data.cci.ceda.ac.uk/thredds/catalog/esacci/land_cover/data/land_cover_maps/v2.0.7/catalog.html</title>\r\n<link rel='stylesheet' href='/thredds/tdsCat.css' type='text/css' >\n</head>\r\n<body><h1><img src='/thredds/threddsIcon.gif' alt='CCI THREDDS Data Server' align='left' valign='top'>\nCatalog https://data.cci.ceda.ac.uk/thredds/catalog/esacci/land_cover/data/land_cover_maps/v2.0.7/catalog.html</h1><HR size='1' noshade='noshade'><table width='100%' cellspacing='0' cellpadding='5' align='center'>\r\n<tr>\r\n<th align='left'><font size='+1'>Dataset</font></th>\r\n<th align='center'><font size='+1'>Size</font></th>\r\n<th align='right'><font size='+1'>Last Modified</font></th>\r\n</tr><tr>\r\n<td align='left'>&nbsp;&nbsp;&nbsp;&nbsp;\r\n<img src='/thredds/folder.gif' alt='Folder'> &nbsp;<a href='catalog.html?dataset=esacci/land_cover/data/land_cover_maps/v2.0.7'><tt>v2.0.7</tt></a></td>\r\n<td align='right'><tt>&nbsp;</tt></td>\r\n<td align='right'><tt>--</tt></td>\r\n</tr>\r\n<tr bgcolor='#eeeeee'>\r\n<td align='left'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a href='catalog.html?dataset=esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7b.nc'><tt>ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7b.nc</tt></a></td>\r\n<td align='right'><tt>2.546 Gbytes</tt></td>\r\n<td align='right'><tt>2019-08-09T09:34:07Z</tt></td>\r\n</tr>\r\n<tr>\r\n<td align='left'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a href='catalog.html?dataset=esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2014-v2.0.7b.nc'><tt>ESACCI-LC-L4-LCCS-Map-300m-P1Y-2014-v2.0.7b.nc</tt></a></td>\r\n<td align='right'><tt>2.546 Gbytes</tt></td>\r\n<td align='right'><tt>2019-08-09T09:33:39Z</tt></td>\r\n</tr>\r\n<tr bgcolor='#eeeeee'>\r\n<td align='left'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a href='catalog.html?dataset=esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2013-v2.0.7b.nc'><tt>ESACCI-LC-L4-LCCS-Map-300m-P1Y-2013-v2.0.7b.nc</tt></a></td>\r\n<td align='right'><tt>2.545 Gbytes</tt></td>\r\n<td align='right'><tt>2019-08-09T09:32:33Z</tt></td>\r\n</tr>\r\n<tr>\r\n<td align='left'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a href='catalog.html?dataset=esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2012-v2.0.7b.nc'><tt>ESACCI-LC-L4-LCCS-Map-300m-P1Y-2012-v2.0.7b.nc</tt></a></td>\r\n<td align='right'><tt>2.545 Gbytes</tt></td>\r\n<td align='right'><tt>2019-08-09T09:31:47Z</tt></td>\r\n</tr>\r\n<tr bgcolor='#eeeeee'>\r\n<td align='left'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a href='catalog.html?dataset=esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2011-v2.0.7b.nc'><tt>ESACCI-LC-L4-LCCS-Map-300m-P1Y-2011-v2.0.7b.nc</tt></a></td>\r\n<td align='right'><tt>2.545 Gbytes</tt></td>\r\n<td align='right'><tt>2019-08-09T09:30:57Z</tt></td>\r\n</tr>\r\n<tr>\r\n<td align='left'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a href='catalog.html?dataset=esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2010-v2.0.7b.nc'><tt>ESACCI-LC-L4-LCCS-Map-300m-P1Y-2010-v2.0.7b.nc</tt></a></td>\r\n<td align='right'><tt>2.545 Gbytes</tt></td>\r\n<td align='right'><tt>2019-08-09T09:30:15Z</tt></td>\r\n</tr>\r\n<tr bgcolor='#eeeeee'>\r\n<td align='left'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a href='catalog.html?dataset=esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2009-v2.0.7b.nc'><tt>ESACCI-LC-L4-LCCS-Map-300m-P1Y-2009-v2.0.7b.nc</tt></a></td>\r\n<td align='right'><tt>2.545 Gbytes</tt></td>\r\n<td align='right'><tt>2019-08-09T09:29:44Z</tt></td>\r\n</tr>\r\n<tr>\r\n<td align='left'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a href='catalog.html?dataset=esacci/land_cover/data/land_cover_maps/v2.0.7/ESACCI-LC"
+  },
+  "assets": {
+    "assets": [
+      {
+        "type": "FOLDER",
+        "name": "projects/perceptive-ivy-780/assets/AGLW",
+        "id": "projects/perceptive-ivy-780/assets/AGLW",
+        "updateTime": "2026-08-21T00:35:47.834669Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Barrier_Mask_gt25",
+        "id": "projects/perceptive-ivy-780/assets/Barrier_Mask_gt25",
+        "updateTime": "2026-04-17T07:33:14.214380Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Barrier_Mask_gt25_OLD",
+        "id": "projects/perceptive-ivy-780/assets/Barrier_Mask_gt25_OLD",
+        "updateTime": "2026-04-17T07:05:33.867955Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Barrier_Mask_gt25_Using_GHSL_BUILT_S",
+        "id": "projects/perceptive-ivy-780/assets/Barrier_Mask_gt25_Using_GHSL_BUILT_S",
+        "updateTime": "2026-04-22T14:47:02.231193Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024",
+        "updateTime": "2026-04-17T07:22:54.000641Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_90m",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_90m",
+        "updateTime": "2026-04-17T07:42:25.936929Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_90m_OLD",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_90m_OLD",
+        "updateTime": "2026-04-17T07:05:29.020228Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_90m_Using_GHSL_BUILT_S",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_90m_Using_GHSL_BUILT_S",
+        "updateTime": "2026-04-22T14:28:59.497657Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_OLD",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_OLD",
+        "updateTime": "2026-04-17T07:05:23.872533Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_Using_GHSL_BUILT_S",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_Using_GHSL_BUILT_S",
+        "updateTime": "2026-04-22T14:20:59.589740Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_WEIGHTED_90m",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_2024_WEIGHTED_90m",
+        "updateTime": "2026-04-26T15:36:01.138438Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_Weighted_2024",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Composite_Resistance_Weighted_2024",
+        "updateTime": "2026-04-26T15:11:36.151386Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Resistance_Keeley_c4_90m",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Resistance_Keeley_c4_90m",
+        "updateTime": "2026-04-26T15:22:23.200329Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FINAL_Resistance_Keeley_c8_90m",
+        "id": "projects/perceptive-ivy-780/assets/FINAL_Resistance_Keeley_c8_90m",
+        "updateTime": "2026-04-26T15:28:40.573479Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/FOR_ASSIGNMENT_jaguar_resistance_annual_2002_2016_FOR_ASSIGNMENT",
+        "id": "projects/perceptive-ivy-780/assets/FOR_ASSIGNMENT_jaguar_resistance_annual_2002_2016_FOR_ASSIGNMENT",
+        "updateTime": "2026-03-26T10:53:35.832135Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Hansen_Resistance_2024",
+        "id": "projects/perceptive-ivy-780/assets/Hansen_Resistance_2024",
+        "updateTime": "2026-04-16T08:41:12.355941Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Hansen_TreeCover_2014",
+        "id": "projects/perceptive-ivy-780/assets/Hansen_TreeCover_2014",
+        "updateTime": "2026-04-17T09:31:38.710713Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Hansen_TreeCover_2024",
+        "id": "projects/perceptive-ivy-780/assets/Hansen_TreeCover_2024",
+        "updateTime": "2026-04-16T08:57:42.408113Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_1km",
+        "id": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_1km",
+        "updateTime": "2026-04-16T09:42:27.504715Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_2km",
+        "id": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_2km",
+        "updateTime": "2026-04-16T09:56:27.236057Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_4km",
+        "id": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_4km",
+        "updateTime": "2026-04-16T10:31:23.018372Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_5km",
+        "id": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_5km",
+        "updateTime": "2026-04-17T06:38:00.390324Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_5km_OLD",
+        "id": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_5km_OLD",
+        "updateTime": "2026-04-17T06:14:53.261405Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_5km_Using_GHSL_BUILT_S",
+        "id": "projects/perceptive-ivy-780/assets/Infrastructure_Resistance_2024_5km_Using_GHSL_BUILT_S",
+        "updateTime": "2026-04-22T13:48:31.898085Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/L8_SR_FalseColor_Raw_543",
+        "id": "projects/perceptive-ivy-780/assets/L8_SR_FalseColor_Raw_543",
+        "updateTime": "2026-03-23T23:19:40.554794Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/L8_SR_TrueColor_Raw_432",
+        "id": "projects/perceptive-ivy-780/assets/L8_SR_TrueColor_Raw_432",
+        "updateTime": "2026-03-23T22:59:50.358658Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Land_Cover_Classification_MapBiomas_2014",
+        "id": "projects/perceptive-ivy-780/assets/Land_Cover_Classification_MapBiomas_2014",
+        "updateTime": "2026-04-26T18:38:16.491468Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Land_Cover_Classification_MapBiomas_2024",
+        "id": "projects/perceptive-ivy-780/assets/Land_Cover_Classification_MapBiomas_2024",
+        "updateTime": "2026-04-26T18:44:28.295048Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Land_Cover_Resistance_MapBiomas_2014",
+        "id": "projects/perceptive-ivy-780/assets/Land_Cover_Resistance_MapBiomas_2014",
+        "updateTime": "2026-04-17T08:09:51.668040Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Land_Cover_Resistance_MapBiomas_2024",
+        "id": "projects/perceptive-ivy-780/assets/Land_Cover_Resistance_MapBiomas_2024",
+        "updateTime": "2026-04-16T08:25:56.281010Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/NDVI_DrySeason_2024",
+        "id": "projects/perceptive-ivy-780/assets/NDVI_DrySeason_2024",
+        "updateTime": "2026-04-16T11:17:59.095857Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/NDVI_Resistance_2024",
+        "id": "projects/perceptive-ivy-780/assets/NDVI_Resistance_2024",
+        "updateTime": "2026-04-16T11:01:33.103289Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_1km",
+        "id": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_1km",
+        "updateTime": "2026-04-16T09:06:57.479815Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_2km",
+        "id": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_2km",
+        "updateTime": "2026-04-16T09:16:04.255523Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_4km",
+        "id": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_4km",
+        "updateTime": "2026-04-16T10:18:02.298064Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_5km",
+        "id": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_5km",
+        "updateTime": "2026-04-17T06:58:58.645774Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_5km_OLD",
+        "id": "projects/perceptive-ivy-780/assets/Road_Resistance_2024_5km_OLD",
+        "updateTime": "2026-04-17T06:05:57.408068Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Settlement_Resistance_2024",
+        "id": "projects/perceptive-ivy-780/assets/Settlement_Resistance_2024",
+        "updateTime": "2026-04-17T06:49:56.490247Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Settlement_Resistance_2024_OLD",
+        "id": "projects/perceptive-ivy-780/assets/Settlement_Resistance_2024_OLD",
+        "updateTime": "2026-04-17T06:15:02.715310Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Water_Body_Resistance_2024",
+        "id": "projects/perceptive-ivy-780/assets/Water_Body_Resistance_2024",
+        "updateTime": "2026-04-16T11:26:43.539801Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/Water_Distance_Resistance_2024",
+        "id": "projects/perceptive-ivy-780/assets/Water_Distance_Resistance_2024",
+        "updateTime": "2026-04-16T11:37:32.444625Z"
+      },
+      {
+        "type": "TABLE",
+        "name": "projects/perceptive-ivy-780/assets/groads-v1-americas",
+        "id": "projects/perceptive-ivy-780/assets/groads-v1-americas",
+        "updateTime": "2026-04-14T03:11:54.811506Z"
+      },
+      {
+        "type": "TABLE",
+        "name": "projects/perceptive-ivy-780/assets/hotosm_per_roads_lines_shp",
+        "id": "projects/perceptive-ivy-780/assets/hotosm_per_roads_lines_shp",
+        "updateTime": "2026-04-14T04:33:22.178484Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/road_resistance_15km_utm19s",
+        "id": "projects/perceptive-ivy-780/assets/road_resistance_15km_utm19s",
+        "updateTime": "2026-04-16T06:00:45.889976Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/road_resistance_1km_utm19s",
+        "id": "projects/perceptive-ivy-780/assets/road_resistance_1km_utm19s",
+        "updateTime": "2026-04-16T05:59:58.429141Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/road_resistance_2km_utm19s",
+        "id": "projects/perceptive-ivy-780/assets/road_resistance_2km_utm19s",
+        "updateTime": "2026-04-16T06:00:18.216321Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/road_resistance_4km_utm19s",
+        "id": "projects/perceptive-ivy-780/assets/road_resistance_4km_utm19s",
+        "updateTime": "2026-04-16T05:51:16.566716Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/road_resistance_5km_utm19s",
+        "id": "projects/perceptive-ivy-780/assets/road_resistance_5km_utm19s",
+        "updateTime": "2026-04-17T06:24:14.305308Z"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/perceptive-ivy-780/assets/road_resistance_5km_utm19s_OLD",
+        "id": "projects/perceptive-ivy-780/assets/road_resistance_5km_utm19s_OLD",
+        "updateTime": "2026-04-17T06:20:05.679928Z"
+      }
+    ]
+  },
+  "quota": {
+    "asset_count": {
+      "usage": 49,
+      "limit": 50000
+    },
+    "asset_size": {
+      "usage": 10491580628,
+      "limit": 268435456000
+    }
+  },
+  "buckets": [
+    {
+      "name": "gcf-sources-649987002740-us-west2",
+      "location": "US-WEST2"
+    },
+    {
+      "name": "jour-22",
+      "location": "US-WEST2"
+    },
+    {
+      "name": "us.artifacts.perceptive-ivy-780.appspot.com",
+      "location": "US"
+    },
+    {
+      "name": "vfaes",
+      "location": "US-WEST2"
+    }
+  ]
+}

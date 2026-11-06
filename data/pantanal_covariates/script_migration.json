@@ -1,0 +1,155 @@
+{
+  "schema": "gee_script_layout_migration/1",
+  "date": "2026-11-03",
+  "scripts": [
+    {
+      "old": "data/pantanal_covariates/esa_cci_access_20261103/access_pilot.js",
+      "new": "gee/esa_cci_access_20261103/access_pilot.js",
+      "original_sha256": "eac2806fd469cfa764af70f521bfc8da07b3540b4e1ec0bdf40361e708c7568b",
+      "current_sha256": "eac2806fd469cfa764af70f521bfc8da07b3540b4e1ec0bdf40361e708c7568b",
+      "unchanged": true
+    },
+    {
+      "old": "data/pantanal_covariates/esa_cci_access_20261103/inspect_source.py",
+      "new": "gee/esa_cci_access_20261103/inspect_source.py",
+      "original_sha256": "a0e8c52077a38d5985b363044484681aece413a1be289280ed036d6fba3bc329",
+      "current_sha256": "24b486a13e9470159f9a2c3b7268350cb2bfa6b4ce14bd364e99ca7978922a2a",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/esa_cci_access_20261103/inspect_source.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/esa_cci_access_20261103/prepare_pilot.py",
+      "new": "gee/esa_cci_access_20261103/prepare_pilot.py",
+      "original_sha256": "46e74f8dfc5b1130806e18f3b94ffeb45c094bddeac67a2c52b2ec6d8c90763c",
+      "current_sha256": "f30fe4e80fc09020a8422d32963ebe428c1d7613becc50e0841810a8aa21097f",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/esa_cci_access_20261103/prepare_pilot.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/esa_cci_access_20261103/probe_gee_coverage.py",
+      "new": "gee/esa_cci_access_20261103/probe_gee_coverage.py",
+      "original_sha256": "cb938018917f03513876eb81e1cad824c6b536502d001eaed10898b79a72ec11",
+      "current_sha256": "3bc2326861e1ea5219e007cfbc8c06f98c14c5fd514439a9b5183ecad40fa8e5",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/esa_cci_access_20261103/probe_gee_coverage.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/esa_cci_access_20261103/verify_mirror.py",
+      "new": "gee/esa_cci_access_20261103/verify_mirror.py",
+      "original_sha256": "6dbceaed4136b15a6a2c93f05dee70e54ec65ba99ee7ef2c545ad8a8cb7aa308",
+      "current_sha256": "1ed9ada7ea42bb8d6f35fa3db3dfaa72024e62d80945afeb454a8aa83cf04236",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/esa_cci_access_20261103/verify_mirror.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/mapbiomas_access_audit_20261103/mapbiomas_gap_probe.py",
+      "new": "gee/mapbiomas_access_audit_20261103/mapbiomas_gap_probe.py",
+      "original_sha256": "e31b625305a5785499d11ff6924070068c101427c57b80d75f92a4b639bb8e59",
+      "current_sha256": "2ff98cb17433ab173776793cc45d9c99491fbc61e42f444c25477d4db93701ea",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/mapbiomas_access_audit_20261103/mapbiomas_gap_probe.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/mapbiomas_access_audit_20261103/mapbiomas_probe.py",
+      "new": "gee/mapbiomas_access_audit_20261103/mapbiomas_probe.py",
+      "original_sha256": "4f713441daf081fc68c7960243899bf5827a4f6f77771b2bf1122ab4912fac64",
+      "current_sha256": "82b225475043ec2c908b16e9dc60333858eb3a210cfd2d9eb2d528dd7a42e194",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/mapbiomas_access_audit_20261103/mapbiomas_probe.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/mapbiomas_access_audit_20261103/metadata_probe.py",
+      "new": "gee/mapbiomas_access_audit_20261103/metadata_probe.py",
+      "original_sha256": "2479f5b63be0178a6a87323dc9d6aaf364b945e8af7e8f69d367c52eed8fd440",
+      "current_sha256": "aeee8b65c730d746c77e892518e4b4f8a4b7b3e48a52f5e82c1c5101b45f0762",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/mapbiomas_access_audit_20261103/metadata_probe.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/mapbiomas_class_audit_20261103/observed_classes.py",
+      "new": "gee/mapbiomas_class_audit_20261103/observed_classes.py",
+      "original_sha256": "c757741e51e53d973be7fe982ae76d61ecceba6e38778402c689440179c0f9fb",
+      "current_sha256": "dd2cef3c74d0af9103a7100333c4fa46de84590fb12c4a2b9c53c851579023f8",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/mapbiomas_class_audit_20261103/observed_classes.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/mapbiomas_class_audit_20261103/priority_sources.py",
+      "new": "gee/mapbiomas_class_audit_20261103/priority_sources.py",
+      "original_sha256": "5bab0f5140e552f74ce35936a2e0990e54de180e1ecd3437d520a5b7788e5520",
+      "current_sha256": "546c1eff213aeeda28e09ef7dfda58bf6828a7f24785810d2e0485762254eb67",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/mapbiomas_class_audit_20261103/priority_sources.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/mapbiomas_gap_diagnosis_20261103/diagnose.py",
+      "new": "gee/mapbiomas_gap_diagnosis_20261103/diagnose.py",
+      "original_sha256": "0fe85ac1c0449be6a66b568a5d1358660b497c4b5ce3f325d0934e5a95a56773",
+      "current_sha256": "ee7d7c3d1d11b105c15b2fedff9d24c205d70e219c95bdf396133316a4aeff8c",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/mapbiomas_gap_diagnosis_20261103/diagnose.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/mapbiomas_gap_diagnosis_20261103/fill_checks.py",
+      "new": "gee/mapbiomas_gap_diagnosis_20261103/fill_checks.py",
+      "original_sha256": "54a791ebae1c6bf58df143b7c4e83a1d4835985d1b2528f3f82288a772424ff4",
+      "current_sha256": "f08c5cafee51c41f57d2bd4874b8ac8f21d832e299737642e56af94296010a67",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/mapbiomas_gap_diagnosis_20261103/fill_checks.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/shrubland_source_audit_20261103/probe.py",
+      "new": "gee/shrubland_source_audit_20261103/probe.py",
+      "original_sha256": "d45cd6d37a5bb0b070498b1e2006f149590175151c580502b8104ade3d252d50",
+      "current_sha256": "51c1361094a81ec01ebf3ae4be05fd006fb48ce88f0c13f8d7c1853e88d075a7",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/shrubland_source_audit_20261103/probe.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/spring_srtm_roughness_v1/cloud_scripts/acquire_run.py",
+      "new": "gee/spring_srtm_roughness_v1/cloud_scripts/acquire_run.py",
+      "original_sha256": "8ba824e55af76713b68be19af5557792c1cc1a554e3368f95514d1ff40f2ad73",
+      "current_sha256": "60afea3799e54683311df45a68315c83ce587756272722ca98f9137cdfeaea2d",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/spring_srtm_roughness_v1/cloud_scripts/acquire_run.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/spring_srtm_roughness_v1/cloud_scripts/extract_roughness.js",
+      "new": "gee/spring_srtm_roughness_v1/cloud_scripts/extract_roughness.js",
+      "original_sha256": "a37dfc4734fd6017e2bfdf4b632ae800ae38ca322bd328925ae2a55a11ea4732",
+      "current_sha256": "a37dfc4734fd6017e2bfdf4b632ae800ae38ca322bd328925ae2a55a11ea4732",
+      "unchanged": true
+    },
+    {
+      "old": "data/pantanal_covariates/spring_srtm_roughness_v1/cloud_scripts/verify_outputs.py",
+      "new": "gee/spring_srtm_roughness_v1/cloud_scripts/verify_outputs.py",
+      "original_sha256": "9ab51d642e22cc4cca5ece3108d9014e29c384f39ea6e022a34b2e024df6e05f",
+      "current_sha256": "cb9aa93653e3b83cba0e8e44477e0c859594acb527e48165ad88384ec8052ccd",
+      "historical_source": "gee/_historical/20261103/data/pantanal_covariates/spring_srtm_roughness_v1/cloud_scripts/verify_outputs.py",
+      "change": "Repository/data paths resolved from top-level gee location; no cloud computation performed"
+    },
+    {
+      "old": "data/pantanal_covariates/spring_srtm_roughness_v1/jobs/extract_roughness.js",
+      "new": "gee/spring_srtm_roughness_v1/jobs/extract_roughness.js",
+      "original_sha256": "d615dc594cd3c28737db6dd4abb4494416b637c31bba1f2569130d70d7f78ab0",
+      "current_sha256": "d615dc594cd3c28737db6dd4abb4494416b637c31bba1f2569130d70d7f78ab0",
+      "unchanged": true
+    }
+  ],
+  "immutable_bundle": {
+    "old": "data/pantanal_covariates/spring_srtm_roughness_v1/jobs",
+    "new": "gee/spring_srtm_roughness_v1/jobs",
+    "files": {
+      "bundle.json": "d505f24bf5d2421a30d83ebfb7a47d84652db5e91777a26c1b13c08c7f903d50",
+      "task_log_template.csv": "7e0a33aa38b3c865d0f21d2ee316341bc6619ad211d0252a4606dda26c5f38fc",
+      "extract_roughness.js": "d615dc594cd3c28737db6dd4abb4494416b637c31bba1f2569130d70d7f78ab0",
+      "plan.json": "9dfdfe94f79feb4d16a169488e1adf5e221b311bd0062e95731e61e98c179b9d"
+    }
+  },
+  "verification": {
+    "roughness_bundle": "original bundle hashes and identity pass at gee/spring_srtm_roughness_v1/jobs",
+    "roughness_products": "all13groups48845cells passed existing offline inventory checker after script move",
+    "current_verification": "data/pantanal_covariates/spring_srtm_roughness_v1/verification_after_script_move.json",
+    "cloud_execution": "none during migration"
+  }
+}

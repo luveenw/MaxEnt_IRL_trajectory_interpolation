@@ -1,0 +1,48 @@
+{
+  "project": "perceptive-ivy-780",
+  "checked_utc": "2026-11-03T10:30:41.422345+00:00",
+  "earth_engine_config": {
+    "name": "projects/perceptive-ivy-780/config",
+    "registrationState": "REGISTERED_NOT_COMMERCIALLY"
+  },
+  "drive_folders": [
+    {
+      "id": "1z7zRpzrh3D0zNmluOWDNjgBX-87Fi-ZD",
+      "name": "columbia_ma_thesis",
+      "parents": [
+        "0ALeGI_eegXHWUk9PVA"
+      ]
+    },
+    {
+      "id": "18pvP5ZahJJ3akljqwS91Hhu21W8nE156",
+      "name": "jaguar_irl",
+      "parents": [
+        "1z7zRpzrh3D0zNmluOWDNjgBX-87Fi-ZD"
+      ]
+    },
+    {
+      "id": "17WLeDACa4h01TSs42w00AYsiJGa_AfwK",
+      "name": "seasonal_covariates",
+      "parents": [
+        "18pvP5ZahJJ3akljqwS91Hhu21W8nE156"
+      ]
+    },
+    {
+      "id": "1bdeDHJdhhyeWOYl9DONwtHT34kECJuFl",
+      "name": "pantanal_spring_srtm_roughness_v1",
+      "parents": [
+        "17WLeDACa4h01TSs42w00AYsiJGa_AfwK"
+      ]
+    }
+  ],
+  "drive_leaf_id": "1bdeDHJdhhyeWOYl9DONwtHT34kECJuFl",
+  "drive_path": "columbia_ma_thesis/jaguar_irl/seasonal_covariates/pantanal_spring_srtm_roughness_v1",
+  "drive_quota": {
+    "limit": "429496729600",
+    "usage": "177635856456",
+    "usageInDrive": "12983284321",
+    "usageInDriveTrash": "1024"
+  },
+  "monitoring_http_status": 403,
+  "monitoring_error": "Cloud Monitoring API has not been used in project 517222506229 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/monitoring.googleapis.com/overview?project=517222506229 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry."
+}

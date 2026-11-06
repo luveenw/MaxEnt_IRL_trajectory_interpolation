@@ -1,0 +1,20 @@
+"""Diagnostic candidate only: LandScan count/full-cell geodesic area at GlobPOP gaps."""
+import ee,json,math,numpy as np
+from pathlib import Path
+from pyproj import Transformer,Geod
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'data/pantanal_covariates/globpop_component_audit_20261104';PREV=ROOT/'data/pantanal_covariates/globpop_production_review_20261104';ee.Initialize(project='perceptive-ivy-780');ee.data.setDeadline(180000)
+gaps=json.loads((PREV/'finite_gap_pixels.json').read_text());plan=json.loads((ROOT/'gee/spring_mapbiomas_landcover_v1/jobs/plan.json').read_text());jobs={f"{j['group_id']}_{j['year']}":j for j in plan['groups'].values()};geod=Geod(ellps='WGS84');inv=Transformer.from_crs(32721,4326,always_xy=True);out={}
+for key,ps in gaps.items():
+ year=int(key.split('_')[1]);asset=f'projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-{year}';im=ee.Image(asset).select('b1');proj=im.projection();pr=proj.getInfo();affine=pr['transform'];image=im.rename('count').addBands(ee.Image.pixelCoordinates(proj));w=min(-180+p['source_col']/120 for p in ps);e=max(-180+(p['source_col']+1)/120 for p in ps);n=max(90-p['source_row']/120 for p in ps);s=min(90-(p['source_row']+1)/120 for p in ps);raw=image.toDouble().sampleRectangle(ee.Geometry.Rectangle([w,s,e,n],'EPSG:4326',False),defaultValue=-9999).getInfo()['properties'];(OUT/(key+'_candidate_raw.json')).write_text(json.dumps(raw));count=np.array(raw['count'],float);xx=np.array(raw['x'],int);yy=np.array(raw['y'],int)
+ native=np.load(PREV/(key+'_density_finite_audit.npz'));d=native['density'];b=inv.transform_bounds(*jobs[key]['grid']['bounds'],densify_pts=21);gc0=math.floor((b[0]+180)*120);gr0=math.floor((90-b[3])*120);patch=np.full_like(d,np.nan);flags=np.zeros_like(d,dtype=np.uint8);entries=[];globvalues=[];lsvalues=[]
+ for rr in range(count.shape[0]):
+  for cc in range(count.shape[1]):
+   c=int(xx[rr,cc]);r=int(yy[rr,cc]);gx=c+round((affine[2]+180)*120);gy=r+round((90-affine[5])*120);i=gy-gr0;j=gx-gc0
+   x0=affine[0]*c+affine[2];x1=x0+affine[0];y1=affine[4]*r+affine[5];y0=y1+affine[4];area,_=geod.polygon_area_perimeter([x0,x1,x1,x0],[y0,y0,y1,y1]);area=abs(area)/1e6;density=count[rr,cc]/area
+   if 0<=i<d.shape[0]and 0<=j<d.shape[1]:
+    if np.isfinite(d[i,j]):globvalues.append(float(d[i,j]));lsvalues.append(float(density))
+    elif any(p['source_col']==gx and p['source_row']==gy for p in ps):
+     patch[i,j]=density;flags[i,j]=1;entries.append({'source_col':gx,'source_row':gy,'landscan_col':c,'landscan_row':r,'population_count':float(count[rr,cc]),'full_cell_geodesic_area_km2':area,'candidate_density_people_per_km2':float(density)})
+ print('coordinate ranges',xx.min(),xx.max(),yy.min(),yy.max(),'globalwindow',gc0,gr0,'native shape',d.shape,flush=True);a=np.array(globvalues);ls=np.array(lsvalues);diff=ls-a;np.savez_compressed(OUT/(key+'_candidate_patch_DO_NOT_USE.npz'),candidate_density=patch,fallback_flag=flags)
+ result={'status':'diagnostic candidate only; not approved or applied production repair','source':asset,'mapping':'Global source index inferred from each image affine; annual origins differ (84N or90N in tested years).','method':'integer ambient count / full native WGS84 ellipsoidal pixel area; not a claim about GlobPOP original denominator','gap_pixels':entries,'filled_candidate_count':len(entries),'expected_gap_pixel_count':len(ps),'candidate_range':[float(np.nanmin(patch)),float(np.nanmax(patch))],'finite_overlap_comparison':{'pixels':len(a),'globpop_density_range':[float(a.min()),float(a.max())],'landscan_density_range':[float(ls.min()),float(ls.max())],'mean_absolute_difference':float(np.mean(np.abs(diff))),'root_mean_squared_difference':float(np.sqrt(np.mean(diff**2))),'median_signed_difference':float(np.median(diff)),'mean_signed_difference':float(np.mean(diff)),'globpop_median':float(np.median(a)),'landscan_median':float(np.median(ls))},'native_shape':list(d.shape)}
+ assert len(entries)==len(ps);out[key]=result;(OUT/'landscan_candidate_patch_diagnostics.json').write_text(json.dumps(out,indent=2)+'\n');print(key,len(entries),result['candidate_range'],result['finite_overlap_comparison'],flush=True)

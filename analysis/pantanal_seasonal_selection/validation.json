@@ -1,0 +1,9 @@
+{
+  "policy": "all_seasonal_bouts_two_hour_three_fix_four_hour_jitter15_v2",
+  "test_suite": "21 passed (bout selection, retention, checkpoint export, seasonal collections)",
+  "animal_season_rows_reconciled_to_missingness": 224,
+  "retained_bouts": 2669,
+  "all_bouts_min_three_and_gap_caps_pass": true,
+  "html_local_links_and_images_exist": true,
+  "visual_preview": "Headless browser unavailable: sandbox socket restriction; HTML links and data checked."
+}

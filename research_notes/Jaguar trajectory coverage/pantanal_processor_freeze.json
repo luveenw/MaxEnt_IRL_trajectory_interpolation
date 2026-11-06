@@ -1,0 +1,2340 @@
+{
+  "authorization": "User explicitly authorized removing the tracking-span criterion and supported-year-month warning, adding sex counts and map markers, regenerating selection/report/checkpoints and refreshing this freeze. Further original implementation changes require an explicit switch back. On 2026-11-01 the user authorized an optional exporter F/M gate, related documentation updates, and refresh of affected freeze references. Exporter code, tests and related research notes are outside the protected file inventory; no inventoried selector/report/checkpoint file changed. Export revision hashes are recorded separately below.",
+  "date": "2026-11-01",
+  "export_only_update": {
+    "former_policy_cli": "--min-final-retention 0.8",
+    "min_final_retention_default": 0.0,
+    "software_sha256": {
+      "export_pantanal_irl.py": "f12098942e22429fd69c6777694abc02553c324e9cafb744e4cf7c945a91dd8d",
+      "pantanal_irl_temporal.py": "f21ba452c99956bcb0bd3c2b460246ee7acd637be17ad4705f542ef5fc5a0cc1"
+    },
+    "validation": "91 tests passed; G01 threshold 0 and .8 exports verified in /tmp"
+  },
+  "files": {
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/checkpoint.json": {
+      "bytes": 3497,
+      "sha256": "a31b8fbd6d88722ec10a5c85a2530cc2bfbe51e3b49c0a28423575a28fed477d"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/cohort_audit.csv": {
+      "bytes": 171913,
+      "sha256": "d2f7f9226faf40504725f652c8cf149248beb549bb95787d1a91c6f55db3c5e5"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/collar_metadata.csv": {
+      "bytes": 11137,
+      "sha256": "f532f4bd92659985fea7e3c11389757391c524fbc73dbdff8d62d80d93d8e0e7"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/grids.json": {
+      "bytes": 46282,
+      "sha256": "5ab0ab9f8bbb907a0fe967b71834aecf8d313843b6e140123aa6a69790e03ab2"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/group_members.csv": {
+      "bytes": 54724,
+      "sha256": "7646d3479a5f11c2997c78af2ea715481e6e9ec2f3d5e74f104e7fbe689096eb"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/groups.csv": {
+      "bytes": 683716,
+      "sha256": "8e3e5643716a03b59e15ce40269429c7451a1382f07e417d9d87ed8a4be968ac"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/mcp_summary.csv": {
+      "bytes": 55016,
+      "sha256": "da71687a089846c4aabd99f0d822d3fe6f82bd3b383c18e2e68e31c16ec6e6c3"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/qc_rejections.csv": {
+      "bytes": 54,
+      "sha256": "40cba84b015d78c8da562d7b65e3a01f08a5617af233873764dbb5b3369100e4"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/source_points.csv": {
+      "bytes": 7693453,
+      "sha256": "7ee2532529f9a1c5ba0ee5f2b43fb4a040c5df87646d13d1cc33b7e0fff70a56"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/window_events.csv": {
+      "bytes": 1244037,
+      "sha256": "b00c20397d62019a45121a70bdd6f089f3386612e190a5a2245cea85e2364835"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_0ee1ed48e956b6367001b356/windows.csv": {
+      "bytes": 323972,
+      "sha256": "f2b8e6d564d8d39703259e3c3031962eff178e0d96f149b282254f15f87f9eb0"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/checkpoint.json": {
+      "bytes": 3482,
+      "sha256": "219eb8188fc50a013439c3649c6d51071f9d8b8a63d3a4b956149d42da5e2bbd"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/cohort_audit.csv": {
+      "bytes": 166666,
+      "sha256": "ed0e9f5fca5d628d517a6db6ab0155a63a8e88ee13b4aad3e8e924f4f7401412"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/collar_metadata.csv": {
+      "bytes": 11137,
+      "sha256": "f532f4bd92659985fea7e3c11389757391c524fbc73dbdff8d62d80d93d8e0e7"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/grids.json": {
+      "bytes": 46282,
+      "sha256": "5ab0ab9f8bbb907a0fe967b71834aecf8d313843b6e140123aa6a69790e03ab2"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/group_members.csv": {
+      "bytes": 54724,
+      "sha256": "561ab81bf70e8e7e0cdc38728a10e5bc36a105891fbb94822277b53992634dbb"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/groups.csv": {
+      "bytes": 673613,
+      "sha256": "cb24584a65f8abe1bea98ced92ac38ba846a6c794d688110f764962e64c742b3"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/mcp_summary.csv": {
+      "bytes": 55016,
+      "sha256": "da71687a089846c4aabd99f0d822d3fe6f82bd3b383c18e2e68e31c16ec6e6c3"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/qc_rejections.csv": {
+      "bytes": 54,
+      "sha256": "40cba84b015d78c8da562d7b65e3a01f08a5617af233873764dbb5b3369100e4"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/source_points.csv": {
+      "bytes": 7693453,
+      "sha256": "7ee2532529f9a1c5ba0ee5f2b43fb4a040c5df87646d13d1cc33b7e0fff70a56"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/window_events.csv": {
+      "bytes": 1244037,
+      "sha256": "b00c20397d62019a45121a70bdd6f089f3386612e190a5a2245cea85e2364835"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_8cc3315f50f9395c0e399726/windows.csv": {
+      "bytes": 318968,
+      "sha256": "32118cf6d9843f16dbf65230b69a0e3b31855cf0a8072ed431f702ffdad4cc06"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/checkpoint.json": {
+      "bytes": 3512,
+      "sha256": "ddbe8ec790dff1d403485ddc7aaa123df6bcd24396ebb3b5a352f304f57d778e"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/cohort_audit.csv": {
+      "bytes": 172161,
+      "sha256": "043f492e39e2924c7fbec1724028c6a724f378500d10a4140af7d377be919e8e"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/collar_metadata.csv": {
+      "bytes": 11137,
+      "sha256": "f532f4bd92659985fea7e3c11389757391c524fbc73dbdff8d62d80d93d8e0e7"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/grids.json": {
+      "bytes": 46282,
+      "sha256": "5ab0ab9f8bbb907a0fe967b71834aecf8d313843b6e140123aa6a69790e03ab2"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/group_members.csv": {
+      "bytes": 54724,
+      "sha256": "d192b8355a39b7f66ad48e87e52e888fda203f113e36572ef6f4b831f2fa5b2b"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/groups.csv": {
+      "bytes": 684178,
+      "sha256": "86bb8b141255e7b1dee8ac9616ead52e60d39f65f1b678449af5c963100ca7c4"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/mcp_summary.csv": {
+      "bytes": 55016,
+      "sha256": "da71687a089846c4aabd99f0d822d3fe6f82bd3b383c18e2e68e31c16ec6e6c3"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/qc_rejections.csv": {
+      "bytes": 54,
+      "sha256": "40cba84b015d78c8da562d7b65e3a01f08a5617af233873764dbb5b3369100e4"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/source_points.csv": {
+      "bytes": 7693453,
+      "sha256": "7ee2532529f9a1c5ba0ee5f2b43fb4a040c5df87646d13d1cc33b7e0fff70a56"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/window_events.csv": {
+      "bytes": 1244037,
+      "sha256": "b00c20397d62019a45121a70bdd6f089f3386612e190a5a2245cea85e2364835"
+    },
+    "analysis/pantanal_selection/checkpoints/selection_c5ab7b5fc6198a62f6e3844a/windows.csv": {
+      "bytes": 329488,
+      "sha256": "285413f3266f478edef9ca718fe2a31821115591a0faf7f9bd62c079cbee082c"
+    },
+    "analysis/pantanal_selection/data/all_group_candidates.csv": {
+      "bytes": 320740,
+      "sha256": "36058e535e4f536cc224849fa272ae0fe5eda347b5d9d724cb61141de9609515"
+    },
+    "analysis/pantanal_selection/data/all_week_candidates.csv": {
+      "bytes": 116831,
+      "sha256": "04f1b85d306b5eddc6cba14dfb39a31728aedc855233ba10a4e4249889820f6e"
+    },
+    "analysis/pantanal_selection/data/cohort_audit.csv": {
+      "bytes": 501,
+      "sha256": "fd8a9fe3b91921a01185dcaf254fa8a5934c58622fda38c0a71813427716b608"
+    },
+    "analysis/pantanal_selection/data/group_members.csv": {
+      "bytes": 45054,
+      "sha256": "e4ef3bccffbc5059756f6c57354429928e548daaed70921ac9f3a22d9974d9a6"
+    },
+    "analysis/pantanal_selection/data/group_month_coverage.csv": {
+      "bytes": 30885,
+      "sha256": "6e673a6b2be31c9b4e1c032d10f5b21d09a3ddeacc1cbcd371b66ecbd0e1a2b5"
+    },
+    "analysis/pantanal_selection/data/group_year_month_coverage.csv": {
+      "bytes": 57358,
+      "sha256": "314ac17484bace72b506fa33887242c895fb3601116e4f3b959c62c8e0a48ec3"
+    },
+    "analysis/pantanal_selection/data/individual_audit.csv": {
+      "bytes": 119979,
+      "sha256": "d8d625b6f38f39510dae0e559439492582b2b002dc5e071744adc2ba77305c06"
+    },
+    "analysis/pantanal_selection/data/mcp95_summary.csv": {
+      "bytes": 11960,
+      "sha256": "987f7d47a156b1f6eab56351176959df38a9eaae4e033be2bd8a1b1af84fcc72"
+    },
+    "analysis/pantanal_selection/data/ranked_groups.csv": {
+      "bytes": 12815,
+      "sha256": "4d4292a0af341b1931ca4755f008c8d5dc61ebf5fb5f565798db117440e97a48"
+    },
+    "analysis/pantanal_selection/data/relaxed_group_candidates.csv": {
+      "bytes": 56585,
+      "sha256": "75cbb116c67ea19d338c0c487a1bb9bfd6e28ab5d71377b3f1066709d43b7830"
+    },
+    "analysis/pantanal_selection/data/relaxed_group_members.csv": {
+      "bytes": 115864,
+      "sha256": "a02984137072e17633b280f1a44f01990e7362c154f49b1655cae750e79e3282"
+    },
+    "analysis/pantanal_selection/data/relaxed_points.csv": {
+      "bytes": 2022226,
+      "sha256": "7675b86c5f5308ccfa15e762e0a3c7d300f1648b1057c32f56b2385deed96ec8"
+    },
+    "analysis/pantanal_selection/data/relaxed_report_groups.csv": {
+      "bytes": 56585,
+      "sha256": "75cbb116c67ea19d338c0c487a1bb9bfd6e28ab5d71377b3f1066709d43b7830"
+    },
+    "analysis/pantanal_selection/data/relaxed_trajectory_manifest.csv": {
+      "bytes": 58254,
+      "sha256": "7ff6ccd0405998f918b90409230741add6d6356dfa08038ec20b57f38865bddf"
+    },
+    "analysis/pantanal_selection/data/relaxed_week_candidates.csv": {
+      "bytes": 7333,
+      "sha256": "c46477597db707022840373b6649d88f7728b819c70794c9f26a009f4fab3da6"
+    },
+    "analysis/pantanal_selection/data/report_group_members.csv": {
+      "bytes": 676464,
+      "sha256": "f0c09a59cf16e9b737d37c5d8032f91de2d5b6db45b8dedf4d3b7cd1c13d8d7c"
+    },
+    "analysis/pantanal_selection/data/report_groups.csv": {
+      "bytes": 320740,
+      "sha256": "36058e535e4f536cc224849fa272ae0fe5eda347b5d9d724cb61141de9609515"
+    },
+    "analysis/pantanal_selection/data/report_points.csv": {
+      "bytes": 14080502,
+      "sha256": "fc814c7fc5a2ba8a5e6d37d0f63e7fbf0e3517a5caa7f1593652058d4d69bcea"
+    },
+    "analysis/pantanal_selection/data/report_trajectory_manifest.csv": {
+      "bytes": 173764,
+      "sha256": "4f9776b10f26bc19f04cc619b6ecd8517f637f3d089b7311dc4a640c8274f108"
+    },
+    "analysis/pantanal_selection/data/selected_points.csv": {
+      "bytes": 898401,
+      "sha256": "1cb9c236eea86aeb4d5d62e1077239f9769bc49844023e4077be907918a526a0"
+    },
+    "analysis/pantanal_selection/data/trajectory_manifest.csv": {
+      "bytes": 10272,
+      "sha256": "db55bc3e2c910dff2dbba3ecd84d4cca742ed6252bc9f538c03ecd069efccf3e"
+    },
+    "analysis/pantanal_selection/images/candidate_G01_map.png": {
+      "bytes": 139097,
+      "sha256": "959617383e23e9e8c0d34ce18d5504de24166e144a12bf130631bcdc4917b290"
+    },
+    "analysis/pantanal_selection/images/candidate_G01_point_counts.png": {
+      "bytes": 62271,
+      "sha256": "82d7a682dc5aa32e3269f231bc8482c5955c3032fcffb0e02fc93a318fab1114"
+    },
+    "analysis/pantanal_selection/images/candidate_G02_map.png": {
+      "bytes": 125210,
+      "sha256": "32f0744e16db12a10c7a7882cbf4f3adb00b08ba160aab9db42f5cce504b22fa"
+    },
+    "analysis/pantanal_selection/images/candidate_G02_point_counts.png": {
+      "bytes": 61904,
+      "sha256": "1884a67373ad0bdcac1fe8365f2b8765da436f2d2d4cbddc195499f18ab06cdd"
+    },
+    "analysis/pantanal_selection/images/candidate_G03_map.png": {
+      "bytes": 126874,
+      "sha256": "6d0ad41799972503849c445418db92824cefc5ad74cb459ae6461124df07047c"
+    },
+    "analysis/pantanal_selection/images/candidate_G03_point_counts.png": {
+      "bytes": 62495,
+      "sha256": "8e4aa6bf8ed6e77e510ff867bd98fff8449ae2397137c08f81913bb78b350d7a"
+    },
+    "analysis/pantanal_selection/images/candidate_G04_map.png": {
+      "bytes": 123749,
+      "sha256": "06d4f03d02d243295f7f335709e8ebd2bf34bc7aa9bed1a67ce4759729b6b4b6"
+    },
+    "analysis/pantanal_selection/images/candidate_G04_point_counts.png": {
+      "bytes": 61170,
+      "sha256": "85488204b316d6915f7db69e9d4023555bd3adfc51a2dbd5cc6557a0d28de8d3"
+    },
+    "analysis/pantanal_selection/images/candidate_G05_map.png": {
+      "bytes": 119504,
+      "sha256": "f59d8911d3b648cc900984bdfc6846784368a573d06af4ea71490d5914147e10"
+    },
+    "analysis/pantanal_selection/images/candidate_G05_point_counts.png": {
+      "bytes": 58990,
+      "sha256": "521132e35b8c2a9ae7d4b4a64bba11b932a1905e103f8ab32ca3d930ae6332f8"
+    },
+    "analysis/pantanal_selection/images/candidate_G06_map.png": {
+      "bytes": 113647,
+      "sha256": "bd99738af59665db135977db6de302e7fa73075e1d5a75ea4db6437d13358796"
+    },
+    "analysis/pantanal_selection/images/candidate_G06_point_counts.png": {
+      "bytes": 58493,
+      "sha256": "75f941e242edfbc577215ccbb26e6784bacd649917fdc2626e6c5541d5cfb8b2"
+    },
+    "analysis/pantanal_selection/images/candidate_G07_map.png": {
+      "bytes": 122191,
+      "sha256": "32cdb5033b14138ef324edd61e5697d54855f540de4847f69809f07de10cbc41"
+    },
+    "analysis/pantanal_selection/images/candidate_G07_point_counts.png": {
+      "bytes": 60519,
+      "sha256": "f987538aa5753781fcdf651af9db1733cebf89d171f5a5f5ddd44ff9e6f10bf2"
+    },
+    "analysis/pantanal_selection/images/candidate_G08_map.png": {
+      "bytes": 117332,
+      "sha256": "657161f9e8e6ff21e87dc29ac64f2341a4439d6561fd6ba23eefcef17bf624dc"
+    },
+    "analysis/pantanal_selection/images/candidate_G08_point_counts.png": {
+      "bytes": 61622,
+      "sha256": "d984360db56c16566e573f2d58b29335078ddd00c39f4ca10e6edc36d2f4b8aa"
+    },
+    "analysis/pantanal_selection/images/candidate_G09_map.png": {
+      "bytes": 118903,
+      "sha256": "54ac93b61d47de5d486015f9585dfb2c5c8ae6fc9356b3f52a1c705531a6695d"
+    },
+    "analysis/pantanal_selection/images/candidate_G09_point_counts.png": {
+      "bytes": 60236,
+      "sha256": "e91a13910631d48ea536a1376a9ceaae373cc8f64b7fe8464f58773dd8e12b0e"
+    },
+    "analysis/pantanal_selection/images/candidate_G100_map.png": {
+      "bytes": 83203,
+      "sha256": "96028f45a372d186c187e8af4e1979a74fd845289634835bdcf63b694510721a"
+    },
+    "analysis/pantanal_selection/images/candidate_G100_point_counts.png": {
+      "bytes": 56322,
+      "sha256": "41e2fb08332d8e17cdfe354f2674615eaaddba14f1b65545885c5d3abe72956b"
+    },
+    "analysis/pantanal_selection/images/candidate_G101_map.png": {
+      "bytes": 93794,
+      "sha256": "4ea5e37573c5562c3106fafdf3c3bf296c56182efae6cbc5aa0e1b2750e8c56b"
+    },
+    "analysis/pantanal_selection/images/candidate_G101_point_counts.png": {
+      "bytes": 55023,
+      "sha256": "0c4e90e62114d3864ad6df6a45b11815a35c1885995a40abe5e932ac10b1718a"
+    },
+    "analysis/pantanal_selection/images/candidate_G102_map.png": {
+      "bytes": 90908,
+      "sha256": "1b27965e2be90ee4dd0c78f12283a7c5db27789cbf688fe2852889979c058438"
+    },
+    "analysis/pantanal_selection/images/candidate_G102_point_counts.png": {
+      "bytes": 57750,
+      "sha256": "f9ff5d55d13acf192ef85d49fc7dfb2f9172102b0d3a08eb3a24c15303739300"
+    },
+    "analysis/pantanal_selection/images/candidate_G103_map.png": {
+      "bytes": 99149,
+      "sha256": "03524d65edd27db610a130cdd690bd704ebdeb31d798d26dae34ba9c9674a4fb"
+    },
+    "analysis/pantanal_selection/images/candidate_G103_point_counts.png": {
+      "bytes": 56477,
+      "sha256": "e5fb2f665005e2d399fb94da916860f992f9c6a492927f66c8028a7e2614ff8d"
+    },
+    "analysis/pantanal_selection/images/candidate_G104_map.png": {
+      "bytes": 98270,
+      "sha256": "c4760a41b533b9ae48b4044265c732d587c706f593700c96de521f56e65e74eb"
+    },
+    "analysis/pantanal_selection/images/candidate_G104_point_counts.png": {
+      "bytes": 57869,
+      "sha256": "1726f92ba0cd76dd6749424408d603a013670829b987ce77f3178c7b6cc26ab0"
+    },
+    "analysis/pantanal_selection/images/candidate_G105_map.png": {
+      "bytes": 98486,
+      "sha256": "0cf350b04e9f9b55baef8f7b13572bb08b92c03ef3d50b7ac1d0d9c9e1887605"
+    },
+    "analysis/pantanal_selection/images/candidate_G105_point_counts.png": {
+      "bytes": 54465,
+      "sha256": "d304c3ea522c2790e345f1196a2fd0b110b1bb7d98cb1e19db3d92d7a731b4da"
+    },
+    "analysis/pantanal_selection/images/candidate_G106_map.png": {
+      "bytes": 80488,
+      "sha256": "c962495bd8dca1aa8f32e3bf2912138e4895fc9f9663989efcc39825394a388e"
+    },
+    "analysis/pantanal_selection/images/candidate_G106_point_counts.png": {
+      "bytes": 55723,
+      "sha256": "2feb7c5022af72a03c15a38870064f9050a505478df8e5a4c43e31ca5403a37c"
+    },
+    "analysis/pantanal_selection/images/candidate_G107_map.png": {
+      "bytes": 97401,
+      "sha256": "19dc4d61d6225dd480e7ad8a1c4904392f7e725c07fa5550f0bd5204418cc22c"
+    },
+    "analysis/pantanal_selection/images/candidate_G107_point_counts.png": {
+      "bytes": 56655,
+      "sha256": "0fee790bdd6c82b21219534c0516fd66180776c0982f974ab9eed08852afd4fc"
+    },
+    "analysis/pantanal_selection/images/candidate_G108_map.png": {
+      "bytes": 91724,
+      "sha256": "c8cee9414282050079448ae0d27359e6e00416184e235cb99b2d0990a1323b54"
+    },
+    "analysis/pantanal_selection/images/candidate_G108_point_counts.png": {
+      "bytes": 60818,
+      "sha256": "36803c6a347a6fdb2985f010189580eae6e748afa70ebc99687a02535e6c84d4"
+    },
+    "analysis/pantanal_selection/images/candidate_G109_map.png": {
+      "bytes": 89016,
+      "sha256": "c26bb8d3dd39b2ee73076e1d8ab02a9652f43cfc0b377ba056c3b7b8a41487e7"
+    },
+    "analysis/pantanal_selection/images/candidate_G109_point_counts.png": {
+      "bytes": 58941,
+      "sha256": "b5c1131c75cd983304bc20ccec92499eced462961bcea4037e5fa607fc6aeb19"
+    },
+    "analysis/pantanal_selection/images/candidate_G10_map.png": {
+      "bytes": 118093,
+      "sha256": "b5367a78d2fdc00a53e442044580453b387f80a1ca179f6981a28bccba4786c0"
+    },
+    "analysis/pantanal_selection/images/candidate_G10_point_counts.png": {
+      "bytes": 61392,
+      "sha256": "4d516e3f8d7c2baca1bcfc8f27666ddb73b091cf912037cf767caac1ac57750b"
+    },
+    "analysis/pantanal_selection/images/candidate_G110_map.png": {
+      "bytes": 98458,
+      "sha256": "8b0b91fd2ebcd1fb3242c7559d7a78b62b42e0889d7bfc401dc1e82b0261d664"
+    },
+    "analysis/pantanal_selection/images/candidate_G110_point_counts.png": {
+      "bytes": 54962,
+      "sha256": "19edddeb9c85450d8ee0af838d161b4a1b859cdfb631f763b5434b276eb31c6a"
+    },
+    "analysis/pantanal_selection/images/candidate_G111_map.png": {
+      "bytes": 109038,
+      "sha256": "4cfbf08626650d35323c0ad0204b2680f0ab057c1e028713c14e5abe576fc043"
+    },
+    "analysis/pantanal_selection/images/candidate_G111_point_counts.png": {
+      "bytes": 54956,
+      "sha256": "7382d9ed0a31a26192f83716096082f074a0362f6da9b52665248d40b5624c5d"
+    },
+    "analysis/pantanal_selection/images/candidate_G112_map.png": {
+      "bytes": 84188,
+      "sha256": "f2c830682d1f0bed144db5e7d8ff8f5da06388725b9c0aeb1e9ab833f2df3638"
+    },
+    "analysis/pantanal_selection/images/candidate_G112_point_counts.png": {
+      "bytes": 57644,
+      "sha256": "fbc879e35056870465d9c9d25d8cd3b3df00a4569a332d4cb9bd6a79d3b3db8a"
+    },
+    "analysis/pantanal_selection/images/candidate_G113_map.png": {
+      "bytes": 84093,
+      "sha256": "0b2a22c6a6f99429c52d356d5afe99655eebf88255e2e7661ae216363ae4b3f9"
+    },
+    "analysis/pantanal_selection/images/candidate_G113_point_counts.png": {
+      "bytes": 54884,
+      "sha256": "0a7a13c43fc6eac7e4011126e464e46089947762473a65a58830050ae7d17227"
+    },
+    "analysis/pantanal_selection/images/candidate_G114_map.png": {
+      "bytes": 81003,
+      "sha256": "ff37dacbcd96b01274101f0dcda89ff85cef3b51291d57d4945b4f25946804ec"
+    },
+    "analysis/pantanal_selection/images/candidate_G114_point_counts.png": {
+      "bytes": 55713,
+      "sha256": "d7a1d7e5c5811fad5426c52a36586ef1cf120d9db14db3293f20e97ad9119bb1"
+    },
+    "analysis/pantanal_selection/images/candidate_G115_map.png": {
+      "bytes": 95481,
+      "sha256": "6f991be5d672ceb45f3f0284a1c00e81353f6d2442e58acdc31a376bc0705083"
+    },
+    "analysis/pantanal_selection/images/candidate_G115_point_counts.png": {
+      "bytes": 53565,
+      "sha256": "c791472aeea920b814ceb0a4fd8b5383e67d842bc7094ba1ab2780c23f880708"
+    },
+    "analysis/pantanal_selection/images/candidate_G116_map.png": {
+      "bytes": 93859,
+      "sha256": "0ecf87b9e08ed960fcda6e9e4b59948b10300ee07e4020364843f19ddc2ddf91"
+    },
+    "analysis/pantanal_selection/images/candidate_G116_point_counts.png": {
+      "bytes": 57813,
+      "sha256": "736825888fde9d8799511000f22a6a87cbc3f81b035efaa0b0b4462eeab82aba"
+    },
+    "analysis/pantanal_selection/images/candidate_G117_map.png": {
+      "bytes": 87753,
+      "sha256": "ddb28c543fd9326266250e71c1958439732c7ddb64d0a0240f06e9b50c227c26"
+    },
+    "analysis/pantanal_selection/images/candidate_G117_point_counts.png": {
+      "bytes": 55819,
+      "sha256": "07feafcefcd411bdf6dfc09f4838b95892ebbc0397cffce98d8fc22af6b83054"
+    },
+    "analysis/pantanal_selection/images/candidate_G118_map.png": {
+      "bytes": 101017,
+      "sha256": "fbf1550a354cb2e3784c82a91c508e000f87ab789756b96c2dfb68a0414aa687"
+    },
+    "analysis/pantanal_selection/images/candidate_G118_point_counts.png": {
+      "bytes": 58646,
+      "sha256": "c3fa1dce862d26de294a8ab2166e9fefcc4960007fbbe4883c81089f65d002da"
+    },
+    "analysis/pantanal_selection/images/candidate_G119_map.png": {
+      "bytes": 79922,
+      "sha256": "c400e9c04a3f0f58ddce84738ed024b2bde45ec02f8f2f03f11843a4b1f884e6"
+    },
+    "analysis/pantanal_selection/images/candidate_G119_point_counts.png": {
+      "bytes": 55552,
+      "sha256": "4b54a2e55a49c79edb592ee247e04eca9a3dc0d85264c774d349c05dcded4ae9"
+    },
+    "analysis/pantanal_selection/images/candidate_G11_map.png": {
+      "bytes": 112872,
+      "sha256": "c1cfa1241e13882447b876694568b4793f71f1a62bd981fa1f493068bbbef36b"
+    },
+    "analysis/pantanal_selection/images/candidate_G11_point_counts.png": {
+      "bytes": 60411,
+      "sha256": "572d8ea320bbb03a4bbb51eca744d4266c2034abdc21c37a9260aa84611e7382"
+    },
+    "analysis/pantanal_selection/images/candidate_G120_map.png": {
+      "bytes": 89073,
+      "sha256": "ce730568da1eb35fb4d2d314788d2253b0245fc2ca47f74d72cd82bdc253ff15"
+    },
+    "analysis/pantanal_selection/images/candidate_G120_point_counts.png": {
+      "bytes": 57529,
+      "sha256": "144d288b89f0761f9e99a61bb444829615e87c6f2dbdae5c0f7c38635dc50552"
+    },
+    "analysis/pantanal_selection/images/candidate_G121_map.png": {
+      "bytes": 82496,
+      "sha256": "157b63d583a0d687b48c3a9ab9670af71fd6151181cfb05f74aa034a0afffbc8"
+    },
+    "analysis/pantanal_selection/images/candidate_G121_point_counts.png": {
+      "bytes": 54893,
+      "sha256": "2fdb69355fc24a539c596d7e167b74084ed37a00859b2e1399c7dee0f19af17b"
+    },
+    "analysis/pantanal_selection/images/candidate_G122_map.png": {
+      "bytes": 104418,
+      "sha256": "1428aea973888c6319c300a0799376d4d80e9b0d172d21d9736705615a897dd4"
+    },
+    "analysis/pantanal_selection/images/candidate_G122_point_counts.png": {
+      "bytes": 57984,
+      "sha256": "b4df542d1379c8bd9a5ebfa0e5e19e8df65845a903705053b0e01b1aaffb53a8"
+    },
+    "analysis/pantanal_selection/images/candidate_G123_map.png": {
+      "bytes": 97638,
+      "sha256": "f3111d4a57fc70677a8fd8d437e34b18ece2dc9abb9a851f426fdfd89526556e"
+    },
+    "analysis/pantanal_selection/images/candidate_G123_point_counts.png": {
+      "bytes": 55721,
+      "sha256": "b5001347ced512e7a17c7601c4267edd5091365a59736391453ac22d95ab45b7"
+    },
+    "analysis/pantanal_selection/images/candidate_G124_map.png": {
+      "bytes": 95884,
+      "sha256": "91df1ccdc08352b84bac5170506d0c59af631e344423fb6467e9f96246882522"
+    },
+    "analysis/pantanal_selection/images/candidate_G124_point_counts.png": {
+      "bytes": 54936,
+      "sha256": "66678c0d7491b5c01ab3f5c8711b719d465b30b90bcf721a2e9408b5f4e0c5c4"
+    },
+    "analysis/pantanal_selection/images/candidate_G125_map.png": {
+      "bytes": 84427,
+      "sha256": "098971ce59f2b044710f4e59382ff8337844b0177e2447491d6ca42be9d040b1"
+    },
+    "analysis/pantanal_selection/images/candidate_G125_point_counts.png": {
+      "bytes": 57012,
+      "sha256": "4143cd3fc9ff76174006c2d4beeabdfe9855d13dd5e4cfcc1034842962224d6d"
+    },
+    "analysis/pantanal_selection/images/candidate_G126_map.png": {
+      "bytes": 108810,
+      "sha256": "4af6ff8e95a4219cb28f6f08b1832c6f7132218d7b5a795c4b278ab5fbb638ad"
+    },
+    "analysis/pantanal_selection/images/candidate_G126_point_counts.png": {
+      "bytes": 55686,
+      "sha256": "00c64147e694516b351a33b2c1ab13e56cd68ac57ff291638960b54c07314f9f"
+    },
+    "analysis/pantanal_selection/images/candidate_G127_map.png": {
+      "bytes": 100253,
+      "sha256": "add3730454a8d70f34b2d200816301f6d9a6a5e7bb4d99375ba1ce73ae17c1a3"
+    },
+    "analysis/pantanal_selection/images/candidate_G127_point_counts.png": {
+      "bytes": 56256,
+      "sha256": "458b264fbc9fb38155c3ec2cf4053a3c127bdfad8c1865a87caa641cc8b9b70c"
+    },
+    "analysis/pantanal_selection/images/candidate_G128_map.png": {
+      "bytes": 103468,
+      "sha256": "5fba9d6ba71d7e75b42fa6851b54f45244384c9dd99cdf16de51815e26fb4f2e"
+    },
+    "analysis/pantanal_selection/images/candidate_G128_point_counts.png": {
+      "bytes": 59427,
+      "sha256": "042098c6d4a654c28ba87b16843e6de63b28e50d72fd2c629c8dc1581d3bd5f2"
+    },
+    "analysis/pantanal_selection/images/candidate_G129_map.png": {
+      "bytes": 114941,
+      "sha256": "ddd70992d687388316133d300d0d7d3517186d418b095638a7252332423c9519"
+    },
+    "analysis/pantanal_selection/images/candidate_G129_point_counts.png": {
+      "bytes": 59830,
+      "sha256": "f93dac606de2847e4c5fabe50de7fac19d250e67078b138aa371b72f154ceaa6"
+    },
+    "analysis/pantanal_selection/images/candidate_G12_map.png": {
+      "bytes": 115179,
+      "sha256": "e0aad8465c720bc7e757933f5695b2d99c0ee0a78ef7e60f67524a638ec7df47"
+    },
+    "analysis/pantanal_selection/images/candidate_G12_point_counts.png": {
+      "bytes": 58679,
+      "sha256": "8ad6243dfb6999bf668b3add9b4ee6e56502487743ae9485b7acbaff32fd0ab9"
+    },
+    "analysis/pantanal_selection/images/candidate_G130_map.png": {
+      "bytes": 87379,
+      "sha256": "cc29d17eabc80fd21e0e95a4750411f172c18d583051bb38a0e3f8757ed9f45d"
+    },
+    "analysis/pantanal_selection/images/candidate_G130_point_counts.png": {
+      "bytes": 55411,
+      "sha256": "68e8b1443e894376c37bab5caefb769f3c4a166061c5ccd2bf216f1162520039"
+    },
+    "analysis/pantanal_selection/images/candidate_G131_map.png": {
+      "bytes": 105730,
+      "sha256": "6a35fbddde15a5117905a61de00a6f100d4fbfaf3f63f7b6cc5331922624b0d0"
+    },
+    "analysis/pantanal_selection/images/candidate_G131_point_counts.png": {
+      "bytes": 54959,
+      "sha256": "67a85f956e0a691669e63b9440dbba1744d19e9c93405c76de1316a463905fee"
+    },
+    "analysis/pantanal_selection/images/candidate_G132_map.png": {
+      "bytes": 98144,
+      "sha256": "14392d1512a99cc4f126e8c449ebf235b9b95ff00bc78d9179b9d5c141e9d860"
+    },
+    "analysis/pantanal_selection/images/candidate_G132_point_counts.png": {
+      "bytes": 58740,
+      "sha256": "5c9f1e02f1fe40166e7da2a96182c4fbff9484f65cb98c1e1103f072b6ce91e1"
+    },
+    "analysis/pantanal_selection/images/candidate_G133_map.png": {
+      "bytes": 107864,
+      "sha256": "f2ea3e40f4044a2847a87cf6a6dc59999eb5e6318f6c54846a6732f5e7ded5f5"
+    },
+    "analysis/pantanal_selection/images/candidate_G133_point_counts.png": {
+      "bytes": 57999,
+      "sha256": "515e0ed1df1acbe5ded2bd544695b5cd1efea9eb8770a63b2b1a2847823be81f"
+    },
+    "analysis/pantanal_selection/images/candidate_G134_map.png": {
+      "bytes": 95363,
+      "sha256": "7764196079a9e7fa310bbe8d98858f857ebe4d52f6f3c26d1c773e3bffcc9dbb"
+    },
+    "analysis/pantanal_selection/images/candidate_G134_point_counts.png": {
+      "bytes": 56635,
+      "sha256": "ff4367a9ae398d81eeb05d96624a147672c118de91b56e504b8b4ed96569b99a"
+    },
+    "analysis/pantanal_selection/images/candidate_G135_map.png": {
+      "bytes": 96433,
+      "sha256": "ec0a98a02326e2e822f1ccd6f34c792cf5bf1e4a895aaf1a31c5e59c78b5f0ca"
+    },
+    "analysis/pantanal_selection/images/candidate_G135_point_counts.png": {
+      "bytes": 57428,
+      "sha256": "784f11572886712759d3991dfe4afe45eb333aa6e81c663cddab15d15abf6c48"
+    },
+    "analysis/pantanal_selection/images/candidate_G136_map.png": {
+      "bytes": 95669,
+      "sha256": "2da6a0b124b2842689181613c7beb868955dc0bacd426a00d5287f3c72217dd8"
+    },
+    "analysis/pantanal_selection/images/candidate_G136_point_counts.png": {
+      "bytes": 58260,
+      "sha256": "e291283520595c614b5b6b7ce14327a358f12c35b5354f4c993e3f57ff61b79b"
+    },
+    "analysis/pantanal_selection/images/candidate_G137_map.png": {
+      "bytes": 76346,
+      "sha256": "f41bff5fe7a8dc61089bddb08b63ab6a53b8cd0c53b0a70c2d56894939da83fe"
+    },
+    "analysis/pantanal_selection/images/candidate_G137_point_counts.png": {
+      "bytes": 53826,
+      "sha256": "17031be756e94323d14f177d6f258019f5b67cae9c1e13e3a2196f95a8d7c6cb"
+    },
+    "analysis/pantanal_selection/images/candidate_G138_map.png": {
+      "bytes": 75184,
+      "sha256": "bbff4323efcab0b76ac3767f57bb6a92b09ca455d64dcb392c6e94bf0adabe07"
+    },
+    "analysis/pantanal_selection/images/candidate_G138_point_counts.png": {
+      "bytes": 53736,
+      "sha256": "9e6c606096b7d7a1df54e040b71dcfbeec1141336e844e0bf3fea87ced52bec4"
+    },
+    "analysis/pantanal_selection/images/candidate_G139_map.png": {
+      "bytes": 76484,
+      "sha256": "efbc1156f776bc77db7000f4672d0a64829e2820cafd00093f3ebc8c86a6a56d"
+    },
+    "analysis/pantanal_selection/images/candidate_G139_point_counts.png": {
+      "bytes": 53729,
+      "sha256": "75e115fcf1133aa30733ea825e9b143180c7ba3b99d1e20c7f3e373f4d1eb29c"
+    },
+    "analysis/pantanal_selection/images/candidate_G13_map.png": {
+      "bytes": 118538,
+      "sha256": "f8d9a16a82a03ec121877a471321a065a07f4b5c42ba1d8812bdaf6d00738772"
+    },
+    "analysis/pantanal_selection/images/candidate_G13_point_counts.png": {
+      "bytes": 61020,
+      "sha256": "8e173fee2bb908035230c59537bf20b068e52080ae35678e5b507df239226612"
+    },
+    "analysis/pantanal_selection/images/candidate_G140_map.png": {
+      "bytes": 73326,
+      "sha256": "dfa8001db5f7a16f94beda54d805905fbffe5acded8e2c23fc994db82c6bcb08"
+    },
+    "analysis/pantanal_selection/images/candidate_G140_point_counts.png": {
+      "bytes": 52263,
+      "sha256": "274c31aad81f496d1b3217c3e0ec26129d48d0185928fc97579afde0dc022c19"
+    },
+    "analysis/pantanal_selection/images/candidate_G141_map.png": {
+      "bytes": 70585,
+      "sha256": "73a0d0efbe2146b89be50ad9fee0216facc8214ceae3109e1ebda26e1c9214d9"
+    },
+    "analysis/pantanal_selection/images/candidate_G141_point_counts.png": {
+      "bytes": 50624,
+      "sha256": "2088fdc2782b1f1c6fd5abae786bdc388409ffad87956fffd7515f8345677108"
+    },
+    "analysis/pantanal_selection/images/candidate_G142_map.png": {
+      "bytes": 79877,
+      "sha256": "3a7533667ad5a0a8b889d24ebc34c26baea2caa75e629107297dd0b7130718bd"
+    },
+    "analysis/pantanal_selection/images/candidate_G142_point_counts.png": {
+      "bytes": 51128,
+      "sha256": "7ec02bb47dd1f7bf7b7358f356f6eaa7a9137ba40c722fe7402715adab84877b"
+    },
+    "analysis/pantanal_selection/images/candidate_G143_map.png": {
+      "bytes": 88677,
+      "sha256": "cafcdabf7143dbd33cb04e8bab0bbcb162c25b3e82d2aa69ae7ad667085396ba"
+    },
+    "analysis/pantanal_selection/images/candidate_G143_point_counts.png": {
+      "bytes": 56602,
+      "sha256": "efda48dbfe68c25b35a2adf0123f70375b5ac5f078e4aa2bc5aa5d89c0a4bdef"
+    },
+    "analysis/pantanal_selection/images/candidate_G144_map.png": {
+      "bytes": 80781,
+      "sha256": "a2592c2a9cb90766af78e21d10baa250b4996a491c93bc3c3b056f8dbc0dc3d4"
+    },
+    "analysis/pantanal_selection/images/candidate_G144_point_counts.png": {
+      "bytes": 54366,
+      "sha256": "56387ba1a5c42c564b38e336442228eed0995ce23c241c0b4740c07f04e67473"
+    },
+    "analysis/pantanal_selection/images/candidate_G145_map.png": {
+      "bytes": 88783,
+      "sha256": "ffd574aab7e4c9b9ac53155c4648dfda956080cc7815b9f58931c74935f6b02f"
+    },
+    "analysis/pantanal_selection/images/candidate_G145_point_counts.png": {
+      "bytes": 52301,
+      "sha256": "c23bcb3b8f837f0d24b81cddebdca54d99c5acef7d5f5a3c16b1e9ab4e2cf8de"
+    },
+    "analysis/pantanal_selection/images/candidate_G146_map.png": {
+      "bytes": 81025,
+      "sha256": "feee96b76a06ef7392e6af8bd3faaf37a46edc2451239cb43f41b96f2b41e8d3"
+    },
+    "analysis/pantanal_selection/images/candidate_G146_point_counts.png": {
+      "bytes": 52244,
+      "sha256": "9524b9c9f66abaef1019b38f3344d3e1ff3316f40c477d5b3eb4ee1fafa9e03e"
+    },
+    "analysis/pantanal_selection/images/candidate_G147_map.png": {
+      "bytes": 77221,
+      "sha256": "72a545e2dac3f25f7baa78233b30f2de9b247f3accd5222623eb6d4263f5ab93"
+    },
+    "analysis/pantanal_selection/images/candidate_G147_point_counts.png": {
+      "bytes": 51496,
+      "sha256": "7d8134788e9186326bffadd745fa8cf67b90ae5cf3ddaa5584960f337ef2bb95"
+    },
+    "analysis/pantanal_selection/images/candidate_G148_map.png": {
+      "bytes": 85107,
+      "sha256": "94b7851ea73acf55bb611fb7398e4a31234cbeed2ae20e53997a69af468c9553"
+    },
+    "analysis/pantanal_selection/images/candidate_G148_point_counts.png": {
+      "bytes": 55172,
+      "sha256": "949a6ed03e63edccabce743d29499ca3a4a8ebf3736d7e8d43536fa0f21f2263"
+    },
+    "analysis/pantanal_selection/images/candidate_G149_map.png": {
+      "bytes": 74782,
+      "sha256": "271c1d4073f9c6dcd366a07519d3bf06fa465ef0b9edbb554e07eb4b6d807925"
+    },
+    "analysis/pantanal_selection/images/candidate_G149_point_counts.png": {
+      "bytes": 53847,
+      "sha256": "375320781bd9b4a141a83a908c21303e2e8be1fe6f055a4daf8799c081d62255"
+    },
+    "analysis/pantanal_selection/images/candidate_G14_map.png": {
+      "bytes": 101946,
+      "sha256": "8d9a044d2f6ca007a61772292491b72de14ecc51e5205d97d71a250c81f1b202"
+    },
+    "analysis/pantanal_selection/images/candidate_G14_point_counts.png": {
+      "bytes": 58743,
+      "sha256": "e913e660ad0c189f812c571af9d186d219a711a388e235602561f0df3ec0acd0"
+    },
+    "analysis/pantanal_selection/images/candidate_G150_map.png": {
+      "bytes": 85137,
+      "sha256": "79f9d4c92173be16438d552e72c4aef12cc777a69c87531c15e4dff26f6c5398"
+    },
+    "analysis/pantanal_selection/images/candidate_G150_point_counts.png": {
+      "bytes": 54489,
+      "sha256": "a304913958ea0663c384e2025df0e57ce133d14121a29fdf8b4d2adffe34ac45"
+    },
+    "analysis/pantanal_selection/images/candidate_G151_map.png": {
+      "bytes": 69175,
+      "sha256": "1061d59312dff65dd4b4f7c0d82528c7550aaf13a52547de9365c3621796c8ef"
+    },
+    "analysis/pantanal_selection/images/candidate_G151_point_counts.png": {
+      "bytes": 53006,
+      "sha256": "fa1be22325f14b50df159592d841029f2561180c2930f8f97086d2cec0504999"
+    },
+    "analysis/pantanal_selection/images/candidate_G152_map.png": {
+      "bytes": 73928,
+      "sha256": "80baaa2a7221bc9edbba88a4c8a9a43cdbba7dbefd798fa83da1d1765e0a7315"
+    },
+    "analysis/pantanal_selection/images/candidate_G152_point_counts.png": {
+      "bytes": 53006,
+      "sha256": "31f22bffee6e5989b819885789803cf72ae8bfef52991724b5c1f4e3feabbb54"
+    },
+    "analysis/pantanal_selection/images/candidate_G153_map.png": {
+      "bytes": 69216,
+      "sha256": "99606b2d0141b68ad0147b1fdd38db9f0567d0437d5e1730413690e6e110f85d"
+    },
+    "analysis/pantanal_selection/images/candidate_G153_point_counts.png": {
+      "bytes": 53010,
+      "sha256": "2eba523d4b61a9beb53daaa1b972b4cb7a8ffb7d8f21aafbbd60967c67da0584"
+    },
+    "analysis/pantanal_selection/images/candidate_G154_map.png": {
+      "bytes": 79723,
+      "sha256": "669c083763cae20be3f9117f8db3ea1457b35524e27cd284859a82b8c7267733"
+    },
+    "analysis/pantanal_selection/images/candidate_G154_point_counts.png": {
+      "bytes": 55328,
+      "sha256": "6b0148a04e24307df4d4c02175e9125595582de305699cf722022cfb49100574"
+    },
+    "analysis/pantanal_selection/images/candidate_G155_map.png": {
+      "bytes": 66589,
+      "sha256": "a4021de9d581a1e326bc00e611e225fc87fb6ac99556c2f26dac8ad6ece77ad5"
+    },
+    "analysis/pantanal_selection/images/candidate_G155_point_counts.png": {
+      "bytes": 52167,
+      "sha256": "5bfc66def5be98f79c7a2b860e72bc4824761e1f613f1ee6cd0bf2b19f436dd0"
+    },
+    "analysis/pantanal_selection/images/candidate_G156_map.png": {
+      "bytes": 76389,
+      "sha256": "a430831f6448d1dedb43f761c171c9cabe9c8c3de4d8802f2c850758d2e4e7af"
+    },
+    "analysis/pantanal_selection/images/candidate_G156_point_counts.png": {
+      "bytes": 55777,
+      "sha256": "4ac2220b317411cc754ae2415be46731c14fe0b366a078ccf3b303d4dcf8660c"
+    },
+    "analysis/pantanal_selection/images/candidate_G157_map.png": {
+      "bytes": 80568,
+      "sha256": "1c9f7c16a61bf408d7fba616dd78f72d1fcc69bbadb9fd02aee3b3469d36e8fc"
+    },
+    "analysis/pantanal_selection/images/candidate_G157_point_counts.png": {
+      "bytes": 54839,
+      "sha256": "e13d35ef7cd7e40800844dbec658149518d72f4c3e60ec42b4bf0c5a3c4162ac"
+    },
+    "analysis/pantanal_selection/images/candidate_G158_map.png": {
+      "bytes": 79268,
+      "sha256": "dd77d1be47a7e5a536350eb003977ff6252238e79bdf62829b228324e427f437"
+    },
+    "analysis/pantanal_selection/images/candidate_G158_point_counts.png": {
+      "bytes": 54266,
+      "sha256": "ee7d0eba79afd14a434b2991d29520f2c83c73868f3014ac860b5f46a6851ac8"
+    },
+    "analysis/pantanal_selection/images/candidate_G159_map.png": {
+      "bytes": 76434,
+      "sha256": "bfd690333a3821acf08ec1c2f653e7f94d782fd06f74a3b455ca59273995cc50"
+    },
+    "analysis/pantanal_selection/images/candidate_G159_point_counts.png": {
+      "bytes": 54602,
+      "sha256": "63e986f58dba93bdfa6ebef78525761610a0e118263f792c6bcbac3c033cbcbb"
+    },
+    "analysis/pantanal_selection/images/candidate_G15_map.png": {
+      "bytes": 110239,
+      "sha256": "36d9882ce93ef4afb1b58aeda15706274b7e2aa0aaa8f9bc7162cce2f6a5f89e"
+    },
+    "analysis/pantanal_selection/images/candidate_G15_point_counts.png": {
+      "bytes": 57972,
+      "sha256": "f73e47e56cd6743b01b2b0e165abc746efb3cf6cc1029a3a76759616683d1dde"
+    },
+    "analysis/pantanal_selection/images/candidate_G160_map.png": {
+      "bytes": 74158,
+      "sha256": "85c05ab42e24357b03eb0ed088bda9ae00822f6d002a081197959ea2c4204bff"
+    },
+    "analysis/pantanal_selection/images/candidate_G160_point_counts.png": {
+      "bytes": 54624,
+      "sha256": "172860bb97499561796c32e166a94d7a4f6f1e9d3168251d6a78b8d3a763940a"
+    },
+    "analysis/pantanal_selection/images/candidate_G161_map.png": {
+      "bytes": 74607,
+      "sha256": "2d7057ffae7ed3ba3cd06ac60dd9ed468e8cd51c034a0df7b46310a4f5f73bdd"
+    },
+    "analysis/pantanal_selection/images/candidate_G161_point_counts.png": {
+      "bytes": 53441,
+      "sha256": "437c88197eac012fe9e2f16160d0a7e4f1a8150b543d8df245e698faf5a14abb"
+    },
+    "analysis/pantanal_selection/images/candidate_G162_map.png": {
+      "bytes": 80801,
+      "sha256": "c15151c8524a1ee7c33bdf1bee2d095809a36ee5a10c617fda7fa36902f30dfe"
+    },
+    "analysis/pantanal_selection/images/candidate_G162_point_counts.png": {
+      "bytes": 54271,
+      "sha256": "420a5cd50b36790f31036c0a87392863e7dec0d976ef65102e740525075a36f5"
+    },
+    "analysis/pantanal_selection/images/candidate_G163_map.png": {
+      "bytes": 82908,
+      "sha256": "6bbdee80b24d980c44860a2d1b901b92be5ebaf655ed3c2558faeef955ec45fa"
+    },
+    "analysis/pantanal_selection/images/candidate_G163_point_counts.png": {
+      "bytes": 53110,
+      "sha256": "a5cc21b40748b3f4b64a0707061b19762189a255463f05cbcce596c36185d0bc"
+    },
+    "analysis/pantanal_selection/images/candidate_G164_map.png": {
+      "bytes": 79450,
+      "sha256": "ab9d5f2399975f34610041e0bbc91dd5300f24ec6540a6f46c187fc2b94c1a99"
+    },
+    "analysis/pantanal_selection/images/candidate_G164_point_counts.png": {
+      "bytes": 53006,
+      "sha256": "cbcd047defce5c94a9be8f39af0322fbb76db7f0a1acf1e4d57c8c2e3e6559d0"
+    },
+    "analysis/pantanal_selection/images/candidate_G165_map.png": {
+      "bytes": 70573,
+      "sha256": "e55eb0566acf8031e23442533121dd92e32d0b5a77cfe7d1f37be51cbee4b6e6"
+    },
+    "analysis/pantanal_selection/images/candidate_G165_point_counts.png": {
+      "bytes": 51394,
+      "sha256": "5cfd9b90ff4ccbca242b44b2a22b6b19fb13bf0ffdac9ebac6b249dfa23c04d9"
+    },
+    "analysis/pantanal_selection/images/candidate_G166_map.png": {
+      "bytes": 68721,
+      "sha256": "afdc29b75a65db80fc07284607f338512270f8f6cb0a2c48bd578a2d8daa2fdb"
+    },
+    "analysis/pantanal_selection/images/candidate_G166_point_counts.png": {
+      "bytes": 51568,
+      "sha256": "b677e418ffd43a4b3dd6aba446f018e97403e16862b15e01eada58b966bad0c2"
+    },
+    "analysis/pantanal_selection/images/candidate_G167_map.png": {
+      "bytes": 80146,
+      "sha256": "37f1ee91234e670a442aee5ba9c2fffb4087e91fb06d24cc7e5a4e4206256a33"
+    },
+    "analysis/pantanal_selection/images/candidate_G167_point_counts.png": {
+      "bytes": 51379,
+      "sha256": "9da3b240c0c6edbe695f49f6e7ce402d01b3f1154de6cd12f50657b92603d96c"
+    },
+    "analysis/pantanal_selection/images/candidate_G168_map.png": {
+      "bytes": 74264,
+      "sha256": "343bd68113ab25f5019e1c3d0e408673754761c9a5cd303f4f473984f731e659"
+    },
+    "analysis/pantanal_selection/images/candidate_G168_point_counts.png": {
+      "bytes": 54433,
+      "sha256": "6ed670357b3fd8268d6178909d366d3f92db32aa70b46612fe0398658bc7e382"
+    },
+    "analysis/pantanal_selection/images/candidate_G169_map.png": {
+      "bytes": 84419,
+      "sha256": "2c3e81bcc97eb804a0341843a5d7ab0f0dcbee262ff13c9c4525351c5d85f1ae"
+    },
+    "analysis/pantanal_selection/images/candidate_G169_point_counts.png": {
+      "bytes": 55487,
+      "sha256": "7de6cd4d6e1de0cb6dda39165e0126c4511044db955a07bebb90d91119b4cc71"
+    },
+    "analysis/pantanal_selection/images/candidate_G16_map.png": {
+      "bytes": 111404,
+      "sha256": "ae706ae91ac3414eb94b7b43344a6688c261db65db497476254617d78ae1fed6"
+    },
+    "analysis/pantanal_selection/images/candidate_G16_point_counts.png": {
+      "bytes": 58505,
+      "sha256": "a9d4a7ef61bb5b715cdd6024abe073fb0c89a9fa717730948cd552bfdeecb875"
+    },
+    "analysis/pantanal_selection/images/candidate_G170_map.png": {
+      "bytes": 77073,
+      "sha256": "b88332fb7f4a127a4e12f6076c60d7182942480835cf9f3bea1cb7956167ad92"
+    },
+    "analysis/pantanal_selection/images/candidate_G170_point_counts.png": {
+      "bytes": 54278,
+      "sha256": "952955e0cd71742b78aaf622ca4a894801094d36796eab6ab4f56ebbc4f7e33f"
+    },
+    "analysis/pantanal_selection/images/candidate_G171_map.png": {
+      "bytes": 92250,
+      "sha256": "92cc1b6559dba56aae14f544e38771d8471955284d8174bf9a49376ce8b40b9e"
+    },
+    "analysis/pantanal_selection/images/candidate_G171_point_counts.png": {
+      "bytes": 53645,
+      "sha256": "bbdca5700f95b64f31e402e34e892edde9fff4c394ee51be450c8cdea347c16f"
+    },
+    "analysis/pantanal_selection/images/candidate_G172_map.png": {
+      "bytes": 72208,
+      "sha256": "95a6b0d224faeb7f590c61364fd406bbf089d48cc9675ed0203c2a16065c47e2"
+    },
+    "analysis/pantanal_selection/images/candidate_G172_point_counts.png": {
+      "bytes": 53508,
+      "sha256": "da0d241a78563ce99b788d653b4975705bd143aa769ee1809f9073e3da65c086"
+    },
+    "analysis/pantanal_selection/images/candidate_G173_map.png": {
+      "bytes": 75702,
+      "sha256": "7d4ca2e29e845c3847e64ff0b828562edd507ea1c10d122e6df6fd5250f8bb1d"
+    },
+    "analysis/pantanal_selection/images/candidate_G173_point_counts.png": {
+      "bytes": 53386,
+      "sha256": "0eeeb23df0ab47ef2f71dfe65366735ebcb73140db3c86a37f5be35ebe8dfe4e"
+    },
+    "analysis/pantanal_selection/images/candidate_G174_map.png": {
+      "bytes": 86708,
+      "sha256": "0b44174bec20725cc799e2ac91dafd0a4b1c02d99d47775f648de12bb0bcd68d"
+    },
+    "analysis/pantanal_selection/images/candidate_G174_point_counts.png": {
+      "bytes": 55608,
+      "sha256": "8f85acf1d474636984493c2947c67980df04b3163c2639fedd6c932e66a7456f"
+    },
+    "analysis/pantanal_selection/images/candidate_G175_map.png": {
+      "bytes": 69299,
+      "sha256": "29423b7da5ce5806b8162a5a21575d169594d9f07589f108a1a18650989de898"
+    },
+    "analysis/pantanal_selection/images/candidate_G175_point_counts.png": {
+      "bytes": 51192,
+      "sha256": "fa3b1d28d80210db454a04081af3e5b31e614401cd8c84e0c30e4d1a6b61ee5c"
+    },
+    "analysis/pantanal_selection/images/candidate_G176_map.png": {
+      "bytes": 78818,
+      "sha256": "8c353f55e0cb059d7909a264b0c5c42c8d94e671242f5042c2d8355135bf39d0"
+    },
+    "analysis/pantanal_selection/images/candidate_G176_point_counts.png": {
+      "bytes": 53225,
+      "sha256": "63a3972e8e6746194acfe8bb41e428d1be7737c896afb00bd0b25bacb9e8196b"
+    },
+    "analysis/pantanal_selection/images/candidate_G177_map.png": {
+      "bytes": 69388,
+      "sha256": "13beaee1ea5867e039b1bba4b4c5ed9a00e914198ece4556efbc6f9182d67bee"
+    },
+    "analysis/pantanal_selection/images/candidate_G177_point_counts.png": {
+      "bytes": 51422,
+      "sha256": "900ce78f43eb019c69952bcb34359e8eeb6cce56d7b8ed0e12ede95ecb2206d0"
+    },
+    "analysis/pantanal_selection/images/candidate_G178_map.png": {
+      "bytes": 75725,
+      "sha256": "be1065d8d5939f49e020bb4e0fc0d988aa99553df0603dd4cbbd8e3fbb53c22e"
+    },
+    "analysis/pantanal_selection/images/candidate_G178_point_counts.png": {
+      "bytes": 55065,
+      "sha256": "661187df01c0ec73fbdcac8f801b2ac1acc251e7a115165ce29ec97c8d14d408"
+    },
+    "analysis/pantanal_selection/images/candidate_G179_map.png": {
+      "bytes": 78219,
+      "sha256": "9bd735637905db91c3f7b69328a5b21344fa1023413da75b5d30e3c2e8e8333d"
+    },
+    "analysis/pantanal_selection/images/candidate_G179_point_counts.png": {
+      "bytes": 54144,
+      "sha256": "79ce5b9b9e1680e564df440522efc47daa865793b06871ae55d10ba17b76ea87"
+    },
+    "analysis/pantanal_selection/images/candidate_G17_map.png": {
+      "bytes": 109851,
+      "sha256": "b367ce224eecfaaccb8b1e15708e47770d2b3ddee8479c8a9e4952ec8de2b3f0"
+    },
+    "analysis/pantanal_selection/images/candidate_G17_point_counts.png": {
+      "bytes": 55461,
+      "sha256": "29e16489ea4b434509c8bacf14b3fd1561459a59f84c425c23cb699fe3b950dc"
+    },
+    "analysis/pantanal_selection/images/candidate_G180_map.png": {
+      "bytes": 78681,
+      "sha256": "6907058e0c3d458000835739e9e36b8f60bc0e728ea2c0a9440d60b45521a38f"
+    },
+    "analysis/pantanal_selection/images/candidate_G180_point_counts.png": {
+      "bytes": 56562,
+      "sha256": "8a0c2071bc5dfc1af1353ce086bc732f4e3e5625f591e58ef3a01bae68677b66"
+    },
+    "analysis/pantanal_selection/images/candidate_G181_map.png": {
+      "bytes": 69139,
+      "sha256": "c562922d8fd4defe2c5770b33b0eb0b38a74865715da40b74720208daa2f8f72"
+    },
+    "analysis/pantanal_selection/images/candidate_G181_point_counts.png": {
+      "bytes": 53127,
+      "sha256": "0ef57eaa86986c04d5ac3cf823657906ceb274cef8b3740d7d35b3efa002c987"
+    },
+    "analysis/pantanal_selection/images/candidate_G182_map.png": {
+      "bytes": 85577,
+      "sha256": "3d9da51c5b0bb267980992dd47c363fad25531421afe70df5022eab8315a4ffb"
+    },
+    "analysis/pantanal_selection/images/candidate_G182_point_counts.png": {
+      "bytes": 55794,
+      "sha256": "f5ae962154e7d2177fccf646a38317b6f04d064e374dd11e0c5ce057118f9d58"
+    },
+    "analysis/pantanal_selection/images/candidate_G183_map.png": {
+      "bytes": 82315,
+      "sha256": "881482058ceb79341c463557dd10b1e631d9407b13901b4241f7d152b6027c7e"
+    },
+    "analysis/pantanal_selection/images/candidate_G183_point_counts.png": {
+      "bytes": 58396,
+      "sha256": "9fff7995abcaee627c8c0669aaaf18be05d2f04a52f7c694698cf5167e553afe"
+    },
+    "analysis/pantanal_selection/images/candidate_G184_map.png": {
+      "bytes": 83879,
+      "sha256": "33311fc8056f4d67d4350e58401e3f00061aba090475ad80dc5f842d83824493"
+    },
+    "analysis/pantanal_selection/images/candidate_G184_point_counts.png": {
+      "bytes": 55516,
+      "sha256": "e8e124a145bdc9125ab24bce1fb4360b5b75d268ac106d9d68b6d25fe3e27138"
+    },
+    "analysis/pantanal_selection/images/candidate_G185_map.png": {
+      "bytes": 74264,
+      "sha256": "0d00d8cabf43de35bb4defd978e0e682941a97a99c45ad23ebfa52bba0c9af4c"
+    },
+    "analysis/pantanal_selection/images/candidate_G185_point_counts.png": {
+      "bytes": 54900,
+      "sha256": "f838189524b3fabf78da6048bccba103640ad41d58ced0cb18461460a5e07f36"
+    },
+    "analysis/pantanal_selection/images/candidate_G186_map.png": {
+      "bytes": 85074,
+      "sha256": "4768834b0f597f255d692b2c6cc064ca0227aa63823d15f3ca475fd11b69ec50"
+    },
+    "analysis/pantanal_selection/images/candidate_G186_point_counts.png": {
+      "bytes": 56742,
+      "sha256": "b1e1a82450e3da11691ea7ced7353ac2bedb75ebabddd8646f45e247e661a553"
+    },
+    "analysis/pantanal_selection/images/candidate_G187_map.png": {
+      "bytes": 70005,
+      "sha256": "cdd8400b3a3b2a872dd58249da5b1497fea022200416d933a10b22e74cf97792"
+    },
+    "analysis/pantanal_selection/images/candidate_G187_point_counts.png": {
+      "bytes": 54750,
+      "sha256": "dfa84088648d69433b413592d42e7ea91774f9dbfd971c03be1fdea6a7d71180"
+    },
+    "analysis/pantanal_selection/images/candidate_G188_map.png": {
+      "bytes": 75046,
+      "sha256": "e3e9ef05c39df85173c62946dbb674a5087c82363fd997efb645d8df4c091492"
+    },
+    "analysis/pantanal_selection/images/candidate_G188_point_counts.png": {
+      "bytes": 57276,
+      "sha256": "90b70c80cd3538fb4d6aaa1ea5c45adce09284967b1e4d99fe78eede76cf0fb0"
+    },
+    "analysis/pantanal_selection/images/candidate_G189_map.png": {
+      "bytes": 69306,
+      "sha256": "87c21d3d05af07e8f136ce6c01f22e963d7005bb5bd70900474eea20e249a9c9"
+    },
+    "analysis/pantanal_selection/images/candidate_G189_point_counts.png": {
+      "bytes": 55826,
+      "sha256": "2b89e980e61700a1d8eca80a6eebeb699f41ef512ec0c1fd723b343e38679ec4"
+    },
+    "analysis/pantanal_selection/images/candidate_G18_map.png": {
+      "bytes": 107631,
+      "sha256": "3b5d5773e665e593ccf4cd80f51732d1055c53ec2ab4c28fee69a5bfa66a8f64"
+    },
+    "analysis/pantanal_selection/images/candidate_G18_point_counts.png": {
+      "bytes": 58094,
+      "sha256": "d3bac89330f949fa9e1de6906cfb1c9fa28dcb327caed5594af834f82baed04e"
+    },
+    "analysis/pantanal_selection/images/candidate_G190_map.png": {
+      "bytes": 83146,
+      "sha256": "0976af19f0a4ff4b27c56ddc129d0b5c4e7d8848a0331f7c8f927e57f9f617d0"
+    },
+    "analysis/pantanal_selection/images/candidate_G190_point_counts.png": {
+      "bytes": 55690,
+      "sha256": "5ef1c2991cf37b554ccccc328aef25d916f677ffce885d11d8c490ca257ed8fb"
+    },
+    "analysis/pantanal_selection/images/candidate_G191_map.png": {
+      "bytes": 85008,
+      "sha256": "8c35dee54abe525a8c5025a44463e3bc473ad802395182beaee806a54757dd70"
+    },
+    "analysis/pantanal_selection/images/candidate_G191_point_counts.png": {
+      "bytes": 54737,
+      "sha256": "10fc742e0c41c901b862d8ffc9bbe54ed88de965e688ccd1c4fed5f23b7d1ce3"
+    },
+    "analysis/pantanal_selection/images/candidate_G192_map.png": {
+      "bytes": 88024,
+      "sha256": "2785886cc9787bb312c872d3cdfeae69c02e2f88294d119d54b4ea705bc05c85"
+    },
+    "analysis/pantanal_selection/images/candidate_G192_point_counts.png": {
+      "bytes": 57316,
+      "sha256": "73fa792788f3e974c7392c539e9acf662d82b9297852c6697d75ad32705456f2"
+    },
+    "analysis/pantanal_selection/images/candidate_G193_map.png": {
+      "bytes": 82810,
+      "sha256": "b3f64fb691eb017a42f236d846d422b12da1dea4b10a0aef7d4b840970583b03"
+    },
+    "analysis/pantanal_selection/images/candidate_G193_point_counts.png": {
+      "bytes": 53678,
+      "sha256": "9b0bb463d1c96fa44bc9066929c5a498efc44dda20cc9350c58e52dcd463619c"
+    },
+    "analysis/pantanal_selection/images/candidate_G194_map.png": {
+      "bytes": 80830,
+      "sha256": "d2dc971a30a0f8321b34813d92bb19216f102e5eb4827bfbb7cf499a8b2f8532"
+    },
+    "analysis/pantanal_selection/images/candidate_G194_point_counts.png": {
+      "bytes": 53253,
+      "sha256": "dcaeb40dcdbf2ba2f59a96188bd119f60b464c754843ce98805148d2fb9bc378"
+    },
+    "analysis/pantanal_selection/images/candidate_G195_map.png": {
+      "bytes": 78796,
+      "sha256": "0ea2b3c03c378f23febd7e5a14f9c37c262fe997febcddc4abb3a1ad93084f4e"
+    },
+    "analysis/pantanal_selection/images/candidate_G195_point_counts.png": {
+      "bytes": 56637,
+      "sha256": "a7e8febae42a2cb4375e1bbed91c6a9bd4120fdd96d8c7c22b778663b0fd4e1d"
+    },
+    "analysis/pantanal_selection/images/candidate_G196_map.png": {
+      "bytes": 86139,
+      "sha256": "a5f487830c06daef60ecfe533c16302c75c5b9a7e223de4530da4c11f8210cf8"
+    },
+    "analysis/pantanal_selection/images/candidate_G196_point_counts.png": {
+      "bytes": 55007,
+      "sha256": "4c57e8f95de003ecac5c8daa0a3000ed8b6847be33912fe1d450f9c6ba121d81"
+    },
+    "analysis/pantanal_selection/images/candidate_G197_map.png": {
+      "bytes": 81194,
+      "sha256": "138028c5e71fb5364413da272132362c279a16470ff95ea8248acf86dcd5d90d"
+    },
+    "analysis/pantanal_selection/images/candidate_G197_point_counts.png": {
+      "bytes": 53724,
+      "sha256": "fd9f56739e759ba274538b0f1b742c87d3761d2e6f94cc4040d29802b8080ead"
+    },
+    "analysis/pantanal_selection/images/candidate_G198_map.png": {
+      "bytes": 90467,
+      "sha256": "410e3cf10efebe5a0296816d328640b467badd6bb3682bd8103172773878c03b"
+    },
+    "analysis/pantanal_selection/images/candidate_G198_point_counts.png": {
+      "bytes": 55456,
+      "sha256": "ec6750d92e53f8a8ba56238f9cf886537d5f826379619bf88a1bd9df6f08336f"
+    },
+    "analysis/pantanal_selection/images/candidate_G199_map.png": {
+      "bytes": 84909,
+      "sha256": "fa1223eb571777bc9674e3324df795efb1f2b6f63cad215a8f969ff397fd65b7"
+    },
+    "analysis/pantanal_selection/images/candidate_G199_point_counts.png": {
+      "bytes": 53590,
+      "sha256": "994f828be20a48a319c104dd295dba3d87a96801272128ff03bca1016c1a88c1"
+    },
+    "analysis/pantanal_selection/images/candidate_G19_map.png": {
+      "bytes": 112180,
+      "sha256": "a36ac56d9315a61ea92c84fca886a9ee6387cdde36f458515184f864519ee912"
+    },
+    "analysis/pantanal_selection/images/candidate_G19_point_counts.png": {
+      "bytes": 57922,
+      "sha256": "cdc748943b8b98e07fdf77a188388b489a35238aa1e3ea43a876ca9b6a828940"
+    },
+    "analysis/pantanal_selection/images/candidate_G200_map.png": {
+      "bytes": 82373,
+      "sha256": "98a08541bdf1d9571d25b9484ed8f857a2068d867ba060a56ed1628899bad7e9"
+    },
+    "analysis/pantanal_selection/images/candidate_G200_point_counts.png": {
+      "bytes": 53134,
+      "sha256": "85f1ead36f92ddef4ca4b68ce60862d7c2aaf1bae16a729b109449c294a206fe"
+    },
+    "analysis/pantanal_selection/images/candidate_G201_map.png": {
+      "bytes": 66997,
+      "sha256": "2c50acf2f295788e682de7bed2f9841a6efbd0062f21e87fc104ff35c2777089"
+    },
+    "analysis/pantanal_selection/images/candidate_G201_point_counts.png": {
+      "bytes": 55517,
+      "sha256": "df73be2abfe7c9f353ce0a103fbd891329183e0c669f3272dc870bed9ab76cd6"
+    },
+    "analysis/pantanal_selection/images/candidate_G202_map.png": {
+      "bytes": 103700,
+      "sha256": "47f6ef6a5eb26d7e9ad1da633fa45c293896f33191bcdaf4d209a6c42cb37479"
+    },
+    "analysis/pantanal_selection/images/candidate_G202_point_counts.png": {
+      "bytes": 54221,
+      "sha256": "8b11a7121eb7a623cbb6fe69b7bc50e66abe13bd8f466ff345c25e6da3ea26c2"
+    },
+    "analysis/pantanal_selection/images/candidate_G203_map.png": {
+      "bytes": 90476,
+      "sha256": "8506a88add8fc13803c81daa314daa07c00d84519f7f039c08f542aa1a8d9664"
+    },
+    "analysis/pantanal_selection/images/candidate_G203_point_counts.png": {
+      "bytes": 54672,
+      "sha256": "6fc745aafa5e9857118318e81ceeb7b57a393434c2389a4d460667e87ebd8ed1"
+    },
+    "analysis/pantanal_selection/images/candidate_G204_map.png": {
+      "bytes": 77260,
+      "sha256": "6f2a7616c2419dc289d00f399d60b2cb7a24391a99a8e3c1bed0d0969b208875"
+    },
+    "analysis/pantanal_selection/images/candidate_G204_point_counts.png": {
+      "bytes": 56716,
+      "sha256": "c8d776885de7f7f4fe16c472aceb977937e80c0247d88e705d994fbd8a1c2228"
+    },
+    "analysis/pantanal_selection/images/candidate_G205_map.png": {
+      "bytes": 81981,
+      "sha256": "6ff3e6ec5a72c44ee3671a5bad376a768bbcb50804a44d0c6f1a12ff79bf1a33"
+    },
+    "analysis/pantanal_selection/images/candidate_G205_point_counts.png": {
+      "bytes": 54348,
+      "sha256": "20655b5fe04c6dae6991f18eb83a8cf3bc49a8edcfa0c96925bd3d25fe03a2bf"
+    },
+    "analysis/pantanal_selection/images/candidate_G206_map.png": {
+      "bytes": 80959,
+      "sha256": "9f90be885060503e57cfe6903fe57332d1d3a61611116606449c731d4cdf0426"
+    },
+    "analysis/pantanal_selection/images/candidate_G206_point_counts.png": {
+      "bytes": 56120,
+      "sha256": "3dab27c08a3b52c19acf749aa8b6f13286f17602393b2332593e335f61b59239"
+    },
+    "analysis/pantanal_selection/images/candidate_G207_map.png": {
+      "bytes": 88349,
+      "sha256": "8bc248878cddb04e18171c0495276fc437a2750b55882af802a469c967f02464"
+    },
+    "analysis/pantanal_selection/images/candidate_G207_point_counts.png": {
+      "bytes": 57556,
+      "sha256": "462c28bcafa713bf1c987688345baf332d9a38f82332b14ecda65e9c89112277"
+    },
+    "analysis/pantanal_selection/images/candidate_G208_map.png": {
+      "bytes": 82865,
+      "sha256": "afb2d3b0bacd6975c170043b145c9a221fa1d2e6bcd44085897d4592f092e4f0"
+    },
+    "analysis/pantanal_selection/images/candidate_G208_point_counts.png": {
+      "bytes": 53549,
+      "sha256": "5096c6cdf2c1e920a78c470453f7ac3e9982510ba3bdc84d741dcc0821587e4d"
+    },
+    "analysis/pantanal_selection/images/candidate_G209_map.png": {
+      "bytes": 82551,
+      "sha256": "9187cd0c18a26cef8e749479818b76f75b1f630cd275cb628104c5df99974f4e"
+    },
+    "analysis/pantanal_selection/images/candidate_G209_point_counts.png": {
+      "bytes": 58358,
+      "sha256": "9cc8115fba20d2a9804fd50bb51bfcffba04449653fe9bbbb9025879354088fe"
+    },
+    "analysis/pantanal_selection/images/candidate_G20_map.png": {
+      "bytes": 103456,
+      "sha256": "ad2c62ca8111f07e7b0b506b24be9351d6fbcf92686defcb747efc59887db564"
+    },
+    "analysis/pantanal_selection/images/candidate_G20_point_counts.png": {
+      "bytes": 59730,
+      "sha256": "baa5ae912f7ca2cfc0d02c60691df28c8bc17ba4b24aef53cb5af8d957a48070"
+    },
+    "analysis/pantanal_selection/images/candidate_G210_map.png": {
+      "bytes": 78229,
+      "sha256": "97a6b762ca04be86a32342738d3d6e0187535807d65ce0b39e1a441e15b77b79"
+    },
+    "analysis/pantanal_selection/images/candidate_G210_point_counts.png": {
+      "bytes": 56402,
+      "sha256": "bc91e943678da683758d5f2dd7a5044f228c80c0c2aea96074988c83bcc6ea73"
+    },
+    "analysis/pantanal_selection/images/candidate_G211_map.png": {
+      "bytes": 86588,
+      "sha256": "a29f1ef047b2a42f947d2957bfdc22808ff71bf9ddcaf977c0a56c5bd6474b98"
+    },
+    "analysis/pantanal_selection/images/candidate_G211_point_counts.png": {
+      "bytes": 54302,
+      "sha256": "e84b11c2f7d48053c08e5f16cee62d5079be4763151ccd3062fbb2d029ae39dd"
+    },
+    "analysis/pantanal_selection/images/candidate_G212_map.png": {
+      "bytes": 66788,
+      "sha256": "b0a9f457fb0d640d1f1850e1e799041a367609831d51854baf1006f92dd352f2"
+    },
+    "analysis/pantanal_selection/images/candidate_G212_point_counts.png": {
+      "bytes": 53032,
+      "sha256": "afa11b1c11438d9c88e3b0fea3cd8ae4880c770b770fe476569d1f3ef3e63387"
+    },
+    "analysis/pantanal_selection/images/candidate_G213_map.png": {
+      "bytes": 84290,
+      "sha256": "d7f2d1e4c71ec5bf73dd43756aa0f2cc0f5e2cbba4040d94bb8fac480d99283b"
+    },
+    "analysis/pantanal_selection/images/candidate_G213_point_counts.png": {
+      "bytes": 53819,
+      "sha256": "3eaf7822ce426e89040e3583f1e8754ea367ce574539b26f2fe3825f7be2bf89"
+    },
+    "analysis/pantanal_selection/images/candidate_G214_map.png": {
+      "bytes": 91681,
+      "sha256": "26bfc79140431c338e394dc4e96bd2787ffd98cdeeb3e4b8819120cc7f63725f"
+    },
+    "analysis/pantanal_selection/images/candidate_G214_point_counts.png": {
+      "bytes": 56334,
+      "sha256": "002a13f1e34de331caa18e886300fcef68257df5026e477ba1c8d87d86eeb6f6"
+    },
+    "analysis/pantanal_selection/images/candidate_G215_map.png": {
+      "bytes": 90832,
+      "sha256": "07721020cb5ccb1dddabb7af0722b0fe0e3940190c2c55790e07da54b6e6bc6d"
+    },
+    "analysis/pantanal_selection/images/candidate_G215_point_counts.png": {
+      "bytes": 53840,
+      "sha256": "e307e7e167aeac237912618bc200a276a1a3824faa165528cd4e983a06bb13b7"
+    },
+    "analysis/pantanal_selection/images/candidate_G216_map.png": {
+      "bytes": 84710,
+      "sha256": "86f6d6ccfe7b0e70f79c6d25750a1685173d2eb2890bb5b62cc7c50ba6f14c1c"
+    },
+    "analysis/pantanal_selection/images/candidate_G216_point_counts.png": {
+      "bytes": 56124,
+      "sha256": "4dcccea4a72262a920d53ab721c8cdf23ffc41b561dd4e3594aa2a816037b737"
+    },
+    "analysis/pantanal_selection/images/candidate_G217_map.png": {
+      "bytes": 83272,
+      "sha256": "e6e42df53fdf8196504029b83ac1bc3860b164b32c3d3ef84399a75161d7ec96"
+    },
+    "analysis/pantanal_selection/images/candidate_G217_point_counts.png": {
+      "bytes": 56606,
+      "sha256": "735b9adbda86a295abb4b271dd3f5754395b8571d349db6651d7f3409645ebe7"
+    },
+    "analysis/pantanal_selection/images/candidate_G218_map.png": {
+      "bytes": 89496,
+      "sha256": "fcd9591f6810cc54bab08d01546dd0c71f9bacd1ea9fbbfb53af2e3bb1255049"
+    },
+    "analysis/pantanal_selection/images/candidate_G218_point_counts.png": {
+      "bytes": 57178,
+      "sha256": "e6c67fdfac743ecca0d7647737d2496d6085bc9709539e4ccbe06d4901e5c01f"
+    },
+    "analysis/pantanal_selection/images/candidate_G219_map.png": {
+      "bytes": 81136,
+      "sha256": "c01f4e0069957032d49fe5fba783001d8cb26a04f0b3bb0e95646d2f8301286c"
+    },
+    "analysis/pantanal_selection/images/candidate_G219_point_counts.png": {
+      "bytes": 54592,
+      "sha256": "8a3bbbe8d9eff45b98d53aec8fc01c9ad2a370e80c822116401f7dabcd97d230"
+    },
+    "analysis/pantanal_selection/images/candidate_G21_map.png": {
+      "bytes": 108297,
+      "sha256": "f180c67d150ff3859d7a2d189f4a337389591695489dff9811de451970627b54"
+    },
+    "analysis/pantanal_selection/images/candidate_G21_point_counts.png": {
+      "bytes": 56361,
+      "sha256": "f91fdec8726f8ce6a9f37d9f28123d85046fa4962d266c3b56ad46a831c7fa42"
+    },
+    "analysis/pantanal_selection/images/candidate_G220_map.png": {
+      "bytes": 94716,
+      "sha256": "84b5f25179875ee3fb228f5ef677052846a5c6d1f47d88637bba61ee46915cdd"
+    },
+    "analysis/pantanal_selection/images/candidate_G220_point_counts.png": {
+      "bytes": 54267,
+      "sha256": "96d19764ef451ee691e0b3aa071dbb1510b16846f84311c4521638e56a0b0f8f"
+    },
+    "analysis/pantanal_selection/images/candidate_G221_map.png": {
+      "bytes": 79406,
+      "sha256": "6ca75bd3e7bee5659767f48259bba7df89f731f93937a3610f75afe74181cb54"
+    },
+    "analysis/pantanal_selection/images/candidate_G221_point_counts.png": {
+      "bytes": 54096,
+      "sha256": "4c8cf64b816cd27d343aa9195ffa7605e0d0990c021a424e8893f930f3fdc305"
+    },
+    "analysis/pantanal_selection/images/candidate_G222_map.png": {
+      "bytes": 85235,
+      "sha256": "4fa4eb3709dcf90004e681c47d1dcd7b90e29a1ac2a7aca85f5d8a9404fb09ba"
+    },
+    "analysis/pantanal_selection/images/candidate_G222_point_counts.png": {
+      "bytes": 55704,
+      "sha256": "09e8a4d9463d85dbb2d1d93b8bbbf9a0576ca590258f86afce323665fab664ad"
+    },
+    "analysis/pantanal_selection/images/candidate_G22_map.png": {
+      "bytes": 105603,
+      "sha256": "113436a2035854880e495d99238cdc911b52aa50a2f2248b06610b0e33a23292"
+    },
+    "analysis/pantanal_selection/images/candidate_G22_point_counts.png": {
+      "bytes": 57612,
+      "sha256": "d4ca9126b560eb48c95b4a0d5656912b87cd9030325d616a1b80a6cd9cf54ad4"
+    },
+    "analysis/pantanal_selection/images/candidate_G23_map.png": {
+      "bytes": 108931,
+      "sha256": "5877c4c1292624324e65bea0dd3db5f86d3bbe3bb057dfdf57e3847057ed045f"
+    },
+    "analysis/pantanal_selection/images/candidate_G23_point_counts.png": {
+      "bytes": 58048,
+      "sha256": "c84282dcb2ee3aa3b401bb5e3443c6778c1ddad0e2d602530bed422e66b54fb2"
+    },
+    "analysis/pantanal_selection/images/candidate_G24_map.png": {
+      "bytes": 107566,
+      "sha256": "5b71668a3857f1a55f3a98807326e51662d27793c13c1ff3f357c599a6d808a5"
+    },
+    "analysis/pantanal_selection/images/candidate_G24_point_counts.png": {
+      "bytes": 62764,
+      "sha256": "3476f01e58f02462bcc6563cfc4eb9b6d4a2751755c9807f11888433f7cf15d3"
+    },
+    "analysis/pantanal_selection/images/candidate_G25_map.png": {
+      "bytes": 114835,
+      "sha256": "7d454ff2224bb25831c17a0b496efd7580a38f925a68564ff08db857c49eaf9f"
+    },
+    "analysis/pantanal_selection/images/candidate_G25_point_counts.png": {
+      "bytes": 64677,
+      "sha256": "f13a02d5120aab1218383f80429871462a4053ad3aa754c6773539af34e4f972"
+    },
+    "analysis/pantanal_selection/images/candidate_G26_map.png": {
+      "bytes": 104929,
+      "sha256": "c19ef77b8c75bb308b66cd5cf38e18e2252fd62ef4fc4e2f2e660c3d1932142e"
+    },
+    "analysis/pantanal_selection/images/candidate_G26_point_counts.png": {
+      "bytes": 56652,
+      "sha256": "3cc8cdf71a9679b5ab552ecfcde1af5103c22892a04c27bb06cb019dafc7252f"
+    },
+    "analysis/pantanal_selection/images/candidate_G27_map.png": {
+      "bytes": 107895,
+      "sha256": "9c65893b4b2f57d03ab78c93c861d2048c31e85c2f4ca19438e120683eaacd75"
+    },
+    "analysis/pantanal_selection/images/candidate_G27_point_counts.png": {
+      "bytes": 59847,
+      "sha256": "3eb17541a36dca84b8dacf0950d7e45677c0e0d6b62efa43ff075365f7b01e61"
+    },
+    "analysis/pantanal_selection/images/candidate_G28_map.png": {
+      "bytes": 104821,
+      "sha256": "0d73e28ce7d91ab4ae4836ca0fa4f1587109f5d4a7826a3092deb890e95d1a83"
+    },
+    "analysis/pantanal_selection/images/candidate_G28_point_counts.png": {
+      "bytes": 61337,
+      "sha256": "de145062658095b08234f38c830c9befaa57762bf278167789581256690e39d1"
+    },
+    "analysis/pantanal_selection/images/candidate_G29_map.png": {
+      "bytes": 106804,
+      "sha256": "ca5d3b0318d46fe727a578ee162dc1bf1d38d9a7b90c323d28e0c7ca45fd3fc8"
+    },
+    "analysis/pantanal_selection/images/candidate_G29_point_counts.png": {
+      "bytes": 58925,
+      "sha256": "70cc77adff40d2d78729b01a53789396d7bd4add2d0625fe0e163ede89b8f50e"
+    },
+    "analysis/pantanal_selection/images/candidate_G30_map.png": {
+      "bytes": 114047,
+      "sha256": "4c3e335d5462077e22a09972fade5dc2a90eaca5ee45029c95666800be23ad6e"
+    },
+    "analysis/pantanal_selection/images/candidate_G30_point_counts.png": {
+      "bytes": 59612,
+      "sha256": "224ddbf44129491edd68cf7980ec882db43519da56530418f8cb561e615c4093"
+    },
+    "analysis/pantanal_selection/images/candidate_G31_map.png": {
+      "bytes": 101537,
+      "sha256": "7b74b2550d16036a2cff7029c204bc4c8b30dfe90446c6e7cf06a3afa920e604"
+    },
+    "analysis/pantanal_selection/images/candidate_G31_point_counts.png": {
+      "bytes": 59931,
+      "sha256": "efeece38f728610a3fa93dbe7f2d9219de7348e07e46015ec0cc187a6fc29134"
+    },
+    "analysis/pantanal_selection/images/candidate_G32_map.png": {
+      "bytes": 116874,
+      "sha256": "644f2de03c34c9ed6912bb675d99254b6551616e34ba8a8fdb92ed12351da734"
+    },
+    "analysis/pantanal_selection/images/candidate_G32_point_counts.png": {
+      "bytes": 59046,
+      "sha256": "90e57274c67035200c7f454e12353b5cbd2fcffb674574bfee6bc2c163539608"
+    },
+    "analysis/pantanal_selection/images/candidate_G33_map.png": {
+      "bytes": 105663,
+      "sha256": "6d67356a0db95c84367abfb2bd7b98e424f1adce9d6bcba69dca7984386ad4d1"
+    },
+    "analysis/pantanal_selection/images/candidate_G33_point_counts.png": {
+      "bytes": 57908,
+      "sha256": "e9a8be98f98372efac7cd6f2bc078d3a15179d70e9bcf6da36fe18bc34086a70"
+    },
+    "analysis/pantanal_selection/images/candidate_G34_map.png": {
+      "bytes": 101640,
+      "sha256": "67a611095d3b2a054d33a042b635e68cdc56918f62f63f95ca62049cd74d491b"
+    },
+    "analysis/pantanal_selection/images/candidate_G34_point_counts.png": {
+      "bytes": 61076,
+      "sha256": "442c221eb0be38e717ced50c0728798ea02650cf85eda3420041e3de71fc554c"
+    },
+    "analysis/pantanal_selection/images/candidate_G35_map.png": {
+      "bytes": 107593,
+      "sha256": "53538770297ead2850f66a2f62d1d4a31e5a790c91c6013a5640d78619c69d7b"
+    },
+    "analysis/pantanal_selection/images/candidate_G35_point_counts.png": {
+      "bytes": 60918,
+      "sha256": "d25636e5f9e532f959a440d7aa3dfc241fd92a835726252e4647aecaabc1152c"
+    },
+    "analysis/pantanal_selection/images/candidate_G36_map.png": {
+      "bytes": 120420,
+      "sha256": "ae2ee44ade82631a238bbd1379e42d5a4497a0c81ae90cb8c167b5396301e63f"
+    },
+    "analysis/pantanal_selection/images/candidate_G36_point_counts.png": {
+      "bytes": 60491,
+      "sha256": "4ac0992f2a88eccfd39d4c26cb599063006e94571376595833a7a9aebfc728b1"
+    },
+    "analysis/pantanal_selection/images/candidate_G37_map.png": {
+      "bytes": 99710,
+      "sha256": "dd0c5531214f9915542517fd78ed5ee99d0e8c332b2c9155783a6a39112245af"
+    },
+    "analysis/pantanal_selection/images/candidate_G37_point_counts.png": {
+      "bytes": 57040,
+      "sha256": "449a236908ec7a1bb4377e0940517cd5debc814aa2dd9483f2e449a6d5e8c2c1"
+    },
+    "analysis/pantanal_selection/images/candidate_G38_map.png": {
+      "bytes": 93475,
+      "sha256": "84023ac6e7b25c2d55bc308cd69f71c51ff534e0a22cb688933b7caed45e5073"
+    },
+    "analysis/pantanal_selection/images/candidate_G38_point_counts.png": {
+      "bytes": 56101,
+      "sha256": "b1bfeec5e931205d0295c66b90c81a0754bca1d4a31b5aa08955889c5be9e22e"
+    },
+    "analysis/pantanal_selection/images/candidate_G39_map.png": {
+      "bytes": 94431,
+      "sha256": "8557af313fc3144e19ef476b1c320bd173287628de992181411df0962d457ccd"
+    },
+    "analysis/pantanal_selection/images/candidate_G39_point_counts.png": {
+      "bytes": 58217,
+      "sha256": "c0e7d42405e875e9e239cec0a75d17ecf872409897a5ebd6c34e304bc4cd3d29"
+    },
+    "analysis/pantanal_selection/images/candidate_G40_map.png": {
+      "bytes": 102217,
+      "sha256": "f1cc11857745f9b2fd10ad1ba04cb96cd6df4a852912f9ac4035afaf49b3587d"
+    },
+    "analysis/pantanal_selection/images/candidate_G40_point_counts.png": {
+      "bytes": 58255,
+      "sha256": "bef27b6337d29be9b313aff7c9581d7931c5f0089147cbd1e0e0da971547b138"
+    },
+    "analysis/pantanal_selection/images/candidate_G41_map.png": {
+      "bytes": 106442,
+      "sha256": "33c9686589129f986bf71a14a7857b56b68c6e68c265fa749fe5dd11522cea90"
+    },
+    "analysis/pantanal_selection/images/candidate_G41_point_counts.png": {
+      "bytes": 55762,
+      "sha256": "0fd0806a7d58058a9756b24b0fd3661b85c648a3e4e4fda8d14d65c3be50d989"
+    },
+    "analysis/pantanal_selection/images/candidate_G42_map.png": {
+      "bytes": 104923,
+      "sha256": "1826222dccf8560816e94487ad94a383cc565c6679150816bd949ed4aaefc57a"
+    },
+    "analysis/pantanal_selection/images/candidate_G42_point_counts.png": {
+      "bytes": 62380,
+      "sha256": "d91afa7c2a33e8eed164082e107fb09eaa3fd71c7556c1d4489224267341de4a"
+    },
+    "analysis/pantanal_selection/images/candidate_G43_map.png": {
+      "bytes": 98048,
+      "sha256": "b69ae41399c122e509af11c16dc25f141cc3f0909b6498b77713e4921d106b0b"
+    },
+    "analysis/pantanal_selection/images/candidate_G43_point_counts.png": {
+      "bytes": 57630,
+      "sha256": "8a77b34f14a9cc99cfe9e11be1c2eabd5afd7210a14a183cbcae7fe579ee88df"
+    },
+    "analysis/pantanal_selection/images/candidate_G44_map.png": {
+      "bytes": 88628,
+      "sha256": "11d63c31b3c87ee024171c264fef56126823a89f434869c0066d11ad5eb1e231"
+    },
+    "analysis/pantanal_selection/images/candidate_G44_point_counts.png": {
+      "bytes": 55115,
+      "sha256": "4b1abeab809338182d66610f93c9ddf7f6da6fb5a57f89f2d8f05eb8bc020037"
+    },
+    "analysis/pantanal_selection/images/candidate_G45_map.png": {
+      "bytes": 95907,
+      "sha256": "94ede1772533c54a73cd4f3d31dc748800537cc63784f26f0f8810d31b71178a"
+    },
+    "analysis/pantanal_selection/images/candidate_G45_point_counts.png": {
+      "bytes": 55840,
+      "sha256": "60e27081e012f404d7f6e49a7f9ad331f8043a850115aa14fef3c758865c9152"
+    },
+    "analysis/pantanal_selection/images/candidate_G46_map.png": {
+      "bytes": 103878,
+      "sha256": "42d90e20a513c68c0f8ffc6a2347b8b58ca297bb1794d97ff98d341590b658d2"
+    },
+    "analysis/pantanal_selection/images/candidate_G46_point_counts.png": {
+      "bytes": 55428,
+      "sha256": "3e16789d008559d9cc5cb6a640915bf52c99e65686845e82482690af42fc5dee"
+    },
+    "analysis/pantanal_selection/images/candidate_G47_map.png": {
+      "bytes": 92206,
+      "sha256": "7d9d8da05e67bf46b499431d7f27d5b5182b727181e5cad4278f3dba5b0db3b8"
+    },
+    "analysis/pantanal_selection/images/candidate_G47_point_counts.png": {
+      "bytes": 57352,
+      "sha256": "52427c1b6ce5c480e7155eeb0d036d3fcade4c143c9eb51a01a30c68283a0d1e"
+    },
+    "analysis/pantanal_selection/images/candidate_G48_map.png": {
+      "bytes": 106810,
+      "sha256": "58caeb78a4c431b1aef08ffa12a679f6397a00375398696e138d372e4b96d734"
+    },
+    "analysis/pantanal_selection/images/candidate_G48_point_counts.png": {
+      "bytes": 61720,
+      "sha256": "f43dddd00b5ff11cb2320988a72e5550119e1265b04026a54de7c1fce83045da"
+    },
+    "analysis/pantanal_selection/images/candidate_G49_map.png": {
+      "bytes": 97600,
+      "sha256": "d85c60784fa6253f6e04882c87083b05e17fd17ab205f4f8edb734b986d8ddf6"
+    },
+    "analysis/pantanal_selection/images/candidate_G49_point_counts.png": {
+      "bytes": 58146,
+      "sha256": "166bce5e240fa8a110c7ee29c0670816614e1df4cf33d64aed2f9e2bdabaa1a4"
+    },
+    "analysis/pantanal_selection/images/candidate_G50_map.png": {
+      "bytes": 96473,
+      "sha256": "550399170c3efea50e45e248a64a2d5b0bf379cc6f1191cd008428e842423266"
+    },
+    "analysis/pantanal_selection/images/candidate_G50_point_counts.png": {
+      "bytes": 59261,
+      "sha256": "a3fad55c104ae09cf989c18a38e1f8588ba79a9f60a70e641b2c14dd07699a90"
+    },
+    "analysis/pantanal_selection/images/candidate_G51_map.png": {
+      "bytes": 100259,
+      "sha256": "f50ab411c2889d210eb663820723be70eb205dbc67fa4954177ef332865b1768"
+    },
+    "analysis/pantanal_selection/images/candidate_G51_point_counts.png": {
+      "bytes": 56281,
+      "sha256": "33584f53d9ed5b05efe62bd796e7b0f0af4b94d588cab5406c08313adf22255d"
+    },
+    "analysis/pantanal_selection/images/candidate_G52_map.png": {
+      "bytes": 106688,
+      "sha256": "4faadbeb3dbdcaea667c016dab1d9dd49ff56a185974bc06d2398cc2436440bd"
+    },
+    "analysis/pantanal_selection/images/candidate_G52_point_counts.png": {
+      "bytes": 56211,
+      "sha256": "a732827606a3b812aba300a29648e8aa55187b65c3a5d9a88f30d8c74ea288a3"
+    },
+    "analysis/pantanal_selection/images/candidate_G53_map.png": {
+      "bytes": 94254,
+      "sha256": "c19c3f3a8fc4f4e22b8b6ba59f1b60c4639b72aaf1ea5d829dd9df61553bd4ce"
+    },
+    "analysis/pantanal_selection/images/candidate_G53_point_counts.png": {
+      "bytes": 59187,
+      "sha256": "dddbf9040e51bc72cf81608f464f54c7c70edde012e1244219d4114bc5e4d362"
+    },
+    "analysis/pantanal_selection/images/candidate_G54_map.png": {
+      "bytes": 96409,
+      "sha256": "6c6ba03c79db502d87533ab9705968105193f6d8536a9e691fd7ece4a0fd774a"
+    },
+    "analysis/pantanal_selection/images/candidate_G54_point_counts.png": {
+      "bytes": 55799,
+      "sha256": "8b04ceaff7aad215233aa8710d5234a6b39311b2536a6786f1cffcf1a81791fc"
+    },
+    "analysis/pantanal_selection/images/candidate_G55_map.png": {
+      "bytes": 94327,
+      "sha256": "961a1b467336f5482b4cf93ef92b4cb76855293fe7a04747e25e5002615a3d0a"
+    },
+    "analysis/pantanal_selection/images/candidate_G55_point_counts.png": {
+      "bytes": 56092,
+      "sha256": "25b0666dfb285192f660e3737ac07a624a3af2453863cc33f41f6f522f3a49c2"
+    },
+    "analysis/pantanal_selection/images/candidate_G56_map.png": {
+      "bytes": 102636,
+      "sha256": "0614b65b6e7dcddf7d3c9eec73b667c33a1479ccb3dd9b00c3321b5aa98bad37"
+    },
+    "analysis/pantanal_selection/images/candidate_G56_point_counts.png": {
+      "bytes": 55797,
+      "sha256": "ec471818bb763c3a96a8da0dc6ed83ed3b31b5c8b47ad8c23cf05df68c8c8e8d"
+    },
+    "analysis/pantanal_selection/images/candidate_G57_map.png": {
+      "bytes": 97522,
+      "sha256": "f9c90f2fcdae19b583cf6c90b7baf86dc5ba02df8d4bf4ca8eaee9167e2658d6"
+    },
+    "analysis/pantanal_selection/images/candidate_G57_point_counts.png": {
+      "bytes": 59151,
+      "sha256": "605b0aa1c6e47e3005223de1cf2e4aa43898f4fa40909455e14826111ba047c6"
+    },
+    "analysis/pantanal_selection/images/candidate_G58_map.png": {
+      "bytes": 111182,
+      "sha256": "ce12a6b965c9be2fc34c490b82e113123ac83b37086bb9411f30dfa14cf7817e"
+    },
+    "analysis/pantanal_selection/images/candidate_G58_point_counts.png": {
+      "bytes": 59186,
+      "sha256": "5fea4a86c1bc15196bde2c4da06542e82abd66bb6e41d9b04c5b785b34a8f857"
+    },
+    "analysis/pantanal_selection/images/candidate_G59_map.png": {
+      "bytes": 94642,
+      "sha256": "96981579913877ef16672e772625dc43ee7065a09d6afe923028395c63e26fca"
+    },
+    "analysis/pantanal_selection/images/candidate_G59_point_counts.png": {
+      "bytes": 59255,
+      "sha256": "0346c8c343fa52ed5c12ec796088e7fe5dce87020df3bec6020849b0560879ce"
+    },
+    "analysis/pantanal_selection/images/candidate_G60_map.png": {
+      "bytes": 101120,
+      "sha256": "87b49597e37549e07a97d9f4dc6603cbf1611b384c307a3807770dbd4a4e4e09"
+    },
+    "analysis/pantanal_selection/images/candidate_G60_point_counts.png": {
+      "bytes": 61586,
+      "sha256": "09b4684da0094f59a028f3fd2c2c27f0446d8bfceab774dad0ae3f5fb1c4d348"
+    },
+    "analysis/pantanal_selection/images/candidate_G61_map.png": {
+      "bytes": 95222,
+      "sha256": "0affa00152948a3d1084b6d0500468e61ab30f27d5be26860428926912526195"
+    },
+    "analysis/pantanal_selection/images/candidate_G61_point_counts.png": {
+      "bytes": 57616,
+      "sha256": "551b5a059c9f9bd131ec7bdc1cb6bcca69e19b4b9b3b8ec13040e42e4fa919fa"
+    },
+    "analysis/pantanal_selection/images/candidate_G62_map.png": {
+      "bytes": 99646,
+      "sha256": "e250433d865e3a81d8143b391c76067e0e6e3cef7bab0dd3e48451ddb81c7c7f"
+    },
+    "analysis/pantanal_selection/images/candidate_G62_point_counts.png": {
+      "bytes": 60455,
+      "sha256": "17aefe8880af8741ea96fb215987aa00380e2b9c54cc3e9278335d44935062be"
+    },
+    "analysis/pantanal_selection/images/candidate_G63_map.png": {
+      "bytes": 109097,
+      "sha256": "8693da1790f078c38a89da124d252986538e103df38940252da2776c4114908f"
+    },
+    "analysis/pantanal_selection/images/candidate_G63_point_counts.png": {
+      "bytes": 59154,
+      "sha256": "6513a8d3e972a1f1fa15d46b5ead082fae71cb05a108694666d9eb7678551f2d"
+    },
+    "analysis/pantanal_selection/images/candidate_G64_map.png": {
+      "bytes": 105794,
+      "sha256": "8facbb86c28fc32910ddf4a2b9e6bde8de93d07c715449c297baec7b2509a1a3"
+    },
+    "analysis/pantanal_selection/images/candidate_G64_point_counts.png": {
+      "bytes": 58626,
+      "sha256": "82c297d330753cb72585d80a4aea6cb4af39e1f39cefd312fde90a8a05fea9a2"
+    },
+    "analysis/pantanal_selection/images/candidate_G65_map.png": {
+      "bytes": 107190,
+      "sha256": "ea9d3e0945e06c7dff05b3030601ae2c63d1871525e11316a7c2da0520c88a94"
+    },
+    "analysis/pantanal_selection/images/candidate_G65_point_counts.png": {
+      "bytes": 58336,
+      "sha256": "da3aba07dee0a07cb392cea3f18f6e784907dbee93e52c50d761c4b8a4cfaa05"
+    },
+    "analysis/pantanal_selection/images/candidate_G66_map.png": {
+      "bytes": 88540,
+      "sha256": "cf5cd97b636652e44ee6f8795390bc50b74169f9c3fec261497477ff0075adfc"
+    },
+    "analysis/pantanal_selection/images/candidate_G66_point_counts.png": {
+      "bytes": 56597,
+      "sha256": "d26c0034c0d8f4753a341a193082afed6159697de6ec11ba7c5d99e50fb81d88"
+    },
+    "analysis/pantanal_selection/images/candidate_G67_map.png": {
+      "bytes": 116431,
+      "sha256": "16c1a72274166d24d2bf19833ce9b7362756b665af277796deecfeda0061e441"
+    },
+    "analysis/pantanal_selection/images/candidate_G67_point_counts.png": {
+      "bytes": 60003,
+      "sha256": "a980040ca4f75f504380d45668ba4a4abf36e557c264be63b55bd08646c7f749"
+    },
+    "analysis/pantanal_selection/images/candidate_G68_map.png": {
+      "bytes": 100625,
+      "sha256": "ef82c50103d9ee700536ee39dd0a3565d05225fef92da6865d997607d75b3050"
+    },
+    "analysis/pantanal_selection/images/candidate_G68_point_counts.png": {
+      "bytes": 57109,
+      "sha256": "4a4c2a4cd7a2af06b951b6957899e11cef7da662e5d3ceac410b29e239e1ed27"
+    },
+    "analysis/pantanal_selection/images/candidate_G69_map.png": {
+      "bytes": 120707,
+      "sha256": "a6d9b1844785ee5aafee4f9644a49de5a079de9002d4914e1a4f1845663fee85"
+    },
+    "analysis/pantanal_selection/images/candidate_G69_point_counts.png": {
+      "bytes": 61050,
+      "sha256": "c753fd4ed19fa784bdd55b1112ce8c9fd6fd235b2a91e799cf7945507389dbbc"
+    },
+    "analysis/pantanal_selection/images/candidate_G70_map.png": {
+      "bytes": 110225,
+      "sha256": "b818f7c23eaf44a49e3827557d901786dfa7753aff7443c986d6f2a622263f90"
+    },
+    "analysis/pantanal_selection/images/candidate_G70_point_counts.png": {
+      "bytes": 60495,
+      "sha256": "77afa8b3ab34694f42ba35e9f9eff12c0af9a3f82ea8ae808c68ee57da63fad7"
+    },
+    "analysis/pantanal_selection/images/candidate_G71_map.png": {
+      "bytes": 107581,
+      "sha256": "38d79bd64964a9bd10419a62dbae65283fa212bbc25966b9b815ced4576614be"
+    },
+    "analysis/pantanal_selection/images/candidate_G71_point_counts.png": {
+      "bytes": 59093,
+      "sha256": "ba5da85fb3c8ed7b08a4c54d8267e19f17813250be11b64092b8a1a88821ff85"
+    },
+    "analysis/pantanal_selection/images/candidate_G72_map.png": {
+      "bytes": 113003,
+      "sha256": "39228d7b6e6de57361bc742ceabfb08c2fc2432cafd09ea73a7acdd8d2b154ca"
+    },
+    "analysis/pantanal_selection/images/candidate_G72_point_counts.png": {
+      "bytes": 56429,
+      "sha256": "e83357159489d649af38a24e0f83ffdc6e15cb772be0e844f285a46856dc54d4"
+    },
+    "analysis/pantanal_selection/images/candidate_G73_map.png": {
+      "bytes": 108977,
+      "sha256": "3ef9250c791fd67d938c7ddc25098cef6e38ae1a9bc71bc3587e97763b6f1670"
+    },
+    "analysis/pantanal_selection/images/candidate_G73_point_counts.png": {
+      "bytes": 58674,
+      "sha256": "823b65e004123aad04906c8cfaf01130d7d6460151c10c8f534950b444e4bfea"
+    },
+    "analysis/pantanal_selection/images/candidate_G74_map.png": {
+      "bytes": 84746,
+      "sha256": "9ba742b16dd7983f4587b734c1b55e1f386228696f63728b71c8894279d8183b"
+    },
+    "analysis/pantanal_selection/images/candidate_G74_point_counts.png": {
+      "bytes": 53556,
+      "sha256": "0bc8e2eb9d45d6c0f12c7a9fe05db1da314e5e7bd55581e46dbbb41bfd2ffadf"
+    },
+    "analysis/pantanal_selection/images/candidate_G75_map.png": {
+      "bytes": 87686,
+      "sha256": "c9f4eb578d04b02f53443ad5750bb6cb3cb27ab3f0995c7a6d2f27e4d5325649"
+    },
+    "analysis/pantanal_selection/images/candidate_G75_point_counts.png": {
+      "bytes": 55666,
+      "sha256": "492c21a4cb364ddf57f251aa1c1363f61fd4cefe8362e6bf535f7ab7fe818ccd"
+    },
+    "analysis/pantanal_selection/images/candidate_G76_map.png": {
+      "bytes": 88819,
+      "sha256": "18a826d8c25c0d0e5e99f44f6d1226b889264a70088b55be085b8b91e68acc9d"
+    },
+    "analysis/pantanal_selection/images/candidate_G76_point_counts.png": {
+      "bytes": 52685,
+      "sha256": "7f02d8ba401fe615d09ed2db9a57cba68e7311eb284c8152cfad9d2d51e253c9"
+    },
+    "analysis/pantanal_selection/images/candidate_G77_map.png": {
+      "bytes": 85773,
+      "sha256": "b63043a23c2747f19a0ba0532a579edef910abe28d4e8fe0baa52073732240aa"
+    },
+    "analysis/pantanal_selection/images/candidate_G77_point_counts.png": {
+      "bytes": 53685,
+      "sha256": "6fe21816bea34059b4751418761b4ac9a18a6dd73942a9de0e15ddbfe73a2604"
+    },
+    "analysis/pantanal_selection/images/candidate_G78_map.png": {
+      "bytes": 91102,
+      "sha256": "708677a1886e2499a932d52d306a7dbea38061f9efb500ec8ca4db7f1cafa42e"
+    },
+    "analysis/pantanal_selection/images/candidate_G78_point_counts.png": {
+      "bytes": 55698,
+      "sha256": "93cd7b226e3793f73f27cfea2947aa6f5e379d037e0b8ae0a782915d32ec9584"
+    },
+    "analysis/pantanal_selection/images/candidate_G79_map.png": {
+      "bytes": 83988,
+      "sha256": "060c0d5475ee38adadc20ffebe44627c2f8ee611d81890361042ea6821f7ad2e"
+    },
+    "analysis/pantanal_selection/images/candidate_G79_point_counts.png": {
+      "bytes": 55030,
+      "sha256": "5766511d30bbadd7a8963e84e6e26a65b7ce5dbed422b021f468262cab24f284"
+    },
+    "analysis/pantanal_selection/images/candidate_G80_map.png": {
+      "bytes": 83071,
+      "sha256": "e1b58df577c675e36f9418d12023230319ba7cd209e3275f3fe9c320eb7d97ec"
+    },
+    "analysis/pantanal_selection/images/candidate_G80_point_counts.png": {
+      "bytes": 55329,
+      "sha256": "81d5d9e8f92427f3af9ac009b5e2b0e8b32caffe6e3701e031f74c00021d71b7"
+    },
+    "analysis/pantanal_selection/images/candidate_G81_map.png": {
+      "bytes": 80286,
+      "sha256": "bc950742c8f9bae127a7b6b179a57addff65f8ea5364161a4b1d3f6452a2997f"
+    },
+    "analysis/pantanal_selection/images/candidate_G81_point_counts.png": {
+      "bytes": 56007,
+      "sha256": "57345ff873a5f971ed24da47838914b667995e613ba13cfda7a76f297d0dd54e"
+    },
+    "analysis/pantanal_selection/images/candidate_G82_map.png": {
+      "bytes": 80091,
+      "sha256": "adf6903a2b150e694fa5c92eff2eb013730e9d96c1683ea3852266a45905b197"
+    },
+    "analysis/pantanal_selection/images/candidate_G82_point_counts.png": {
+      "bytes": 55509,
+      "sha256": "261fc57256088525bbfd9ea43846b75735c19fc56a30721915334d86add38f77"
+    },
+    "analysis/pantanal_selection/images/candidate_G83_map.png": {
+      "bytes": 91212,
+      "sha256": "0e97abf17d297d4a8e233ba62fabe6bd92486d60adebecdf0d5e31f16624af58"
+    },
+    "analysis/pantanal_selection/images/candidate_G83_point_counts.png": {
+      "bytes": 57316,
+      "sha256": "1990c7c5a8fd9a1640ec98c4f9e545f49a3e4621b1eefd1d7c4a67df12e9e092"
+    },
+    "analysis/pantanal_selection/images/candidate_G84_map.png": {
+      "bytes": 81490,
+      "sha256": "01418ee3caf99d02913613e507a2aaa22bb5f1f4621ae798d7599158d065d6e9"
+    },
+    "analysis/pantanal_selection/images/candidate_G84_point_counts.png": {
+      "bytes": 55493,
+      "sha256": "e8f6a76882016089ec7a17fde9a52bf0d56acf3737a8bb7103a603ff3fc2d098"
+    },
+    "analysis/pantanal_selection/images/candidate_G85_map.png": {
+      "bytes": 97791,
+      "sha256": "84f2707990c29dbfc11d5e955df6f29004ca3e59e9f276466fa6a1ff59850974"
+    },
+    "analysis/pantanal_selection/images/candidate_G85_point_counts.png": {
+      "bytes": 55891,
+      "sha256": "1d173050f46b9d122e7a3447c54d2672d039f7995a05448e709482ffc380251d"
+    },
+    "analysis/pantanal_selection/images/candidate_G86_map.png": {
+      "bytes": 102840,
+      "sha256": "8f0893d92197d8f1c168ccfa72392c9c4f2466168e2e7023080acd01c2ef76fe"
+    },
+    "analysis/pantanal_selection/images/candidate_G86_point_counts.png": {
+      "bytes": 56001,
+      "sha256": "7368931d2ceefde524586fd7e61114094f47c9dee4165d026793ac193f56534d"
+    },
+    "analysis/pantanal_selection/images/candidate_G87_map.png": {
+      "bytes": 88972,
+      "sha256": "db2b06010864af4e069afbbd210bd26073cd12e6b017b0ab26d5f7ea63857461"
+    },
+    "analysis/pantanal_selection/images/candidate_G87_point_counts.png": {
+      "bytes": 54918,
+      "sha256": "4f8b2fcd4673d6df1925733cea3aa1798205b70acbffc99f011b08e5c684cfa4"
+    },
+    "analysis/pantanal_selection/images/candidate_G88_map.png": {
+      "bytes": 95709,
+      "sha256": "f605412bfa64b7e1a7a9e57f46fac123ec13b6e249a299a12142dac29b19b114"
+    },
+    "analysis/pantanal_selection/images/candidate_G88_point_counts.png": {
+      "bytes": 56530,
+      "sha256": "53fdf8470425e2fdcc42b73f20e3a236832a4fb51d9854979ad0b3d08d7599f5"
+    },
+    "analysis/pantanal_selection/images/candidate_G89_map.png": {
+      "bytes": 84848,
+      "sha256": "dbe639da08111d436028d0486aa7b655009a0fa82c990e7c65517a3eb691ec97"
+    },
+    "analysis/pantanal_selection/images/candidate_G89_point_counts.png": {
+      "bytes": 54115,
+      "sha256": "10146d9db070c240bea70d43f96d2ea4c0494fa128a16e4f5d65711f32c64723"
+    },
+    "analysis/pantanal_selection/images/candidate_G90_map.png": {
+      "bytes": 101589,
+      "sha256": "e020c72dfe7efc53ef433c5beab1ee27bb368ad23e9c282a06f66fd43ad09086"
+    },
+    "analysis/pantanal_selection/images/candidate_G90_point_counts.png": {
+      "bytes": 56036,
+      "sha256": "368999c7f4e0a90ba8854e64a959a1c89f54f3428d90041aaeff60c55da882be"
+    },
+    "analysis/pantanal_selection/images/candidate_G91_map.png": {
+      "bytes": 87606,
+      "sha256": "25a74682289efc9069513dcf35e6e913088790d938c81e267a5b1d0bffccb532"
+    },
+    "analysis/pantanal_selection/images/candidate_G91_point_counts.png": {
+      "bytes": 53662,
+      "sha256": "57ea684466989360b0c70048cfcaa09986c3aaf99d0450c91d747b86dda17c60"
+    },
+    "analysis/pantanal_selection/images/candidate_G92_map.png": {
+      "bytes": 90324,
+      "sha256": "3aca58f2a29e25d1dffa08bcc91b3ce46152938a4e880e1196784f773843bc82"
+    },
+    "analysis/pantanal_selection/images/candidate_G92_point_counts.png": {
+      "bytes": 56776,
+      "sha256": "6dd991ffbdf87c1f10e7e929f73f007fd41e8f44fbc1d2807751d5467dc07384"
+    },
+    "analysis/pantanal_selection/images/candidate_G93_map.png": {
+      "bytes": 87497,
+      "sha256": "ef9bc7dea9da9218efa91e2b9cd2632595c3dd93d49c4a2c3e40785d7076f346"
+    },
+    "analysis/pantanal_selection/images/candidate_G93_point_counts.png": {
+      "bytes": 56479,
+      "sha256": "93f871a9b599a626f3f18b936779683881a03f59e1dae2c221ed1955306d1555"
+    },
+    "analysis/pantanal_selection/images/candidate_G94_map.png": {
+      "bytes": 101495,
+      "sha256": "5be3e88d95f7937eb2cf5e225d4401038fd5ba9cebc83526eb1a36a678c52cff"
+    },
+    "analysis/pantanal_selection/images/candidate_G94_point_counts.png": {
+      "bytes": 59160,
+      "sha256": "fabc18de1eddc27df267b2fd3aecbbffc0492e86dc27bd15bfb6dd1bd8ebb7ef"
+    },
+    "analysis/pantanal_selection/images/candidate_G95_map.png": {
+      "bytes": 91347,
+      "sha256": "a9c1b747e1eec025890444147e439b5281d0473873b609744c1ffed89acbd542"
+    },
+    "analysis/pantanal_selection/images/candidate_G95_point_counts.png": {
+      "bytes": 58380,
+      "sha256": "5f97dd742d974048b38c6a1dc02e3260b928506f806743ea69ea1e1525a8382d"
+    },
+    "analysis/pantanal_selection/images/candidate_G96_map.png": {
+      "bytes": 85435,
+      "sha256": "ae51a923fecd7cd5f266f8c7be4353ef38ec6cd074750662f035847b87a27c5e"
+    },
+    "analysis/pantanal_selection/images/candidate_G96_point_counts.png": {
+      "bytes": 56802,
+      "sha256": "0d089f9870b1afa8b39119467f3c38b965138ef646cd88707d60bdfd2a68796f"
+    },
+    "analysis/pantanal_selection/images/candidate_G97_map.png": {
+      "bytes": 80835,
+      "sha256": "d1dd40ee7e0264bb70f301919796c64206755043eb4cff24b8b64ad5c5fea581"
+    },
+    "analysis/pantanal_selection/images/candidate_G97_point_counts.png": {
+      "bytes": 54796,
+      "sha256": "912072904e07ae7a0cb33dbd00d77e40c27f4946961f47cff3946dca26c3f219"
+    },
+    "analysis/pantanal_selection/images/candidate_G98_map.png": {
+      "bytes": 87943,
+      "sha256": "1ef1a5e0c3fe07774933034ed1e5733350e26e3f0726e887b0edb69e37ae2d9f"
+    },
+    "analysis/pantanal_selection/images/candidate_G98_point_counts.png": {
+      "bytes": 54265,
+      "sha256": "d9679c96ac5a8f51795aaf4feefff6ed85b7c2492831eeed5d9c40d9993f00ca"
+    },
+    "analysis/pantanal_selection/images/candidate_G99_map.png": {
+      "bytes": 87278,
+      "sha256": "5c1accffc807f50bd9033aa59405b3f2cdff7f45320df93a2d4a5372bb021f46"
+    },
+    "analysis/pantanal_selection/images/candidate_G99_point_counts.png": {
+      "bytes": 55399,
+      "sha256": "cc23137ca598e6fd664dc008a836e571d26c395467357352d0709d0029f75f1b"
+    },
+    "analysis/pantanal_selection/images/candidate_R01_map.png": {
+      "bytes": 123872,
+      "sha256": "6040a7d2d27318c6e94240c2d3496f5823e61bf7a6948fb0287befdbce3f07cf"
+    },
+    "analysis/pantanal_selection/images/candidate_R01_point_counts.png": {
+      "bytes": 62859,
+      "sha256": "154e9ca5be64f5bffc1dfccd98baa6bcd6075b808d1ba8504fa218f7d7dbb395"
+    },
+    "analysis/pantanal_selection/images/candidate_R02_map.png": {
+      "bytes": 127518,
+      "sha256": "03c8da004bb8b4544193f81d9a1747daffc55cbf9afa48c9b6ab4da92a632f62"
+    },
+    "analysis/pantanal_selection/images/candidate_R02_point_counts.png": {
+      "bytes": 63770,
+      "sha256": "ce49dc31abc302121cbe5ac7fe35635663392368ee06581bf962a9d3070b53f9"
+    },
+    "analysis/pantanal_selection/images/candidate_R03_map.png": {
+      "bytes": 109498,
+      "sha256": "c6dd3067528eb9d21a499280988277224214eca774bec61da5697735b69b7fc1"
+    },
+    "analysis/pantanal_selection/images/candidate_R03_point_counts.png": {
+      "bytes": 63552,
+      "sha256": "7aff26a010cb910939ce23a776ca6e694130516514d1cf6ab4ee1e67e17011d4"
+    },
+    "analysis/pantanal_selection/images/candidate_R04_map.png": {
+      "bytes": 125695,
+      "sha256": "c2ad286220747208fc3e7e4d7d15675a395a98959b0816073210da2d23978934"
+    },
+    "analysis/pantanal_selection/images/candidate_R04_point_counts.png": {
+      "bytes": 63227,
+      "sha256": "6ab25a316efabc7960a05e25666c1eacad547ffa5ae6f47d4a8f594f47af3eac"
+    },
+    "analysis/pantanal_selection/images/candidate_R05_map.png": {
+      "bytes": 127135,
+      "sha256": "a04c10cc5bd83c2645d0b63a8b212167f8329e2ed6adf1129d3a1a3abea313eb"
+    },
+    "analysis/pantanal_selection/images/candidate_R05_point_counts.png": {
+      "bytes": 62622,
+      "sha256": "71a55e24934f7002b535074882d116a3d4ca73c708417850d479805ae77f520b"
+    },
+    "analysis/pantanal_selection/images/candidate_R06_map.png": {
+      "bytes": 122082,
+      "sha256": "e578a7b4318ad79f1647fd17b8f977aa637359424c497c94da3a71e4b53eb77d"
+    },
+    "analysis/pantanal_selection/images/candidate_R06_point_counts.png": {
+      "bytes": 61967,
+      "sha256": "fb48ffee6fdf5c8140984c1a7c8291685a561f1f51329728d1df774922336355"
+    },
+    "analysis/pantanal_selection/images/candidate_R07_map.png": {
+      "bytes": 118275,
+      "sha256": "cb8789926363cc945db7fae23268828fec141184db592a4abfa3aa4d9821f464"
+    },
+    "analysis/pantanal_selection/images/candidate_R07_point_counts.png": {
+      "bytes": 62496,
+      "sha256": "f57fc6f977a3ce0bbe31502de14d1d6c00e0f70299182307334ad0ea9f13f9cd"
+    },
+    "analysis/pantanal_selection/images/candidate_R08_map.png": {
+      "bytes": 118307,
+      "sha256": "806c1623cb27bfbdb421d386085f147f9a1c143f69385951327491f7e4373dca"
+    },
+    "analysis/pantanal_selection/images/candidate_R08_point_counts.png": {
+      "bytes": 61908,
+      "sha256": "ed3dc88d10f4e698a87e464ba51b9b431e6e5143a7db12a66a7cba6923ba6eeb"
+    },
+    "analysis/pantanal_selection/images/candidate_R09_map.png": {
+      "bytes": 122687,
+      "sha256": "2cc5703e262d0cba1c6c28e2ceeaaa827d378e0b0907de472a342df36c4643cf"
+    },
+    "analysis/pantanal_selection/images/candidate_R09_point_counts.png": {
+      "bytes": 62041,
+      "sha256": "cdeaa483d212f5296d1ff41710703702a66133286d50f5dcb9e8b78b91fcc9af"
+    },
+    "analysis/pantanal_selection/images/candidate_R10_map.png": {
+      "bytes": 124388,
+      "sha256": "8efd3a60254120b577f79fb3b35421b29d8d4b283c15e45e6feaacfc09e170e4"
+    },
+    "analysis/pantanal_selection/images/candidate_R10_point_counts.png": {
+      "bytes": 62163,
+      "sha256": "230356fee5b40507cb4a2292d6ac274e3a8ac2ec28bc34642897b26584afd350"
+    },
+    "analysis/pantanal_selection/images/candidate_R11_map.png": {
+      "bytes": 110203,
+      "sha256": "98870199fe15bba1102182955c299ea9d934c9208b1e324297270fbd98b35de3"
+    },
+    "analysis/pantanal_selection/images/candidate_R11_point_counts.png": {
+      "bytes": 59218,
+      "sha256": "bb37fd36e8c183469184efc2da294def0c40b6c8cb5bc6d0ffd0ef5bddf78630"
+    },
+    "analysis/pantanal_selection/images/candidate_R12_map.png": {
+      "bytes": 131218,
+      "sha256": "4bb3f90ca586ceeaaaf2db8fb4745382642a8965cd87db9947d1d372740ab33e"
+    },
+    "analysis/pantanal_selection/images/candidate_R12_point_counts.png": {
+      "bytes": 60373,
+      "sha256": "a78aadee2dcdec050d2dd96d852fa9dee5ff23ec6e05010945c0e81d05762654"
+    },
+    "analysis/pantanal_selection/images/candidate_R13_map.png": {
+      "bytes": 112742,
+      "sha256": "bd11b8689b09be919188cd54827d022a468617c5f996992dfecda0ce423a1c7c"
+    },
+    "analysis/pantanal_selection/images/candidate_R13_point_counts.png": {
+      "bytes": 59257,
+      "sha256": "e7b1cb5335858a084dada67ce305a1e5aec57ea4bb791fd85bdc5f85d5aef53e"
+    },
+    "analysis/pantanal_selection/images/candidate_R14_map.png": {
+      "bytes": 111416,
+      "sha256": "9337f24de4cb02575842a21ef7e985683ac4ad0f1d6920b90f2b6a23a76796c6"
+    },
+    "analysis/pantanal_selection/images/candidate_R14_point_counts.png": {
+      "bytes": 60448,
+      "sha256": "98e286681a746c980364b02fe48f024d254bd029e1acee8b78ddabb9cfb18609"
+    },
+    "analysis/pantanal_selection/images/candidate_R15_map.png": {
+      "bytes": 101544,
+      "sha256": "24f1af824d7533d688615a78453d454216a0be1cf7bd16182456908907351038"
+    },
+    "analysis/pantanal_selection/images/candidate_R15_point_counts.png": {
+      "bytes": 59961,
+      "sha256": "47031850a99cc8260b87675a5caa69236ed58c9e79696a5ada8927eb069f7197"
+    },
+    "analysis/pantanal_selection/images/candidate_R16_map.png": {
+      "bytes": 115353,
+      "sha256": "36ade3014b6ced88c8002b2e6f8df0cb2622dbcfd204e12652b8e09dcf3b2e13"
+    },
+    "analysis/pantanal_selection/images/candidate_R16_point_counts.png": {
+      "bytes": 58733,
+      "sha256": "351f464e3c48e93d8c11db881a9609ea06dda4dcee2694645ca49659656ae67b"
+    },
+    "analysis/pantanal_selection/images/candidate_R17_map.png": {
+      "bytes": 98983,
+      "sha256": "e2bb7d32a8031660f77816b02777da05fa477a019aacbe3c7fdb9e6e16c08f69"
+    },
+    "analysis/pantanal_selection/images/candidate_R17_point_counts.png": {
+      "bytes": 56099,
+      "sha256": "279a4a336353ae2f27b2e5058f498d2d4ced8d512e7a41038975d213dbca8a77"
+    },
+    "analysis/pantanal_selection/images/candidate_R18_map.png": {
+      "bytes": 106203,
+      "sha256": "e630b288742b63511faaba1687599cbae066fdee1cc470f975fb7dac276973bd"
+    },
+    "analysis/pantanal_selection/images/candidate_R18_point_counts.png": {
+      "bytes": 59736,
+      "sha256": "9b4859adf4fbf1c7d8cb10dd7229e1b45269ed0623e174fe1de8443a2148f633"
+    },
+    "analysis/pantanal_selection/images/candidate_R19_map.png": {
+      "bytes": 116596,
+      "sha256": "156edcae1ffe34d7af4f0a65278748ac6e093599aebe5dce01711887159496bc"
+    },
+    "analysis/pantanal_selection/images/candidate_R19_point_counts.png": {
+      "bytes": 58553,
+      "sha256": "49df10d54214afee3b0c442a08e537fe1ac9e571a67265e052f74b69b6976415"
+    },
+    "analysis/pantanal_selection/images/candidate_R20_map.png": {
+      "bytes": 54063,
+      "sha256": "21db592aa6cba4060d65f45d8f3c2356aec4c03a73ecc38102552450373e96f4"
+    },
+    "analysis/pantanal_selection/images/candidate_R20_point_counts.png": {
+      "bytes": 50669,
+      "sha256": "2445abe4afe86d1ec6904acfcace4d36dcc46e546f6c95fb899434270d51a58b"
+    },
+    "analysis/pantanal_selection/images/candidate_R21_map.png": {
+      "bytes": 58262,
+      "sha256": "14572f40c16007403f7ca2ce711e6ca024bda93c38a3c4eaf0a012786cf3eb28"
+    },
+    "analysis/pantanal_selection/images/candidate_R21_point_counts.png": {
+      "bytes": 50362,
+      "sha256": "776f27577f3abb5c6fe3c76dbea29d62e8356c5c8fbfdfb4f8d445622fa7ca42"
+    },
+    "analysis/pantanal_selection/images/candidate_R22_map.png": {
+      "bytes": 59781,
+      "sha256": "393b683a2f05ff5d0fe387dfd134221960133a0ec6bb0c2d0459c8fd220058f2"
+    },
+    "analysis/pantanal_selection/images/candidate_R22_point_counts.png": {
+      "bytes": 53134,
+      "sha256": "99e434d43fb624c0a30411914af154da483a6e1ab1fa7bc1dbf1042556c2a5da"
+    },
+    "analysis/pantanal_selection/images/candidate_R23_map.png": {
+      "bytes": 57512,
+      "sha256": "ada980640e7501056be73d4c3674e4b5bebe2fb63baed36358cd36138c4c1e5b"
+    },
+    "analysis/pantanal_selection/images/candidate_R23_point_counts.png": {
+      "bytes": 52583,
+      "sha256": "d50157456fbda39cfeb72a1b7d98c8e8e689b9f2dc5300d0d0fdcb6cc3078c6f"
+    },
+    "analysis/pantanal_selection/images/candidate_R24_map.png": {
+      "bytes": 59065,
+      "sha256": "1313c82031ccc6afa6b494e3d3878846e812ede1448cbe9874a9a80f514276a4"
+    },
+    "analysis/pantanal_selection/images/candidate_R24_point_counts.png": {
+      "bytes": 51295,
+      "sha256": "fc7e707958cac6461c36e619c0a2c8f0be416918c36072e55ff28a087330a45c"
+    },
+    "analysis/pantanal_selection/images/candidate_R25_map.png": {
+      "bytes": 87509,
+      "sha256": "f6930fbf715965a0107c14f064901b4a52924dabc6e54d3f9d31e883739fd092"
+    },
+    "analysis/pantanal_selection/images/candidate_R25_point_counts.png": {
+      "bytes": 56260,
+      "sha256": "9c76b59e6eed991bfbdef79eb7ddc8305c8fb0c89d24ee4583b1b0336678fb8b"
+    },
+    "analysis/pantanal_selection/images/candidate_R26_map.png": {
+      "bytes": 90698,
+      "sha256": "c184b0e4dc88c6a979347ed7962c72b2c87e8ceae45c41208af42588fe55e422"
+    },
+    "analysis/pantanal_selection/images/candidate_R26_point_counts.png": {
+      "bytes": 54808,
+      "sha256": "ab48caf0954817b36912bfa1232b6acc124cda02e0c8c04a11b800205499bd3e"
+    },
+    "analysis/pantanal_selection/images/candidate_R27_map.png": {
+      "bytes": 86495,
+      "sha256": "d5ec938cb642fe6a31044f9adfb2ab2523e7131ed0061a79ab872caf4605b72d"
+    },
+    "analysis/pantanal_selection/images/candidate_R27_point_counts.png": {
+      "bytes": 54108,
+      "sha256": "e921a82fc98ba42aa0ab05324942213cf78f2221c653c2452ab55ae783da602d"
+    },
+    "analysis/pantanal_selection/images/candidate_R28_map.png": {
+      "bytes": 104581,
+      "sha256": "a6122be964e558a0a1f366424c614586bd3e68640f8b639e9e025a1eed7f80f0"
+    },
+    "analysis/pantanal_selection/images/candidate_R28_point_counts.png": {
+      "bytes": 55905,
+      "sha256": "0ed62f827e4e976f1910f30913780f9a21dab7e3e0c05989354151435f6227e0"
+    },
+    "analysis/pantanal_selection/images/candidate_R29_map.png": {
+      "bytes": 91165,
+      "sha256": "533e470680875e368e70c39f43d411d1097f597e00879f8ce5b57f334279d040"
+    },
+    "analysis/pantanal_selection/images/candidate_R29_point_counts.png": {
+      "bytes": 54132,
+      "sha256": "c69991e24a63c392a82779647332e175ce2705ef15c024cbd6af41dd99e54e31"
+    },
+    "analysis/pantanal_selection/images/candidate_R30_map.png": {
+      "bytes": 97370,
+      "sha256": "fdd743c52bbddb164099ec24f51c58da1d19d7783a254be98e28a2368ed5502e"
+    },
+    "analysis/pantanal_selection/images/candidate_R30_point_counts.png": {
+      "bytes": 53404,
+      "sha256": "191c0f39a9e06733dc0092d14d0a97066ee3f2dd74f69d36e76d670851d0f25a"
+    },
+    "analysis/pantanal_selection/images/candidate_R31_map.png": {
+      "bytes": 72789,
+      "sha256": "51ea1148f809b88929ff3dff42eb3391df09bb5716db4a7dd63de188726008d4"
+    },
+    "analysis/pantanal_selection/images/candidate_R31_point_counts.png": {
+      "bytes": 52645,
+      "sha256": "647f59f39be46900cf43d1b7fb93c1265ba875614b2e039ce38756d7424a3cdc"
+    },
+    "analysis/pantanal_selection/images/candidate_maps.png": {
+      "bytes": 601148,
+      "sha256": "be5335acbf993f48ec0851af1ebeae6fc1659224f070d158628697fef1ab5dda"
+    },
+    "analysis/pantanal_selection/images/candidate_point_counts.png": {
+      "bytes": 190040,
+      "sha256": "ceea29e9446f3c2a5fcdcc8128c7478e4e251576b4ae3c781ee96dd6af6f2487"
+    },
+    "analysis/pantanal_selection/index.html": {
+      "bytes": 52093870,
+      "sha256": "b54146b82045149d4360286601e36b70ad1fb5cfbb641c5ae38cff8d7acdd437"
+    },
+    "analysis/pantanal_selection/mcp95_full_study.geojson": {
+      "bytes": 113104,
+      "sha256": "39e46e72890a54926663778729214364aef7beb1a012fb6258f46caf705e55d3"
+    },
+    "analysis/pantanal_selection/selection_manifest.json": {
+      "bytes": 57094806,
+      "sha256": "025af98fb27ee087184ea1a8db039afed72e2c62f0f60fb5a76352274f61448f"
+    },
+    "jaguar_irl/data/README_PANTANAL.md": {
+      "bytes": 44491,
+      "sha256": "c334a7e5fe4350cb0c6025a8623508fcbced73a021328e102248040e16dadb26"
+    },
+    "jaguar_irl/data/movement_processor_pantanal.py": {
+      "bytes": 35422,
+      "sha256": "83aa090ef6b9e89aa1f1432ac4713354707ec8dd0c8e25bbe53485a2132d67c3"
+    },
+    "jaguar_irl/data/movement_temporal.py": {
+      "bytes": 16442,
+      "sha256": "371243014e18e7f03d2891a37ccbb53ad6ff5f336f248852611e61d72be54898"
+    },
+    "jaguar_irl/data/pantanal_calendar.py": {
+      "bytes": 3439,
+      "sha256": "46822e7a2cf8066171cb4a5f7089716e81108f3b1d3c83bb3034091be4077cef"
+    },
+    "jaguar_irl/data/pantanal_checkpoint.py": {
+      "bytes": 19726,
+      "sha256": "304bf4012c51492992ba039c149c657acf48481596e5fd569e1c4f31aa30c24c"
+    },
+    "jaguar_irl/data/pantanal_metric_notes.py": {
+      "bytes": 4319,
+      "sha256": "0052043f6955ef64ff14ca403c60a4d590be63afcf56f3b18d1dcf7c4bd7d69a"
+    },
+    "jaguar_irl/data/pantanal_report.py": {
+      "bytes": 57155,
+      "sha256": "b1122fa3b0ae48e3c27b97f40b9ba0afa2d24c8e67465b9b39bd8cd2763f231c"
+    },
+    "jaguar_irl/data/pantanal_spatial.py": {
+      "bytes": 17224,
+      "sha256": "24b8ab88819c724af22c59215fe7e2a8adc6b37f34668d42cb2ae21bfb51ee24"
+    },
+    "jaguar_irl/data/pantanal_temporal.py": {
+      "bytes": 20538,
+      "sha256": "bf45635a402b26c2df4cadd1f257620f9a72198be73d58fcee283170cfff8f59"
+    },
+    "jaguar_irl/data/test_movement_processor_pantanal.py": {
+      "bytes": 13363,
+      "sha256": "bc5bda9fc4a202a38ef0c2a0df200df724dea5eae0460ea880f6d0f9a4aaaac6"
+    },
+    "jaguar_irl/data/test_pantanal_calendar.py": {
+      "bytes": 2111,
+      "sha256": "f8952bbcbc8f23de584a6ba777dda95bd2cacc8b0a90c5ffae5f5503df5b189a"
+    },
+    "jaguar_irl/data/test_pantanal_report.py": {
+      "bytes": 6607,
+      "sha256": "15839db443ed744b1dd4dfa7e0a73190083f05c65025da503dd709810e4c43d9"
+    },
+    "jaguar_irl/data/test_pantanal_spatial.py": {
+      "bytes": 6595,
+      "sha256": "c6b33095e1e2a784cdcc46d807258828a709d7216701b64bbddbb3f8822756b7"
+    },
+    "jaguar_irl/data/test_pantanal_temporal.py": {
+      "bytes": 21924,
+      "sha256": "d6d5d7635b68c84d0db2706cd694dc492932959eb3d200cd8c2005443bfa72c4"
+    }
+  },
+  "lock_id": "fc29df27f61a0ca829fd82d9b8dabe732ceb5aa2bb5c7ffcbdd238f704b4e77e",
+  "previous_lock_id": "9041a7f045bee0683cfc70a70a7a3e3fb91afb20a248b7a98b65a35482ef6138",
+  "schema": "pantanal_processor_freeze/1",
+  "scope": "Original selector, checkpoint writer and their tests/docs, current report/backing/figures, current and superseded immutable selection checkpoints. Exporter remains separate downstream work.",
+  "selection_key": "selection_8cc3315f50f9395c0e399726",
+  "superseded_selection_keys": [
+    "selection_0ee1ed48e956b6367001b356",
+    "selection_c5ab7b5fc6198a62f6e3844a"
+  ]
+}

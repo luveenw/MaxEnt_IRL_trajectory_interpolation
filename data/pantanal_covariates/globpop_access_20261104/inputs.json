@@ -1,0 +1,12 @@
+{
+  "eecu": "interactive compute unmeasured",
+  "plan_sha256": "76e4dacb78417b3f046034f04f4a6043ee5b4c105d34dc6bb966e58575d5b3e0",
+  "project": "perceptive-ivy-780",
+  "script_sha256": "8748f9ca3a9f9b5dc33cbddaa648f03146ac3f06dd8b9072d2b20ef10a6c595e",
+  "sources": {
+    "count": "projects/sat-io/open-datasets/GLOBPOP_COUNT",
+    "density": "projects/sat-io/open-datasets/GLOBPOP_DENSITY"
+  },
+  "status": "read-only pilot, not production extraction; no tasks or exports",
+  "target_mask_method": "Nearest target centers diagnostic only; full overlap validity remains a production QA requirement."
+}

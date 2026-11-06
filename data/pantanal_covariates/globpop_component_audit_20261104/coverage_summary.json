@@ -1,0 +1,1152 @@
+{
+  "landscan_G316_2011_epoch2011": {
+    "asset": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2011",
+    "target_year": 2011,
+    "selected_epoch": 2011,
+    "source_projection": {
+      "id": "b1",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "int",
+        "min": -2147483648,
+        "max": 2147483647
+      },
+      "dimensions": [
+        43200,
+        20880
+      ],
+      "crs": "EPSG:4326",
+      "crs_transform": [
+        0.0083333333333333,
+        0,
+        -180,
+        0,
+        -0.0083333333333333,
+        83.99999999999932
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1293845400000,
+      "num_bands": 1,
+      "id_no": "landscan-global-2011",
+      "ysize": 20880,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1325295000000,
+      "xsize": 43200,
+      "system:asset_size": 112807244,
+      "system:index": "landscan-global-2011"
+    },
+    "native_frame_lonlat": [
+      -57.516666666666666,
+      -17.84166666666667,
+      -57.474999999999994,
+      -17.75
+    ],
+    "native_frame_shape": [
+      12,
+      6
+    ],
+    "native_frame_pixels": 72,
+    "finite_nonnegative_maskvalid_pixels": 72,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 72,
+    "maximum_native_count": 0.0,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "landscan_G057_2013_epoch2013": {
+    "asset": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2013",
+    "target_year": 2013,
+    "selected_epoch": 2013,
+    "source_projection": {
+      "id": "b1",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "int",
+        "min": -2147483648,
+        "max": 2147483647
+      },
+      "dimensions": [
+        43200,
+        21600
+      ],
+      "crs": "EPSG:4326",
+      "crs_transform": [
+        0.00833333333333,
+        0,
+        -180,
+        0,
+        -0.00833333333333,
+        89.99999999992801
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1357003800000,
+      "num_bands": 1,
+      "id_no": "landscan-global-2013",
+      "ysize": 21600,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1388453400000,
+      "xsize": 43200,
+      "system:asset_size": 112913054,
+      "system:index": "landscan-global-2013"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      23,
+      35
+    ],
+    "native_frame_pixels": 805,
+    "finite_nonnegative_maskvalid_pixels": 805,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 797,
+    "maximum_native_count": 2.0,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "landscan_G057_2014_epoch2014": {
+    "asset": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2014",
+    "target_year": 2014,
+    "selected_epoch": 2014,
+    "source_projection": {
+      "id": "b1",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "int",
+        "min": -2147483648,
+        "max": 2147483647
+      },
+      "dimensions": [
+        43200,
+        21600
+      ],
+      "crs": "EPSG:4326",
+      "crs_transform": [
+        0.0083333333333333,
+        0,
+        -180,
+        0,
+        -0.0083333333333333,
+        89.99999999999929
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1388539800000,
+      "num_bands": 1,
+      "id_no": "landscan-global-2014",
+      "ysize": 21600,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1419989400000,
+      "xsize": 43200,
+      "system:asset_size": 113167481,
+      "system:index": "landscan-global-2014"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      23,
+      35
+    ],
+    "native_frame_pixels": 805,
+    "finite_nonnegative_maskvalid_pixels": 805,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 797,
+    "maximum_native_count": 2.0,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "landscan_G057_2015_epoch2015": {
+    "asset": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2015",
+    "target_year": 2015,
+    "selected_epoch": 2015,
+    "source_projection": {
+      "id": "b1",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "int",
+        "min": -2147483648,
+        "max": 2147483647
+      },
+      "dimensions": [
+        43200,
+        21600
+      ],
+      "crs": "EPSG:4326",
+      "crs_transform": [
+        0.0083333333333333,
+        0,
+        -180,
+        0,
+        -0.0083333333333333,
+        89.99999999999929
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420075800000,
+      "num_bands": 1,
+      "id_no": "landscan-global-2015",
+      "ysize": 21600,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1451525400000,
+      "xsize": 43200,
+      "system:asset_size": 113323229,
+      "system:index": "landscan-global-2015"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      23,
+      35
+    ],
+    "native_frame_pixels": 805,
+    "finite_nonnegative_maskvalid_pixels": 805,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 797,
+    "maximum_native_count": 2.0,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "landscan_G286_2010_epoch2010": {
+    "asset": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL/landscan-global-2010",
+    "target_year": 2010,
+    "selected_epoch": 2010,
+    "source_projection": {
+      "id": "b1",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "int",
+        "min": -2147483648,
+        "max": 2147483647
+      },
+      "dimensions": [
+        43200,
+        20880
+      ],
+      "crs": "EPSG:4326",
+      "crs_transform": [
+        0.0083333333333333,
+        0,
+        -180,
+        0,
+        -0.0083333333333333,
+        83.99999999999932
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1262309400000,
+      "num_bands": 1,
+      "id_no": "landscan-global-2010",
+      "ysize": 20880,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1293759000000,
+      "xsize": 43200,
+      "system:asset_size": 113569008,
+      "system:index": "landscan-global-2010"
+    },
+    "native_frame_lonlat": [
+      -57.483333333333334,
+      -17.86666666666666,
+      -57.358333333333334,
+      -17.775000000000006
+    ],
+    "native_frame_shape": [
+      12,
+      16
+    ],
+    "native_frame_pixels": 192,
+    "finite_nonnegative_maskvalid_pixels": 192,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 189,
+    "maximum_native_count": 2.0,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2023_G316_2011_epoch2010": {
+    "asset": "JRC/GHSL/P2023A/GHS_POP/2010",
+    "target_year": 2011,
+    "selected_epoch": 2010,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "double"
+      },
+      "dimensions": [
+        360820,
+        180000
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
+      "crs_transform": [
+        100,
+        0,
+        -18041000,
+        0,
+        -100,
+        9000000
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1262304000000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1420070400000,
+      "system:asset_size": 4412616115,
+      "system:index": "2010"
+    },
+    "native_frame_lonlat": [
+      -57.516666666666666,
+      -17.84166666666667,
+      -57.474999999999994,
+      -17.75
+    ],
+    "native_frame_shape": [
+      112,
+      59
+    ],
+    "native_frame_pixels": 6608,
+    "finite_nonnegative_maskvalid_pixels": 6608,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 6608,
+    "maximum_native_count": 0.0,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2023_G057_2013_epoch2015": {
+    "asset": "JRC/GHSL/P2023A/GHS_POP/2015",
+    "target_year": 2013,
+    "selected_epoch": 2015,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "double"
+      },
+      "dimensions": [
+        360820,
+        180000
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
+      "crs_transform": [
+        100,
+        0,
+        -18041000,
+        0,
+        -100,
+        9000000
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420070400000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1577836800000,
+      "system:asset_size": 4681252269,
+      "system:index": "2015"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      223,
+      311
+    ],
+    "native_frame_pixels": 69353,
+    "finite_nonnegative_maskvalid_pixels": 69353,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 69349,
+    "maximum_native_count": 0.40945014357566833,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2023_G057_2014_epoch2015": {
+    "asset": "JRC/GHSL/P2023A/GHS_POP/2015",
+    "target_year": 2014,
+    "selected_epoch": 2015,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "double"
+      },
+      "dimensions": [
+        360820,
+        180000
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
+      "crs_transform": [
+        100,
+        0,
+        -18041000,
+        0,
+        -100,
+        9000000
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420070400000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1577836800000,
+      "system:asset_size": 4681252269,
+      "system:index": "2015"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      223,
+      311
+    ],
+    "native_frame_pixels": 69353,
+    "finite_nonnegative_maskvalid_pixels": 69353,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 69349,
+    "maximum_native_count": 0.40945014357566833,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2023_G057_2015_epoch2015": {
+    "asset": "JRC/GHSL/P2023A/GHS_POP/2015",
+    "target_year": 2015,
+    "selected_epoch": 2015,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "double"
+      },
+      "dimensions": [
+        360820,
+        180000
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
+      "crs_transform": [
+        100,
+        0,
+        -18041000,
+        0,
+        -100,
+        9000000
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420070400000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1577836800000,
+      "system:asset_size": 4681252269,
+      "system:index": "2015"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      223,
+      311
+    ],
+    "native_frame_pixels": 69353,
+    "finite_nonnegative_maskvalid_pixels": 69353,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 69349,
+    "maximum_native_count": 0.40945014357566833,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2023_G286_2010_epoch2010": {
+    "asset": "JRC/GHSL/P2023A/GHS_POP/2010",
+    "target_year": 2010,
+    "selected_epoch": 2010,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "double"
+      },
+      "dimensions": [
+        360820,
+        180000
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
+      "crs_transform": [
+        100,
+        0,
+        -18041000,
+        0,
+        -100,
+        9000000
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1262304000000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:time_end": 1420070400000,
+      "system:asset_size": 4412616115,
+      "system:index": "2010"
+    },
+    "native_frame_lonlat": [
+      -57.483333333333334,
+      -17.86666666666666,
+      -57.358333333333334,
+      -17.775000000000006
+    ],
+    "native_frame_shape": [
+      112,
+      140
+    ],
+    "native_frame_pixels": 15680,
+    "finite_nonnegative_maskvalid_pixels": 15680,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 15676,
+    "maximum_native_count": 0.4476298987865448,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2016_G316_2011_epoch2015": {
+    "asset": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1/2015",
+    "target_year": 2011,
+    "selected_epoch": 2015,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "float"
+      },
+      "dimensions": [
+        141969,
+        60829
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"GCS_WGS_1984\", \n    DATUM[\"D_WGS_1984\", \n      SPHEROID[\"WGS_1984\", 6378137.0, 298.257223563]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"x\", EAST], \n  AXIS[\"y\", NORTH]]",
+      "crs_transform": [
+        250,
+        0,
+        -17619594.54744353,
+        0,
+        -250,
+        8722279.46186849
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420070400000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:asset_size": 456787003,
+      "system:index": "2015"
+    },
+    "native_frame_lonlat": [
+      -57.516666666666666,
+      -17.84166666666667,
+      -57.474999999999994,
+      -17.75
+    ],
+    "native_frame_shape": [
+      46,
+      25
+    ],
+    "native_frame_pixels": 1150,
+    "finite_nonnegative_maskvalid_pixels": 1150,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 0,
+    "maximum_native_count": 0.013838310725986958,
+    "minimum_native_count": 3.855050090351142e-05,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2016_G057_2013_epoch2015": {
+    "asset": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1/2015",
+    "target_year": 2013,
+    "selected_epoch": 2015,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "float"
+      },
+      "dimensions": [
+        141969,
+        60829
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"GCS_WGS_1984\", \n    DATUM[\"D_WGS_1984\", \n      SPHEROID[\"WGS_1984\", 6378137.0, 298.257223563]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"x\", EAST], \n  AXIS[\"y\", NORTH]]",
+      "crs_transform": [
+        250,
+        0,
+        -17619594.54744353,
+        0,
+        -250,
+        8722279.46186849
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420070400000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:asset_size": 456787003,
+      "system:index": "2015"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      90,
+      125
+    ],
+    "native_frame_pixels": 11250,
+    "finite_nonnegative_maskvalid_pixels": 11250,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 8609,
+    "maximum_native_count": 0.010750646702945232,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2016_G057_2014_epoch2015": {
+    "asset": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1/2015",
+    "target_year": 2014,
+    "selected_epoch": 2015,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "float"
+      },
+      "dimensions": [
+        141969,
+        60829
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"GCS_WGS_1984\", \n    DATUM[\"D_WGS_1984\", \n      SPHEROID[\"WGS_1984\", 6378137.0, 298.257223563]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"x\", EAST], \n  AXIS[\"y\", NORTH]]",
+      "crs_transform": [
+        250,
+        0,
+        -17619594.54744353,
+        0,
+        -250,
+        8722279.46186849
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420070400000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:asset_size": 456787003,
+      "system:index": "2015"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      90,
+      125
+    ],
+    "native_frame_pixels": 11250,
+    "finite_nonnegative_maskvalid_pixels": 11250,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 8609,
+    "maximum_native_count": 0.010750646702945232,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2016_G057_2015_epoch2015": {
+    "asset": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1/2015",
+    "target_year": 2015,
+    "selected_epoch": 2015,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "float"
+      },
+      "dimensions": [
+        141969,
+        60829
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"GCS_WGS_1984\", \n    DATUM[\"D_WGS_1984\", \n      SPHEROID[\"WGS_1984\", 6378137.0, 298.257223563]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"x\", EAST], \n  AXIS[\"y\", NORTH]]",
+      "crs_transform": [
+        250,
+        0,
+        -17619594.54744353,
+        0,
+        -250,
+        8722279.46186849
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420070400000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:asset_size": 456787003,
+      "system:index": "2015"
+    },
+    "native_frame_lonlat": [
+      -57.66666666666667,
+      -16.983333333333334,
+      -57.38333333333334,
+      -16.799999999999997
+    ],
+    "native_frame_shape": [
+      90,
+      125
+    ],
+    "native_frame_pixels": 11250,
+    "finite_nonnegative_maskvalid_pixels": 11250,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 8609,
+    "maximum_native_count": 0.010750646702945232,
+    "minimum_native_count": 0.0,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  },
+  "ghs_2016_G286_2010_epoch2015": {
+    "asset": "JRC/GHSL/P2016/POP_GPW_GLOBE_V1/2015",
+    "target_year": 2010,
+    "selected_epoch": 2015,
+    "source_projection": {
+      "id": "population_count",
+      "data_type": {
+        "type": "PixelType",
+        "precision": "float"
+      },
+      "dimensions": [
+        141969,
+        60829
+      ],
+      "crs": "PROJCS[\"World_Mollweide\", \n  GEOGCS[\"GCS_WGS_1984\", \n    DATUM[\"D_WGS_1984\", \n      SPHEROID[\"WGS_1984\", 6378137.0, 298.257223563]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH]], \n  PROJECTION[\"Mollweide\"], \n  PARAMETER[\"semi_minor\", 6378137.0], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"central_meridian\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"x\", EAST], \n  AXIS[\"y\", NORTH]]",
+      "crs_transform": [
+        250,
+        0,
+        -17619594.54744353,
+        0,
+        -250,
+        8722279.46186849
+      ]
+    },
+    "source_properties": {
+      "system:time_start": 1420070400000,
+      "system:footprint": {
+        "type": "LinearRing",
+        "coordinates": [
+          [
+            -180,
+            -90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            -180,
+            90
+          ],
+          [
+            -180,
+            -90
+          ]
+        ]
+      },
+      "system:asset_size": 456787003,
+      "system:index": "2015"
+    },
+    "native_frame_lonlat": [
+      -57.483333333333334,
+      -17.86666666666666,
+      -57.358333333333334,
+      -17.775000000000006
+    ],
+    "native_frame_shape": [
+      45,
+      57
+    ],
+    "native_frame_pixels": 2565,
+    "finite_nonnegative_maskvalid_pixels": 2565,
+    "nonfinite_pixels": 0,
+    "masked_pixels": 0,
+    "negative_or_sentinel_pixels": 0,
+    "zero_valid_pixels": 0,
+    "maximum_native_count": 0.013838310725986958,
+    "minimum_native_count": 3.855050090351142e-05,
+    "scope": "Native bounding frame enclosing ALL missing footprints, includes intervening cells; not an aggregation or density product."
+  }
+}

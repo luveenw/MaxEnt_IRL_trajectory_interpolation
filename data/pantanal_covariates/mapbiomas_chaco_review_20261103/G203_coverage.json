@@ -1,0 +1,102 @@
+{
+  "complete": true,
+  "completed_years": [
+    "2010"
+  ],
+  "grid": {
+    "action_offsets": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "barrier_status": "not_supplied",
+    "bounds": [
+      370000.0,
+      7718000.0,
+      402000.0,
+      7753500.0
+    ],
+    "cell_size_m": 500.0,
+    "col_direction": "east",
+    "cols": 64,
+    "crs": "EPSG:32721",
+    "diagonal_corner_crossing": "allowed",
+    "grid_key": "grid_fc6756125cddf8b85e0b4bdb",
+    "origin": "upper_left",
+    "outer_boundary": "inclusive_last_cell_exact_boundary_only",
+    "row_direction": "south",
+    "rows": 71
+  },
+  "summary": {
+    "2010": {
+      "brazil_chaco": {
+        "covered_projected_km2": 1136.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "chaco": {
+        "covered_projected_km2": 1136.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "current_before_temporal": {
+        "covered_projected_km2": 1136.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      },
+      "national": {
+        "covered_projected_km2": 1136.0,
+        "incomplete_cells": 0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "minimum": 1.0,
+        "missing_projected_km2": 0.0,
+        "zero_cells": 0
+      }
+    }
+  },
+  "years": [
+    2010
+  ]
+}

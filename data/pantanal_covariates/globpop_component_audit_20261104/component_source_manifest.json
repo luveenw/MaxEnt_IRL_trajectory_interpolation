@@ -1,0 +1,141 @@
+{
+  "status": "read-only audit; candidate patches unapplied and not approved for production",
+  "files": {
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2023_G286_2010_epoch2010.npz": {
+      "sha256": "e01cbd28635b56cbe73e6a0a06d20f823f38e3df8baf0decefe1a48228d7833c",
+      "bytes": 817
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghsl2016_catalog.txt": {
+      "sha256": "e8bdb8e0f2b2cfa4744c4b5d9e1b4f76699d30bdcdb0484a769d849db45771e0",
+      "bytes": 96240
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G057_2013_candidate_patch_DO_NOT_USE.npz": {
+      "sha256": "51d7401d7f3c67a930f9ac261a2ab8fd2907fe5f2745f06b279026580bd7e876",
+      "bytes": 668
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/source_inputs.txt": {
+      "sha256": "5069a21c17c3250838871ee5265e921620fa0bc0db1fc70045aac5ef19bb46ab",
+      "bytes": 1776
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/source_inventories.json": {
+      "sha256": "5624bfce8ecc972c1c770a17a00b42317c1cc4d2a51d6343461fbd9fc0e545ac",
+      "bytes": 12120
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G057_2014_candidate_raw.json": {
+      "sha256": "f5ee6ae5d671980c593a74948a728665b737af6135a6290fe43fc2400054292a",
+      "bytes": 17149
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/landscan_G057_2015_epoch2015.npz": {
+      "sha256": "1a2afd856d7c62be9d0f402bc12d084b30fe16bab76dab4ba29aa4598f84a72b",
+      "bytes": 500
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G316_2011_candidate_patch_DO_NOT_USE.npz": {
+      "sha256": "6c12dab03f4bdee839e66731958073c381cc5807fba6db57f9e6135547e0aed3",
+      "bytes": 494
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/landscan_G057_2014_epoch2014.npz": {
+      "sha256": "1a2afd856d7c62be9d0f402bc12d084b30fe16bab76dab4ba29aa4598f84a72b",
+      "bytes": 500
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/landscan_G286_2010_epoch2010.npz": {
+      "sha256": "715dfc9c0c62978f1d5942fcca58c32b4c3aedde0cc961e8d80c4914479fa5f5",
+      "bytes": 435
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/landscan_candidate_patch_diagnostics.json": {
+      "sha256": "572fffb8979485f368a8688c91900964090139547d4fed2fb344945f773b02e3",
+      "bytes": 120041
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G286_2010_candidate_patch_DO_NOT_USE.npz": {
+      "sha256": "1ad667d028b68ac788c1c53dd551e9c6f6aed8328a592ef1e59eaac30ee7dec2",
+      "bytes": 517
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/landscan_G057_2013_epoch2013.npz": {
+      "sha256": "1a2afd856d7c62be9d0f402bc12d084b30fe16bab76dab4ba29aa4598f84a72b",
+      "bytes": 500
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/author_composite.txt": {
+      "sha256": "3690e7bd1f87b042d2c952ffdf920d9f39de3a8d5cf14bcf2781c7110fb61e51",
+      "bytes": 8766
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2023_G057_2013_epoch2015.npz": {
+      "sha256": "20204ec353a61749cbf7aa371e3afd4860af3d6b92e1cceb0a1d85d286960d7d",
+      "bytes": 1853
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2016_G057_2015_epoch2015.npz": {
+      "sha256": "fe592a28229d62065b7d8bacccdb5feaf7d9de5357f47efb3992bd31827001cd",
+      "bytes": 1174
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G057_2015_candidate_raw.json": {
+      "sha256": "4d023d6f158b410ebdc51cfd20a261161b4f7de33165a2775d83133dff4d848d",
+      "bytes": 17149
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2023_G057_2014_epoch2015.npz": {
+      "sha256": "20204ec353a61749cbf7aa371e3afd4860af3d6b92e1cceb0a1d85d286960d7d",
+      "bytes": 1853
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2023_G316_2011_epoch2010.npz": {
+      "sha256": "d80ab3a4b9656641577172026499aaaf2c6147b58c629e08e1343fa17e45a3cd",
+      "bytes": 584
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G057_2014_candidate_patch_DO_NOT_USE.npz": {
+      "sha256": "51d7401d7f3c67a930f9ac261a2ab8fd2907fe5f2745f06b279026580bd7e876",
+      "bytes": 668
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G057_2015_candidate_patch_DO_NOT_USE.npz": {
+      "sha256": "51d7401d7f3c67a930f9ac261a2ab8fd2907fe5f2745f06b279026580bd7e876",
+      "bytes": 668
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2016_G286_2010_epoch2015.npz": {
+      "sha256": "aecb49cb4b80dd77e3ca61806ef73824d7e3b44e9e52c1ffb1a98dadc1dd1e19",
+      "bytes": 708
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2023_G057_2015_epoch2015.npz": {
+      "sha256": "20204ec353a61749cbf7aa371e3afd4860af3d6b92e1cceb0a1d85d286960d7d",
+      "bytes": 1853
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2016_G057_2014_epoch2015.npz": {
+      "sha256": "fe592a28229d62065b7d8bacccdb5feaf7d9de5357f47efb3992bd31827001cd",
+      "bytes": 1174
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/coverage_summary.json": {
+      "sha256": "497e24b28b7ad3ee35946085c99f3c3f55cf253cbd025c5d6287de9d0f04def8",
+      "bytes": 32175
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2016_G316_2011_epoch2015.npz": {
+      "sha256": "71bd4acc412efa1c1f4814865140b197041cf19af39842d8e4a6670c2345126f",
+      "bytes": 516
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G057_2013_candidate_raw.json": {
+      "sha256": "8a43d95742196861afb6efbaace6131c11fddb31cd2e077c2846d4dd607fa752",
+      "bytes": 17149
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G286_2010_candidate_raw.json": {
+      "sha256": "8f7cc0b5abdee7e60313bc5d0d56a109be033b0a3c775481644f2cf99a6501a0",
+      "bytes": 4210
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/landscan_G316_2011_epoch2011.npz": {
+      "sha256": "8c69b4bdc2f2b978365c1b50d672bd1f38599b0f5bd533c2520a21a4f42a48e7",
+      "bytes": 406
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/ghs_2016_G057_2013_epoch2015.npz": {
+      "sha256": "fe592a28229d62065b7d8bacccdb5feaf7d9de5357f47efb3992bd31827001cd",
+      "bytes": 1174
+    },
+    "data/pantanal_covariates/globpop_component_audit_20261104/G316_2011_candidate_raw.json": {
+      "sha256": "9eee6bf598b812cf506192b4fca79117b361171b07f8bd0c35e172c390d329c8",
+      "bytes": 1690
+    },
+    "gee/globpop_component_audit_20261104/inventory.py": {
+      "sha256": "6005e5c391cd06d6bc77eba6fcf32112f8028224a2a3cf62f5542c7efe91f5c5",
+      "bytes": 1043
+    },
+    "gee/globpop_component_audit_20261104/coverage.py": {
+      "sha256": "1d3f2ff5e2a281c56a0d432788acde2430b01e9844674976d4b8cd0de0c85469",
+      "bytes": 2566
+    },
+    "gee/globpop_component_audit_20261104/landscan_candidates.py": {
+      "sha256": "b501047a7a4726ba45d8646d65d9dfe5c49ec4de9db594c469c41b9ca61d15af",
+      "bytes": 4152
+    }
+  }
+}

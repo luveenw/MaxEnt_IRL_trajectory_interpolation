@@ -1,0 +1,179 @@
+{
+  "chaco_asset": "projects/mapbiomas-public/assets/chaco/lulc/collection5/mapbiomas_chaco_collection5_integration_v2",
+  "chaco_bands": [
+    "classification_1985",
+    "classification_1986",
+    "classification_1987",
+    "classification_1988",
+    "classification_1989",
+    "classification_1990",
+    "classification_1991",
+    "classification_1992",
+    "classification_1993",
+    "classification_1994",
+    "classification_1995",
+    "classification_1996",
+    "classification_1997",
+    "classification_1998",
+    "classification_1999",
+    "classification_2000",
+    "classification_2001",
+    "classification_2002",
+    "classification_2003",
+    "classification_2004",
+    "classification_2005",
+    "classification_2006",
+    "classification_2007",
+    "classification_2008",
+    "classification_2009",
+    "classification_2010",
+    "classification_2011",
+    "classification_2012",
+    "classification_2013",
+    "classification_2014",
+    "classification_2015",
+    "classification_2016",
+    "classification_2017",
+    "classification_2018",
+    "classification_2019",
+    "classification_2020",
+    "classification_2021",
+    "classification_2022",
+    "classification_2023"
+  ],
+  "chaco_gap_histograms": {
+    "classification_1985": {
+      "26": 95.82745098039216
+    },
+    "classification_1986": {
+      "26": 95.82745098039216
+    },
+    "classification_1987": {
+      "26": 95.82745098039216
+    },
+    "classification_1988": {
+      "26": 95.82745098039216
+    },
+    "classification_1989": {
+      "26": 95.82745098039216
+    },
+    "classification_1990": {
+      "26": 95.82745098039216
+    },
+    "classification_1991": {
+      "26": 95.82745098039216
+    },
+    "classification_1992": {
+      "26": 95.82745098039216
+    },
+    "classification_1993": {
+      "26": 95.82745098039216
+    },
+    "classification_1994": {
+      "26": 95.82745098039216
+    },
+    "classification_1995": {
+      "26": 95.82745098039216
+    },
+    "classification_1996": {
+      "26": 95.82745098039216
+    },
+    "classification_1997": {
+      "26": 95.82745098039216
+    },
+    "classification_1998": {
+      "26": 95.82745098039216
+    },
+    "classification_1999": {
+      "26": 95.82745098039216
+    },
+    "classification_2000": {
+      "26": 95.82745098039216
+    },
+    "classification_2001": {
+      "26": 95.82745098039216
+    },
+    "classification_2002": {
+      "26": 95.82745098039216
+    },
+    "classification_2003": {
+      "26": 95.82745098039216
+    },
+    "classification_2004": {
+      "26": 95.82745098039216
+    },
+    "classification_2005": {
+      "26": 95.82745098039216
+    },
+    "classification_2006": {
+      "26": 95.82745098039216
+    },
+    "classification_2007": {
+      "26": 95.82745098039216
+    },
+    "classification_2008": {
+      "26": 95.82745098039216
+    },
+    "classification_2009": {
+      "26": 95.82745098039216
+    },
+    "classification_2010": {
+      "26": 95.82745098039216
+    },
+    "classification_2011": {
+      "26": 95.82745098039216
+    },
+    "classification_2012": {
+      "26": 95.82745098039216
+    },
+    "classification_2013": {
+      "26": 95.82745098039216
+    },
+    "classification_2014": {
+      "26": 95.82745098039216
+    },
+    "classification_2015": {
+      "26": 95.82745098039216
+    },
+    "classification_2016": {
+      "26": 95.82745098039216
+    },
+    "classification_2017": {
+      "26": 95.82745098039216
+    },
+    "classification_2018": {
+      "26": 95.82745098039216
+    },
+    "classification_2019": {
+      "26": 95.82745098039216
+    },
+    "classification_2020": {
+      "26": 95.82745098039216
+    },
+    "classification_2021": {
+      "26": 95.82745098039216
+    },
+    "classification_2022": {
+      "26": 95.82745098039216
+    },
+    "classification_2023": {
+      "26": 95.82745098039216
+    }
+  },
+  "national_any_year_valid_at_gaps": {
+    "brazil": {
+      "max": 0
+    },
+    "bolivia": {
+      "max": 0
+    },
+    "paraguay": {
+      "max": 0
+    }
+  },
+  "national_2005_plus_chaco_all_years_full_grid": {
+    "u_mean": 1,
+    "u_min": 1
+  },
+  "missing_projected_area_m2": 80520.77809769726
+}

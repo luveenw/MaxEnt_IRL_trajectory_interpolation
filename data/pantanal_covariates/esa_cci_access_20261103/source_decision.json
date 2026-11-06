@@ -1,0 +1,23 @@
+{
+  "schema": "covariate_source_decision/1",
+  "recorded_client_date": "2026-11-03",
+  "feature": "shrubland",
+  "source_family": "ESA CCI Land Cover",
+  "selection_status": "selected_by_user",
+  "exact_release": "Official ESA CCI v2.0.7 verified against 2005 pilot; mirror later years are continuation, not an assertion all years use v2.0.7",
+  "production_map_years": "pending agreed animal split/training-only representative-year plan",
+  "class_codes_candidate": [
+    120,
+    121,
+    122
+  ],
+  "access_status": "GEE mirror readable; official ESA v2.0.7 2005 regional pixel comparison passed",
+  "output_root": "data/pantanal_covariates/esa_cci_access_20261103",
+  "gee_asset": "users/geflanddegradation/toolbox_datasets/lcov_esacc_1992_2022",
+  "gee_year_band_pattern": "yYYYY",
+  "available_years": [
+    1992,
+    2022
+  ],
+  "verified_pilot_year": 2005
+}

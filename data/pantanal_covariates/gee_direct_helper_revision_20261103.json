@@ -1,0 +1,12 @@
+{
+  "schema": "gee_direct_helper_revision/1",
+  "recorded_utc": "2026-11-03T13:41:32.709340+00:00",
+  "archived_original_uncopied_source": "gee/_historical/20261103/gee_direct_before_param_copy.py",
+  "archived_prior_safe_copy_source": "gee/_historical/20261103/gee_direct_with_param_copy.py",
+  "prior_safe_copy_sha256": "cf271f4ae50c547a9f61f6ebe33f5d24a526c112da6482e45a261213c02f72c2",
+  "current_sha256": "f48c4965967121bd045a122c8617b83f0d3fb7eec6d2c74cfe3cbd81f30f6fbd",
+  "change": "Deep-copy SDK request params; assert JSON-safe metadata; pin loaded helper hash at import and retain attempt/completion/verification hash history",
+  "live_streams_at_revision": 0,
+  "scientific_recipes_or_existing_product_records_changed": false,
+  "legacy_record_interpretation": "Existing helper_sha256 is the initial-attempt hash; prior helpers did not record completion hash. Archived files retain these meanings."
+}

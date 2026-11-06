@@ -1,0 +1,5 @@
+season,n_individuals,five_point_individuals,native_individuals,eight_hour_individuals,raw_fixes,source_runs,main_bouts,main_selected_fixes,main_source_fixes,main_defined_turns,five_point_bouts,five_point_selected_fixes,native_three_point_bouts,native_three_point_fixes,native_eligible_fixes_outside_main,eight_hour_bouts,eight_hour_selected_fixes,eight_hour_gained_selected_fixes,eight_hour_lost_selected_fixes,selected_fixes,preserved_native_fixes,selected_retention_pct,native_preservation_pct
+winter,31,27,31,34,14989,1651,492,8831,13449,7845,237,7951,489,13470,21,476,9543,712,0,8831,13449,58.916538795116416,89.72579891920742
+spring,44,37,44,45,16700,2765,923,9966,14294,8107,443,8317,928,14353,59,832,10983,1017,0,9966,14294,59.67664670658683,85.59281437125749
+summer,34,27,36,38,33060,2608,989,18326,30905,16346,606,17019,995,31071,166,773,19182,856,0,18326,30905,55.43254688445251,93.48154869933454
+autumn,23,21,23,24,10647,672,265,6121,10086,5588,152,5736,268,10133,47,218,6363,242,0,6121,10086,57.49037287498826,94.7309101155255

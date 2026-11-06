@@ -1,0 +1,97 @@
+The User Guides of GLC_FCS30D (global 30 m land-cover dynamic
+
+monitoring product with fine classification system) from 1985 to 2022
+                                  Liangyun Liu, Xiao Zhang and Zhehua Li
+                                             liuly@radi.ac.cn
+
+               Aerospace Information Research Institute, Chinese Academy of Sciences
+
+
+ Background
+
+    GLC_FCS30D is the first global fine land cover dynamic product at a 30-meter resolution that
+adopts continuous change detection. It utilizes a refined classification system containing 35 land-cover
+categories and covers the time span from 1985 to 2022. Before the year 2000, the update cycle was
+every 5 years, while after 2000, it is updated annually. In specific, it developed by combining the
+continuous change detection method, local adaptive updating models and the spatiotemporal
+optimization algorithm from dense time-series Landsat imagery, and was validated to achieve an
+overall accuracy of 80.88% (±0.27%) for the basic classification system 10 major land-cover types) and
+73.24% (±0.30%) for the LCCS level-1 validation system (17 LCCS land-cover types).
+
+
+
+
+             Figure 1. The overview of the GLC_FCS30D dataset during 1985 to 2022.
+
+Note:   Each    tile   in   the    GLC_FCS30D       was   split   into   two   files,   and   named   as
+‘GLC_FCS30D_19851995_5years_E/W**N/S**’ and ‘GLC_FCS30D_20002022_ E/W**N/S**’.
+The former contains 3 bands and denotes the land-cover maps in 1985, 1990 and 1995, and the latter
+has 23 bands and denotes the land-cover maps in 2000, 2001, 2002… 2021, 2022.
+ The fine classification system containing 35 land-cover sub-categories
+
+   LC id    Classification System                                                       Color
+     10     Rainfed cropland                                            (255,255,100)
+     11     Herbaceous cover cropland                                   (255,255,100)
+     12     Tree or shrub cover (Orchard) cropland                      (255,255,0)
+     20     Irrigated cropland                                          (170,240,240)
+     51     Open evergreen broadleaved forest                           (76,115,0)
+     52     Closed evergreen broadleaved forest                         (0,100,0)
+     61     Open deciduous broadleaved forest (0.15<fc<0.4)             (170,200,0)
+     62     Closed deciduous broadleaved forest (fc>0.4)                (0,160,0)
+     71     Open evergreen needle-leaved forest (0.15< fc <0.4)         (0,80,0)
+     72     Closed evergreen needle-leaved forest (fc >0.4)             (0,60,0)
+     81     Open deciduous needle-leaved forest (0.15< fc <0.4)         (40,100,0)
+     82     Closed deciduous needle-leaved forest (fc >0.4)             (40,80,0)
+     91     Open mixed leaf forest (broadleaved and needle-leaved)      (160,180,50)
+     92     Closed mixed leaf forest (broadleaved and needle-leaved)    (120,130,0)
+    120     Shrubland                                                   (150,100,0)
+    121     Evergreen shrubland                                         (150,75,0)
+    122     Deciduous shrubland                                         (150,100,0)
+    130     Grassland                                                   (255,180,50)
+    140     Lichens and mosses                                          (255,220,210)
+    150     Sparse vegetation (fc<0.15)                                 (255,235,175)
+    152     Sparse shrubland (fc<0.15)                                  (255,210,120)
+    153     Sparse herbaceous (fc<0.15)                                 (255,235,175)
+    181     Swamp                                                       (0,168,132)
+    182     Marsh                                                       (115,255,223)
+    183     Flooded flat                                                (158,187,215)
+    184     Saline                                                      (130,130,130)
+    185     Mangrove                                                    (245,122,182)
+    186     Salt marsh                                                  (102,205,171)
+    187     Tidal flat                                                  (68,79,137)
+    190     Impervious surfaces                                         (195,20,0)
+    200     Bare areas                                                  (255,245,215)
+    201     Consolidated bare areas                                     (220,220,220)
+    202     Unconsolidated bare areas                                   (255,245,215)
+    210     Water body                                                  (0,70,200)
+    220     Permanent ice and snow                                      (255,255,255)
+   0, 250   Filled value                                                (255,255,255)
+
+
+
+
+ Data Use Policy
+
+If you plan to use our data in a scientific analysis paper, we strongly recommend contacting us in
+advance to seek opinions and consider our contributions in the acknowledgments or as co-authors.
+
+
+
+ Citations
+
+Zhang, X., Liu, L., Chen, X., Gao, Y., Xie, S., Mi, J., 2021. GLC_FCS30: global land-cover product
+with fine classification system at 30 m using time-series Landsat imagery. Earth Syst. Sci. Data 13,
+2753-2776 , https://doi.org/10.5194/essd-13-2753-2021.
+Zhang, X., Liu, L., Zhao, T., Chen, X., Lin, S., Wang, J., Mi, J., and Liu, W.: GWL_FCS30: a global
+30 m wetland map with a fine classification system using multi-sourced and time-series remote sensing
+imagery in 2020, Earth Syst. Sci. Data, 15, 265–293, https://doi.org/10.5194/essd-15-265-2023, 2023.
+
+Zhang, X., Liu, L., Zhao, T., Gao, Y., Chen, X., and Mi, J.: GISD30: global 30 m impervious-surface
+dynamic dataset from 1985 to 2020 using time-series Landsat imagery on the Google Earth Engine
+platform, Earth Syst. Sci. Data, 14, 1831–1856, https://doi.org/10.5194/essd-14-1831-2022, 2022.
+
+Zhang, X., Zhao, T., Xu,H., Liu, W., Wang, J., Chen, X.,&Liu, L., 2024. GLC_FCS30D: The first
+global 30-m land-cover dynamic monitoring product with a fine classification system from 1985 to
+2022 using dense time-series Landsat imagery and continuous change-detection method. Earth
+Syst.Sci. Data, 16, 1353–1381, https://doi.org/10.5194/essd-16-1353-2024.
+

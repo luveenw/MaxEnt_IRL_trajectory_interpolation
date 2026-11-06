@@ -1,0 +1,368 @@
+{
+  "brazil": {
+    "url": "https://brasil.mapbiomas.org/iniciativas-e-produtos/cobertura-e-uso-da-terra/cobertura-30m/cobertura/",
+    "http_status": 200,
+    "links": [
+      {
+        "text": "Códigos de legenda | MapBiomas Brasil (30m) - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/CodigosDeLegenda_LegendCodes_MapBiomas_Brazil_Collection11_PDF.pdf"
+      },
+      {
+        "text": "Descrição detalhada de classes de cobertura e uso da terra por bioma | MapBiomas Brasil (30m) - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/DESCRICAO_DA_LEGENDA_MAPBIOMAS_BRASIL_COLECAO_11_PDF.pdf"
+      },
+      {
+        "text": "Códigos de Legenda para uso no R ou Python | MapBiomas Brasil (30m) - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/legend_code_mapbiomas_brazil_collection_11.csv"
+      },
+      {
+        "text": "Códigos de legenda | MapBiomas 30m - Coleção 10",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Legenda-Colecao-10-Legend-Code.pdf"
+      },
+      {
+        "text": "Descrição detalhada de legenda | MapBiomas 30m - Coleção 10",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Legenda-Colecao-10-Descricao-Detalhada-PDF_PT-BR_EN.pdf"
+      },
+      {
+        "text": "Códigos de legenda | MapBiomas 30m - Coleção 9",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Legenda-Colecao-9-LEGEND-CODE_v2.pdf"
+      },
+      {
+        "text": "Descrição detalhada de legenda | MapBiomas 30m - Coleção 9",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Legenda-Colecao-9-Descricao-Detalhada-PDF-PT.pdf"
+      },
+      {
+        "text": "Códigos de legenda | MapBiomas 30m - Coleção 8",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Legenda-Colecao-8-LEGEND-CODE.pdf"
+      },
+      {
+        "text": "Descrição detalhada de legenda | MapBiomas 30m - Coleção 8",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Legenda-Colecao-8-Descricao-Detalhada-PDF-PT-3-1.pdf"
+      },
+      {
+        "text": "Códigos de legenda | MapBiomas 30m - Coleções 7 e 7.1",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/EN__Codigos_da_legenda_Colecao_7.pdf"
+      },
+      {
+        "text": "Códigos de legenda | MapBiomas 30m - Coleção 6",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Cod_Class_legenda_Col6_MapBiomas_BR.pdf"
+      },
+      {
+        "text": "Códigos de legenda | MapBiomas 30m - Coleção 5",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/EN__Codigos_da_legenda_Colecao_5.pdf"
+      },
+      {
+        "text": "Códigos de legenda | MapBiomas 30m - Coleções 4 e 4.1",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Codigos_da_legenda_Colecao_4.pdf"
+      },
+      {
+        "text": "Códigos de legenda | MapBiomas 30m - Coleções 3 e 3.1",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Download___Codigos_da_legenda_3.0.pdf"
+      },
+      {
+        "text": "Códigos de legenda | MapBiomas 30m - Coleção 2.3",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Download___Codigos_da_legenda_2.0-1.pdf"
+      },
+      {
+        "text": "ATBD - Geral | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/ATBD-General-Collection-11-versao-1.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Amazônia | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Amazon-ATBD-Collection-11_final.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Caatinga | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Caatinga-Appendix-ATBD-Col-11-2026.docx.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Cerrado | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Cerrado-Appendix-ATBD-Collection-11-v2.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Mata Atlântica | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Atlantic-Forest-Appendix-ATBD-Collection-11.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Pampa | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Pampa-Appendix-ATBD-Collection-11.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Pantanal | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Pantanal-ATBD-Collection-11_compressed.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Áreas Urbanizadas | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Urban-Areas-ATBD-Collection-11_v1.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Agricultura | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Agriculture-and-Forest-Plantation-Appendix_C11-REVISADO.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Agricultura 2ª Safra, Sistemas de Irrigação e Frequência de Cultivos - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Agriculture-Module-Appendix-Collection-11.docx.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Mineração | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Mining-Appendix-ATBD-MapBiomas-Collection-11.docx.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Pastagem | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Pasture-Appendix-ATBD-Collection-11-V1.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Usinas Fotovoltaicas | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Photovoltaic-Solar-Plants-Appendix-ATBD-Collection-11_2026.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Parques Eólicos | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Wind_Farms_Appendix_ATBD_Collection_11.docx.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Zona Costeira | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Coastal-Zone-Appendix-ATBD-Collection-11.pdf"
+      },
+      {
+        "text": "ATBD - Apêndice Análise de Acurácia | MapBiomas 30m - Coleção 11",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Accuracy-Assessment-Appendix-Collection-11-v1.pdf"
+      },
+      {
+        "text": "documento descritivo do método (ATBDs)",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Caatinga-Appendix-ATBD-Col-11-2026.docx.pdf"
+      },
+      {
+        "text": "documento descritivo do método",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Caatinga-Appendix-ATBD-Col-11-2026.docx.pdf"
+      },
+      {
+        "text": "documento descritivo do método",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Cerrado-Appendix-ATBD-Collection-11-v2.pdf"
+      },
+      {
+        "text": "documento descritivo",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Cerrado-Appendix-ATBD-Collection-11-v2.pdf"
+      },
+      {
+        "text": "documento descritivo do método (ATBDs)",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Atlantic-Forest-Appendix-ATBD-Collection-11.pdf"
+      },
+      {
+        "text": "documento descritivo do método",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Atlantic-Forest-Appendix-ATBD-Collection-11.pdf"
+      },
+      {
+        "text": "documento descritivo do método (ATBDs)",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Pantanal-ATBD-Collection-11_compressed.pdf"
+      },
+      {
+        "text": "documento descritivo do método",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Pantanal-ATBD-Collection-11_compressed.pdf"
+      },
+      {
+        "text": "Monitoramento das alterações da cobertura vegetal e uso do solo na Bacia do Alto Paraguai",
+        "url": "https://www.sospantanal.org.br/wp-content/uploads/2020/11/mapacoberturabaciaaltoparaguai_estudocompleto.compressed.pdf"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-BIOME_STATE",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/MAPBIOMAS_BRAZIL-COL.11-BIOME_STATE.xlsx"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-BIOME_STATE_MUNICIPALITY",
+        "url": "https://drive.google.com/uc?id=1otOqymHuixvkRGVl65zTTNyfaHo46Gqk&export=download"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-AMACRO",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/MAPBIOMAS_BRAZIL-COVERAGE_STATISTIC_COL.11-AMACRO_STATE_BIOME-2.xlsx"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-AREAS_PRIORITARIAS_MMA",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/MAPBIOMAS_BRAZIL_COVERAGE_STATISTIC_COL.11-PRIORITY_AREAS_STATE_BIOMES.xlsx"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-LEI_DA_MATA_ATLANTICA",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/MAPBIOMAS_BRAZIL-COVERAGE_STATISTIC_COL.11-ATLANTIC_FOREST_LAW_STATE_BIOME.xlsx"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-DHN250_NIVEL_3",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/MAPBIOMAS_BRAZIL-COVERAGE_STATISTIC-COL.11-DHN250_STATE_BIOME.xlsx"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-AMAZONIA_LEGAL",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/MAPBIOMAS_BRAZIL-COVERAGE_STATISTIC_COL.11-LEGAL_AMAZON_STATE_BIOME.xlsx"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-MATOPIBA",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/MAPBIOMAS_BRAZIL-COVERAGE_STATISTIC-COL.11-MATOPIBA_STATE_BIOME.xlsx"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-QUILOMBOS",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/MAPBIOMAS_BRAZIL-COVERAGE_STATISTIC-COL.11-QUILOMBOS_STATE_BIOME.xlsx"
+      },
+      {
+        "text": "MAPBIOMAS_BRAZIL-COL.11-SEMIARIDO",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/MAPBIOMAS_BRAZIL-COVERAGE_STATISTIC-COL.11-SEMIARID_STATE_BIOME.xlsx"
+      },
+      {
+        "text": "Artigo Uncontrolled Illegal Mining and Garimpo in the Brazilian Amazon Ferreira Neto et al. · Nature Communications · 2024 Ler artigo",
+        "url": "https://www.nature.com/articles/s41467-024-54220-2.epdf"
+      },
+      {
+        "text": "Destaque Destaques do mapeamento anual de cobertura e uso da terra no bioma Amazônia (1985-2025) 14 de outubro de 2026 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/10/Factsheet-Amazonia-Colecao-11-14102026.pdf"
+      },
+      {
+        "text": "Destaque Destaques do mapeamento anual de cobertura e uso da terra no bioma Mata Atlântica (1985-2025) 21 de setembro de 2026 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Factsheet-Mata-Atlantica-Colecao-11-21092026.pdf"
+      },
+      {
+        "text": "Destaque Destaques da Cobertura e Uso da Terra nos Sítios Arqueológicos do Brasil Arqueologia · 12/03/2026 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/2025-Factsheet-Sitios-Arqueologicos_12.03.26.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura – Áreas Urbanizadas Áreas Urbanizadas · 04/03/2026 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Factsheet-Areas_Urbanizadas_C10_04.03_2.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura e Uso da Terra – Agricultura e Irrigação Agricultura · 10 de dezembro de 2025 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Factsheet-Agricultura_C10_10.12_v2.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura e Uso da Terra – Bioma Pantanal Biomas · 12 de novembro de 2025 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Facsheet_Pantanal_Colecao_10_11.11-1.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura – Pastagem Pastagem · 9 de novembro de 2025 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/2025_-Factsheet_Pastagem_09.11-1.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura e Uso da Terra – Bioma Cerrado Biomas · 7 de novembro de 2025 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Factsheet-Cerrado_C10_29.09_v2.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura e Uso da Terra – Bioma Mata Atlântica Biomas · 28 de outubro de 2025 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Factsheet-Mata_Atlantica_C10_21.10.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura e Uso da Terra – Bioma Pampa Biomas · 10 de outubro de 2025 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Factsheet-Pampa_C10_09.10.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura e Uso da Terra – Bioma Caatinga Biomas · 18 de setembro de 2025 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Factsheet-Caatinga_C10_18.09_v2.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura e Uso da Terra – Bioma Amazônia Biomas · 16 de setembro de 2025 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Factsheet-Amazonia_C10_16.09.pdf"
+      },
+      {
+        "text": "Destaque Destaques do Mapeamento Anual de Cobertura e Uso da Terra no Brasil – Coleção 10 Coleção Anual · 22 de agosto de 2025 Ver destaque",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Fact_Colecao10_22.08.2025_v9.pdf"
+      },
+      {
+        "text": "Relatório Relatório de Avaliação Independente do Projeto MapBiomas (2019-2022) Avaliação Independente · 2019–2022 Baixar PDF",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/06/External-Evaluation-Report-MapBImas-2019-2022-4.pdf"
+      },
+      {
+        "text": "Relatório Relatório de Avaliação Independente da Fase 1 do Projeto MapBiomas (2015-2018) Avaliação Independente · 2015–2018 Baixar PDF",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/06/20190828_Report_EvaluationMapBiomas2015-2019_FINAL-4.pdf"
+      },
+      {
+        "text": "Nota técnica Uso dos dados do MapBiomas na agenda climática: Como mapas e dados de cobertura e uso da terra contribuem para mitigação e adaptação às mudanças do clima Nota técnica · 06/11/2025 Abrir",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/11/MapBiomas_cop30_06.11_v2.pdf"
+      },
+      {
+        "text": "Nota técnica Nota Técnica do Uso e ocupação do solo nas escolas de educação infantil e ensino fundamental das capitais brasileiras Nota técnica · 25/11/2024 Abrir",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2024/11/Nota_Tecnica_Vegetacao_Escolas-25-11-2024.pdf"
+      },
+      {
+        "text": "Nota técnica Nota Técnica do Histórico do Desmatamento da BR-319 Nota técnica · 05/11/2024 Abrir",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2024/11/NT_Historico_Desmatamento_BR-319_05.11.2024.pdf"
+      },
+      {
+        "text": "Nota técnica Nota Técnica sobre a vegetação urbana no Brasil Nota técnica · 18/07/2024 Abrir",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2026/02/Nota-Tecnica-Vegetacao-Urbana-no-Brasil_tabela_atualizada.pdf"
+      },
+      {
+        "text": "Nota técnica Nota Explicativa sobre Desmatamento no bioma Pampa Nota técnica · 31/05/2024 Abrir",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2024/05/Nota-Explicativa-Desmatamento-Pampa-v.31.05.2024.pdf"
+      },
+      {
+        "text": "Nota técnica Nota Técnica sobre o perfil do desmatamento no estado de Santa Catarina Nota técnica · 04/10/2023 Abrir",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2023/10/Nota-Tecnica-Desmatamento-em-Santa-Catarina-04.10.2023.pdf"
+      },
+      {
+        "text": "Nota técnica Nota Técnica sobre Análise da expansão das áreas urbanizadas no litoral norte de São Paulo Nota técnica · 27/02/2023 Abrir",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2023/08/Nota_Tecnica_Urbanizacao_Litoral_Norte_SP_27.02.2023.pdf"
+      },
+      {
+        "text": "Nota técnica Nota Técnica sobre a ocupação urbana em torno de corpos hídricos no Brasil Nota técnica · 01/08/2022 Abrir",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2023/08/Nota_tecnica_Ocupacao_urbana_em_torno_de_corpos_hidricos_no_Brasil_v010822_1.pdf"
+      },
+      {
+        "text": "Nota técnica Nota Técnica sobre Garimpo no Rio Madeira Nota técnica · 01/12/2021 Abrir",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2023/08/Nota_Tecnica_sobre_Garimpo_Rio_Madeira_01.12.2021.pdf"
+      },
+      {
+        "text": "Infográfico Amazônia Legal Coleção 11 — Cobertura e Uso da Terra (30m) · 2025 Ver infográfico",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/10/Amazonia-Legal-Cobertura-e-Uso-da-Terra-Infografico-Colecao-11-141026.pdf"
+      },
+      {
+        "text": "Infográfico Lei da Mata Atlântica Coleção 11 — Cobertura e Uso da Terra (30m) · 2025 Ver infográfico",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Lei-da-Mata-Atlantica-Cobertura-e-Uso-da-Terra-Infografico-Colecao-11-220926.pdf"
+      },
+      {
+        "text": "Infográfico Ganho e perda de vegetação secundária no Cerrado Coleção 11 — Cobertura e Uso da Terra (30m) · 2025 Ver infográfico",
+        "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/09/Ganha-e-perda-de-vegetacao-secundaria-no-Cerrado-Infografico-MapBiomas-10092026_pdf.pdf"
+      }
+    ]
+  },
+  "bolivia": {
+    "url": "https://bolivia.mapbiomas.org/iniciativas-y-productos/cobertura-y-uso-del-suelo/cobertura/",
+    "http_status": 200,
+    "links": [
+      {
+        "text": "ATBD General",
+        "url": "https://bolivia.mapbiomas.org/wp-content/uploads/sites/5/2026/10/ATBD_General_MapBiomas_Bolivia_COL4.pdf"
+      },
+      {
+        "text": "Descarga Factsheet - Cobertura y uso del suelo Principales hallazgos generales de cobertura y uso del suelo (1985-2025) · Colección 4 · Destacados (Factsheet) Descargar",
+        "url": "https://bolivia.mapbiomas.org/wp-content/uploads/sites/5/2026/10/Factsheet-Col4-Bolivia.pdf"
+      },
+      {
+        "text": "Descarga Código de leyenda MapBiomas Bolivia - Cobertura y uso de suelo Lista corta de los códigos de las clases de cobertura y uso del suelo y paleta de colores. · Colección 4 · Información de  Leyenda Descargar",
+        "url": "https://bolivia.mapbiomas.org/wp-content/uploads/sites/5/2026/09/Leyenda_Code_Bolivia_Col4.pdf"
+      },
+      {
+        "text": "Descarga Descripción detallada de la leyenda — MapBiomas Cobertura y uso - ES Descripción de la leyenda por bioma y clase del territorio boliviano en español  · Colección 4 · Información de  Leyenda Descargar",
+        "url": "https://bolivia.mapbiomas.org/wp-content/uploads/sites/5/2026/09/Leyenda_Descriptiva_MB-Bolivia-Col-4_Gral_ES.pdf"
+      },
+      {
+        "text": "Descarga ATBD  - Cobertura y uso de suelo Documento general que presenta el método utilizado en la Colección 4 de mapeo anual de cobertura y uso del suelo en Bolivia.  · Colección 4 · Documentos descriptivos del método (ATBD) Descargar",
+        "url": "https://bolivia.mapbiomas.org/wp-content/uploads/sites/5/2026/10/ATBD_General_MapBiomas_Bolivia_COL4.pdf"
+      }
+    ]
+  },
+  "paraguay": {
+    "url": "https://paraguay.mapbiomas.org/descargas/informacion-de-las-leyendas/",
+    "http_status": 200,
+    "links": [
+      {
+        "text": "",
+        "url": "https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/09/PY-LC-Col-3-Legend-code.pdf"
+      },
+      {
+        "text": "",
+        "url": "https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/09/1.Descripc_Leyenda_ES-PRY.pdf_COLECCION_3.pdf"
+      },
+      {
+        "text": "",
+        "url": "https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/09/2.Cod_Leyenda-ES-PRY.pdf"
+      },
+      {
+        "text": "",
+        "url": "https://paraguay.mapbiomas.org/wp-content/uploads/sites/11/2026/09/1.Descripc_Leyenda_ES-PRY.pdf"
+      }
+    ]
+  }
+}
